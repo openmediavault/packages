@@ -1,0 +1,424 @@
+Package: libatalk-dev
+Source: netatalk
+Version: 3.1.9-1
+Architecture: i386
+Maintainer: Debian Netatalk Packaging <pkg-netatalk-devel@lists.alioth.debian.org>
+Installed-Size: 1077
+Depends: libatalk17 (= 3.1.9-1)
+Conflicts: netatalk (<< 3.0.3-1)
+Replaces: netatalk (<< 3.0.3-1)
+Homepage: http://netatalk.sourceforge.net/
+Priority: extra
+Section: libdevel
+Filename: pool/main/n/netatalk/libatalk-dev_3.1.9-1_i386.deb
+Size: 324176
+SHA256: ae40f1c87f72712a012fd93aca89c7119cf0faff7bf8bb2d84a66dd98bc45a89
+SHA1: 46cc9d4d9d2da8bab1341e5bd8e9cf1800abc039
+MD5sum: 8c5eb833506ea1ad308f6dbc4aee3e0f
+Description: AppleTalk library used by Netatalk (header files)
+ Netatalk is an implementation of the AppleTalk Protocol Suite for
+ BSD-derived systems. The current release contains support for
+ EtherTalk Phase I and II, DDP, RTMP, NBP, ZIP, AEP, ATP, PAP, ASP, and
+ AFP.
+ .
+ This package contains the Atalk library (libatalk) development headers.
+
+Package: libatalk17
+Source: netatalk
+Version: 3.1.9-1
+Architecture: i386
+Maintainer: Debian Netatalk Packaging <pkg-netatalk-devel@lists.alioth.debian.org>
+Installed-Size: 673
+Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.15), libcrack2 (>= 2.8.12), libldap-2.4-2 (>= 2.4.7), libwrap0 (>= 7.6-4~)
+Conflicts: netatalk (<< 3.0.3-1)
+Replaces: netatalk (<< 3.0.3-1)
+Homepage: http://netatalk.sourceforge.net/
+Priority: extra
+Section: libs
+Filename: pool/main/n/netatalk/libatalk17_3.1.9-1_i386.deb
+Size: 266318
+SHA256: 8a21cb5076941748d0dee5607ca1fdf7433a16de5cc7d4a1ee7e7e8c3654742e
+SHA1: 8e2acf9b94b10b4a75b20fa10176ecf37aa0706c
+MD5sum: 608951164abdf58504a65e2f3b023052
+Description: AppleTalk library used by Netatalk
+ Netatalk is an implementation of the AppleTalk Protocol Suite for
+ BSD-derived systems. The current release contains support for
+ EtherTalk Phase I and II, DDP, RTMP, NBP, ZIP, AEP, ATP, PAP, ASP, and
+ AFP.
+ .
+ This package contains the Atalk library (libatalk) that is part of
+ Netatalk since version 3.0.
+
+Package: libjs-extjs5
+Version: 5.1.1.451
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 66908
+Homepage: http://www.sencha.com
+Priority: extra
+Section: web
+Filename: pool/main/libj/libjs-extjs5/libjs-extjs5_5.1.1.451_all.deb
+Size: 3793806
+SHA256: e8ee95dcf4214424e1c7fd20ea34fc8abe0376f4f36a7247b703d4f45070c1e5
+SHA1: c585d550de9665243a22ed0091542cc67f218d83
+MD5sum: 900e3270b81e8871e47a1424e3fefdab
+Description: Ext JS is a cross-browser JavaScript library for building rich internet applications.
+ ExtJS is a JavaScript library for building interactive web applications using
+ techniques such as Ajax, DHTML and DOM scripting.
+
+Package: netatalk
+Version: 3.1.9-1
+Architecture: i386
+Maintainer: Debian Netatalk Packaging <pkg-netatalk-devel@lists.alioth.debian.org>
+Installed-Size: 951
+Depends: libacl1 (>= 2.2.51-8), libatalk17, libattr1 (>= 1:2.4.46-8), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcomerr2 (>= 1.01), libcrack2 (>= 2.8.12), libdb5.3, libevent-2.0-5 (>= 2.0.10-stable), libgcrypt20 (>= 1.6.0), libgssapi-krb5-2 (>= 1.8+dfsg), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libwrap0 (>= 7.6-4~), perl, init-system-helpers (>= 1.18~), netbase, libpam-modules, python
+Recommends: lsof, rc, db-util, procps, cracklib-runtime, libpam-cracklib, avahi-daemon
+Suggests: texlive-base-bin, groff, quota, db4.2-util
+Homepage: http://netatalk.sourceforge.net/
+Priority: extra
+Section: net
+Filename: pool/main/n/netatalk/netatalk_3.1.9-1_i386.deb
+Size: 315408
+SHA256: 559632cbf17304df9bf84e4b474137225f0eefd53a1a1510ca2a31b37c6e5b96
+SHA1: cf15eb63bf10816230662ca008f8ad35a85f9279
+MD5sum: 3b063a37bb3889821a113420b60c4473
+Description: AppleTalk user binaries
+ Netatalk is an implementation of the AppleTalk Protocol Suite for
+ BSD-derived systems.  The current release contains support for
+ EtherTalk Phase I and II, DDP, RTMP, NBP, ZIP, AEP, ATP, PAP, ASP, and
+ AFP.
+ .
+ This package contains all daemon and utility programs as well as Netatalk's
+ static libraries.
+
+Package: openmediavault
+Version: 3.0.57
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 6043
+Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, python3-netifaces, udev, apt-transport-https, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault/openmediavault_3.0.57_all.deb
+Size: 868212
+SHA256: aa026180696953b985cf3b08850323f98b8ac809628274e6895bd934fac6e192
+SHA1: 626688e88f6f1cffaf18ab7b8b160ea690c8afa9
+MD5sum: 4d5e9d046af70de0c4e4afb23c7d63b4
+Description: Open network attached storage solution
+ OpenMediaVault is a small and simple to use network attached storage system with
+ a smart WebGUI.
+
+Package: openmediavault-clamav
+Version: 3.2.7
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 276
+Depends: openmediavault (>= 3.0.53), clamav-daemon, clamav-freshclam, clamdscan, init-system-helpers
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: utils
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_3.2.7_all.deb
+Size: 40736
+SHA256: c4ad25de3f700619393c68657645416618a84c6c30fa9e0725fcf493789b5cc4
+SHA1: d05110b5dc5d8236b90bc2801faee74e0894128f
+MD5sum: 2f2d29a5f7b1d46be0349d758d29a506
+Description: OpenMediaVault ClamAV plugin
+ Clam AntiVirus is an anti-virus toolkit for Unix.
+Plugin-Section: utilities
+
+Package: openmediavault-forkeddaapd
+Version: 3.1.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 127
+Depends: openmediavault (>= 3.0.40), forked-daapd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_3.1.3_all.deb
+Size: 16832
+SHA256: 5e7892a8a0e30f76fcf7504fa609f1e2c0d1261b1f00e5f4c31eb78b47b01f3c
+SHA1: 16294e9fe45324d15ac39fd27151ce9cf0d5c9d4
+MD5sum: 45aa8a1a173bf4ad584cd716d6fbe240
+Description: OpenMediaVault forked-daapd (DAAP server) plugin
+ forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
+ media server.
+Plugin-Section: multimedia
+
+Package: openmediavault-iscsitarget
+Version: 3.1.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 318
+Depends: openmediavault (>= 3.0.40), iscsitarget, iscsitarget-dkms, linux-headers-amd64 | linux-headers-armel | linux-headers-armhf | linux-headers-i386 | linux-headers-mips | linux-headers-mipsel | linux-headers-powerpc | linux-headers-ppc64el | linux-headers-s390 | linux-headers-s390x | linux-headers-sparc
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-iscsitarget/openmediavault-iscsitarget_3.1.3_all.deb
+Size: 46076
+SHA256: 1aef6bf0ede9aa4917888926e0047e0bbb5c5bd4cd4b8fd1d19c5002e183f5b2
+SHA1: 71f0b7dc3262073c2366885ecf0d061c5b046b29
+MD5sum: 6b8c312e72f2327e2fa7114a11ac72ee
+Description: OpenMediaVault iSCSI Enterprise Target plugin
+ iSCSI Enterprise Target is for building an iSCSI storage system on Linux.
+Plugin-Section: filesystems
+
+Package: openmediavault-keyring
+Version: 1.0
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 26
+Depends: gpgv
+Recommends: gnupg
+Homepage: http://www.openmediavault.org
+Priority: important
+Section: misc
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0_all.deb
+Size: 9644
+SHA256: 6d59c359588a3f93474111c914ab03d25e4081153c9881d4a341619e66272720
+SHA1: 7b49a4e5f710b131ceb2520c55843c62ca531dc2
+MD5sum: d03dcd9950d0dc80defda65dcebfb2be
+Description: GnuPG archive keys of the OpenMediaVault archive
+ The OpenMediaVault project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: openmediavault-ldap
+Version: 3.1.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 176
+Depends: openmediavault (>= 3.0.40), libnss-ldap, libpam-ldap
+Conflicts: openmediavault-ad
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-ldap/openmediavault-ldap_3.1.3_all.deb
+Size: 21970
+SHA256: a1aa0767ce654a4616bd6b65eb75d9a76553bb315a766059809a0c579a109152
+SHA1: cf5b435cfe8fca049e7f79344062d7d8dad93d92
+MD5sum: dd1838a6f0b761996298f5c61e769202
+Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
+ LDAP is an application protocol for accessing and maintaining distributed
+ directory information services over an Internet Protocol network. This
+ plugin adds user authentication support via LDAP.
+Plugin-Section: network
+
+Package: openmediavault-lvm2
+Version: 3.1.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 224
+Depends: openmediavault (>= 3.0.33), lvm2
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.1.3_all.deb
+Size: 25834
+SHA256: 90e68c01f58e4ab9fcdb39e9aeb5d01cee8c0e4345bc68215b75b5ed3a7ebfa5
+SHA1: 7c6ba6b3a000394be0696f1ac7be20da334f8a44
+MD5sum: 3e759f87326490ea3ed1d9426cc19bdb
+Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
+ LVM supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of volume
+ groups can be allocated to logical volumes, which are accessed as regular
+ block devices.
+Plugin-Section: filesystems
+
+Package: openmediavault-netatalk
+Version: 3.2.4
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 226
+Depends: openmediavault (>= 3.0.57), netatalk (>= 3.1.9)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_3.2.4_all.deb
+Size: 33854
+SHA256: 21084199fcc2aedb97bb109d3d313a18558758483bf2563cb0149fc8d1ddc6ab
+SHA1: 6d9f6d16811d8d640c718a2dc2da7e1348322634
+MD5sum: e7c3e164cd98a9777b65f27f694f8585
+Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
+ Netatalk is an implementation of the AppleTalk Protocol Suite.
+Plugin-Section: sharing
+
+Package: openmediavault-nut
+Version: 3.2.5
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 201
+Depends: openmediavault (>= 3.0.53), nut (>= 2.6.4), udev
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.5_all.deb
+Size: 28928
+SHA256: 47172a9c1292b4266245198eaeb3fffcdae2467b3bf803e2a38988c83ef98c6c
+SHA1: b817e559103a9b0da4bc3a16bcd8ddcc7265a1ab
+MD5sum: 27ba460fe461621742ad14aeb18738c1
+Description: OpenMediaVault Network UPS Tools (NUT) plugin
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware.
+Plugin-Section: utilities
+
+Package: openmediavault-route
+Version: 3.1.1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 120
+Depends: openmediavault (>= 3.0.40)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-route/openmediavault-route_3.1.1_all.deb
+Size: 12756
+SHA256: 8d4063b89e53619e64b6e8687b89cdf499cf02b71085f8e20242bcde14ede91c
+SHA1: d618675c17d8694049a09b801d1864a7ac3a8f7a
+MD5sum: a3ea18766f4131dfb914e27945b08a0f
+Description: OpenMediaVault IP routing table plugin
+ Adds the ability to manipulate the IP routing table via WebGUI.
+Plugin-Section: network
+
+Package: openmediavault-shairport
+Version: 3.2.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 123
+Depends: openmediavault (>= 3.0.40), shairport-sync (>= 2.4.1), alsa-utils, init-system-helpers
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_3.2.3_all.deb
+Size: 13186
+SHA256: a9e6f36fbd0c02b9480b26de06ca16603be6a8ecf214ac695120ff1feaa6fe25
+SHA1: a0ed2e33864b14e60c0354234566d09476387d57
+MD5sum: ad5c95071fd8e46c0c36f0a727620be2
+Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
+ Shairport emulates an AirPort Express for the purpose of streaming
+ music from iTunes and compatible iPods and iPhones. It implements a
+ server for the Apple RAOP protocol. ShairPort does not support AirPlay
+ v2 (video and photo streaming).
+Plugin-Section: multimedia
+
+Package: openmediavault-usbbackup
+Version: 3.2.12
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 240
+Depends: rsync, openmediavault (>= 3.0.40)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_3.2.12_all.deb
+Size: 36124
+SHA256: 135fb7fce1eac1f69cb82adf48cad212c1e61027f8dff99db9cca0187d14c801
+SHA1: cd167177f3a6a503b1c44f60396812ff06bb59b6
+MD5sum: 0373f1f587ca60942539447cac01a01c
+Description: OpenMediaVault USB/eSATA backup plugin
+ Automatically synchronise a shared folder to an USB/eSATA device and vice
+ verse when it is plugged in.
+Plugin-Section: backup
+
+Package: php-json-schema
+Version: 0.2.0
+Architecture: all
+Maintainer: Volker Theile <votdev@gmx.de>
+Installed-Size: 60
+Depends: php5-cgi | php5-cli
+Homepage: http://code.google.com/p/json-schema-php
+Priority: optional
+Section: php
+Filename: pool/main/p/php-json-schema/php-json-schema_0.2.0_all.deb
+Size: 4942
+SHA256: 8088dce581867277361c25a17da3581cb5b7b1429679d65d8648df7829b11ffa
+SHA1: 6de8ff79c5784b15f9a52bd5dfc5b0b34493e994
+MD5sum: 46b2994fccb49f9963cbb167305ee3d6
+Description: PHP implementation of JSON schema
+ Validates a JSON string against a schema. The validation works as defined by
+ the schema proposal (see http://www.json-schema.org).
+
+Package: php5-pam
+Version: 1.0.3-4
+Architecture: i386
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 61
+Depends: libc6 (>= 2.1.3), libpam0g (>= 0.99.7.1), phpapi-20131226
+Priority: optional
+Section: web
+Filename: pool/main/p/php5-pam/php5-pam_1.0.3-4_i386.deb
+Size: 8252
+SHA256: 1635cdaba646d36610f718a8590d9afdacaace2d31622e053ca9f427228408c1
+SHA1: 91cdc197e1bdb4d5834a0db9f85273146b0d191b
+MD5sum: 64ee81045ba99e5fdd5430bf1a397ff5
+Description: pam module for PHP 5
+ PAM integration
+ .
+ This extension provides PAM (Pluggable Authentication Modules)
+ integration. PAM is a system of libraries that handle the
+ authentication tasks of applications and services. The library
+ provides a stable API for applications to defer to for authentication
+ tasks.
+
+Package: php5-slim3
+Version: 3.6.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 273
+Homepage: https://www.slimframework.com/
+Priority: extra
+Section: web
+Filename: pool/main/p/php5-slim3/php5-slim3_3.6.0-1_all.deb
+Size: 40324
+SHA256: 0a6d918e60e6ed420c7b1f6e7764f5c17dde8c223c5a9021f43754fdb9180b72
+SHA1: f6e9b010cb6b543e4aa6d890c59975dbd0a7a135
+MD5sum: f447250064b2873c52aa47e3f3f938cb
+Description: PHP micro framework to write REST APIs.
+ Slim is a PHP micro framework that helps you quickly write simple yet
+ powerful web applications and APIs.
+
+Package: proftpd-mod-vroot
+Version: 0.9.3-1
+Architecture: i386
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 88
+Depends: proftpd-basic (>= 1.3.5), libc6 (>= 2.4), proftpd-abi-1.3.5
+Breaks: proftpd-basic (<< 1.3.4)
+Homepage: http://www.castaglia.org/proftpd/modules/mod_vroot.html
+Priority: optional
+Section: net
+Filename: pool/main/p/proftpd-mod-vroot/proftpd-mod-vroot_0.9.3-1_i386.deb
+Size: 16976
+SHA256: 04775c1be5fb28ba58060dc0a39e3f7c1884f21b1055853658a927a75ad7cca6
+SHA1: 7b93293bda68ce3af08c9d52bf9de402fb1b7d4d
+MD5sum: 87f57a64492ef6a53fee6603a1575b3e
+Description: ProFTPD module mod_vroot
+ The purpose of this module to is to implement a virtual chroot
+ capability that does not require root privileges.
+ The mod_vroot module provides this capability by using ProFTPD's
+ FS API. It also allows one to map a directory out of the user chroot
+ as an alias in the chroot for sharing common directories.
+
+Package: shairport-sync
+Version: 2.8.4-1
+Architecture: i386
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 186
+Depends: libasound2 (>= 1.0.17), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.3.6-6~), libconfig9, libdaemon0 (>= 0.14), libpopt0 (>= 1.14), libssl1.0.0 (>= 1.0.0), avahi-daemon
+Homepage: https://github.com/mikebrady/shairport-sync
+Priority: optional
+Section: sound
+Filename: pool/main/s/shairport-sync/shairport-sync_2.8.4-1_i386.deb
+Size: 61596
+SHA256: 951a9afc70624e0aa248b95965c373457cf9e2d83358b6d5420468b401927470
+SHA1: de50a9cef195408a2a81d45a8760bccbc25d8e44
+MD5sum: af8e7c13dc2748ec911667b7d0b02063
+Description: An AirPlay-compatible audio receiver
+ This program emulates an AirPort Express for the purpose of streaming
+ audio from iTunes, iPods, iPhones, iPads and AppleTVs. Audio played by
+ a Shairport Sync-powered device stays synchronised with the source and
+ hence with similar devices playing the same source. Thus, for example,
+ synchronised multi-room audio is possible without difficulty.
+ This program does not support AirPlay video or photo streaming.
+

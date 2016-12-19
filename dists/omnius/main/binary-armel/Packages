@@ -1,0 +1,411 @@
+Package: forked-daapd
+Version: 0.19-1~bpo60+1
+Architecture: armel
+Maintainer: Julien BLACHE <jblache@debian.org>
+Installed-Size: 524
+Depends: libantlr3c-3.2-0 | libantlr3c-antlrdbg-3.2-0, libasound2 (>> 1.0.18), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavcodec52 (>= 4:0.5.1-1) | libavcodec-extra-52 (>= 4:0.5.1-1), libavformat52 (>= 4:0.5.1-1) | libavformat-extra-52 (>= 4:0.5.1-1), libavl1, libavutil49 (>= 4:0.5.1-1) | libavutil-extra-49 (>= 4:0.5.1-1), libc6 (>= 2.9), libconfuse0 (>= 2.5), libevent-core-1.4-2 (>= 1.4.13-stable), libflac8 (>= 1.2.1), libgcc1 (>= 1:4.4.0), libgcrypt11 (>= 1.4.2), libgpg-error0 (>= 1.6-1), libmxml1, libplist1 (>= 0.16), libsqlite3-0 (>= 3.7.3), libswscale0 (>= 4:0.5.1-1) | libswscale-extra-0 (>= 4:0.5.1-1), libtag1c2a (>= 1.5), libtagc0 (>= 1.5), libunistring0, zlib1g (>= 1:1.1.4), avahi-daemon, adduser, psmisc
+Priority: optional
+Section: sound
+Filename: pool/main/f/forked-daapd/forked-daapd_0.19-1~bpo60+1_armel.deb
+Size: 175162
+SHA256: a8b7c255f3d42b085891b9561d6e06f0bf07e8fe954b571ed2ab21953de9a289
+SHA1: 28c91db13a1ad8bc4a8af010bf87d4100637e66a
+MD5sum: c3244164bf652bbda56b7467f6106b11
+Description: media server with support for RSP, DAAP, DACP and AirTunes
+ forked-daapd is an iTunes-compatible media server, originally intended
+ as a rewrite of Firefly Media Server (also known as mt-daapd).
+ .
+ It supports a wide range of audio formats, can stream video to iTunes,
+ FrontRow and other compatible clients, has support for Apple's Remote
+ iPhone/iPod application and can stream music to AirTunes devices like
+ the AirPort Express.
+ .
+ It also features RSP support for Roku's SoundBridge devices.
+ .
+ Built-in, on-the-fly decoding support enables serving popular free music
+ formats like FLAC, Ogg Vorbis or Musepack to those clients that do not
+ otherwise support them.
+
+Package: gdisk
+Version: 0.8.1-1~bpo60+1
+Architecture: armel
+Maintainer: Guillaume Delacour <gui@iroqwa.org>
+Installed-Size: 756
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libicu44 (>= 4.4.1-1), libncurses5 (>= 5.7+20100313), libpopt0 (>= 1.16), libstdc++6 (>= 4.4.0), libuuid1 (>= 2.16), groff-base
+Homepage: http://sourceforge.net/projects/gptfdisk/
+Priority: extra
+Section: admin
+Filename: pool/main/g/gdisk/gdisk_0.8.1-1~bpo60+1_armel.deb
+Size: 354498
+SHA256: 9d43826fb4605b37058a2855c900be50d84d0ecd8284a172b977643d5bc27d56
+SHA1: 7e8423031092c8e008d3c70d9ab26e80bada0b63
+MD5sum: 611108316f01b7ff820988ee39aab4dd
+Description: GPT fdisk text-mode partitioning tool
+ GPT fdisk (aka gdisk) is a text-mode partitioning
+ tool for that works on Globally Unique Identifier
+ (GUID) Partition Table (GPT) disks, rather than
+ on the more common (through 2009)
+ Master Boot Record (MBR) partition tables.
+ .
+ Please note that gdisk is still in beta version.
+
+Package: iscsitarget-module-2.6.31.14-hmnhdce
+Source: iscsitarget
+Version: 1.4.20.2-1
+Architecture: armel
+Maintainer: Philipp Hug <debian@hug.cx>
+Installed-Size: 172
+Provides: iscsitarget-module
+Priority: optional
+Section: net
+Filename: pool/main/i/iscsitarget/iscsitarget-module-2.6.31.14-hmnhdce_1.4.20.2-1_armel.deb
+Size: 52696
+SHA256: c4df12aa9bd598105e8299b9e92141d2a8d18bfa5d7b69abfc9e731a5f3b6870
+SHA1: ccf7bbbf9bdae2b45cebb85236ddff526084df07
+MD5sum: 901146e4419257a3937b5bff4df60366
+Description: iSCSI Enterprise Target module for Linux (kernel 2.6.31.14-hmnhdce)
+ iSCSI Enterprise Target is for building an iSCSI storage system on
+ Linux. It is aimed at developing an iSCSI target satisfying enterprise
+ requirements.
+ .
+ This package contains the compiled kernel module for 2.6.31.14-hmnhdce
+ .
+ If you have compiled your own kernel, you will most likely need to build
+ your own iscsitarget-modules. The iscsitarget-source package has been
+ provided for use with the Debian kernel-package utility to produce a
+ version of iscsitarget-module for your kernel.
+
+Package: iscsitarget-module-dkms
+Version: 0.2
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 25
+Depends: iscsitarget-dkms, linux-headers-2.6.32-5-all, patch
+Conflicts: iscsitarget-module
+Replaces: iscsitarget-module
+Provides: iscsitarget-module
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/i/iscsitarget-module-dkms/iscsitarget-module-dkms_0.2_all.deb
+Size: 1310
+SHA256: ff5bbdb46ed7bc7125989bf54c92b34a98cc1e92da7fcea9251fd3fd2d913f1d
+SHA1: e934d68b1c87c80781cea8a065ec00822601d819
+MD5sum: 5d7ef53ed96c65bbfd7663fb1ac39cfe
+Description: iSCSI Enterprise Target module for Linux
+ iSCSI Enterprise Target is for building an iSCSI storage system on
+ Linux. It is aimed at developing an iSCSI target satisfying enterprise
+ requirements.
+ .
+ This package installs the iscsitarget kernel module using dkms.
+
+Package: libevent-2.0-5
+Source: libevent
+Version: 2.0.16-stable-1~bpo60+1
+Architecture: armel
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 328
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0)
+Homepage: http://www.monkey.org/~provos/libevent/
+Priority: standard
+Section: libs
+Filename: pool/main/libe/libevent/libevent-2.0-5_2.0.16-stable-1~bpo60+1_armel.deb
+Size: 150528
+SHA256: 9ca2ce440ccafda7daf83d5854289598842d575dccde668abb587c9ae1a2c335
+SHA1: 8d520ea64cbfc11fc30c278b0f75b4c64c5ff3c4
+MD5sum: cd3312f1cef211a1ea58fc9c7ed8795b
+Description: Asynchronous event notification library
+ Libevent is an asynchronous event notification library that provides a
+ mechanism to execute a callback function when a specific event occurs
+ on a file descriptor or after a timeout has been reached.
+ .
+ It is meant to replace the asynchronous event loop found in
+ event driven network servers. Currently, libevent supports /dev/poll,
+ kqueue(2), event ports, select(2), poll(2) and epoll(4).
+ .
+ For backward compatibility and to transition to "libevent_core only"
+ or "libevent_core + libevent_extra", the libevent source package builds
+ the libevent library that includes everything in libevent_core and
+ libevent_extra.
+
+Package: libjavascript-minifier-perl
+Version: 1.05-1~bpo60+1
+Architecture: all
+Maintainer: Dominic Hargreaves <dom@earth.li>
+Installed-Size: 76
+Depends: perl
+Homepage: http://search.cpan.org/dist/JavaScript-Minifier/
+Priority: optional
+Section: perl
+Filename: pool/main/libj/libjavascript-minifier-perl/libjavascript-minifier-perl_1.05-1~bpo60+1_all.deb
+Size: 10050
+SHA256: ccdf97601f033078d8718b9e1388e1b730ef75f2d103bb93fafad4954bd500d6
+SHA1: f396604be713348ad9f9c53244fe21ec137dbfb6
+MD5sum: a5fa3e52fc2c9c7d9886d5ea02668774
+Description: Perl extension for minifying JavaScript code
+ JavaScript::Minifier removes unnecessary whitespace from JavaScript code. The
+ primary requirement developing this module is to not break working code
+
+Package: libjs-extjs3
+Version: 3.4.0
+Architecture: all
+Maintainer: Volker Theile <votdev@gmx.de>
+Installed-Size: 43772
+Homepage: http://www.sencha.com
+Priority: extra
+Section: web
+Filename: pool/main/libj/libjs-extjs3/libjs-extjs3_3.4.0_all.deb
+Size: 6717900
+SHA256: ac86727c4264483e0100dbc2958008fee8a45a573f547d984e6c1e152a876016
+SHA1: 88e038ed1c90c81d15856b12beaf6c6ab357ed02
+MD5sum: 1575e4c334292fe4ef59077c1e29731f
+Description: A JavaScript framework and RIA platform
+ Ext is a JavaScript library for building interactive web applications using
+ techniques such as Ajax, DHTML and DOM scripting.
+
+Package: netatalk
+Version: 2.2.1-1~bpo60+1
+Architecture: armel
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Installed-Size: 3572
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.11), libcomerr2 (>= 1.01), libcrack2 (>= 2.8.12), libcups2 (>= 1.4.0), libdb4.8, libgcc1 (>= 1:4.4.0), libgcrypt11 (>= 1.4.2), libgnutls26 (>= 2.7.14-0), libgssapi-krb5-2 (>= 1.8+dfsg), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), perl, netbase, libpam-modules
+Recommends: lsof, rc, db-util, procps, cracklib-runtime, libpam-cracklib
+Suggests: texlive-base-bin, groff, quota, db4.2-util
+Homepage: http://netatalk.sourceforge.net/
+Priority: extra
+Section: net
+Filename: pool/main/n/netatalk/netatalk_2.2.1-1~bpo60+1_armel.deb
+Size: 1571338
+SHA256: 29f97811dfe5ef765f5dbfbc6d3ffdbea31c395b97ed3e35825f8d2e1f3a5f4b
+SHA1: 984d09760131d211ffa0093acc342e649748f241
+MD5sum: 6d27e774c80fd150fa541103ad6b636b
+Description: AppleTalk user binaries
+ Netatalk is an implementation of the AppleTalk Protocol Suite for
+ BSD-derived systems.  The current release contains support for
+ EtherTalk Phase I and II, DDP, RTMP, NBP, ZIP, AEP, ATP, PAP, ASP, and
+ AFP.
+ .
+ This package contains all daemon and utility programs as well as Netatalk's
+ static libraries.
+
+Package: openmediavault
+Version: 0.3.10
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 3590
+Depends: libjs-extjs3, apache2, apache2-suexec, libapache2-mod-fcgid, php5-cgi, php5-cli, php5-pam, php-json-schema, sudo, ethtool, acl, ifenslave, resolvconf, iproute, xfsprogs, jfsutils, ntfs-3g, xmlstarlet, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, ntp, cpufrequtils, rsyslog, smartmontools, openssl, openssh-server, openssh-blacklist-extra, scponly, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, libjavascript-minifier-perl, coreutils
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: web net
+Filename: pool/main/o/openmediavault/openmediavault_0.3.10_all.deb
+Size: 918652
+SHA256: fe8dbd46dfa4260fbee79d753649351db6bb29802d36d74aba31247bdf64c995
+SHA1: c81c580c9f00ca54b1a652baecfa2d50340a6bcb
+MD5sum: 9958085e56f7d1fc9641afbf90a58d32
+Description: Open network attached storage solution
+ OpenMediaVault is a small and simple to use network attached storage system with
+ a smart WebGUI.
+
+Package: openmediavault-clamav
+Version: 0.3.0.8
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 292
+Depends: openmediavault (>= 0.3.0.24), clamav-daemon, clamav-freshclam
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_0.3.0.8_all.deb
+Size: 33636
+SHA256: 74a6e249a69bd2406e4d7a4ec2442ef7a598bdf2503237f44e95bcc99d3ce8fa
+SHA1: b997cf6e8fa78a62e4c385e793a77bccbbcafc2c
+MD5sum: 84cc5b4b606bf8b317343cdb8c854d53
+Description: OpenMediaVault ClamAV plugin
+ Clam AntiVirus is an anti-virus toolkit for Unix.
+
+Package: openmediavault-forkeddaapd
+Version: 0.3.0.6
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 202
+Depends: openmediavault (>= 0.3.0.24), forked-daapd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_0.3.0.6_all.deb
+Size: 14316
+SHA256: 5ea322adb9e764c08ff8879aa0bd9008a3390262f9d885ebbd8b207736a3d67d
+SHA1: 3355c13a65d719ab9939b634b5d2371714ddc589
+MD5sum: 65a4e5d5732c85c689f1a52ea7cb48d3
+Description: OpenMediaVault forked-daapd (DAAP server) plugin
+ forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
+ media server.
+
+Package: openmediavault-iscsitarget
+Version: 0.3.0.6
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 340
+Depends: openmediavault (>= 0.3.0.24), iscsitarget, iscsitarget-module
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-iscsitarget/openmediavault-iscsitarget_0.3.0.6_all.deb
+Size: 39576
+SHA256: 785eda8717193af82966bf250f053ed7e0f0bd79b2f64127d2897f7141cd74f9
+SHA1: b1d9a8784c64f48ec9bfd67d3c067dc5b752698e
+MD5sum: 3059ad6574174619526c7fa71f14d97f
+Description: OpenMediaVault iSCSI Enterprise Target plugin
+ iSCSI Enterprise Target is for building an iSCSI storage system on Linux.
+
+Package: openmediavault-keyring
+Version: 0.1
+Architecture: all
+Maintainer: Volker Theile <votdev@gmx.de>
+Installed-Size: 44
+Depends: gnupg
+Priority: important
+Section: misc
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_0.1_all.deb
+Size: 3174
+SHA256: 9ab9cb513c867753d1fb7054c25de60224da1465266da61077e484ef92fe6eff
+SHA1: 3c04fd4da42d9b585deda40a20d756cbd9929e53
+MD5sum: cc5897121aa61a2214b3c4dcf229967c
+Description: GnuPG archive keys of the OpenMediaVault archive
+ The OpenMediaVault project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: openmediavault-ldap
+Version: 0.3.0.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 195
+Depends: openmediavault (>= 0.3.0.24), libnss-ldap, libpam-ldap
+Conflicts: openmediavault-ad
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-ldap/openmediavault-ldap_0.3.0.3_all.deb
+Size: 13842
+SHA256: c22556532d08b48dab6e1ee685c218ed8aa8c55e74eaaddb99d1bb0a90dd408f
+SHA1: 354e85f5d7620d73815036f3739b6c7b55c2d715
+MD5sum: 1ed2f04e484508b2d5882737729c424e
+Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
+ LDAP is an application protocol for accessing and maintaining distributed
+ directory information services over an Internet Protocol network. This
+ plugin adds user authentication support via LDAP.
+
+Package: openmediavault-lvm2
+Version: 0.3.0.12
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 273
+Depends: openmediavault (>= 0.3.0.24), lvm2
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_0.3.0.12_all.deb
+Size: 27646
+SHA256: 2777dea57c3d3b858609d750cc3b74d37c7723c00820cdeb0ce6808100924f2c
+SHA1: 5c6eb8031d61a37883be77ace7e0bcfdff6d9aee
+MD5sum: 9387bcbe0381055918387b652ab2de44
+Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
+ LVM supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of volume
+ groups can be allocated to logical volumes, which are accessed as regular
+ block devices.
+
+Package: openmediavault-netatalk
+Version: 0.3.0.9
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 268
+Depends: openmediavault (>= 0.3.0.24), netatalk (>= 2.2.1)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_0.3.0.9_all.deb
+Size: 29266
+SHA256: ba858d52ae85587d2470d698168fb6fcf6c480eded678655be1861ca25fe69e4
+SHA1: a09938fc7c5241857330496640e9474b597536c6
+MD5sum: a28c2bcf693793d7af0c50108f8cde03
+Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
+ Netatalk is an implementation of the AppleTalk Protocol Suite.
+
+Package: openmediavault-nut
+Version: 0.3.0.7
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 281
+Depends: openmediavault (>= 0.3.0.24), nut
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_0.3.0.7_all.deb
+Size: 27638
+SHA256: c10e3a632c15f2829c33338a5505eb91cd3cf1d6f1f45314ce5ffa6c73321a18
+SHA1: 545a8be00bacaf17623f3e635e01a00e98a15038
+MD5sum: 4ec37a9a49776bc8e90ffc8c31c1f891
+Description: OpenMediaVault Network UPS Tools (NUT) plugin
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware.
+
+Package: openmediavault-route
+Version: 0.3.0.2
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 171
+Depends: openmediavault (>= 0.3.0.24)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-route/openmediavault-route_0.3.0.2_all.deb
+Size: 10334
+SHA256: 5e6cd6faf7f0583bfb60e60f838ee2a76bd7b438f2f5bd1b397a3e2908984938
+SHA1: 0dc969dba09bac67ad6314902d92523c76cb9016
+MD5sum: 5f6cd2bb584675b9150a0ed5c637fbfa
+Description: OpenMediaVault IP routing table plugin
+ Adds the ability to manipulate the IP routing table via WebGUI.
+
+Package: php-json-schema
+Version: 0.2.0
+Architecture: all
+Maintainer: Volker Theile <votdev@gmx.de>
+Installed-Size: 60
+Depends: php5-cgi | php5-cli
+Homepage: http://code.google.com/p/json-schema-php
+Priority: optional
+Section: php
+Filename: pool/main/p/php-json-schema/php-json-schema_0.2.0_all.deb
+Size: 4942
+SHA256: 8088dce581867277361c25a17da3581cb5b7b1429679d65d8648df7829b11ffa
+SHA1: 6de8ff79c5784b15f9a52bd5dfc5b0b34493e994
+MD5sum: 46b2994fccb49f9963cbb167305ee3d6
+Description: PHP implementation of JSON schema
+ Validates a JSON string against a schema. The validation works as defined by
+ the schema proposal (see http://www.json-schema.org).
+
+Package: php5-pam
+Source: php-pam
+Version: 1.0.3-1
+Architecture: armel
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 88
+Depends: libc6 (>= 2.4), libpam0g (>= 0.99.7.1), phpapi-20090626+lfs
+Priority: optional
+Section: web
+Filename: pool/main/p/php-pam/php5-pam_1.0.3-1_armel.deb
+Size: 8822
+SHA256: 98a41926ce9e71a323d1ce7a3a60f1bd0bd99fd5c8bfa1bbc062da1ae3a1624d
+SHA1: 143bd466021a5c0f0b075751ad8ff83ca1095a4e
+MD5sum: d7b3b2e745b1ac4c01816a27db91e78d
+Description: pam module for PHP 5
+ PAM integration
+ .
+ This extension provides PAM (Pluggable Authentication Modules)
+ integration. PAM is a system of libraries that handle the
+ authentication tasks of applications and services. The library
+ provides a stable API for applications to defer to for authentication
+ tasks.
+

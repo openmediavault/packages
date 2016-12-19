@@ -1,0 +1,345 @@
+Package: forked-daapd
+Version: 0.19-1~bpo60+1
+Architecture: amd64
+Maintainer: Julien BLACHE <jblache@debian.org>
+Installed-Size: 576
+Depends: libantlr3c-3.2-0 | libantlr3c-antlrdbg-3.2-0, libasound2 (>> 1.0.18), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavcodec52 (>= 4:0.5.1-1) | libavcodec-extra-52 (>= 4:0.5.1-1), libavformat52 (>= 4:0.5.1-1) | libavformat-extra-52 (>= 4:0.5.1-1), libavl1, libavutil49 (>= 4:0.5.1-1) | libavutil-extra-49 (>= 4:0.5.1-1), libc6 (>= 2.9), libconfuse0 (>= 2.5), libevent-core-1.4-2 (>= 1.4.13-stable), libflac8 (>= 1.2.1), libgcrypt11 (>= 1.4.2), libgpg-error0 (>= 1.6-1), libmxml1, libplist1 (>= 0.16), libsqlite3-0 (>= 3.7.3), libswscale0 (>= 4:0.5.1-1) | libswscale-extra-0 (>= 4:0.5.1-1), libtag1c2a (>= 1.5), libtagc0 (>= 1.5), libunistring0, zlib1g (>= 1:1.1.4), avahi-daemon, adduser, psmisc
+Priority: optional
+Section: sound
+Filename: pool/main/f/forked-daapd/forked-daapd_0.19-1~bpo60+1_amd64.deb
+Size: 185102
+SHA256: 7bc266dc906db7670ca331921cce71cf7e5cb438c774aeeafb32682f31b0c180
+SHA1: 53d9d4c85a7c5e98587a2b71ce9bf37f434c4114
+MD5sum: 02f9364821429116ee0d5392f6a834b6
+Description: media server with support for RSP, DAAP, DACP and AirTunes
+ forked-daapd is an iTunes-compatible media server, originally intended
+ as a rewrite of Firefly Media Server (also known as mt-daapd).
+ .
+ It supports a wide range of audio formats, can stream video to iTunes,
+ FrontRow and other compatible clients, has support for Apple's Remote
+ iPhone/iPod application and can stream music to AirTunes devices like
+ the AirPort Express.
+ .
+ It also features RSP support for Roku's SoundBridge devices.
+ .
+ Built-in, on-the-fly decoding support enables serving popular free music
+ formats like FLAC, Ogg Vorbis or Musepack to those clients that do not
+ otherwise support them.
+
+Package: libevent-2.0-5
+Source: libevent
+Version: 2.0.16-stable-1
+Architecture: amd64
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 345
+Depends: libc6 (>= 2.7)
+Homepage: http://www.monkey.org/~provos/libevent/
+Priority: standard
+Section: libs
+Filename: pool/main/libe/libevent/libevent-2.0-5_2.0.16-stable-1_amd64.deb
+Size: 167652
+SHA256: d019d645ae713f67c472b9e04411d1fe2df4b0e97faaca8045f4b30efbdb864a
+SHA1: 2cf6b9d0c3242fa77d27a51a338e31fd90119694
+MD5sum: 59c480cf16cd6ef0734a2860a44c0303
+Description: Asynchronous event notification library
+ Libevent is an asynchronous event notification library that provides a
+ mechanism to execute a callback function when a specific event occurs
+ on a file descriptor or after a timeout has been reached.
+ .
+ It is meant to replace the asynchronous event loop found in
+ event driven network servers. Currently, libevent supports /dev/poll,
+ kqueue(2), event ports, select(2), poll(2) and epoll(4).
+ .
+ For backward compatibility and to transition to "libevent_core only"
+ or "libevent_core + libevent_extra", the libevent source package builds
+ the libevent library that includes everything in libevent_core and
+ libevent_extra.
+
+Package: libjs-extjs3
+Version: 3.4.0
+Architecture: all
+Maintainer: Volker Theile <votdev@gmx.de>
+Installed-Size: 43772
+Homepage: http://www.sencha.com
+Priority: extra
+Section: web
+Filename: pool/main/libj/libjs-extjs3/libjs-extjs3_3.4.0_all.deb
+Size: 6717900
+SHA256: ac86727c4264483e0100dbc2958008fee8a45a573f547d984e6c1e152a876016
+SHA1: 88e038ed1c90c81d15856b12beaf6c6ab357ed02
+MD5sum: 1575e4c334292fe4ef59077c1e29731f
+Description: A JavaScript framework and RIA platform
+ Ext is a JavaScript library for building interactive web applications using
+ techniques such as Ajax, DHTML and DOM scripting.
+
+Package: netatalk
+Version: 2.2.1-1~bpo60+1
+Architecture: amd64
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Installed-Size: 3860
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.11), libcomerr2 (>= 1.01), libcrack2 (>= 2.8.12), libcups2 (>= 1.4.0), libdb4.8, libgcrypt11 (>= 1.4.2), libgnutls26 (>= 2.7.14-0), libgssapi-krb5-2 (>= 1.8+dfsg), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), perl, netbase, libpam-modules
+Recommends: lsof, rc, db-util, procps, cracklib-runtime, libpam-cracklib
+Suggests: texlive-base-bin, groff, quota, db4.2-util
+Homepage: http://netatalk.sourceforge.net/
+Priority: extra
+Section: net
+Filename: pool/main/n/netatalk/netatalk_2.2.1-1~bpo60+1_amd64.deb
+Size: 1639024
+SHA256: c4d608d4950c45b63930f810f78933a20811c6d88cb1287e10d1860a41909c59
+SHA1: f3939283edd73662183b38c0a517694d52a9c8a2
+MD5sum: a11efcd030c3af828fe5c64528c6c294
+Description: AppleTalk user binaries
+ Netatalk is an implementation of the AppleTalk Protocol Suite for
+ BSD-derived systems.  The current release contains support for
+ EtherTalk Phase I and II, DDP, RTMP, NBP, ZIP, AEP, ATP, PAP, ASP, and
+ AFP.
+ .
+ This package contains all daemon and utility programs as well as Netatalk's
+ static libraries.
+
+Package: openmediavault
+Version: 0.2.7.4
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 2083
+Depends: libjs-extjs3, apache2, apache2-suexec, libapache2-mod-fcgid, php5-cgi, php5-cli, php5-auth-pam, php-json-schema, sudo, ethtool, acl, ifenslave, resolvconf, iproute, xfsprogs, jfsutils, ntfs-3g, xmlstarlet, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, ntp, cpufrequtils, rsyslog, smartmontools, openssl, openssh-server, openssh-blacklist-extra, scponly, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, parted, rrdtool, collectd, cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: web net
+Filename: pool/main/o/openmediavault/openmediavault_0.2.7.4_all.deb
+Size: 568290
+SHA256: d7511e93fefaff7d363f3ff8278280c5786f37d38d295535de7d0cc405871eaa
+SHA1: f1064a5d0eaef4aa441cd0ec6e6db5ec4ef08fd3
+MD5sum: 84862d4fcd993de3b09c79b310f849d4
+Description: Open Network attached storage solution
+ OpenMediaVault is a small and simple to use network attached storage system with
+ a smart WebGUI.
+
+Package: openmediavault-forkeddaapd
+Version: 0.2.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 132
+Depends: openmediavault (>= 0.2.6.3), forked-daapd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_0.2.3_all.deb
+Size: 8678
+SHA256: fe329676cd57ecfd7469ec1a0e236eae9967c8d0e4b6b63bb1a045757a7febe0
+SHA1: dd6814551748a5a74ff47f162bd8f2328fb70258
+MD5sum: 7cbc037afabb0980220ff994401ed97a
+Description: OpenMediaVault forked-daapd (DAAP server) plugin
+ forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
+ media server.
+
+Package: openmediavault-iscsitarget
+Version: 0.1.6
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 168
+Depends: openmediavault (>= 0.2.6.3), iscsitarget, iscsitarget-dkms, linux-headers-2.6.32-5-all, patch
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-iscsitarget/openmediavault-iscsitarget_0.1.6_all.deb
+Size: 14806
+SHA256: 2c1f7f909ec581c494b7bfc756a5226d56ef76dbbfd2c8cdd1e71f9cfe7ad33a
+SHA1: d295eac99d068485797ce74df3c76e206c70837e
+MD5sum: 077e35210a7fc12632742cbcae6ae2b8
+Description: OpenMediaVault iSCSI Enterprise Target plugin
+ iSCSI Enterprise Target is for building an iSCSI storage system on Linux.
+
+Package: openmediavault-keyring
+Version: 0.1
+Architecture: all
+Maintainer: Volker Theile <votdev@gmx.de>
+Installed-Size: 44
+Depends: gnupg
+Priority: important
+Section: misc
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_0.1_all.deb
+Size: 3174
+SHA256: 9ab9cb513c867753d1fb7054c25de60224da1465266da61077e484ef92fe6eff
+SHA1: 3c04fd4da42d9b585deda40a20d756cbd9929e53
+MD5sum: cc5897121aa61a2214b3c4dcf229967c
+Description: GnuPG archive keys of the OpenMediaVault archive
+ The OpenMediaVault project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: openmediavault-lvm2
+Version: 0.2
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 192
+Depends: openmediavault (>= 0.2.7), lvm2
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_0.2_all.deb
+Size: 18524
+SHA256: ec3496b6ed5e9e49c4a4bcb2b3176d15ddcee582c7a429664c52c00865298ef0
+SHA1: 146bdaa275033196dda6c19c235105c7c2197a3d
+MD5sum: 2c3c738404f2ad7e0a1064ea3ed71fb3
+Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
+ LVM supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of volume
+ groups can be allocated to logical volumes, which are accessed as regular
+ block devices.
+
+Package: openmediavault-netatalk
+Version: 0.2.6
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 156
+Depends: openmediavault (>= 0.2.6.3), netatalk
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_0.2.6_all.deb
+Size: 12234
+SHA256: a85ca81434f18c98c17d281a4ca96dee90ab1e686ce30ee75b5fd723844793ab
+SHA1: b23c4d23e80065939ee1c1ffc352fc4c2246a6bd
+MD5sum: d2f9b0f481fdf6d5e54cf40f2b218008
+Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
+ Netatalk is an implementation of the AppleTalk Protocol Suite.
+
+Package: openmediavault-nut
+Version: 0.1.8
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 192
+Depends: openmediavault (>= 0.2.6.3), nut
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_0.1.8_all.deb
+Size: 17458
+SHA256: b9e0dd159522178ad717f8aa80bf9a2f99cb3d65e7d1bdbd4a281bc5e6792df2
+SHA1: fa693dd9263042690d58ca6fc5b805c5246cc3a8
+MD5sum: 5726497db10dc6126774acb75394751d
+Description: OpenMediaVault Network UPS Tools (NUT) plugin
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware.
+
+Package: openmediavault-transmissionbt
+Version: 0.2.8.8
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+ Marcel Beck <marcel.beck@mbeck.org>
+Installed-Size: 340
+Depends: openmediavault (>= 0.2.6.3), transmission-daemon (>= 2.42)
+Homepage: http://www.openmediavault.org
+ http://packages.omv-plugins.org/
+ https://github.com/OMV-Plugins/openmediavault-transmissionbt
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-transmissionbt/openmediavault-transmissionbt_0.2.8.8_all.deb
+Size: 35338
+SHA256: 956a9f76097f48f633214d2335195a4a8eb710f631aacbef855d7a311bce66ef
+SHA1: 6908d2e6405fd938d27399eb5ab20198802df4c2
+MD5sum: 97d22df32060bf991bea359e9778321e
+Description: OpenMediaVault Transmission (BitTorrent client) plugin
+ Transmission is a simple BitTorrent client that features a very simple and
+ intuitive interface.
+
+Package: php-json-schema
+Version: 0.2.0
+Architecture: all
+Maintainer: Volker Theile <votdev@gmx.de>
+Installed-Size: 60
+Depends: php5-cgi | php5-cli
+Homepage: http://code.google.com/p/json-schema-php
+Priority: optional
+Section: php
+Filename: pool/main/p/php-json-schema/php-json-schema_0.2.0_all.deb
+Size: 4942
+SHA256: 8088dce581867277361c25a17da3581cb5b7b1429679d65d8648df7829b11ffa
+SHA1: 6de8ff79c5784b15f9a52bd5dfc5b0b34493e994
+MD5sum: 46b2994fccb49f9963cbb167305ee3d6
+Description: PHP implementation of JSON schema
+ Validates a JSON string against a schema. The validation works as defined by
+ the schema proposal (see http://www.json-schema.org).
+
+Package: transmission-cli
+Source: transmission
+Version: 2.42-0ubuntu0.11.04.2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2424
+Depends: libc6 (>= 2.10), libcurl3-gnutls (>= 7.16.2-1), libevent-2.0-5 (>= 2.0.10-stable), libssl0.9.8 (>= 0.9.8m-1), zlib1g (>= 1:1.1.4), transmission-common (= 2.42-0ubuntu0.11.04.2)
+Suggests: transmission-daemon (= 2.42-0ubuntu0.11.04.2), transmission-gtk (= 2.42-0ubuntu0.11.04.2)
+Breaks: transmission-daemon (<< 1.50-1)
+Replaces: transmission-daemon (<< 1.50-1)
+Homepage: http://www.transmissionbt.com/
+Priority: optional
+Section: net
+Filename: pool/main/t/transmission/transmission-cli_2.42-0ubuntu0.11.04.2_amd64.deb
+Size: 1186686
+SHA256: 4de164ea0e6ff664a5368a11d0e7a8c7bbd9c210ac4ba6f0b10d33347dd85906
+SHA1: 99195b94550ae080d0dd444fe9475e9c367bddf5
+MD5sum: ee4a42deb799532101026b1e3b9b3efe
+Description: lightweight BitTorrent client (command line programs)
+ Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
+ and daemon form). All its incarnations feature a very simple, intuitive
+ interface on top on an efficient, cross-platform back-end.
+ .
+ This package contains a (deprecated) stand-alone command-line client,
+ transmission-remote to interface with transmission-daemon and tools to
+ create, edit and inspect torrent files.
+Original-Maintainer: Leo Costela <costela@debian.org>
+
+Package: transmission-common
+Source: transmission
+Version: 2.42-0ubuntu0.11.04.2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 696
+Breaks: transmission-gtk (<< 2.10-1)
+Replaces: transmission-gtk (<< 2.10-1)
+Homepage: http://www.transmissionbt.com/
+Priority: optional
+Section: net
+Filename: pool/main/t/transmission/transmission-common_2.42-0ubuntu0.11.04.2_all.deb
+Size: 223536
+SHA256: 96298475bd75ba094f56e91a55b78fa4616699071e73707cfbd44100fa368617
+SHA1: d1d2d401a41ad60fdf3bca8e9a22b3d76580df6e
+MD5sum: 849a3fe49e031c2d6686003585eeef71
+Description: lightweight BitTorrent client (common files)
+ Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
+ and daemon form). All its incarnations feature a very simple, intuitive
+ interface on top on an efficient, cross-platform back-end.
+ .
+ This package contains the common files for the different transmission
+ versions.
+Original-Maintainer: Leo Costela <costela@debian.org>
+
+Package: transmission-daemon
+Source: transmission
+Version: 2.42-0ubuntu0.11.04.2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 584
+Pre-Depends: adduser
+Depends: libc6 (>= 2.10), libcurl3-gnutls (>= 7.16.2-1), libevent-2.0-5 (>= 2.0.10-stable), libssl0.9.8 (>= 0.9.8m-1), zlib1g (>= 1:1.1.4), transmission-common (= 2.42-0ubuntu0.11.04.2), lsb-base (>= 3.0)
+Recommends: transmission-cli (>= 1.50-1)
+Breaks: transmission-cli (<< 1.40-1)
+Replaces: transmission-cli (<< 1.40-1)
+Homepage: http://www.transmissionbt.com/
+Priority: optional
+Section: net
+Filename: pool/main/t/transmission/transmission-daemon_2.42-0ubuntu0.11.04.2_amd64.deb
+Size: 241530
+SHA256: a9ecb5962c928659cfb0e7c1fcf844969776c7dccc0d61903a7c9e485ebf8d8e
+SHA1: 94a213ba4c20f95763276e4677a0fc394e77c656
+MD5sum: 2d98995074821eed0b6fc3f99e1bc5b3
+Description: lightweight BitTorrent client (daemon)
+ Transmission is a set of lightweight BitTorrent clients (in GUI, CLI
+ and daemon form). All its incarnations feature a very simple, intuitive
+ interface on top on an efficient, cross-platform back-end.
+ .
+ This package contains the transmission-daemon. For the associated
+ transmission-remote, see the package transmission-cli
+Original-Maintainer: Leo Costela <costela@debian.org>
+

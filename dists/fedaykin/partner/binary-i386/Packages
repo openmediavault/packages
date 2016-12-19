@@ -1,0 +1,265 @@
+Package: libnutscan1
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 120
+Depends: libc6 (>= 2.4), libltdl7 (>= 2.2.6b)
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/libnutscan1_2.6.5-1_i386.deb
+Size: 60818
+SHA256: 5d638ff1c515aa2154009499dad48570e2f1080236c3497a4ca98f11bc0c7c59
+SHA1: dae158f1242e4a8c9f4b2f0185b3e2b354b5c260
+MD5sum: 4dc26a79f85948b4c31863c067ab1c58
+Description: network UPS tools - client library
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides the shared client library.
+
+Package: libnutscan1-dev
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 240
+Depends: libnutscan1 (= 2.6.5-1)
+Conflicts: nut-dev (<< 2.2.2)
+Provides: nut-dev
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: libdevel
+Filename: pool/partner/n/nut/libnutscan1-dev_2.6.5-1_i386.deb
+Size: 82082
+SHA256: 45478739b8dceedfa27e668d546321d0d2ba59cc9f98732f2e4f04df49bde1c7
+SHA1: bf098673ea5da2097cf713690c6946982e50bcc7
+MD5sum: 6e94fcec96fd9214c77bc11ca812bf61
+Description: network UPS tools - development files
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides the development files.
+
+Package: libupsclient1
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 112
+Depends: libc6 (>= 2.3.6-6~)
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/libupsclient1_2.6.5-1_i386.deb
+Size: 57636
+SHA256: cf51f3071b0f653bb72286ee2ade0d32665d4bcd0bb5d7c59d78748e06e169f4
+SHA1: b78736bf73cb53200e63dd530212e9838dbbcfe3
+MD5sum: 5191c1d05918f2c0469db06adaf75a6c
+Description: network UPS tools - client library
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides the shared client library.
+
+Package: libupsclient1-dev
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 216
+Depends: libupsclient1 (= 2.6.5-1)
+Conflicts: nut-dev (<< 2.2.2)
+Provides: nut-dev
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: libdevel
+Filename: pool/partner/n/nut/libupsclient1-dev_2.6.5-1_i386.deb
+Size: 77090
+SHA256: a1a3a765042b7d003f2255d536c36b1cc25452c966a31b2b0144f4f3da0c18fc
+SHA1: 9bde9796fbbaa3bbbc640aed8925560e89311022
+MD5sum: 79f99a60554a9915bc9ba2eaa9b6d1ef
+Description: network UPS tools - development files
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides the development files.
+
+Package: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 5148
+Depends: libc6 (>= 2.4), libneon27-gnutls (>= 0.29.3), libnutscan1, libpowerman0, libsnmp15 (>= 5.4.3~dfsg), libupsclient1, libusb-0.1-4 (>= 2:0.1.12), libwrap0 (>= 7.6-4~), adduser, lsb-base (>= 3.0-6), udev (>= 0.124-1)
+Recommends: bash-completion
+Suggests: nut-cgi, nut-snmp, nut-dev, nut-xml
+Conflicts: nut-dev (<< 2.2.2), nut-doc, nut-hal-drivers, nut-usb (<< 2.1.0-3), ups-monitor
+Replaces: nut-doc
+Provides: nut-doc, nut-usb, ups-monitor
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/nut_2.6.5-1_i386.deb
+Size: 2272592
+SHA256: 883f7fe098c2956d852d94a8be2c3a6d175594755033b05238e6bd9efc058410
+SHA1: c5ddb9d982bfe8020c9d77ecb377b8c58a4d28c2
+MD5sum: 3fb2960fdc1c6ed600e39c03c0521619
+Description: network UPS tools - core system
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides NUT's core system, and the serial and USB UPS
+ drivers. In most cases it is sufficient for a basic UPS monitoring
+ system.
+
+Package: nut-cgi
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 288
+Depends: libc6 (>= 2.3.6-6~), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgd2-xpm (>= 2.0.36~rc1~dfsg), libjpeg62 (>= 6b1), libpng12-0 (>= 1.2.13-4), libupsclient1, libx11-6, libxpm4, zlib1g (>= 1:1.1.4), adduser
+Recommends: apache | httpd
+Suggests: nut
+Replaces: nut (<< 1.1.11)
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/nut-cgi_2.6.5-1_i386.deb
+Size: 98882
+SHA256: de8e71b09f3b91d5d3bb6d68d4dc267443877453064023a055bb6c950c7152e3
+SHA1: 5bc675f792b629b7db85f6fca2badf72c6f6dfe5
+MD5sum: 5cc073e9895ec3350c4c5413777542ae
+Description: network UPS tools - web interface
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides an HTTP interface for Network UPS Tools which makes
+ it possible to monitor the core NUT system with a web browser.
+
+Package: nut-hal-drivers
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 444
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.14.0), libhal1 (>= 0.5.8.1), libusb-0.1-4 (>= 2:0.1.12), udev (>= 0.124-1)
+Conflicts: nut
+Breaks: udev (<< 124-1)
+Provides: hal-ups-support
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/nut-hal-drivers_2.6.5-1_i386.deb
+Size: 161952
+SHA256: f975976b4a03771710aacbc22a6b9688af96ab8a9b687507e596a65d843a17ee
+SHA1: 644bb721b4b6f0640f59e2caf1ff676057198436
+MD5sum: c707083573e82a39600a7953b93dce34
+Description: network UPS tools - HAL interface
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides add-ons for the hardware abstraction layer (HAL) that
+ allow desktop environments to monitor locally-connected UPS equipment. The
+ HAL drivers cannot be used at the same time as the normal NUT upsd.
+
+Package: nut-powerman-pdu
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 140
+Depends: libc6 (>= 2.4), libpowerman0, nut (>= 2.4.0), powerman (>= 2.3.3)
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/nut-powerman-pdu_2.6.5-1_i386.deb
+Size: 69648
+SHA256: 74fc56c0fa996349ddad3d8f8f5f6e62f3d6f041d9ca1e3c3a3a5fba89d19324
+SHA1: 48f5d4065835234040135dd38b4337cb13a3d809
+MD5sum: deb8d18e39152a0e78700bf427f38586
+Description: network UPS tools - PowerMan PDU driver
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides powerman-pdu, which allows NUT clients to communicate
+ with the PowerMan daemon to support PDUs.
+
+Package: nut-snmp
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 216
+Depends: libc6 (>= 2.4), libsnmp15 (>= 5.4.3~dfsg), nut (>= 1.4.1-pre1)
+Conflicts: nut (<= 1.4.0)
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/nut-snmp_2.6.5-1_i386.deb
+Size: 86404
+SHA256: 4af07037b0d596f4fe4268d932ca81e2a4bd3b2fc078ec3a3c171baf3e8829d8
+SHA1: b449f15b495784eee2246d973a97f4fb2d0f2cce
+MD5sum: 12325c6ea192bfc3da28b09c080f66c2
+Description: network UPS tools - SNMP driver
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides snmp-ups, the SNMP multi-MIB driver for UPS, which
+ supports various MIBs including IETF, MGE, and APC. It adds an SNMP
+ Manager interface to the core NUT system.
+
+Package: nut-xml
+Source: nut
+Version: 2.6.5-1
+Architecture: i386
+Maintainer: Arnaud Quette <aquette@debian.org>
+Installed-Size: 168
+Depends: libc6 (>= 2.4), libneon27-gnutls (>= 0.29.3), nut (>= 2.2.2)
+Homepage: http://www.networkupstools.org
+Priority: optional
+Section: admin
+Filename: pool/partner/n/nut/nut-xml_2.6.5-1_i386.deb
+Size: 77434
+SHA256: 5296772caa9dc207c8f191eef4c4972b497cdf21ecac114dd04cc6dfeda33d1f
+SHA1: d36e6aa186ffd21ddf3a1248e682dceef0522a1d
+MD5sum: d58d2c5a0dc21b9202133eb4f4aa7913
+Description: network UPS tools - XML/HTTP driver
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ .
+ This package provides netxml-ups, which supports UPS models from
+ Eaton or MGE that use an XML/HTTP-based Network Management Card or
+ Proxy.
+

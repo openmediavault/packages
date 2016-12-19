@@ -1,0 +1,36 @@
+Package: openmediavault-installer
+Source: openmediavault
+Version: 1.0.12
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 42
+Depends: cdebconf-udeb, partman-base, finish-install
+Priority: optional
+Section: debian-installer
+Filename: pool/main/o/openmediavault/openmediavault-installer_1.0.12_all.udeb
+Size: 2458
+SHA256: dd5072522d63b43664b08b4ed184c96349b72b3aecb08e56ac9b03b8fa196c7b
+SHA1: 3049de81d69b187041f3002a52b73b10eb9bc750
+MD5sum: 577c1c52460e862b61536c2c162a281f
+Description: OpenMediaVault scripts, for debian-installer
+ This package contains scripts that are for use in debian-installer.
+
+Package: openmediavault-keyring-udeb
+Source: openmediavault-keyring
+Version: 0.3
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 22
+Recommends: gpgv-udeb
+Priority: important
+Section: debian-installer
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring-udeb_0.3_all.udeb
+Size: 2248
+SHA256: 23664cc7e1d0ccae6274ffc2d73d3ed0c71858ecb24e7af31a6becf6b7457388
+SHA1: bf21341a913a7565d85f8f07287af2b5a809454d
+MD5sum: 5db8aae885c55cde42dd255e72184213
+Description: GnuPG archive keys of the OpenMediaVault archive
+ The OpenMediaVault project digitally signs its Release files. This package
+ contains the archive keys used for that, in a minimal form for use
+ in the installer.
+
