@@ -128,19 +128,19 @@ Description: OpenMediaVault ClamAV plugin
 Plugin-Section: utilities
 
 Package: openmediavault-forkeddaapd
-Version: 3.1.3
+Version: 3.1.4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 127
-Depends: openmediavault (>= 3.0.40), forked-daapd
+Depends: openmediavault (>= 3.0.58), forked-daapd
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_3.1.3_all.deb
-Size: 16832
-SHA256: 5e7892a8a0e30f76fcf7504fa609f1e2c0d1261b1f00e5f4c31eb78b47b01f3c
-SHA1: 16294e9fe45324d15ac39fd27151ce9cf0d5c9d4
-MD5sum: 45aa8a1a173bf4ad584cd716d6fbe240
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_3.1.4_all.deb
+Size: 16862
+SHA256: f5a249eceadf03f819bd63788cd8207288cd47bd5b57043eeb75d78d2a0be827
+SHA1: 974b8db0ace2c2c92cb977864d999decf0b099a0
+MD5sum: be7d5ed700f45c2b987c9591cc204984
 Description: OpenMediaVault forked-daapd (DAAP server) plugin
  forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
  media server.
@@ -226,37 +226,37 @@ Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-netatalk
-Version: 3.2.4
+Version: 3.2.5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 226
-Depends: openmediavault (>= 3.0.57), netatalk (>= 3.1.9)
+Installed-Size: 227
+Depends: openmediavault (>= 3.0.58), netatalk (>= 3.1.9)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_3.2.4_all.deb
-Size: 33854
-SHA256: 21084199fcc2aedb97bb109d3d313a18558758483bf2563cb0149fc8d1ddc6ab
-SHA1: 6d9f6d16811d8d640c718a2dc2da7e1348322634
-MD5sum: e7c3e164cd98a9777b65f27f694f8585
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_3.2.5_all.deb
+Size: 33906
+SHA256: 72964c7c0506aebf7dff1aae317a145a004941c2f639e1954534831e1b92ac93
+SHA1: 77c2d6221eaecd897a17261f00b8d1f95bafa25a
+MD5sum: 708b3da7ae43e859dc806d9e7f3258ab
 Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
  Netatalk is an implementation of the AppleTalk Protocol Suite.
 Plugin-Section: sharing
 
 Package: openmediavault-nut
-Version: 3.2.5
+Version: 3.2.6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 201
-Depends: openmediavault (>= 3.0.53), nut (>= 2.6.4), udev
+Installed-Size: 202
+Depends: openmediavault (>= 3.0.58), nut (>= 2.6.4), udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.5_all.deb
-Size: 28928
-SHA256: 47172a9c1292b4266245198eaeb3fffcdae2467b3bf803e2a38988c83ef98c6c
-SHA1: b817e559103a9b0da4bc3a16bcd8ddcc7265a1ab
-MD5sum: 27ba460fe461621742ad14aeb18738c1
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.6_all.deb
+Size: 28978
+SHA256: 7607f31e9790dc959fe200eeb1fa814a2978f051edadf89bcba868e354d5369f
+SHA1: 11d8101ea33b9605ad449298acb49dc3120481b8
+MD5sum: dfd1de195d792278b80922b7bbc783c3
 Description: OpenMediaVault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -282,19 +282,19 @@ Description: OpenMediaVault IP routing table plugin
 Plugin-Section: network
 
 Package: openmediavault-shairport
-Version: 3.2.3
+Version: 3.2.4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 123
-Depends: openmediavault (>= 3.0.40), shairport-sync (>= 2.4.1), alsa-utils, init-system-helpers
+Depends: openmediavault (>= 3.0.58), shairport-sync (>= 2.4.1), alsa-utils, init-system-helpers
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_3.2.3_all.deb
-Size: 13186
-SHA256: a9e6f36fbd0c02b9480b26de06ca16603be6a8ecf214ac695120ff1feaa6fe25
-SHA1: a0ed2e33864b14e60c0354234566d09476387d57
-MD5sum: ad5c95071fd8e46c0c36f0a727620be2
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_3.2.4_all.deb
+Size: 14458
+SHA256: fdf731ca6bdac2097262e256c496f4f1aefb4125d869914bb3575fea64fdd839
+SHA1: 42209a52d98964763b10c7684597d73602b1b6fc
+MD5sum: 4bc4260cea06ca7642cf663802610dcc
 Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
  Shairport emulates an AirPort Express for the purpose of streaming
  music from iTunes and compatible iPods and iPhones. It implements a
