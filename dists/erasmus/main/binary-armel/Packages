@@ -244,7 +244,7 @@ Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
 Plugin-Section: sharing
 
 Package: openmediavault-nut
-Version: 3.2.6
+Version: 3.2.7
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 202
@@ -252,11 +252,11 @@ Depends: openmediavault (>= 3.0.58), nut (>= 2.6.4), udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.6_all.deb
-Size: 28978
-SHA256: 7607f31e9790dc959fe200eeb1fa814a2978f051edadf89bcba868e354d5369f
-SHA1: 11d8101ea33b9605ad449298acb49dc3120481b8
-MD5sum: dfd1de195d792278b80922b7bbc783c3
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.7_all.deb
+Size: 29048
+SHA256: cba4bf6efd9aa5c3eca096ff2a97a95b3d20956e56a165c5559d4322123d3cb6
+SHA1: 8c865d2350c1499b0153dd20e72156a11bc6c1d2
+MD5sum: 7733294071d83505905dc21f9f757c43
 Description: OpenMediaVault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -282,19 +282,19 @@ Description: OpenMediaVault IP routing table plugin
 Plugin-Section: network
 
 Package: openmediavault-shairport
-Version: 3.2.5
+Version: 3.2.6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 123
+Installed-Size: 124
 Depends: openmediavault (>= 3.0.58), shairport-sync (>= 2.4.1), alsa-utils, init-system-helpers
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_3.2.5_all.deb
-Size: 14540
-SHA256: e5e51ed096655f8d04981f4d555e86e8e96b2856ed4a9d992b8be9217b10465a
-SHA1: b052ff4c2f562ddf4b3523dc21e3c4b0c5760356
-MD5sum: 7407b535c921c7fd81db04857ae87ac4
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_3.2.6_all.deb
+Size: 14654
+SHA256: eef1ffcd63e66e196a683262ae47ddf6b4255eb513892cd63ad1d3eea3321c66
+SHA1: ca1c04dbf0d79138f738b532463b475253b1385e
+MD5sum: 3c0937b319851f64c4f6b439e6c3787f
 Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
  Shairport emulates an AirPort Express for the purpose of streaming
  music from iTunes and compatible iPods and iPhones. It implements a
