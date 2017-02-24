@@ -92,19 +92,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.0.1
+Version: 3.0.64
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 6298
-Depends: perl, libjs-extjs5, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, python3-netifaces, udev, apt-transport-https, python3-lxml, python3-sysv-ipc, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
+Installed-Size: 6297
+Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, python3-netifaces, udev, apt-transport-https, python3-lxml, python3-sysv-ipc, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.0.1_all.deb
-Size: 907110
-SHA256: e3338043f94390db6285d2493ee5abacbb8402e8906730e5e1ed61558b61ceb1
-SHA1: af3cf65a7baaf30a721967ef2677880333daa5da
-MD5sum: 0d0d5edb974cb097f080436733e9be4b
+Filename: pool/main/o/openmediavault/openmediavault_3.0.64_all.deb
+Size: 906814
+SHA256: 2334c7b81fda87853d7cb2b655d3b3d1d7952ef9603fcbf39fde78974a85e990
+SHA1: 83971c222284ea4678dce6af1c9fa56ac4c6e757
+MD5sum: 10eb3c217b92351c8f95bf31bfe3b570
 Description: Open network attached storage solution
  OpenMediaVault is a small and simple to use network attached storage system with
  a smart WebGUI.
@@ -338,28 +338,6 @@ MD5sum: 46b2994fccb49f9963cbb167305ee3d6
 Description: PHP implementation of JSON schema
  Validates a JSON string against a schema. The validation works as defined by
  the schema proposal (see http://www.json-schema.org).
-
-Package: php-pam
-Version: 1.0.3-1
-Architecture: amd64
-Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 39
-Depends: phpapi-20151012
-Priority: optional
-Section: web
-Filename: pool/main/p/php-pam/php-pam_1.0.3-1_amd64.deb
-Size: 7832
-SHA256: 790632d27f41c2b44cd62f6130c6aef2e7730a629e991c2c942fadd61acb2b36
-SHA1: c2cb9f3c15309521bec2d909457ca65dc898627e
-MD5sum: bd7a0d42830d072670793c9d23fb27b7
-Description: pam module for PHP 7
- PAM integration
- .
- This extension provides PAM (Pluggable Authentication Modules)
- integration. PAM is a system of libraries that handle the
- authentication tasks of applications and services. The library
- provides a stable API for applications to defer to for authentication
- tasks.
 
 Package: php5-pam
 Version: 1.0.3-4
