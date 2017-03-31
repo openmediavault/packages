@@ -92,37 +92,37 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 3.0.67
+Version: 3.0.68
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 6314
-Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
+Installed-Size: 6298
+Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_3.0.67_all.deb
-Size: 910102
-SHA256: 60e0f2aed37e863d2f82eff276653af85b6167cb456100ce89e3fb58ef2abeae
-SHA1: 2f42fdec18b24891b581f45321a073436fcd3474
-MD5sum: 76ecdc15771dc5affb334137947cee0e
+Filename: pool/main/o/openmediavault/openmediavault_3.0.68_all.deb
+Size: 909300
+SHA256: 3d2dd407ba3ac54138bc5bd6eb2fa4cd7dab8134bb554ed8929627fe73516764
+SHA1: 792da2309780d23ff3d7c9ca8e7eec90086eb861
+MD5sum: 0a9cec35059e679386e7a0808fd04992
 Description: Open network attached storage solution
- OpenMediaVault is a small and simple to use network attached storage system with
- a smart WebGUI.
+ openmediavault is a small and simple to use network attached storage system
+ with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 3.2.11
+Version: 3.3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 289
+Installed-Size: 291
 Depends: openmediavault (>= 3.0.67), clamav-daemon, clamav-freshclam, clamdscan, init-system-helpers
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_3.2.11_all.deb
-Size: 41606
-SHA256: c9381abc26908cfcb6af30dfca43b96b7e357c04937bcabbee4f601286ca25ac
-SHA1: 2e146c9e908af9df9bcff80d7ed2735f692461e8
-MD5sum: 93fae7bd3d514bac06773a8fe03888e2
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_3.3_all.deb
+Size: 41762
+SHA256: 23b822705114d8280c6b5dfb3baba6aaf6cf7c0c1943536d562ea35e219a674a
+SHA1: bdb878174b633e87ad06dd10d80c1f7d6379a517
+MD5sum: 2f8a08d4a7a272252433d724246ffc0f
 Description: OpenMediaVault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -205,19 +205,19 @@ Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
 Plugin-Section: network
 
 Package: openmediavault-lvm2
-Version: 3.1.4
+Version: 3.1.5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 223
-Depends: openmediavault (>= 3.0.60), lvm2
+Installed-Size: 226
+Depends: openmediavault (>= 3.0.68), lvm2
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.1.4_all.deb
-Size: 26170
-SHA256: c9b0f6b2d922fa082234aaafabfa5a3434f663cceb38d26e5e8c6126687fac70
-SHA1: 0050cab336d1aa0c8359ef1aef9b15102f25d273
-MD5sum: 2f5033fdf9260914cdc802db1a282640
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.1.5_all.deb
+Size: 26986
+SHA256: cca4c487fed68193225c6f1c5398f71cb9ab61c2615876e7be710c4c810c4142
+SHA1: 75a45dd273fca66da1cc285de842f5e56da3ebc4
+MD5sum: 10737fa482093de1d9af58e47075667f
 Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
@@ -244,19 +244,19 @@ Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
 Plugin-Section: sharing
 
 Package: openmediavault-nut
-Version: 3.2.9
+Version: 3.2.10
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 206
-Depends: openmediavault (>= 3.0.60), nut (>= 2.6.4), udev
+Depends: openmediavault (>= 3.0.68), nut (>= 2.6.4), udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.9_all.deb
-Size: 29510
-SHA256: fba2623f682c1dba5fb0e4382c35a4078d559b5c433877470166506ebefad54c
-SHA1: e91a18943b2564afada0d45ded468208a9d359dc
-MD5sum: a5d1494f22001c1ffbc745bdfb19b1fa
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.10_all.deb
+Size: 29526
+SHA256: 249a1b6d58899f4e6aa3577a387ca42ffeaa6c3deac768c34e4a21e61b59b535
+SHA1: f407dbd8abca4228fe3196df9cf857683048dbda
+MD5sum: 8621ae402d62487ec44690d279d62925
 Description: OpenMediaVault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -302,20 +302,39 @@ Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
  v2 (video and photo streaming).
 Plugin-Section: multimedia
 
-Package: openmediavault-usbbackup
-Version: 3.2.16
+Package: openmediavault-tftp
+Version: 3.0
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 248
-Depends: rsync, openmediavault (>= 3.0.67)
+Installed-Size: 145
+Depends: openmediavault (>= 3.0.68), tftpd-hpa
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_3.2.16_all.deb
-Size: 37242
-SHA256: 694d0bf7cd1aefdee29314bf1951defccd59b111b0413f5cf009638aef755c84
-SHA1: 913da35782ce47027237400c07ba637d6cd7b1da
-MD5sum: 46958f996e89d8b84b340d12505206aa
+Filename: pool/main/o/openmediavault-tftp/openmediavault-tftp_3.0_all.deb
+Size: 17578
+SHA256: 390dd096c4b4768c6f44257afe66f34b5178ae3ee8941bc6538704f10eff4609
+SHA1: 4fab9af5016d0d335971c7192c2aa80d89c3ca1d
+MD5sum: fafe3dd39ff3e67c68ef89d9a74125af
+Description: OpenMediaVault TFTP-Server plugin
+ A TFTP server is mainly required for booting operating systems or
+ configurations over the network.
+Plugin-Section: network
+
+Package: openmediavault-usbbackup
+Version: 3.2.17
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 249
+Depends: rsync, openmediavault (>= 3.0.68)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_3.2.17_all.deb
+Size: 37310
+SHA256: 215d0db53bd490a124d522bcadd657944659fd9a83bebd1821b033475eb753d2
+SHA1: 808419e46270db158d76ed2de2dc01ad43372ef3
+MD5sum: e53ea01d23866861503af4decca08eec
 Description: OpenMediaVault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
