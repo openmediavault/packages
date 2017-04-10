@@ -92,7 +92,7 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 3.0.69
+Version: 3.0.70
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 6302
@@ -100,11 +100,11 @@ Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_3.0.69_all.deb
-Size: 909550
-SHA256: dfe1f7ef0ca3431534d935ecb0e7d6dd190c7b58f78536ab78d118b79c41a7ad
-SHA1: 1aa24e642ee91a9757dcc36b84bb19025feb8389
-MD5sum: 218056ea6ca8fb43c54fac79251d21ee
+Filename: pool/main/o/openmediavault/openmediavault_3.0.70_all.deb
+Size: 908720
+SHA256: 86d204b6b01313d02694bd7e254c4e6d69897762622cdae92750dc6c72effeae
+SHA1: 45ae4c82f03f7b6c1b5bfdcc576749519bfa606a
+MD5sum: c5732cead0ecdb2ef2ab10f10413762f
 Description: Open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -184,20 +184,20 @@ Description: GnuPG archive keys of the OpenMediaVault archive
  contains the archive keys used for that.
 
 Package: openmediavault-ldap
-Version: 3.1.5
+Version: 3.1.6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 184
-Depends: openmediavault (>= 3.0.60), libnss-ldap, libpam-ldap
+Depends: openmediavault (>= 3.0.70), libnss-ldap, libpam-ldap
 Conflicts: openmediavault-ad
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-ldap/openmediavault-ldap_3.1.5_all.deb
-Size: 22498
-SHA256: d22daee3b56ea11fdef83b8cf740abd911a64731df1ff1c16ab09beb09e5fd7a
-SHA1: 40f3ee7c098c4e828d189214e6943bb35540640e
-MD5sum: b18cb6cbc07442e9715ea3667f94cca8
+Filename: pool/main/o/openmediavault-ldap/openmediavault-ldap_3.1.6_all.deb
+Size: 22594
+SHA256: 80ea1a4b35e08825565bb30edb561d08010d9c464b9ca422a49df953b933ffbb
+SHA1: 6dbc174ac65829dedd787ec435ead92bc44c4aca
+MD5sum: 4bec971b559f02e053bec83f0ad03d3f
 Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
  LDAP is an application protocol for accessing and maintaining distributed
  directory information services over an Internet Protocol network. This
@@ -244,19 +244,19 @@ Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
 Plugin-Section: sharing
 
 Package: openmediavault-nut
-Version: 3.2.10
+Version: 3.2.11
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 206
-Depends: openmediavault (>= 3.0.68), nut (>= 2.6.4), udev
+Depends: openmediavault (>= 3.0.70), nut (>= 2.6.4), udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.10_all.deb
-Size: 29526
-SHA256: 249a1b6d58899f4e6aa3577a387ca42ffeaa6c3deac768c34e4a21e61b59b535
-SHA1: f407dbd8abca4228fe3196df9cf857683048dbda
-MD5sum: 8621ae402d62487ec44690d279d62925
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_3.2.11_all.deb
+Size: 29542
+SHA256: 2eb1b15ed2c3a2211fd7b61543bd809b53cd6922cbe6b61c46d0ec16c9ef3214
+SHA1: b0e1fa4fb2bfabdc7303062ac22dd9f576af2a73
+MD5sum: 076750723345548fc394b22a8ed588f8
 Description: OpenMediaVault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
