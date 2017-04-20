@@ -92,19 +92,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 3.0.70
+Version: 3.0.71
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 6302
-Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
+Installed-Size: 6304
+Depends: perl:any, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_3.0.70_all.deb
-Size: 908720
-SHA256: 86d204b6b01313d02694bd7e254c4e6d69897762622cdae92750dc6c72effeae
-SHA1: 45ae4c82f03f7b6c1b5bfdcc576749519bfa606a
-MD5sum: c5732cead0ecdb2ef2ab10f10413762f
+Filename: pool/main/o/openmediavault/openmediavault_3.0.71_all.deb
+Size: 908954
+SHA256: 8f4b18e4d43a8225a7cfb036d10a0c15dde853969f2f380d3961e5054aaa2c67
+SHA1: e6b07a2db27273825a00931010990f826ad0fba0
+MD5sum: 511714491ade09e620c091e415bbe57b
 Description: Open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -205,19 +205,19 @@ Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
 Plugin-Section: network
 
 Package: openmediavault-lvm2
-Version: 3.1.5
+Version: 3.2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 226
-Depends: openmediavault (>= 3.0.68), lvm2
+Installed-Size: 229
+Depends: openmediavault (>= 3.0.71), lvm2
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.1.5_all.deb
-Size: 26986
-SHA256: cca4c487fed68193225c6f1c5398f71cb9ab61c2615876e7be710c4c810c4142
-SHA1: 75a45dd273fca66da1cc285de842f5e56da3ebc4
-MD5sum: 10737fa482093de1d9af58e47075667f
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.2_all.deb
+Size: 27322
+SHA256: 458d269d4af70d92d69757b9cf25f87532b450811c02bc3d9dea88b83b545dc6
+SHA1: 9e5a5e702879d6b2e9b9565f2e46c17d45de7fc2
+MD5sum: 843f76c74092641a43a36e9379ae9759
 Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
