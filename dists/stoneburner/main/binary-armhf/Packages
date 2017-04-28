@@ -86,16 +86,16 @@ Package: openmediavault
 Version: 2.2.14
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 5495
-Depends: perl:any, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli, php5-pam, php-json-schema, sudo, ethtool, acl, ifenslave, resolvconf, iproute, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, bootlogd, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, ntp, cpufrequtils, rsyslog, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.3.1), mount, php5-proctitle, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.2.1), bash-completion, python3, python3-apt, pm-utils, wpasupplicant
+Installed-Size: 5696
+Depends: perl, libjs-extjs5 (>= 5.1.1), php5-fpm, libpam-modules, php5-cgi, php5-cli, php5-pam, php-json-schema, sudo, ethtool, acl, ifenslave, resolvconf, iproute, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, bootlogd, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, ntp, cpufrequtils, rsyslog, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, tftpd-hpa, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.3.1), mount, php5-proctitle, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.2.1), bash-completion, python3, python3-apt, pm-utils, wpasupplicant
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
 Filename: pool/main/o/openmediavault/openmediavault_2.2.14_all.deb
-Size: 807320
-SHA256: 4c97ae02c5da806cbf71423501e98f2c048f06802fc67943f14aad5d3e628c5e
-SHA1: c47bb0f28fa5d0f51199af93ab8abd999c4ec447
-MD5sum: df2d39365aa3ecc9dde72760e6bfe9f4
+Size: 1262472
+SHA256: 1d108c3a22d7ff4bdb11d2caaea108b69ad20c3ca0c2ad15fc14fae642e0538e
+SHA1: d17fc8403bf47db5eb7532c22ad2cbcec8b2251b
+MD5sum: 6c76b781cfb729d5c36d1d4db5179cf6
 Description: Open network attached storage solution
  OpenMediaVault is a small and simple to use network attached storage system with
  a smart WebGUI.
