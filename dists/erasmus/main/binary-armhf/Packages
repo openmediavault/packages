@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 3.0.75.1
+Version: 3.0.76
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 6362
+Installed-Size: 6364
 Depends: perl:any, libjs-extjs6 (>= 6.2), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-tools, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_3.0.75.1_all.deb
-Size: 908928
-SHA256: c0cef6becea20a906ea8bedb2e4f4f45101da0ea4acb4070274ba36c2b723aff
-SHA1: b0fa471af27af824320f306312d77d2bca2b8173
-MD5sum: be8154c4270fb4f84fcea674d0f5bad0
+Filename: pool/main/o/openmediavault/openmediavault_3.0.76_all.deb
+Size: 909492
+SHA256: 252c1450e44067907212e4916d0befb49b490cd44c8dd90faee4b5627ebc4c26
+SHA1: 27703244361712db1f4d007af909bcb6ec95ad7b
+MD5sum: b259272056152a0d2beb842e6b42f3b3
 Description: Open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -339,7 +339,7 @@ Description: OpenMediaVault TFTP-Server plugin
 Plugin-Section: network
 
 Package: openmediavault-usbbackup
-Version: 3.2.18
+Version: 3.2.19
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 257
@@ -347,11 +347,11 @@ Depends: rsync, openmediavault (>= 3.0.73)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_3.2.18_all.deb
-Size: 38378
-SHA256: 97ffb64ef5464c74a1cace0420b22181ec6f93def9e5a73a652e04594002cea5
-SHA1: 6f2b5f00e1ffb1ba1b4c9c690dacd0e33b155000
-MD5sum: d99b8476af612398df9bb000c62b627a
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_3.2.19_all.deb
+Size: 38462
+SHA256: 5fdf362c0682f939e5442789f891b930cbe0679060caf9be074cc4df74093786
+SHA1: daabc7a9dcc9c30a99832834572623952a43403f
+MD5sum: 35e18926be2a8032f33ae0c8efdaf2ce
 Description: OpenMediaVault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
