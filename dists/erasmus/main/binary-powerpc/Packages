@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 3.0.80
+Version: 3.0.81
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 6370
+Installed-Size: 6372
 Depends: perl:any, libjs-extjs6 (>= 6.2), php5-fpm, libpam-modules, php5-cgi, php5-cli (>= 5.6), php5-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, openssh-blacklist-extra, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit (>= 5.4), acpid, beep, gdisk, rrdtool, collectd (>= 5.1.0), cron, anacron, cron-apt, quota, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet (>= 1.6.1), mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx (>= 1.6.2), bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, btrfs-tools | btrfs-progs, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_3.0.80_all.deb
-Size: 911498
-SHA256: 1cefcf02838ee1d71cf56c2b83e0b1d0c08bfe8b45e8e38fe3a7833309953326
-SHA1: a18f7334807459e25f93673db09ea82d9f480a97
-MD5sum: 00f98eeac319f3b242a854fdda45c420
+Filename: pool/main/o/openmediavault/openmediavault_3.0.81_all.deb
+Size: 912280
+SHA256: 9f2d9416d3952b62a3b9b1c0b09dc0d7ece183b6ad164bbb1752151a05cc9138
+SHA1: d314deea87499b345e001c6b459a82fbc270da22
+MD5sum: f9a2e714c1de8f8d18f5369079b2da24
 Description: Open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
