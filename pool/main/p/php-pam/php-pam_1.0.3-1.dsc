@@ -5,12 +5,12 @@ Architecture: any
 Version: 1.0.3-1
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Standards-Version: 3.9.1
-Build-Depends: debhelper (>= 7), po-debconf, xsltproc, php-dev, libpam-dev
+Build-Depends: debhelper (>= 9), po-debconf, xsltproc, php-dev, libpam-dev, quilt
 Package-List:
  php-pam deb web optional arch=any
 Checksums-Sha1:
- e61525fe30a408a1e728905224dbc6853e91cf40 10384 php-pam_1.0.3-1.tar.gz
+ 6a0088962aa36423941b5ec0749f68a13725fd42 10654 php-pam_1.0.3-1.tar.gz
 Checksums-Sha256:
- 365f06d585d2706a194d1336ce4a5948c4d75d133c6b0fb615eafeb62ba89e16 10384 php-pam_1.0.3-1.tar.gz
+ 0a255e5959c79261dc382de14ae299bedefbc24f14df5a16e4b8bb67dbbbfa4c 10654 php-pam_1.0.3-1.tar.gz
 Files:
- a1ce5398c273435d8c42462bb4d22f29 10384 php-pam_1.0.3-1.tar.gz
+ 65e28330c365479fbe2848eebc888c72 10654 php-pam_1.0.3-1.tar.gz

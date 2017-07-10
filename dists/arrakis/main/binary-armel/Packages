@@ -163,6 +163,28 @@ Description: PHP implementation of JSON schema
  Validates a JSON string against a schema. The validation works as defined by
  the schema proposal (see http://www.json-schema.org).
 
+Package: php-pam
+Version: 1.0.3-1
+Architecture: armel
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 34
+Depends: phpapi-20151012
+Priority: optional
+Section: web
+Filename: pool/main/p/php-pam/php-pam_1.0.3-1_armel.deb
+Size: 7394
+SHA256: 04582baaac7667aa1471f62b7335da4c743fa489577ba93682d9e8963cf25bfb
+SHA1: 948c3f5e8585543b926c6505e5a04df6567d3927
+MD5sum: 79228e5679bd9b4bce14fe35209d7d5d
+Description: pam module for PHP 7
+ PAM integration
+ .
+ This extension provides PAM (Pluggable Authentication Modules)
+ integration. PAM is a system of libraries that handle the
+ authentication tasks of applications and services. The library
+ provides a stable API for applications to defer to for authentication
+ tasks.
+
 Package: php5-slim3
 Version: 3.6.0-1
 Architecture: all
