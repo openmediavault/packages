@@ -203,6 +203,24 @@ Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
  block devices.
 Plugin-Section: filesystems
 
+Package: openmediavault-netatalk
+Version: 4.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 246
+Depends: openmediavault (>= 4.0), netatalk (>= 3.1.9)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_4.0-1_all.deb
+Size: 35210
+SHA256: 8f909b053f50cc8c5e0fd9e9ff5569c14d852aa60d5879ff97ea147188d8d119
+SHA1: 0827cdbd2e0cf1a6c571dde0b68e88d435c2c298
+MD5sum: 17d7998378e7752c0f6bf0bef76757bd
+Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
+ Netatalk is an implementation of the AppleTalk Protocol Suite.
+Plugin-Section: sharing
+
 Package: openmediavault-route
 Version: 4.0-1
 Architecture: all
@@ -220,6 +238,27 @@ MD5sum: b2571f1a4b047ab9cd27b9a7073d5d83
 Description: OpenMediaVault IP routing table plugin
  Adds the ability to manipulate the IP routing table via WebGUI.
 Plugin-Section: network
+
+Package: openmediavault-shairport
+Version: 4.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 133
+Depends: openmediavault (>= 4.0), shairport-sync (>= 2.8.6), alsa-utils
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_4.0-1_all.deb
+Size: 15902
+SHA256: 735390883e0b509b19c85a92903a6f80ca80f88a2bcf848613762bc6a535c496
+SHA1: 3dd3060765bbeeb574233e3d55385b02f56c3273
+MD5sum: 08b18fa36ad6690a411cbdfb099c62a0
+Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
+ Shairport emulates an AirPort Express for the purpose of streaming
+ music from iTunes and compatible iPods and iPhones. It implements a
+ server for the Apple RAOP protocol. ShairPort does not support AirPlay
+ v2 (video and photo streaming).
+Plugin-Section: multimedia
 
 Package: openmediavault-tftp
 Version: 4.0-1
