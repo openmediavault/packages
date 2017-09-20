@@ -375,28 +375,6 @@ Description: PHP micro framework to write REST APIs.
  Slim is a PHP micro framework that helps you quickly write simple yet
  powerful web applications and APIs.
 
-Package: proftpd-mod-vroot
-Version: 0.9.3-1
-Architecture: armel
-Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 82
-Depends: proftpd-basic (>= 1.3.5), libc6 (>= 2.4), proftpd-abi-1.3.5
-Breaks: proftpd-basic (<< 1.3.4)
-Homepage: http://www.castaglia.org/proftpd/modules/mod_vroot.html
-Priority: optional
-Section: net
-Filename: pool/main/p/proftpd-mod-vroot/proftpd-mod-vroot_0.9.3-1_armel.deb
-Size: 14656
-SHA256: 49094fd7a442533b24683d57ae9d9daef1beec6213cec5504641ae43dd0322e1
-SHA1: d7f706b9adcd8ab9f744c24ce1459ebb27582072
-MD5sum: 2715bde096ccd5b7fbe76495c9edd9e2
-Description: ProFTPD module mod_vroot
- The purpose of this module to is to implement a virtual chroot
- capability that does not require root privileges.
- The mod_vroot module provides this capability by using ProFTPD's
- FS API. It also allows one to map a directory out of the user chroot
- as an alias in the chroot for sharing common directories.
-
 Package: shairport-sync
 Version: 2.8.4-1
 Architecture: armel
