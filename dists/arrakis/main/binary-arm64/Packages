@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.0.5-1
+Version: 4.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 6444
-Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, snmpd, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
+Installed-Size: 6424
+Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.0.5-1_all.deb
-Size: 926368
-SHA256: 87918ea4341b3a1e7c05e7871951664eed8fb164164d05d0d3e5b136893a7208
-SHA1: 430ebd4e5b71c35026212ff21d40eb74d9153470
-MD5sum: f9c437cd43669d754cd16acd7c94e4a9
+Filename: pool/main/o/openmediavault/openmediavault_4.0.6-1_all.deb
+Size: 922276
+SHA256: fb027e4682e207615e31938dbbb2f883c3f55404120d3c4239aed3f57e2ab1d1
+SHA1: 6e7cc3a66c9c5650a418f03cc0008f2e3fc43eb4
+MD5sum: cb61eb2db80e0c22d7ab132de2397036
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -204,7 +204,7 @@ Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-netatalk
-Version: 4.0-1
+Version: 4.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 246
@@ -212,29 +212,29 @@ Depends: openmediavault (>= 4.0), netatalk (>= 3.1.9)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_4.0-1_all.deb
-Size: 35210
-SHA256: 8f909b053f50cc8c5e0fd9e9ff5569c14d852aa60d5879ff97ea147188d8d119
-SHA1: 0827cdbd2e0cf1a6c571dde0b68e88d435c2c298
-MD5sum: 17d7998378e7752c0f6bf0bef76757bd
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_4.0.1-1_all.deb
+Size: 35204
+SHA256: c1d455436c22e7cb7d1b68da5e1d0c1f451b764af3ad039929b74503cfd2e168
+SHA1: 95ac7e98a5be5215b2560768fff927b037993cf6
+MD5sum: 8a5903b2232c5e4e1c0e5f049992e868
 Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
  Netatalk is an implementation of the AppleTalk Protocol Suite.
 Plugin-Section: sharing
 
 Package: openmediavault-nut
-Version: 4.0-1
+Version: 4.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 210
-Depends: openmediavault (>= 4.0.4), nut, udev
+Installed-Size: 217
+Depends: openmediavault (>= 4.0.6), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_4.0-1_all.deb
-Size: 29794
-SHA256: 5aac2f9acf4ea8d4cc544fdf687e366c25e5354f1178dc9c8ab0df1b3269b625
-SHA1: 0190a7c7bc845d937f139a423354aca3ed38dd77
-MD5sum: 0497ee004af43055bf461d233e8c12a0
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_4.0.1-1_all.deb
+Size: 30006
+SHA256: a8121f6405f476ff80ecae15832d1f9a78c891ecf6f0c5aed4365524a2b8b791
+SHA1: 0779aecc0da5b14f45c10ac5edc5cd57e9d43da8
+MD5sum: f96315ad3dee5ee7ddb155ab1a659ff0
 Description: OpenMediaVault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -279,6 +279,26 @@ Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
  server for the Apple RAOP protocol. ShairPort does not support AirPlay
  v2 (video and photo streaming).
 Plugin-Section: multimedia
+
+Package: openmediavault-snmp
+Version: 4.0
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 146
+Depends: openmediavault (>= 4.0.6), snmpd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-snmp/openmediavault-snmp_4.0_all.deb
+Size: 15412
+SHA256: fc050894eda1b31505258c087cc18cd97d832be8da79a65ed6c10f9f0e0c292b
+SHA1: a081bf7b0b18655fda63b6c3074aea3169f91b68
+MD5sum: 331f735a4e7b4eb188749b06c795d4d2
+Description: OpenMediaVault SNMP (Simple Network Management Protocol) plugin
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+Plugin-Section: network
 
 Package: openmediavault-tftp
 Version: 4.0-1
