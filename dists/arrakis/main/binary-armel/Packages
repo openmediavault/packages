@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.0.7-1
+Version: 4.0.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 6436
+Installed-Size: 6435
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.0.7-1_all.deb
-Size: 924080
-SHA256: 64d2ec300f9e81d141782a55b45bfeae73d732c98d758f764bcfe00f0e4c19e5
-SHA1: 33c5c5c37950a9a5a6f60f4e188d647c2392e74c
-MD5sum: f274cddb09bceb073122492e08bfaa03
+Filename: pool/main/o/openmediavault/openmediavault_4.0.8-1_all.deb
+Size: 924178
+SHA256: da07efa57078c3dc764f9aeccf4fb541aef7c3616742fd07c368f028831fa595
+SHA1: 0003d4f0c7abbc6b9535f4853d65186b8185a555
+MD5sum: f3e681580cfc6a804670161d35a4fee8
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -181,6 +181,27 @@ MD5sum: d03dcd9950d0dc80defda65dcebfb2be
 Description: GnuPG archive keys of the OpenMediaVault archive
  The OpenMediaVault project digitally signs its Release files. This package
  contains the archive keys used for that.
+
+Package: openmediavault-ldap
+Version: 4.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 189
+Depends: openmediavault (>= 4.0), libnss-ldap, libpam-ldap
+Conflicts: openmediavault-ad
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-ldap/openmediavault-ldap_4.0-1_all.deb
+Size: 22836
+SHA256: 8164d0cb2c03efb03b5a4bc8134ab2e533ed85efb46ea63df2ac55ec2ea27031
+SHA1: e4ae850c0895993e9bb7d7b34e9decfbd4e6b8d4
+MD5sum: 8f1b0fbdcdd2a83976d4430c5e5c2986
+Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
+ LDAP is an application protocol for accessing and maintaining distributed
+ directory information services over an Internet Protocol network. This
+ plugin adds user authentication support via LDAP.
+Plugin-Section: network
 
 Package: openmediavault-lvm2
 Version: 4.0-1
