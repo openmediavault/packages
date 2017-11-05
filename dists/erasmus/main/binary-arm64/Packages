@@ -109,7 +109,7 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 3.0.90
+Version: 3.0.91
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 6444
@@ -117,11 +117,11 @@ Depends: perl:any, libjs-extjs6 (>= 6.2), php5-fpm, libpam-modules, php5-cgi, ph
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_3.0.90_all.deb
-Size: 926044
-SHA256: 152fa52842af154d3fd5b7b97a648fed21c60902f0afe6229ff14c853cf2f20c
-SHA1: 89d96543f7a350406c96bd68e2c011de1e4db958
-MD5sum: f55a86320a2e0e385520b7d7f0e2b6a7
+Filename: pool/main/o/openmediavault/openmediavault_3.0.91_all.deb
+Size: 926356
+SHA256: 2e9482056c4532afa532c876cb5805ba50aca62d6b59d8c5043295a828b87f6b
+SHA1: d55a9ad0a8ba557b7b0cc1a0b91f7a5c968cad86
+MD5sum: 19ff72086bbf838d40c83eed41095070
 Description: Open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -222,19 +222,19 @@ Description: OpenMediaVault Lightweight Directory Access Protocol (LDAP) plugin
 Plugin-Section: network
 
 Package: openmediavault-lvm2
-Version: 3.2.4
+Version: 3.2.5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 237
+Installed-Size: 239
 Depends: openmediavault (>= 3.0.84), lvm2
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.2.4_all.deb
-Size: 28002
-SHA256: 7a2ddf69248edc630cb6bf07b0d2fba265d0dce70e232224f8ed21917ebd5c7a
-SHA1: 6b53645ca8150c8d7acf5a6e62b5175c7cc4a475
-MD5sum: 04a2a054e7c86e86da074d3fb4a12bd0
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_3.2.5_all.deb
+Size: 28504
+SHA256: 559edb4d9d2032e260183ad84def5447c5dbcbbcf54e3203d360e6a8076e4298
+SHA1: c12b58bdc2772ef5758aa11901903add426742ff
+MD5sum: 63f56a18f9e0dee2fddc486185c55966
 Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
