@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.0.14-1
+Version: 4.0.15-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9571
+Installed-Size: 9690
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.0.14-1_all.deb
-Size: 1503172
-SHA256: c34d4569df4b571cf7141f8555c0c955da48b394e92ca3a8e09d9d347911a32f
-SHA1: de0b2c5efc1a4759de29354a2e66650a9ee3de2b
-MD5sum: 6ca273a16056e11fa6404bc4661818e2
+Filename: pool/main/o/openmediavault/openmediavault_4.0.15-1_all.deb
+Size: 1524308
+SHA256: 69765ac7e46bdaad9c2512364c2cd663933f18e00ba434dfa395a9dcac03871d
+SHA1: 47255d5dd34d80938d7cb14baa81fce169b4e580
+MD5sum: 6e275157cb16b97341fe39836805149a
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -243,7 +243,7 @@ Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
 Plugin-Section: sharing
 
 Package: openmediavault-nut
-Version: 4.0.8-1
+Version: 4.0.9-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 220
@@ -251,11 +251,11 @@ Depends: openmediavault (>= 4.0.12), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_4.0.8-1_all.deb
-Size: 30094
-SHA256: c5808e2a93f480ec4a5f94998958818310706ba300157b75fc5f052caee95fc4
-SHA1: e864c967ae53a4590d0653c0ce62c469fd070fba
-MD5sum: 6321c66d53f6b39b693d921560bcbc0b
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_4.0.9-1_all.deb
+Size: 30156
+SHA256: 6c05f5d539f3588941a10f8230122d63c807a23b25b33862e5ea252ecff6cf99
+SHA1: 182fd9e666409b5c01a317bd5ed030073ede7c9a
+MD5sum: 9f752684355bc1014c7575b69c5dc073
 Description: OpenMediaVault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
