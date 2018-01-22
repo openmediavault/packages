@@ -243,19 +243,19 @@ Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-netatalk
-Version: 3.2.10
+Version: 3.2.11
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 245
+Installed-Size: 246
 Depends: openmediavault (>= 3.0.78), netatalk (>= 3.1.9)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_3.2.10_all.deb
-Size: 35028
-SHA256: ba5c316908f8c9c65268567126c2a9c05e583d82a769aa93724da8fdfb1ca4f7
-SHA1: 0e03abafac187bedd961315b6967da2157439212
-MD5sum: ea56075474c430a8402466f7942f3bff
+Filename: pool/main/o/openmediavault-netatalk/openmediavault-netatalk_3.2.11_all.deb
+Size: 35164
+SHA256: 880542c73a8ba49c978c6360886e633a2c23bbb5a49201ba07e399913df02118
+SHA1: 38ce6e5a6232473491f277ea60e01f87feb3d91d
+MD5sum: 4697c5344550e4a0e825aed0db8ac713
 Description: OpenMediaVault netatalk (AppleTalk Protocol Suite) plugin
  Netatalk is an implementation of the AppleTalk Protocol Suite.
 Plugin-Section: sharing
