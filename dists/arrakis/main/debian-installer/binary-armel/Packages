@@ -1,18 +1,18 @@
 Package: openmediavault-installer
 Source: openmediavault
-Version: 4.0.1
+Version: 4.1.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 18
 Depends: cdebconf-udeb, partman-base, finish-install
 Priority: optional
 Section: debian-installer
-Filename: pool/main/o/openmediavault/openmediavault-installer_4.0.1_all.udeb
-Size: 2464
-SHA256: a02acdb34004c4dc0e56a8c2c114fd406701ba908b7c89117cb3722fb33f9325
-SHA1: ebfcfbccd494d7a4daf0031a7f02c6e9f9786055
-MD5sum: b97bfea66d60483eacfb733816da92ff
-Description: OpenMediaVault scripts, for debian-installer
+Filename: pool/main/o/openmediavault/openmediavault-installer_4.1.0-1_all.udeb
+Size: 2462
+SHA256: 61df18610c46b1bb35981fef082e366fa0fe26bc878971815d473fe94300c583
+SHA1: 289afbfdedb3f0083e986fda866b87607e0cf947
+MD5sum: 0bffd56908c97dfc9d08f2f5bae8f79e
+Description: openmediavault scripts for debian-installer
  This package contains scripts that are for use in debian-installer.
 
 Package: openmediavault-keyring-udeb
