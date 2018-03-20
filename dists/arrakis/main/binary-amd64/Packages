@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.1.0-1
+Version: 4.1.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9739
+Installed-Size: 9740
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.1.0-1_all.deb
-Size: 1528406
-SHA256: 36428d55b5f7a70ab35fb6e032853e5d18a4524f92c93ff2eb8e5b814b7ab12e
-SHA1: 99aa739419e83ab426669554a865cea2353cd44b
-MD5sum: 4cf584a9b21353472ff52d1228ff9b25
+Filename: pool/main/o/openmediavault/openmediavault_4.1.1-1_all.deb
+Size: 1528630
+SHA256: 43179263f229e7a3f16e904bacf046f489fee672fb105c49d3fd5ae8138e94fb
+SHA1: ecf5bf4bf68bfab2fea006a2f4280cdfc1693faf
+MD5sum: 90dfa62caf38b028e89dbf1e3fc32b27
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -299,7 +299,7 @@ Description: OpenMediaVault IP routing table plugin
 Plugin-Section: network
 
 Package: openmediavault-shairport
-Version: 4.0.5-1
+Version: 4.0.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 133
@@ -307,11 +307,11 @@ Depends: openmediavault (>= 4.0.12), shairport-sync (>= 2.8.6), alsa-utils
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_4.0.5-1_all.deb
-Size: 15494
-SHA256: 99f2e42b9c084b466df76f12e4805d4a6a8a09f59d638efb1ce15792945118cb
-SHA1: 2fdaabf2a12d356342bf6b6f348f354ca409cfcf
-MD5sum: 2490301eb02d77bf7dbd6afe667c0227
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_4.0.7-1_all.deb
+Size: 15576
+SHA256: 1d04ab22e575536b0d0fe9a674917d9f2243332c3aaff1798be9eb7c5a931e0c
+SHA1: d41881fff4e74b6210ca2a1d3b72634e7e4863d8
+MD5sum: 34564cf546bc84bf41a22bb795cbeef6
 Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
  Shairport emulates an AirPort Express for the purpose of streaming
  music from iTunes and compatible iPods and iPhones. It implements a
