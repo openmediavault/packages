@@ -5,33 +5,33 @@ Origin: openmediavault.org archive
 Label: openmediavault.org archive
 Suite: arrakis
 Codename: arrakis
-Date: Sat, 26 May 2018 14:56:28 UTC
+Date: Fri, 08 Jun 2018 19:19:37 UTC
 Architectures: i386 amd64 armel armhf arm64
 Components: main partner
 Description: openmediavault Arrakis
 MD5Sum:
- d6a57dbb4998bf8742d8d4bd15846f75 19323 main/binary-i386/Packages
- 2788351bef4442c440e92eed6167d0a2 6464 main/binary-i386/Packages.gz
+ 63854e490ccdfa2e49abb48642eb3061 19327 main/binary-i386/Packages
+ 7d33dfa6cfc9176f6b1310eeec1acbae 6464 main/binary-i386/Packages.gz
  8e29f80e5dd4f60b9aa9ae5727ce4ff9 157 main/binary-i386/Release
  f9cc83c506b9afaa56d1aeb539f0533b 1378 main/debian-installer/binary-i386/Packages
  6d6fd5d6f6ecd045e7bdcc48293a988d 669 main/debian-installer/binary-i386/Packages.gz
- 4d917a8eb1733f738c7e656db5dcee0c 19329 main/binary-amd64/Packages
- fd7b349450840230a317e99fc403a1e4 6463 main/binary-amd64/Packages.gz
+ b1098570ce8f500e00a7f09b9d864c89 19333 main/binary-amd64/Packages
+ 7af4589e68ea60d7566463a2c845b1db 6461 main/binary-amd64/Packages.gz
  1350170bced3e8d3c906e02b9a6c791e 158 main/binary-amd64/Release
  f9cc83c506b9afaa56d1aeb539f0533b 1378 main/debian-installer/binary-amd64/Packages
  6d6fd5d6f6ecd045e7bdcc48293a988d 669 main/debian-installer/binary-amd64/Packages.gz
- a6af34d904c0946cdffb99fa4cd8eaa0 19327 main/binary-armel/Packages
- 25c481afa6c4d0e5a9c76c57b4bdcc3e 6457 main/binary-armel/Packages.gz
+ dcc9951217049cee9fc9cb4b70e325ea 19331 main/binary-armel/Packages
+ 632de74781244cfb5fd24c61f83d53dd 6463 main/binary-armel/Packages.gz
  9b839a0001b9ba00e04323ab4ed3e332 158 main/binary-armel/Release
  f9cc83c506b9afaa56d1aeb539f0533b 1378 main/debian-installer/binary-armel/Packages
  6d6fd5d6f6ecd045e7bdcc48293a988d 669 main/debian-installer/binary-armel/Packages.gz
- 0eb20133e4c1ff604ed7c8f942d78e87 19327 main/binary-armhf/Packages
- d40e388536cff20f2613ca15a867c217 6466 main/binary-armhf/Packages.gz
+ 05a4baffdcf51d68c59390a7a92fda28 19331 main/binary-armhf/Packages
+ d946aa695c7e9599ae81bf888f017fa7 6471 main/binary-armhf/Packages.gz
  5d9367437572c9cc55a8dbace794c73d 158 main/binary-armhf/Release
  f9cc83c506b9afaa56d1aeb539f0533b 1378 main/debian-installer/binary-armhf/Packages
  6d6fd5d6f6ecd045e7bdcc48293a988d 669 main/debian-installer/binary-armhf/Packages.gz
- ed28fd6326aea37cccc9ba717f6119cb 19329 main/binary-arm64/Packages
- e58240d6e6aca21d9d5dfd98a6a98fb4 6461 main/binary-arm64/Packages.gz
+ a4a851a4601b960c22a57621191227ee 19333 main/binary-arm64/Packages
+ 829cdf99d2db858f12416569d28542c0 6461 main/binary-arm64/Packages.gz
  6ae358ca357a4ddc993c41174522f591 158 main/binary-arm64/Release
  f9cc83c506b9afaa56d1aeb539f0533b 1378 main/debian-installer/binary-arm64/Packages
  6d6fd5d6f6ecd045e7bdcc48293a988d 669 main/debian-installer/binary-arm64/Packages.gz
@@ -57,28 +57,28 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 partner/source/Sources.gz
  6638e3a605578b7608418a067b445bb8 162 partner/source/Release
 SHA1:
- 7a96064657c55db80191f56e3db81f90530643aa 19323 main/binary-i386/Packages
- 2f6a829b99da50c73117eab0f02e5207dbcd782c 6464 main/binary-i386/Packages.gz
+ fe6209e96ebdf90d6b7d7c92094b25ff68e5771f 19327 main/binary-i386/Packages
+ 1b7d69af3abe2d420301ceeb5da65da53ef0ab01 6464 main/binary-i386/Packages.gz
  db5091dc2c44fcd5d277554bfd25d1ccbc8046cc 157 main/binary-i386/Release
  597aeb1c4637ab18334ed2ab4f646461c838d6a5 1378 main/debian-installer/binary-i386/Packages
  b0cf8f287ff124c4b9f03f4825ded23a055fc6d8 669 main/debian-installer/binary-i386/Packages.gz
- 654204349c5ec36ea94f127c69d66b2ddce8b535 19329 main/binary-amd64/Packages
- 8dde1b43e61c0da2c13ef11870571589fb650aa1 6463 main/binary-amd64/Packages.gz
+ 470195a6042c7b3e3fb0aef1ed52dd9111863dc8 19333 main/binary-amd64/Packages
+ c6ba7b1e74aac5b98d578a9cb725571e8aa459c1 6461 main/binary-amd64/Packages.gz
  7275aa8d1d1a8971ab77d6d73ed898ae35c142e7 158 main/binary-amd64/Release
  597aeb1c4637ab18334ed2ab4f646461c838d6a5 1378 main/debian-installer/binary-amd64/Packages
  b0cf8f287ff124c4b9f03f4825ded23a055fc6d8 669 main/debian-installer/binary-amd64/Packages.gz
- 73b5f25094d7ae3836a9bdc28452a6baff1a2c5e 19327 main/binary-armel/Packages
- 1314d8cf50f3ca2ba59c8c7183bde6b6a8b50646 6457 main/binary-armel/Packages.gz
+ 1820d0369e909f22bd48070462229483a93dbc3e 19331 main/binary-armel/Packages
+ 22989cfd9d77c3e78af5f319cf47b5628d5aa029 6463 main/binary-armel/Packages.gz
  ca6b83732076c038d01db714788515d17660edc3 158 main/binary-armel/Release
  597aeb1c4637ab18334ed2ab4f646461c838d6a5 1378 main/debian-installer/binary-armel/Packages
  b0cf8f287ff124c4b9f03f4825ded23a055fc6d8 669 main/debian-installer/binary-armel/Packages.gz
- 90423159529730d298bfbfc07810356caac7cef5 19327 main/binary-armhf/Packages
- 3a4e9faece735d218576390da608964ab174fa65 6466 main/binary-armhf/Packages.gz
+ 19dbbb3f9cd43f2aef49e789b92d4e9f37297c94 19331 main/binary-armhf/Packages
+ acec90e590dc997dcef5200cad20b2fb308a1535 6471 main/binary-armhf/Packages.gz
  4d4e7d9af804a06d6c7b412c6cdbd2dfcd4aab45 158 main/binary-armhf/Release
  597aeb1c4637ab18334ed2ab4f646461c838d6a5 1378 main/debian-installer/binary-armhf/Packages
  b0cf8f287ff124c4b9f03f4825ded23a055fc6d8 669 main/debian-installer/binary-armhf/Packages.gz
- ad13a96a5210f1e200c0bfd5e375523794f58f19 19329 main/binary-arm64/Packages
- 2755402a862184c3ad3603ca6c343c9ea72f8285 6461 main/binary-arm64/Packages.gz
+ 3d549b1918d999ec7a91e0fc3958dedbc51fc170 19333 main/binary-arm64/Packages
+ d7ce96ede0134122f645bfd937b7ee05cf4c9f79 6461 main/binary-arm64/Packages.gz
  57680a0f55335121daa786e6190e4333d0fba779 158 main/binary-arm64/Release
  597aeb1c4637ab18334ed2ab4f646461c838d6a5 1378 main/debian-installer/binary-arm64/Packages
  b0cf8f287ff124c4b9f03f4825ded23a055fc6d8 669 main/debian-installer/binary-arm64/Packages.gz
@@ -104,28 +104,28 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 partner/source/Sources.gz
  a623ec2820ce9019635dfe1707742e55fc5e68a7 162 partner/source/Release
 SHA256:
- a84ae74484c158d2aa3d971ada203f932552eded104355cdbdf4b33e3d51d987 19323 main/binary-i386/Packages
- dd18003df66e4d79be578846756757294ff80364a9dde9e05b640af4c7fb715c 6464 main/binary-i386/Packages.gz
+ 397ce593e92525c6914bdc4fa5cc3a914d3c384f91eb18fddf72c1d95a78bf22 19327 main/binary-i386/Packages
+ 760f15ed974f2eefb6508c3e93e0f7ee8880be362489bdedb533179a3264158c 6464 main/binary-i386/Packages.gz
  834804c6da5fa04bbe205a16afe38848512be5de08c58e5144f490208426d3ec 157 main/binary-i386/Release
  cdb20edddbd6a7d48fe54b3c67417284f37c1cfb34242dda5cd21dcf05150703 1378 main/debian-installer/binary-i386/Packages
  1df3d65079df29e2fdc3aa96cd2e53f1b66efa733cb7c1a98b937fb23c89db5a 669 main/debian-installer/binary-i386/Packages.gz
- 1c7c0d16db1761678d9ebbfa5f773aef9d3ee0bf02be34d234ea5ac9f0b64317 19329 main/binary-amd64/Packages
- bac35dc66a3c4aebffc8061d91392825f695a84e1cb8d825c248c15345ef0cc5 6463 main/binary-amd64/Packages.gz
+ 6cdea0aee353656b2fec3b25be10906d4ce330a47219baa79e9fc3ce81a94d3a 19333 main/binary-amd64/Packages
+ b696511774f9e41b74afee08b43296231cf40c0ce575d5dd245123e4757723f8 6461 main/binary-amd64/Packages.gz
  076a2d1155407b77308eeb2c122198165ac6efaecd35030d3b6a8e48e8061083 158 main/binary-amd64/Release
  cdb20edddbd6a7d48fe54b3c67417284f37c1cfb34242dda5cd21dcf05150703 1378 main/debian-installer/binary-amd64/Packages
  1df3d65079df29e2fdc3aa96cd2e53f1b66efa733cb7c1a98b937fb23c89db5a 669 main/debian-installer/binary-amd64/Packages.gz
- 9b0581ee5bdb060c0cebd1b6bce83678ad52e47b485cfe10ad6d3f11c470ba84 19327 main/binary-armel/Packages
- 794857e0ff420a30970023162dc91bd5ef898fae0b602893be860b621caa7474 6457 main/binary-armel/Packages.gz
+ 6644f827fc74d7cb6e0e8ab8906272fa58b82ce4ac95ec524756024c5197fa5d 19331 main/binary-armel/Packages
+ 5645b8e99d7b062186695ac62a5422255ab1e97dd56ba5d64a7bdbbb8b9104fe 6463 main/binary-armel/Packages.gz
  9067322ecba726440171b836528b25ed689a9f7e6153382e012caf47ef0eb57a 158 main/binary-armel/Release
  cdb20edddbd6a7d48fe54b3c67417284f37c1cfb34242dda5cd21dcf05150703 1378 main/debian-installer/binary-armel/Packages
  1df3d65079df29e2fdc3aa96cd2e53f1b66efa733cb7c1a98b937fb23c89db5a 669 main/debian-installer/binary-armel/Packages.gz
- d4d3af9b05fc5c7443185bb3d14eb6c2aec06eaa51477f34051e6b13e44c2c0a 19327 main/binary-armhf/Packages
- fd35dd515ff52ab0788cb040796837095893214e46e70d100bba629274d98893 6466 main/binary-armhf/Packages.gz
+ eee2b74377f118eb774eb2ad60f4e4e49899267d49a4ad17ccf2951a0169deb4 19331 main/binary-armhf/Packages
+ a178a06fe386afa67e5f9cdd3c6ebc5844f6a87f4e5e0a153751579f9e6be38e 6471 main/binary-armhf/Packages.gz
  d4424a22bace30bc04ef54c131d80abbbecbb131b73d6e213d5a21e85b9567e3 158 main/binary-armhf/Release
  cdb20edddbd6a7d48fe54b3c67417284f37c1cfb34242dda5cd21dcf05150703 1378 main/debian-installer/binary-armhf/Packages
  1df3d65079df29e2fdc3aa96cd2e53f1b66efa733cb7c1a98b937fb23c89db5a 669 main/debian-installer/binary-armhf/Packages.gz
- 23bf60b016b998b317879ad278e8594b2144907eb6daa3cb28d7eeb9931a333a 19329 main/binary-arm64/Packages
- 8325b70471a2b0e6533d89a6c8a1ac3f6501f124f60e8d4a4f8ba80eba5a5a78 6461 main/binary-arm64/Packages.gz
+ ea00ee489dc5e4957c4f58e13ae718cf8787745d15bc28738d6840b4bbe521d8 19333 main/binary-arm64/Packages
+ da2d2c500bceeb94973dbc5d4ec471a7ba3ab3676df015b2f03bc6a9253a8804 6461 main/binary-arm64/Packages.gz
  6f1f8ba8f82ab710dc9e871ae5c4dd0b13419cf71a375439c2cdbd770be628a9 158 main/binary-arm64/Release
  cdb20edddbd6a7d48fe54b3c67417284f37c1cfb34242dda5cd21dcf05150703 1378 main/debian-installer/binary-arm64/Packages
  1df3d65079df29e2fdc3aa96cd2e53f1b66efa733cb7c1a98b937fb23c89db5a 669 main/debian-installer/binary-arm64/Packages.gz
@@ -152,19 +152,19 @@ SHA256:
  0b8023703dd56f23c9c1081d11555d0d1152e94689734bf8496c902a5fd0fda7 162 partner/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iF0EARECAB0WIQQPa8wXwmv63CfyIQB+emxZLvNdEwUCWwl1nAAKCRB+emxZLvNd
-E99qAJ9FewIcg+xGqFBT2aPEfvt0y1QDVgCgjnM0io9cMiPhTaab+VJlJ57bwXyJ
-AjMEAQEKAB0WIQTWdQbIeOCKlP1+AJQkhj8McWuYCwUCWwl1nAAKCRAkhj8McWuY
-C32SEADZWdJbuXKpvzMT8x1sT1+6v/uKFoLnqJ/wsmURgXqxDVjxWs2ZFpfxvgpO
-biXJRtMsxxVQ1N2EdYh489nzE5RtxMrP5HdOl2Me+cHHCwz/8SOKz8AI7Sczq++W
-52ei3VModP0XUGlxU66rr9tuBMBvQM7Iag3BsGKqbPnfQ3Hi87UaIY+eob1LZ21g
-ZiarKHjb75/0YOGOLdh/TqpvvKy8jEjAJDKb4ErJX0TcoM5I4NA4cUerWsDsVMKO
-WESCf4AoYwA3ALlifIevByB/Un/gbmXbCtHRvt5tZCBQcAmq1Djg/Pg9YRe1QpAS
-mImCs3Xp2SpKZ8KHmk2jb2G6FqeCikbqwKROPUyIq3V/VIFX9lu3LYGFCc/xGcPN
-STjH3tHF+eSDBtNtfna7AskzFe+HUfFjO5GBev1VC7EC+x9AMdEGRDEJKcyS+i77
-DGNpVikNiQRodzx80kdj3eu4Q6b7qrvpneQKy9pGTemgmvo7BwQwNrQ9gX7Ck0Zl
-tNtHDMee8Xg2eQcGKxU0avxPWPMtijToNhrx008ohLgWvd2vleIkArHr4dO1W2CE
-+ygnp7cvLstvBfMxzYL3X/djYq/sruYKWdYA4lcp9+duka933fqEn+i6I2Zx+ArP
-mmxKD3lRFhCBXT5iztn7DucYriXJhPuJIWJOjhnGCVLoaADYlg==
-=XvTP
+iF0EARECAB0WIQQPa8wXwmv63CfyIQB+emxZLvNdEwUCWxrWyQAKCRB+emxZLvNd
+E2O4AKCYO81F4Gpe4236zNbPK62uNS1iEQCeMC3MOzjuOAO0C5580hYCAbWYNXCJ
+AjMEAQEKAB0WIQTWdQbIeOCKlP1+AJQkhj8McWuYCwUCWxrWyQAKCRAkhj8McWuY
+CyXWEAC0KhoOgnSFPnvSZQ6ukUMYkF4cmBnO5FKyjOFA6falhY1RvUmmst2h/xjh
+Fi+23WKMxhoHOz627Z/v3UwX0OoEKJJsT412AC05gWu0nCe/9LuG03tAuic4El22
+PWijiBQb0U4OTdVJ4jo9U6z91xU0fUwiFLXXtNzLaakJxhO6gWx9Kg1gNf1Oc1Lg
+xfrucMWlmoUZeDW6GxiuEq2TKKEWzdcwq9r272awUAenq1skkxZ5msoLKbgbvQED
+24hEx6ME29LnZgdIk083JbJXpHlfVTDlBSbGWj7mWcIGaGFY/Tic70UIDs/sWa4o
+J4+AfZqwC0fZn7n0v8/ZokjV5fJHdNQ1EgUTX+jBUHy7VYDPkx4CsHxrZbOY3L+H
+EyyAV1ba3HmLglTixML57fQn1XjTbm61NNsPOmZTA0f8wehGo4AwboOUXcdAzSNi
+PKSH0+HsqYjq1OhIZN0ZRIMe1/RAljkNF0hStKxzBqNLm8Zj4ppKfIsWIrP4jAvE
+gevZ48JhWOxdth+cc09qFC++n/COFTakOELzW2+egYhienu/XAPjiJE8b0dDnFNy
+uLL4q5iUxfm4sHmOm4A0fZ5jtn3eHm8KrWeH5ztjEKkF9fkLEwDZWw7eTLw8qhcg
+4scu9F++Cc9kG/AmUb/AxGM5+wqGkzKRs5or3TOcieMJQILX1Q==
+=YdrN
 -----END PGP SIGNATURE-----
