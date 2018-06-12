@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.1.8-1
+Version: 4.1.8.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9969
+Installed-Size: 9965
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.1.8-1_all.deb
-Size: 1570592
-SHA256: ee8b80c862c99f5df1894d84b545ce069a2f6442b929ff7f9de6910c52e98c17
-SHA1: bd5b409ce75986fb8497a698d41e2e761ca037ee
-MD5sum: a7b9eff6667e28c9755713e2f92bcd45
+Filename: pool/main/o/openmediavault/openmediavault_4.1.8.1-1_all.deb
+Size: 1570524
+SHA256: 1b4ff50bbedabd27b1b935d266f3b5a89a598322701d2e7eff7c1b15b9f9d512
+SHA1: db6768765b715428a031f2887de60301d36b0ca7
+MD5sum: b674d688bb0b329411083afa9abf3b12
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
