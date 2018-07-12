@@ -1,0 +1,131 @@
+Package: libjs-extjs6
+Version: 6.2.0.981-2
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 138643
+Homepage: http://www.sencha.com
+Priority: extra
+Section: web
+Filename: pool/main/libj/libjs-extjs6/libjs-extjs6_6.2.0.981-2_all.deb
+Size: 16151868
+SHA256: 16a2695fc05369976803ed45ca57ddbe389e944bff29c6e92e3abdcc7934d45a
+SHA1: 27d292c1a7a7e1f3fe9c7c9fd640dabb01a49dba
+MD5sum: f2d740b5cab8dab5b0aad5d25a11671e
+Description: Ext JS is a cross-browser JavaScript library for building rich internet applications.
+ ExtJS is a JavaScript library for building interactive web applications using
+ techniques such as Ajax, DHTML and DOM scripting.
+
+Package: openmediavault-keyring
+Version: 1.0
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 26
+Depends: gpgv
+Recommends: gnupg
+Homepage: http://www.openmediavault.org
+Priority: important
+Section: misc
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0_all.deb
+Size: 9644
+SHA256: 6d59c359588a3f93474111c914ab03d25e4081153c9881d4a341619e66272720
+SHA1: 7b49a4e5f710b131ceb2520c55843c62ca531dc2
+MD5sum: d03dcd9950d0dc80defda65dcebfb2be
+Description: GnuPG archive keys of the OpenMediaVault archive
+ The OpenMediaVault project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: php-pam
+Version: 1.0.3-1
+Architecture: arm64
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 35
+Depends: phpapi-20151012
+Priority: optional
+Section: web
+Filename: pool/main/p/php-pam/php-pam_1.0.3-1_arm64.deb
+Size: 7400
+SHA256: eb9ec3f49cf849a16405a6f1e01c76a4ca5a40b76115a060759050f82539c94d
+SHA1: 2b7bfc3045d7fcc3ae145305ea5e248b8b2d055b
+MD5sum: af27ba9aca770c6fb7f692e973709a3c
+Description: pam module for PHP 7
+ PAM integration
+ .
+ This extension provides PAM (Pluggable Authentication Modules)
+ integration. PAM is a system of libraries that handle the
+ authentication tasks of applications and services. The library
+ provides a stable API for applications to defer to for authentication
+ tasks.
+
+Package: salt-common
+Source: salt
+Version: 2018.3.2+ds-1
+Architecture: all
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 25640
+Depends: python-apt, python-dateutil, python-jinja2, python-msgpack (>= 0.4), python-pkg-resources, python-requests (>= 1.0.0), python-tornado (>= 4.2.1), python-yaml, python-systemd, python-psutil, python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Recommends: lsb-release, python-croniter
+Breaks: python-mako (<< 0.7.0)
+Homepage: http://saltstack.org/
+Priority: extra
+Section: admin
+Filename: pool/main/s/salt/salt-common_2018.3.2+ds-1_all.deb
+Size: 5572178
+SHA256: f581d12dee16e6bb5585a96ce962f4cb431817a53ca54263bfc295f8628ed37a
+SHA1: 87fffcf8e08fe704841240af5575fc5b02a9c2e6
+MD5sum: 4416979ed07d58f2dab1492aaf672896
+Description: shared libraries that salt requires for all packages
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides shared libraries that
+ salt-master, salt-minion, and salt-syndic require to function.
+
+Package: salt-minion
+Source: salt
+Version: 2018.3.2+ds-1
+Architecture: all
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 126
+Depends: bsdmainutils, dctrl-tools, python-crypto (>= 2.6.1), python-zmq (>= 14.4.0), salt-common (= 2018.3.2+ds-1), init-system-helpers (>= 1.18~), python:any (>= 2.6~)
+Recommends: debconf-utils, dmidecode, sfdisk, e2fprogs
+Suggests: python-augeas
+Homepage: http://saltstack.org/
+Priority: extra
+Section: admin
+Filename: pool/main/s/salt/salt-minion_2018.3.2+ds-1_all.deb
+Size: 27682
+SHA256: 27e3b08fd941b8e299721bfe7978aa28e985b6d761e84f29f74f20eae27747de
+SHA1: 55e948c5273f0e952fa74cdbcd60c81e8dc0f69c
+MD5sum: e8b49317a6de3b42afe1e94a00ef1756
+Description: client package for salt, the distributed remote execution system
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides the worker / agent for salt.
+
