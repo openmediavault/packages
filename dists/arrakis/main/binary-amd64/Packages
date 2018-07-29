@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.1.8.2-1
+Version: 4.1.9
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9965
+Installed-Size: 10373
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.1.8.2-1_all.deb
-Size: 1570732
-SHA256: 89b4c0f79068e20ee38c8f63a6c89b0d71469cc91f438686ab874b9a2cf022bf
-SHA1: 7115161c7a785e07dfe270120bcc74f6d707a480
-MD5sum: 7f77182a0835566c9815836e4e627458
+Filename: pool/main/o/openmediavault/openmediavault_4.1.9_all.deb
+Size: 1647332
+SHA256: 02b3b4362942b10b22fd79537879d16e4b034cd9e2b9cdb5d1b6ec08f2bed137
+SHA1: 3db07802ba1e8d3c99c8416757fb76494a9f394b
+MD5sum: 69abe98deb8ab85f7252bb899239a3e0
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
