@@ -76,21 +76,21 @@ Description: pam module for PHP 7
 
 Package: salt-common
 Source: salt
-Version: 2018.3.2+ds-1
+Version: 2018.3.3+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 25640
-Depends: python-apt, python-dateutil, python-jinja2, python-msgpack (>= 0.4), python-pkg-resources, python-requests (>= 1.0.0), python-tornado (>= 4.2.1), python-yaml, python-systemd, python-psutil, python:any (<< 2.8), python:any (>= 2.7.5-5~)
-Recommends: lsb-release, python-croniter
-Breaks: python-mako (<< 0.7.0)
+Installed-Size: 26054
+Depends: python3-apt, python3-dateutil, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-tornado (>= 4.2.1), python3-tornado (<< 5), python3-yaml, python3-systemd, python3-psutil, python3:any (>= 3.3.2-2~)
+Recommends: lsb-release, python3-croniter
+Breaks: python3-mako (<< 0.7.0)
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-common_2018.3.2+ds-1_all.deb
-Size: 5572178
-SHA256: f581d12dee16e6bb5585a96ce962f4cb431817a53ca54263bfc295f8628ed37a
-SHA1: 87fffcf8e08fe704841240af5575fc5b02a9c2e6
-MD5sum: 4416979ed07d58f2dab1492aaf672896
+Filename: pool/main/s/salt/salt-common_2018.3.3+ds-1_all.deb
+Size: 5902816
+SHA256: 87484ab09d96a67e75f54f210db5c448fafd5816cb1669e1a67f29c1784dd3d4
+SHA1: 1c639190bfd3c48a595237163e34554ed4dbe5e0
+MD5sum: ab999ff46fc46cbce556ced325ae0294
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -113,21 +113,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 2018.3.2+ds-1
+Version: 2018.3.3+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 126
-Depends: bsdmainutils, dctrl-tools, python-crypto (>= 2.6.1), python-zmq (>= 14.4.0), salt-common (= 2018.3.2+ds-1), init-system-helpers (>= 1.18~), python:any (>= 2.6~)
-Recommends: debconf-utils, dmidecode, sfdisk, e2fprogs
-Suggests: python-augeas
+Installed-Size: 127
+Depends: bsdmainutils, dctrl-tools, python3-crypto (>= 2.6.1), python3-zmq (>= 14.4.0), salt-common (= 2018.3.3+ds-1), init-system-helpers (>= 1.18~), python3:any
+Recommends: debconf-utils, dmidecode
+Suggests: python3-augeas
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-minion_2018.3.2+ds-1_all.deb
-Size: 27682
-SHA256: 27e3b08fd941b8e299721bfe7978aa28e985b6d761e84f29f74f20eae27747de
-SHA1: 55e948c5273f0e952fa74cdbcd60c81e8dc0f69c
-MD5sum: e8b49317a6de3b42afe1e94a00ef1756
+Filename: pool/main/s/salt/salt-minion_2018.3.3+ds-1_all.deb
+Size: 27686
+SHA256: 3d6c7115d24bfd009377ff9ca2f255844fef0d415afbbb94ff933582851572af
+SHA1: 55ab6ca2aef3449b111b9acae31970d31a744646
+MD5sum: 012c36ed79713ae6fe60096959bf1e0d
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
