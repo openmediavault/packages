@@ -51,6 +51,24 @@ Description: OpenMediaVault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
 
+Package: openmediavault-diskstats
+Version: 5.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 94
+Depends: openmediavault (>= 5.0)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_5.0-1_all.deb
+Size: 8412
+SHA256: 0990c469436be084e5b657a838726e0a020e7d0c876dc797f33614c7b155020a
+SHA1: 7705cf3dc5e92becf11f2c334864cd135a30fba7
+MD5sum: cee0274dbae33d45a030b685ed21a41e
+Description: OpenMediaVault disk monitoring plugin
+ The disk monitoring plugin collects performance statistics of hard-disks.
+Plugin-Section: monitoring
+
 Package: openmediavault-keyring
 Version: 1.0
 Architecture: all
