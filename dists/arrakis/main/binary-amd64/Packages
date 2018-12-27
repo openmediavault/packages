@@ -359,19 +359,19 @@ Description: OpenMediaVault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 4.0.7-1
+Version: 4.0.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 265
+Installed-Size: 261
 Depends: rsync, openmediavault (>= 4.0.12)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_4.0.7-1_all.deb
-Size: 39900
-SHA256: 62899c618576db8908e567d51ea62d05ffe6f243a0c7fe2fc81e2c8bbf27977e
-SHA1: b9b0ec5b9a1fa4d60a9a3c775c0d7c8d886f9d41
-MD5sum: a1a187634bae3efcc61039b86057a2a5
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_4.0.8-1_all.deb
+Size: 39700
+SHA256: 72c93ac4048cc36a5740ba3508e3a21903e0971b6372e11a4438fbd6ebd813fb
+SHA1: e76bf48098215889b949ccda010ab31735563554
+MD5sum: 56a46a9d7803fe7b73b6a46e812a4249
 Description: OpenMediaVault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.

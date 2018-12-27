@@ -19,16 +19,16 @@ Package: openmediavault
 Version: 5.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 12165
+Installed-Size: 12171
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, apt-transport-https, python3-lxml, salt-minion (>= 2018.3.3), php-yaml, python-click, python3-click, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
 Filename: pool/main/o/openmediavault/openmediavault_5.0-1_all.deb
-Size: 1920876
-SHA256: bbfae6cb706a8d8731d551115e44ce8c4ee29b69363927d9fb655c748e539cd7
-SHA1: db3711edfc1a863a945020f4f7f8b8fd86ae2386
-MD5sum: 0c0a31d57690a5db74323f9de523da58
+Size: 1921592
+SHA256: 2181d4daa326907c08a2bae1104ac3ad8bd7e445a0928aa9683b6cbca4c5d9a2
+SHA1: fb96b86772db9c54f751fd463f5a495f3bec8aad
+MD5sum: 0d13afb265f3dd247daf97e2915ad962
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -61,13 +61,32 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
 Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_5.0-1_all.deb
-Size: 8412
-SHA256: 0990c469436be084e5b657a838726e0a020e7d0c876dc797f33614c7b155020a
-SHA1: 7705cf3dc5e92becf11f2c334864cd135a30fba7
-MD5sum: cee0274dbae33d45a030b685ed21a41e
+Size: 8380
+SHA256: 9040d09329ed1f2c7997f45bc816787928ef95ca76680a6fc272f94198419cad
+SHA1: bf56d563c69bb8ea06780c3050881d26cdd1a477
+MD5sum: e626b4e9c3e82873fbdbfecf6092dd18
 Description: OpenMediaVault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
 Plugin-Section: monitoring
+
+Package: openmediavault-forkeddaapd
+Version: 5.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 152
+Depends: openmediavault (>= 5.0), forked-daapd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_5.0-1_all.deb
+Size: 20324
+SHA256: 4e54881e448a16a92efa5d2639a5d6b35e7fb96c99cd71c063d287d5b568ac12
+SHA1: 1fda6b0397847f75cd8cc667097be307c87e3f7e
+MD5sum: 7553ef8b48b6242593a20f9c1b644d84
+Description: OpenMediaVault forked-daapd (DAAP server) plugin
+ forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
+ media server.
+Plugin-Section: multimedia
 
 Package: openmediavault-keyring
 Version: 1.0
@@ -87,6 +106,67 @@ MD5sum: d03dcd9950d0dc80defda65dcebfb2be
 Description: GnuPG archive keys of the OpenMediaVault archive
  The OpenMediaVault project digitally signs its Release files. This package
  contains the archive keys used for that.
+
+Package: openmediavault-lvm2
+Version: 5.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 238
+Depends: openmediavault (>= 5.0), lvm2
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_5.0-1_all.deb
+Size: 27744
+SHA256: fefb06b7497454d85b18c24bcbff4898fff4106781c3dd844458ead3c1fc53d1
+SHA1: 10aa062e10ee07c51b7e5c7c583ae9de23d66257
+MD5sum: 7f5f88ec6e3ce3e33b78f022f3531ada
+Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
+ LVM supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of volume
+ groups can be allocated to logical volumes, which are accessed as regular
+ block devices.
+Plugin-Section: filesystems
+
+Package: openmediavault-shairport
+Version: 5.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 141
+Depends: openmediavault (>= 5.0), shairport-sync (>= 2.8.6), alsa-utils
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_5.0-1_all.deb
+Size: 15664
+SHA256: 7800febd469e0aa8aa0eb7d5666a4afc5dce7c3b9834611815f58793d17578a8
+SHA1: 182838cfbd23b378b095893a445381cf846ad8b7
+MD5sum: f03a61181a24e287f82bc38f531d169d
+Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
+ Shairport emulates an AirPort Express for the purpose of streaming
+ music from iTunes and compatible iPods and iPhones. It implements a
+ server for the Apple RAOP protocol. ShairPort does not support AirPlay
+ v2 (video and photo streaming).
+Plugin-Section: multimedia
+
+Package: openmediavault-usbbackup
+Version: 5.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 274
+Depends: rsync, openmediavault (>= 5.0)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0-1_all.deb
+Size: 40580
+SHA256: adfa300801fdb68e254c304f0c712ea208a1d2bf15045035ffb5fa97b6677479
+SHA1: efa016c4594956981d0941accd3f191edca44897
+MD5sum: 56f2845171f24050036e4df5fe3c66df
+Description: OpenMediaVault USB/eSATA backup plugin
+ Automatically synchronise a shared folder to an USB/eSATA device and vice
+ verse when it is plugged in.
+Plugin-Section: backup
 
 Package: php-pam
 Version: 1.0.3-1
