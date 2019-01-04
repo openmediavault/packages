@@ -109,19 +109,19 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.1.16-2
+Version: 4.1.17-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 11928
+Installed-Size: 11931
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.1.16-2_all.deb
-Size: 1908024
-SHA256: 575950d458f74c22f0e06cf894494f4445626fe7dd4af625da97ef72c581170f
-SHA1: 2a6043652447a8748d8fa3b704728c1a2d3b4b7e
-MD5sum: e645a8bd9dc3fc1cb4773172f880f830
+Filename: pool/main/o/openmediavault/openmediavault_4.1.17-1_all.deb
+Size: 1908312
+SHA256: 189610a6cd52d3ab7d4e8fa4bbbcea40ab8e5ee3685dbc558d6cfd58cb27f8d2
+SHA1: 1f1db1472638646aa0239c3912d504b850a087f2
+MD5sum: 88851ca68983eb2c7ecc87d15c232b67
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -340,19 +340,19 @@ Description: OpenMediaVault SNMP (Simple Network Management Protocol) plugin
 Plugin-Section: network
 
 Package: openmediavault-tftp
-Version: 4.0.4-1
+Version: 4.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 150
+Installed-Size: 152
 Depends: openmediavault (>= 4.0.12), tftpd-hpa
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-tftp/openmediavault-tftp_4.0.4-1_all.deb
-Size: 17852
-SHA256: e4398d366510c7a9af7fc856165be992229f0fa6c3b5fca2227df3a6f97fdea2
-SHA1: 8d8136301733b7734d3af53c2d83e406a6947853
-MD5sum: 7e6b0b3b76c7a5bd0154f1dd6f604fd6
+Filename: pool/main/o/openmediavault-tftp/openmediavault-tftp_4.0.6-1_all.deb
+Size: 18020
+SHA256: 4965d59972962a7775552b0a3b14482b0fd2d88cd0e31355bcfeac396d298e86
+SHA1: 6dc4007b4d3b441726d0343955070a7047738f29
+MD5sum: 3da4bc9ccb806a227511895ed11e5c3d
 Description: OpenMediaVault TFTP-Server plugin
  A TFTP server is mainly required for booting operating systems or
  configurations over the network.
@@ -376,24 +376,6 @@ Description: OpenMediaVault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
 Plugin-Section: backup
-
-Package: php-json-schema
-Version: 0.2.0
-Architecture: all
-Maintainer: Volker Theile <votdev@gmx.de>
-Installed-Size: 60
-Depends: php5-cgi | php5-cli
-Homepage: http://code.google.com/p/json-schema-php
-Priority: optional
-Section: php
-Filename: pool/main/p/php-json-schema/php-json-schema_0.2.0_all.deb
-Size: 4942
-SHA256: 8088dce581867277361c25a17da3581cb5b7b1429679d65d8648df7829b11ffa
-SHA1: 6de8ff79c5784b15f9a52bd5dfc5b0b34493e994
-MD5sum: 46b2994fccb49f9963cbb167305ee3d6
-Description: PHP implementation of JSON schema
- Validates a JSON string against a schema. The validation works as defined by
- the schema proposal (see http://www.json-schema.org).
 
 Package: php-pam
 Version: 1.0.3-1
