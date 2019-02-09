@@ -19,16 +19,16 @@ Package: openmediavault
 Version: 5.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 12216
+Installed-Size: 12225
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, apt-transport-https, python3-lxml, salt-minion (>= 2018.3.3), php-yaml, python-click, python3-click, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
 Filename: pool/main/o/openmediavault/openmediavault_5.0-1_all.deb
-Size: 1929356
-SHA256: d94b48a1d9eddfba903c29a20dd522ba153fed3899fcfd24c7b1dbcca26ecc37
-SHA1: 68a20afa6f7e50d6833326a5fabb18c41cdbbbce
-MD5sum: 1642d079359843a69ddb9cad89666b32
+Size: 1930836
+SHA256: 1da15bc1075ee328b3b3daa2a3f74b43c9aa96c882bb13decdb738c0dda403a3
+SHA1: 4aee1fec6bff64cce305421c24ad0220caccc5a7
+MD5sum: 968857b291c5499f907e474c2e242c28
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
