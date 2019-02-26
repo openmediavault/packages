@@ -228,18 +228,18 @@ Description: OpenMediaVault USB/eSATA backup plugin
 Plugin-Section: backup
 
 Package: php-pam
-Version: 1.0.3-1
+Version: 1.0.3-2
 Architecture: armhf
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 34
-Depends: phpapi-20151012
+Depends: phpapi-20180731
 Priority: optional
 Section: web
-Filename: pool/main/p/php-pam/php-pam_1.0.3-1_armhf.deb
-Size: 7292
-SHA256: fb0eeafb55af43fc35ef52a780ff40c99ffd88e9f1fa59d382c047c922c7e493
-SHA1: ad399204d153c2ff7a7286e729e291e3097838d5
-MD5sum: 7d63ae092c35a53e74028a0266e480d7
+Filename: pool/main/p/php-pam/php-pam_1.0.3-2_armhf.deb
+Size: 7400
+SHA256: b21d9fde26b059060199655a671d5f47f41a7fb4d9655c32a1bef646dc5e6e1e
+SHA1: 764870ff2e531f3234f26d222f6bbc5204866168
+MD5sum: fdaff4f21bc0d98cf83e065e59fb786f
 Description: pam module for PHP 7
  PAM integration
  .
