@@ -322,3 +322,23 @@ Description: client package for salt, the distributed remote execution system
  .
  This particular package provides the worker / agent for salt.
 
+Package: wsdd
+Version: 0.3-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 43
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.3-1_all.deb
+Size: 9688
+SHA256: e115b3cd06fdbe13aecc706493d55b438f56aa91e642d5823ffa5c1d3f07a575
+SHA1: 6c766da3a8fdcfed65204a4c2481bd0cf5e567cb
+MD5sum: d39ca7a897c02491464c9883087e2832
+Description: Web Services on Devices (WSD) daemon
+ Web Services on Devices (WSD) is a Microsoft API to simplify programming
+ connections to web service enabled devices, such as Printers, Scanners
+ and File Shares.
+ .
+ This daemon advertises and responds to probe requests from Windows
+ clients looking for File Shares.
+
