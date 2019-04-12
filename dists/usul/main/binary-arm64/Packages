@@ -19,16 +19,16 @@ Package: openmediavault
 Version: 5.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 12228
-Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, apt-transport-https, python3-lxml, salt-minion (>= 2018.3.3), php-yaml, python-click, python3-click, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 12229
+Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, apt-transport-https, python3-lxml, salt-minion, php-yaml, python-click, python3-click, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
 Filename: pool/main/o/openmediavault/openmediavault_5.0-1_all.deb
-Size: 1932876
-SHA256: 8d17adf6cd888fe3a98b804dcf9910fd573eb283b9d751880eb28c631faf5e75
-SHA1: df381b9d9a6ded9656a0a1f0f6f50cda646b400d
-MD5sum: 7963c2f98c6ca4f050fa9d50028920b3
+Size: 1932836
+SHA256: 5e67e8a6c539fff72bce74e5058512a3326ab6eb4134feb9bec5f7fdd4145cb8
+SHA1: d052a2f1a8335b30c8cd7d75428ed568ac9211d8
+MD5sum: a6da70ef1826eec72aa359bd0d1d729c
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -285,42 +285,6 @@ Description: shared libraries that salt requires for all packages
  .
  This particular package provides shared libraries that
  salt-master, salt-minion, and salt-syndic require to function.
-
-Package: salt-minion
-Source: salt
-Version: 2018.3.3+ds-1
-Architecture: all
-Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 127
-Depends: bsdmainutils, dctrl-tools, python3-crypto (>= 2.6.1), python3-zmq (>= 14.4.0), salt-common (= 2018.3.3+ds-1), init-system-helpers (>= 1.18~), python3:any
-Recommends: debconf-utils, dmidecode
-Suggests: python3-augeas
-Homepage: http://saltstack.org/
-Priority: extra
-Section: admin
-Filename: pool/main/s/salt/salt-minion_2018.3.3+ds-1_all.deb
-Size: 27686
-SHA256: 3d6c7115d24bfd009377ff9ca2f255844fef0d415afbbb94ff933582851572af
-SHA1: 55ab6ca2aef3449b111b9acae31970d31a744646
-MD5sum: 012c36ed79713ae6fe60096959bf1e0d
-Description: client package for salt, the distributed remote execution system
- salt is a powerful remote execution manager that can be used to
- administer servers in a fast and efficient way.
- .
- It allows commands to be executed across large groups of
- servers. This means systems can be easily managed, but data can
- also be easily gathered.  Quick introspection into running
- systems becomes a reality.
- .
- Remote execution is usually used to set up a certain state on a
- remote system. Salt addresses this problem as well, the salt
- state system uses salt state files to define the state a server
- needs to be in.
- .
- Between the remote execution system, and state management Salt
- addresses the backbone of cloud and data center management.
- .
- This particular package provides the worker / agent for salt.
 
 Package: wsdd
 Version: 0.3-2
