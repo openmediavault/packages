@@ -109,7 +109,7 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.1.21-1
+Version: 4.1.22-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 11970
@@ -117,11 +117,11 @@ Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.1.21-1_all.deb
-Size: 1916264
-SHA256: 69055964983868b8fd00dfd1220c427e114bcf7866b610a2ae3cb98d436673a1
-SHA1: 0860f6a4b35dadd479eab92110a332a475db9c56
-MD5sum: fffa41776003e60bbac669df0554f03f
+Filename: pool/main/o/openmediavault/openmediavault_4.1.22-1_all.deb
+Size: 1915972
+SHA256: 59a46ed558fa00c52529a5adc2cf081421a9062ea8edfa0ea145f5c8321f8791
+SHA1: d3cf2472d1ae1e6af4ed2a5901c11726cbf69dad
+MD5sum: 1717fd02edc87e0555fe771ab04849a0
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -439,18 +439,18 @@ Description: An AirPlay-compatible audio receiver
  This program does not support AirPlay video or photo streaming.
 
 Package: wsdd
-Version: 0.3-2
+Version: 0.3-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 47
+Installed-Size: 46
 Depends: samba-common-bin
 Priority: optional
 Section: net
-Filename: pool/main/w/wsdd/wsdd_0.3-2_all.deb
-Size: 10000
-SHA256: 9a607436a92e89635219b9bdd51f93cd2b42ed2b5d1b117a28774f40b1522868
-SHA1: a29491e56a586fb8db15a1bda3e75f4cdafd3834
-MD5sum: 832bed66bb5c3010f7129fb61ffae1e4
+Filename: pool/main/w/wsdd/wsdd_0.3-3_all.deb
+Size: 9892
+SHA256: 1de09530aae37ce0054b9f63de08252028f7818fc8cc634085d22a67c9a23350
+SHA1: 7f3fe1b4ba6621473459a55e531463364fad6571
+MD5sum: 90e15b40a0695debd254af0cec959a3e
 Description: Web Services on Devices (WSD) daemon
  Web Services on Devices (WSD) is a Microsoft API to simplify programming
  connections to web service enabled devices, such as Printers, Scanners

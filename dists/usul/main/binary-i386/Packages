@@ -287,18 +287,18 @@ Description: shared libraries that salt requires for all packages
  salt-master, salt-minion, and salt-syndic require to function.
 
 Package: wsdd
-Version: 0.3-2
+Version: 0.3-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 47
+Installed-Size: 46
 Depends: samba-common-bin
 Priority: optional
 Section: net
-Filename: pool/main/w/wsdd/wsdd_0.3-2_all.deb
-Size: 10000
-SHA256: 9a607436a92e89635219b9bdd51f93cd2b42ed2b5d1b117a28774f40b1522868
-SHA1: a29491e56a586fb8db15a1bda3e75f4cdafd3834
-MD5sum: 832bed66bb5c3010f7129fb61ffae1e4
+Filename: pool/main/w/wsdd/wsdd_0.3-3_all.deb
+Size: 9892
+SHA256: 1de09530aae37ce0054b9f63de08252028f7818fc8cc634085d22a67c9a23350
+SHA1: 7f3fe1b4ba6621473459a55e531463364fad6571
+MD5sum: 90e15b40a0695debd254af0cec959a3e
 Description: Web Services on Devices (WSD) daemon
  Web Services on Devices (WSD) is a Microsoft API to simplify programming
  connections to web service enabled devices, such as Printers, Scanners
