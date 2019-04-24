@@ -43,10 +43,10 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
 Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0-1_all.deb
-Size: 44912
-SHA256: 408697d45b1c7879996e5de978eb7f8a5729d23a5a98c4e04369b77922590373
-SHA1: 956838679341f0762df71fdc78ce124caaa77fb8
-MD5sum: af400140cd6a0e0fd413d2a1c4abc0e3
+Size: 44816
+SHA256: ac9fe8f57264cc723ba1e93948da9b5f4ca305ee9523276958a1461fb5c42628
+SHA1: 5dc368f6a536df64b41994821eff3c1749773676
+MD5sum: 980addfd4b92ab821494b845a648d0ba
 Description: OpenMediaVault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -62,9 +62,9 @@ Priority: optional
 Section: net
 Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_5.0-1_all.deb
 Size: 8380
-SHA256: 9040d09329ed1f2c7997f45bc816787928ef95ca76680a6fc272f94198419cad
-SHA1: bf56d563c69bb8ea06780c3050881d26cdd1a477
-MD5sum: e626b4e9c3e82873fbdbfecf6092dd18
+SHA256: 83da7c83002ed7ec677022a247dbbc25df74f2d8c77746c484c51ef31804fef1
+SHA1: b9f9c0294b5aa908367749b59bf740339f33c8c9
+MD5sum: 851090f1c9d530dce004e1156a315eac
 Description: OpenMediaVault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
 Plugin-Section: monitoring
@@ -79,10 +79,10 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
 Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_5.0-1_all.deb
-Size: 20324
-SHA256: 4e54881e448a16a92efa5d2639a5d6b35e7fb96c99cd71c063d287d5b568ac12
-SHA1: 1fda6b0397847f75cd8cc667097be307c87e3f7e
-MD5sum: 7553ef8b48b6242593a20f9c1b644d84
+Size: 20272
+SHA256: 5fdb68533af2864a51c2277b87ef5a971f2bdfb01a53a83fc345d4ad6dfbcc0d
+SHA1: cbda41dda9796e759e053e1e6ea9455fbc09e302
+MD5sum: 23e6bad1ac870986e521b79d4e51fdd8
 Description: OpenMediaVault forked-daapd (DAAP server) plugin
  forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
  media server.
@@ -117,10 +117,10 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
 Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_5.0-1_all.deb
-Size: 27744
-SHA256: fefb06b7497454d85b18c24bcbff4898fff4106781c3dd844458ead3c1fc53d1
-SHA1: 10aa062e10ee07c51b7e5c7c583ae9de23d66257
-MD5sum: 7f5f88ec6e3ce3e33b78f022f3531ada
+Size: 27680
+SHA256: 99d0af426a7062162335acc61932425d29df0ef8479266256d352629c55a9560
+SHA1: be683ef24e677ee01170a82a445e3dfe2691dce9
+MD5sum: cc1b8080c0f79013e61da80cd6fd4eb5
 Description: OpenMediaVault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
@@ -138,10 +138,10 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
 Filename: pool/main/o/openmediavault-nut/openmediavault-nut_5.0-1_all.deb
-Size: 30848
-SHA256: 81ad7e0baed5e1be1d418dea71cc81d5cb9916007cb37551356127828bd0a705
-SHA1: 8ccded712affab5287ee1cc4d4b7e365db51ce85
-MD5sum: 51810c8e97d376da3feabfb14b28ce97
+Size: 30784
+SHA256: 8b414d6d8606d05b4aeac23211c1660131882258d99900ee64799ef6ee2d1cbf
+SHA1: baf07b0d3928949f52fa9c9ba3c64ceee5576ecb
+MD5sum: 3ea8a4d97dbf74c5d26191f3f2941a3e
 Description: OpenMediaVault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -158,10 +158,10 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
 Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_5.0-1_all.deb
-Size: 15664
-SHA256: 7800febd469e0aa8aa0eb7d5666a4afc5dce7c3b9834611815f58793d17578a8
-SHA1: 182838cfbd23b378b095893a445381cf846ad8b7
-MD5sum: f03a61181a24e287f82bc38f531d169d
+Size: 15620
+SHA256: 0a08d867bb450938a889b95e61b3d3a9f460e21b1ccd50e54fc2a49ca5274bcb
+SHA1: d748aae11ccbb644b8abccd57fa3add79e410477
+MD5sum: eb447e0e318bf8e2f81907df6cd3ce75
 Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
  Shairport emulates an AirPort Express for the purpose of streaming
  music from iTunes and compatible iPods and iPhones. It implements a
@@ -179,10 +179,10 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
 Filename: pool/main/o/openmediavault-snmp/openmediavault-snmp_5.0-1_all.deb
-Size: 15724
-SHA256: d349ea4ff2e9af0cc06a3098807365eb8f6306d508064a2332c7624536add4b9
-SHA1: 343db724d8482f7422f2941be0d56cf73c81ee5a
-MD5sum: ccc6dcc5a845446b0a613848b0658982
+Size: 15696
+SHA256: 0ab939042b27fe22fe3eb7c6a086e97b9a1f2027a296ad939a9a13872c944c48
+SHA1: da180cfab84c73c9f5e8bb731ad215949230def5
+MD5sum: a6a25b6497e85af0dc78a2caad6efddc
 Description: OpenMediaVault SNMP (Simple Network Management Protocol) plugin
  The Simple Network Management Protocol (SNMP) provides a framework
  for the exchange of management information between agents (servers)
@@ -199,10 +199,10 @@ Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
 Filename: pool/main/o/openmediavault-tftp/openmediavault-tftp_5.0-1_all.deb
-Size: 18040
-SHA256: 008b2708a238f2bd6b61ae2c65760161ae14dea54b25ea2d05ad1fb47ca45d0a
-SHA1: b3a51d0680438fab62ee44b90e0274cc499266f2
-MD5sum: d76f95c67caae10da886bf3edcff65b8
+Size: 17816
+SHA256: d73b3051814a238d914e536f02a4f7ee93bbc3ae46a3db962f43c87fdf02ab14
+SHA1: 61be498c7a125617f470a8bc04c9f9ce102f3d32
+MD5sum: 77b1a26ef7264b9a23fc248da4b22b6d
 Description: OpenMediaVault TFTP-Server plugin
  A TFTP server is mainly required for booting operating systems or
  configurations over the network.
@@ -219,9 +219,9 @@ Priority: optional
 Section: net
 Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0-1_all.deb
 Size: 40580
-SHA256: adfa300801fdb68e254c304f0c712ea208a1d2bf15045035ffb5fa97b6677479
-SHA1: efa016c4594956981d0941accd3f191edca44897
-MD5sum: 56f2845171f24050036e4df5fe3c66df
+SHA256: e25918bf6ecc4cae779018190357be731b4158bd2ceb7e0c4b155a07e7354899
+SHA1: cca5c5119a4286ef5189be674550d87a4b165021
+MD5sum: 07758cdbbb9119f2e71e84bc54bb2fae
 Description: OpenMediaVault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
