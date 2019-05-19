@@ -416,28 +416,6 @@ Description: PHP micro framework to write REST APIs.
  Slim is a PHP micro framework that helps you quickly write simple yet
  powerful web applications and APIs.
 
-Package: shairport-sync
-Version: 2.8.4-1
-Architecture: armel
-Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 175
-Depends: libasound2 (>= 1.0.17), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.4), libconfig9, libdaemon0 (>= 0.14), libpopt0 (>= 1.14), libssl1.0.0 (>= 1.0.0), avahi-daemon
-Homepage: https://github.com/mikebrady/shairport-sync
-Priority: optional
-Section: sound
-Filename: pool/main/s/shairport-sync/shairport-sync_2.8.4-1_armel.deb
-Size: 57932
-SHA256: b20e920ebe91638e17fe3c3d2f97b9b107b10c73008402a21a9afa266de09da1
-SHA1: c730831037f5fdfa5d7aeb23a2bacf18ab4d273f
-MD5sum: b01cdbf10568a050c4ed1a2e4d6a426b
-Description: An AirPlay-compatible audio receiver
- This program emulates an AirPort Express for the purpose of streaming
- audio from iTunes, iPods, iPhones, iPads and AppleTVs. Audio played by
- a Shairport Sync-powered device stays synchronised with the source and
- hence with similar devices playing the same source. Thus, for example,
- synchronised multi-room audio is possible without difficulty.
- This program does not support AirPlay video or photo streaming.
-
 Package: wsdd
 Version: 0.3-3
 Architecture: all
