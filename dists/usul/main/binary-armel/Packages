@@ -15,20 +15,67 @@ Description: Ext JS is a cross-browser JavaScript library for building rich inte
  ExtJS is a JavaScript library for building interactive web applications using
  techniques such as Ajax, DHTML and DOM scripting.
 
+Package: monit
+Version: 1:5.26.0-1
+Architecture: armel
+Maintainer: Sergey B Kirpichev <skirpichev@gmail.com>
+Installed-Size: 892
+Depends: libc6 (>= 2.28), libpam0g (>= 0.99.7.1), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.0), lsb-base (>= 3.2-13)
+Suggests: default-mta | postfix | mail-transport-agent, sysvinit-core
+Homepage: https://mmonit.com/monit/
+Priority: optional
+Section: admin
+Filename: pool/main/m/monit/monit_5.26.0-1_armel.deb
+Size: 309292
+SHA256: 33933384ab6c4376f5ee5b525ebcad1537d8cfdc2097211d2f1cca8067ec8003
+SHA1: 557e558935533a14c5a4e98587fcee5c3e1fb5c0
+MD5sum: 4aaa618de4dfd77a8f08a5dad105b8b7
+Description: utility for monitoring and managing daemons or similar programs
+ monit is a utility for monitoring and managing daemons or similar
+ programs running on a Unix system. It will start specified programs
+ if they are not running and restart programs not responding.
+ .
+ monit supports:
+  * Daemon mode - poll programs at a specified interval
+  * Monitoring modes - active, passive or manual
+  * Start, stop and restart of programs
+  * Group and manage groups of programs
+  * Process dependency definition
+  * Logging to syslog or own logfile
+  * Configuration - comprehensive controlfile
+  * Runtime and TCP/IP port checking (tcp and udp)
+  * SSL support for port checking
+  * Unix domain socket checking
+  * Process status and process timeout
+  * Process cpu usage
+  * Process memory usage
+  * Process zombie check
+  * Check the systems load average
+  * Check a file or directory timestamp
+  * Alert, stop or restart a process based on its characteristics
+  * MD5 checksum for programs started and stopped by monit
+  * Alert notification for program timeout, restart, checksum, stop
+    resource and timestamp error
+  * Flexible and customizable email alert messages
+  * Protocol verification. HTTP, FTP, SMTP, POP, IMAP, NNTP, SSH, DWP,
+    LDAPv2 and LDAPv3
+  * An http interface with optional SSL support to make monit
+    accessible from a webbrowser
+
 Package: openmediavault
-Version: 5.0.3-1
+Version: 5.0.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 8930
+Installed-Size: 8928
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, apt-transport-https, python3-lxml, salt-minion, php-yaml, python-click, python3-click, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.0.3-1_all.deb
-Size: 1664636
-SHA256: a02f0150537b796aa2e2396202c9b4d6ffad99faee971c88c199b12eab79e5f2
-SHA1: 00bbcaac348131338a22c6161373d8241c462896
-MD5sum: ee142cc0f9e99c2604803fcdaa2e0a10
+Filename: pool/main/o/openmediavault/openmediavault_5.0.4-1_all.deb
+Size: 1662684
+SHA256: 94818fcf42ee08f083e1de9c062483aab3e89436953e862a8274bd0f8058887c
+SHA1: e5831bca9a8ed86e2e3bebe9c4883a0786662bf5
+MD5sum: 123dbc26c47f2c4427f6f00107bfb3e9
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
