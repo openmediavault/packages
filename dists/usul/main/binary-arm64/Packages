@@ -63,7 +63,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.0.6-1
+Version: 5.0.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 8932
@@ -71,11 +71,11 @@ Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.0.6-1_all.deb
-Size: 1665432
-SHA256: 47854bddf8dd83a738e8c8b2ee86d0c41629b110f37a8489f439f3da3d0726c8
-SHA1: 75be83b00cfbfd0ed6f8452ee40dc0babd4b416f
-MD5sum: cd597bc1a3bc5a2d4fb36279c9bf3b75
+Filename: pool/main/o/openmediavault/openmediavault_5.0.7-1_all.deb
+Size: 1665908
+SHA256: a47579b1247f84d82f02a752da2ffdc5358ded01fad145c6dc67075233991d26
+SHA1: 7a66f4f9d2e9f02999b1c004d64ed500559474ad
+MD5sum: 84bb52d7c08e8c807597df552964dc92
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -256,19 +256,19 @@ Description: OpenMediaVault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 5.0-1
+Version: 5.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 274
-Depends: rsync, openmediavault (>= 5.0)
+Installed-Size: 273
+Depends: rsync, openmediavault (>= 5.0.6)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0-1_all.deb
-Size: 40580
-SHA256: e25918bf6ecc4cae779018190357be731b4158bd2ceb7e0c4b155a07e7354899
-SHA1: cca5c5119a4286ef5189be674550d87a4b165021
-MD5sum: 07758cdbbb9119f2e71e84bc54bb2fae
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0.1-1_all.deb
+Size: 40744
+SHA256: ade1b15cda141e50357de8f0b625fb86afb87cff6e48f94a5c98a9231c2581a3
+SHA1: b14e92466cb1e247291ff70bd01cb760f2a9fc4b
+MD5sum: f0731c18351d26a1e99864e381645606
 Description: OpenMediaVault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
