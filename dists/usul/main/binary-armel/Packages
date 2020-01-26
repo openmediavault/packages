@@ -63,7 +63,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.2.4-1
+Version: 5.2.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 8967
@@ -71,11 +71,11 @@ Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.2.4-1_all.deb
-Size: 1669796
-SHA256: dc61517d34a14a329ed29abbac3122b73e93e6a8dcf4621c7ceebba630a52662
-SHA1: dc3afee8973638e09153b50c3abfaaa7b4b06942
-MD5sum: 6f0de4b747c2d1cf271f2c47757115e9
+Filename: pool/main/o/openmediavault/openmediavault_5.2.5-1_all.deb
+Size: 1669776
+SHA256: b8ae6ec9b03f66940d8dbc7937cfba2e5d12b8b4091284ce3eb3b4b8f09b1a55
+SHA1: 4132f885681e496ed586f2cb6fbaaa2eb3289620
+MD5sum: f4bf3ee88bffa6d982c8799a3b1e1e5f
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -217,19 +217,19 @@ Description: OpenMediaVault shairport (AirPlay/RAOP receiver) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-sharerootfs
-Version: 5.0-1
+Version: 5.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 15
-Depends: openmediavault (>= 5.2.4)
+Depends: openmediavault (>= 5.2.5)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-sharerootfs/openmediavault-sharerootfs_5.0-1_all.deb
-Size: 2724
-SHA256: d086af67f7d06aad694437b237ad392e26d3d560e2032d85640367310b6d3aaa
-SHA1: 6f356528ddc268174a7daf92a5c2b1fc5750b10e
-MD5sum: eaecf04a4ef4ddde2a63eb739ad1bb34
+Filename: pool/main/o/openmediavault-sharerootfs/openmediavault-sharerootfs_5.0.1-1_all.deb
+Size: 2860
+SHA256: 1707e96163a38edffa24989688572d2ae5d16ac4bee55d79ae095200f21dde21
+SHA1: c1f3b542196f653506b9ea5c1f1ea4a41016a7d3
+MD5sum: a47239ba659cc6c8f196fbba280dcb4a
 Description: openmediavault share root filesystem plugin
  The plugin enables the ability to create shared folders in the
  root filesystem.
