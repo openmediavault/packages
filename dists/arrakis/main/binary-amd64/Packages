@@ -109,37 +109,37 @@ Description: AppleTalk user binaries
  static libraries.
 
 Package: openmediavault
-Version: 4.1.32-1
+Version: 4.1.33-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 11975
+Installed-Size: 11976
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, ifenslave, resolvconf, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, sdparm, ifupdown, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, wsdd (>= 0.3-2), avahi-daemon, libnss-mdns, iptables, monit, acpid, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, pm-utils, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, ntp, python3-netifaces, udev, apt-transport-https, python3-lxml, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_4.1.32-1_all.deb
-Size: 1919324
-SHA256: e73598049a966753f7bb16d200a829cbebc1373e11e2b3281169b4330f6f6d67
-SHA1: 9cc70e83143fe2ecf253ff2a5a4548d3b5944299
-MD5sum: 4c77a930d06ad2d3e5aa52ae5efbc665
+Filename: pool/main/o/openmediavault/openmediavault_4.1.33-1_all.deb
+Size: 1919592
+SHA256: 5b62ef185cfc0538adfebaab8f846925d88c5831b13ffb279f62b11f28c06a65
+SHA1: ad1dd49a11fa0a62a211f6999320928cdc705e08
+MD5sum: b922fabc8dfc0ac82eb2950c624d552e
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 4.1.11-1
+Version: 4.1.12-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 322
-Depends: openmediavault (>= 4.1.27), clamav-daemon, clamav-freshclam, clamdscan
+Installed-Size: 325
+Depends: openmediavault (>= 4.1.27), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_4.1.11-1_all.deb
-Size: 44504
-SHA256: b35c664bd92d299107928b4b2704fb2e850d9333c485dd645db2a8cf1cf80e8f
-SHA1: 20f91d0f74ccf34e8b0e2062ec12693136548503
-MD5sum: 2a91750ce7b1ca98f8c172b5d7a8114b
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_4.1.12-1_all.deb
+Size: 44868
+SHA256: ae7d582c261074a289e24c253512792c1c4e721ed97ae91402a861715d55c198
+SHA1: c4250c63b6ac24dcd1939c5c37c5ec82cee7436a
+MD5sum: e8ae95bd2effaf9950a76d282c7302ce
 Description: OpenMediaVault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
