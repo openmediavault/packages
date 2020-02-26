@@ -81,19 +81,19 @@ Description: openmediavault - The open network attached storage solution
  with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 5.0.5-1
+Version: 5.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 344
+Installed-Size: 346
 Depends: openmediavault (>= 5.3.4), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.5-1_all.deb
-Size: 47524
-SHA256: 747b517ef3fb517ac26309ffb07a14658d28a7a195c9e8d718004f89fe740d4b
-SHA1: 2aa02139c584eac4c36b41f1bf7f7e7ee55bf57a
-MD5sum: 8b185cadadb3aafc2940a9a7ad2a0e36
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.6-1_all.deb
+Size: 47784
+SHA256: 5cca3e2db5666c040f6871b56549bdf5a5d07662222e0b948f5408fb2730d9d0
+SHA1: d2f55cbd0a1c3b5cb2a061ad34b0a7962fff57a6
+MD5sum: 5a5e95c6c76fd4dae4530f7ea6ee0b24
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -176,7 +176,7 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 5.0.1-1
+Version: 5.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 243
@@ -184,11 +184,11 @@ Depends: openmediavault (>= 5.3.4), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_5.0.1-1_all.deb
-Size: 31676
-SHA256: ef5dc42d7023665f401d50cc237011cd234945425faa291f95f47249b8f1294a
-SHA1: 8e0357a967e9a640e5889abc262292a0ed3d9b6b
-MD5sum: d09ebabfdbd80190de3714833ee25933
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_5.0.2-1_all.deb
+Size: 31804
+SHA256: 149effc718bdc373e8cd3d7b859c10b5e7bca8e1eba96090c6bb06937d7487b2
+SHA1: c7c111c2477f8b9483e93fd540da6f7d7812a267
+MD5sum: 2eec01cbf36679e8b7a34a17fe21657c
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
