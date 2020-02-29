@@ -63,25 +63,25 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.3.4-1
+Version: 5.3.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9155
+Installed-Size: 9161
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion, libnss-myhostname, php-yaml, python-click, python3-click, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.3.4-1_all.deb
-Size: 1693192
-SHA256: ffb23ac2fd0a7abd959f63ed4fb0fe8c50d3af1b0c437a9aba6912ce1d89782c
-SHA1: 03ec7193bf86f2157ca4bd57ff87112ce2e70456
-MD5sum: c75d55112ebf3d336c8fb3f0c6db0938
+Filename: pool/main/o/openmediavault/openmediavault_5.3.5-1_all.deb
+Size: 1696036
+SHA256: 067f15d7067d69016423886831c83a446dac622f708de1c682727672cfec0f49
+SHA1: fe433b142b3ad07074a0989a9db8fe60e5fe23f1
+MD5sum: a58d1719b20b023aacd753fc3956f87d
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 5.0.6-1
+Version: 5.0.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 346
@@ -89,11 +89,11 @@ Depends: openmediavault (>= 5.3.4), clamav-daemon (>= 0.102), clamav-freshclam, 
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.6-1_all.deb
-Size: 47784
-SHA256: 5cca3e2db5666c040f6871b56549bdf5a5d07662222e0b948f5408fb2730d9d0
-SHA1: d2f55cbd0a1c3b5cb2a061ad34b0a7962fff57a6
-MD5sum: 5a5e95c6c76fd4dae4530f7ea6ee0b24
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.7-1_all.deb
+Size: 47852
+SHA256: 8a96a5ad145c3488acb6712d3c6a6bcd160ae5c060841e9f3bba3b4f493df42f
+SHA1: 750d13dd5325efcbb10e286debed1cbfc229d3f6
+MD5sum: 70ddec330ac407f81759237526508862
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -176,7 +176,7 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 5.0.2-1
+Version: 5.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 243
@@ -184,11 +184,11 @@ Depends: openmediavault (>= 5.3.4), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_5.0.2-1_all.deb
-Size: 31804
-SHA256: 149effc718bdc373e8cd3d7b859c10b5e7bca8e1eba96090c6bb06937d7487b2
-SHA1: c7c111c2477f8b9483e93fd540da6f7d7812a267
-MD5sum: 2eec01cbf36679e8b7a34a17fe21657c
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_5.0.3-1_all.deb
+Size: 31916
+SHA256: 19075d6d8fbcdf6fd11431f34509b7d1693c64e91f3303bf6deb27d02026e8a3
+SHA1: 63e85c4e02f34d36e8c10f23c7e5a2c02990efaa
+MD5sum: 78cf507bd5b86e94d33e10a14a18954c
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
