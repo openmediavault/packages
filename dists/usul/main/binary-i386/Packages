@@ -317,21 +317,21 @@ Description: pam module for PHP 7
 
 Package: salt-common
 Source: salt
-Version: 2019.2.2+ds-1
+Version: 2019.2.3+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 28185
+Installed-Size: 28190
 Depends: python3-apt, python3-dateutil, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-tornado4 (>= 4.2.1), python3-tornado4 (<< 5), python3-yaml, python3-systemd, python3-psutil, python3-distro, python3:any
 Recommends: lsb-release, python3-croniter
 Breaks: python3-mako (<< 0.7.0)
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-common_2019.2.2+ds-1_all.deb
-Size: 6505436
-SHA256: 56876c5a0544571c100983ca31ace6f1cb696cdf1700d5f8e714452377cb03f8
-SHA1: 3d8016075c601942ba9f4d7bb078c9ed762fa1bc
-MD5sum: 09005a4c7864c7eddc7c5a107a97d953
+Filename: pool/main/s/salt/salt-common_2019.2.3+ds-1_all.deb
+Size: 6509264
+SHA256: f491599249cefe8a1865194f8a57472e27720d6f440ee0f7876be0b19b058155
+SHA1: cc62a2cfc623b04718250de3db468aadb396d822
+MD5sum: 23efa84e3a9c30f1f03db3d66ff4fadc
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -354,21 +354,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 2019.2.2+ds-1
+Version: 2019.2.3+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
 Installed-Size: 128
-Depends: bsdmainutils, dctrl-tools, python3-crypto (>= 2.6.1), python3-zmq (>= 14.4.0), salt-common (= 2019.2.2+ds-1), python3:any
+Depends: bsdmainutils, dctrl-tools, python3-crypto (>= 2.6.1), python3-zmq (>= 14.4.0), salt-common (= 2019.2.3+ds-1), python3:any
 Recommends: debconf-utils, dmidecode
 Suggests: python3-augeas
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-minion_2019.2.2+ds-1_all.deb
-Size: 28172
-SHA256: 5c29363ab1256a5286f9d3594b46a8662ff99324677457e9d98b8c6de3636d12
-SHA1: 0d3c48ff3270c7e5f9898f5a4cf638ffbb0ce3cb
-MD5sum: c0ea53bde18cb293643ab8c8e3fd55f8
+Filename: pool/main/s/salt/salt-minion_2019.2.3+ds-1_all.deb
+Size: 28148
+SHA256: e9d66a4ccc72702a648e2b0441f1f4736f7fde8dd4e1a09619991b401fcb8b5e
+SHA1: 2b98dbd34de024d6be287770edf4bba409e72b2c
+MD5sum: 03825407157d2da8e1662a1ff1b821d7
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
