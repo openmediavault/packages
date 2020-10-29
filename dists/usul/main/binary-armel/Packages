@@ -63,7 +63,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.5.13-1
+Version: 5.5.14-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 9293
@@ -71,17 +71,17 @@ Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.5.13-1_all.deb
-Size: 1707864
-SHA256: 60a81346bd753fa980811b5f9f8f9b460f8569138a41655454d1f43986c2b1b6
-SHA1: b43912c90bb320935a3e4bc173afa4c615e4b853
-MD5sum: 009219923331513c4dde9cc300106829
+Filename: pool/main/o/openmediavault/openmediavault_5.5.14-1_all.deb
+Size: 1707944
+SHA256: 0e1f7e68ded30d19577362396cfc656d49eb149b5ec9cd545e036f912a7cfd52
+SHA1: eaece1560c869032e7de4bd69ee489b99bfa8887
+MD5sum: 5966102875eb1670ba733126138edecd
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 5.0.10-1
+Version: 5.0.11-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 346
@@ -89,11 +89,11 @@ Depends: openmediavault (>= 5.3.7), clamav-daemon (>= 0.102), clamav-freshclam, 
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.10-1_all.deb
-Size: 48496
-SHA256: 1dd32a699b98878582beebc41aacedbc6299a463549423776859ab2272b8ea9f
-SHA1: 9aca85fbc62f52148748f64c53fc19d23f256c8b
-MD5sum: cdc0df07f82ad4ead67df57f47c2539f
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.11-1_all.deb
+Size: 48648
+SHA256: a514bd56a63ae791e8af07325057e935b858cc8c02cf3f8c3888bcc490eda4cb
+SHA1: a0b2798ffc7e3301b0400451ee344de53eac8cc7
+MD5sum: a8a3d8dd78590b97a57b47a0986ca111
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -275,19 +275,19 @@ Description: openmediavault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 5.0.5-1
+Version: 5.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 293
+Installed-Size: 295
 Depends: rsync, openmediavault (>= 5.3.4)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0.5-1_all.deb
-Size: 43668
-SHA256: cfd1ace5f4100bf2bccc311b2cbe329c55fac818dea613dc7db8d24a81f00374
-SHA1: 8ebfefe4ec5d5c706c17c5c7f01d4825ff7920af
-MD5sum: 0983965b5f6bd6ad9468901927b5c5df
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0.6-1_all.deb
+Size: 44032
+SHA256: 2df0cac88b06205861cf778ac5f5c8f43dc222b398a9cbd05e90506504593a1a
+SHA1: 940d1b76af108fac2f9c83a5086df0c3e986ad77
+MD5sum: 15a0616078eb066d6a8c81c8f68ff6fc
 Description: openmediavault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
