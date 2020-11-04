@@ -63,19 +63,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.5.14-1
+Version: 5.5.15-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9293
-Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3000.2), libnss-myhostname, php-yaml, python3-click, python3-cached-property, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 9292
+Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3000.2), libnss-myhostname, php-yaml, python3-click, python3-cached-property, initramfs-tools, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.5.14-1_all.deb
-Size: 1707944
-SHA256: 0e1f7e68ded30d19577362396cfc656d49eb149b5ec9cd545e036f912a7cfd52
-SHA1: eaece1560c869032e7de4bd69ee489b99bfa8887
-MD5sum: 5966102875eb1670ba733126138edecd
+Filename: pool/main/o/openmediavault/openmediavault_5.5.15-1_all.deb
+Size: 1708152
+SHA256: aeb7910e501f96514acc1eb299189645c43a2543e4d029ce7897d3b009b86db1
+SHA1: 8f0c874aabd8a2d0340aa9ee7e072ed7f63b81c8
+MD5sum: 4722167f6b9456004a65d2dbf65127a8
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -317,10 +317,10 @@ Description: pam module for PHP 7
 
 Package: salt-common
 Source: salt
-Version: 3002+ds-1
+Version: 3002.1+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 30366
+Installed-Size: 30376
 Depends: python3-apt, python3-dateutil, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-distro, python3-pycryptodome, python3-zmq (>= 17.0.0), python3-markupsafe, python3:any
 Recommends: lsb-release, python3-croniter
 Suggests: python3-pycurl, python3-twisted
@@ -328,11 +328,11 @@ Breaks: python3-mako (<< 0.7.0)
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-common_3002+ds-1_all.deb
-Size: 7078976
-SHA256: e541e130de2b1702bc059f406496aadbfc369ec5172c56b92d01d0331a2782db
-SHA1: c9204593ec4fe659c951272e492ff69b8e4a01cc
-MD5sum: 5a442b56630676409d7cd059333a1622
+Filename: pool/main/s/salt/salt-common_3002.1+ds-1_all.deb
+Size: 7086400
+SHA256: e2a98623675b47e6c2415f8cf599713c44d5c652772d3e1c19bb7e55a472d88f
+SHA1: 499bdafc15ffdb803d26553157624ccd8197a3f2
+MD5sum: 1457254133bff6294674905c2c78a5ab
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -355,21 +355,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3002+ds-1
+Version: 3002.1+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
 Installed-Size: 129
-Depends: bsdmainutils, dctrl-tools, salt-common (= 3002+ds-1), python3:any
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3002.1+ds-1), python3:any
 Recommends: debconf-utils, dmidecode
 Suggests: python3-augeas
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3002+ds-1_all.deb
-Size: 28668
-SHA256: 28134b01345102f07ec92b35228ff22f7e83e32db23209c1d8d5a35193512553
-SHA1: e34ccf5123467400a0f3285de79f7e9373c5ac24
-MD5sum: 067cf5e353c2d38fa78d2d84845d59dd
+Filename: pool/main/s/salt/salt-minion_3002.1+ds-1_all.deb
+Size: 28664
+SHA256: c2011438eeef5b16d4e77ea597c286cc2e6c66525918d015d3fdeb18a90f10d2
+SHA1: e958aacb7bb462d72209d3fd7701f705620991df
+MD5sum: b9264778faf88f98c2808c48b0ddc7c4
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
