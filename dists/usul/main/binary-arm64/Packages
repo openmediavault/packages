@@ -63,7 +63,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.5.18-1
+Version: 5.5.19-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 9328
@@ -71,11 +71,11 @@ Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.5.18-1_all.deb
-Size: 1713516
-SHA256: b05a7b25067d58994de5d3cdd19b2797cddf2f3974d3ae031ba16e01b9544952
-SHA1: 8c5d4f0dea51d9105aefa18f287f0572e59193e8
-MD5sum: b0903346701977d1cc3e1183765ec503
+Filename: pool/main/o/openmediavault/openmediavault_5.5.19-1_all.deb
+Size: 1713596
+SHA256: c8f472de895bcd4ed848ac35301fd5845a0524ece50e3bdd9b126d0350906ff8
+SHA1: 4efce26c25339ed222f1ad6235ab2154ae868099
+MD5sum: 31e13acad48f6bb7d10f7b22981444d3
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -317,7 +317,7 @@ Description: pam module for PHP 7
 
 Package: salt-common
 Source: salt
-Version: 3002.1+ds-1
+Version: 3002.2+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
 Installed-Size: 30376
@@ -328,11 +328,11 @@ Breaks: python3-mako (<< 0.7.0)
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-common_3002.1+ds-1_all.deb
-Size: 7086400
-SHA256: e2a98623675b47e6c2415f8cf599713c44d5c652772d3e1c19bb7e55a472d88f
-SHA1: 499bdafc15ffdb803d26553157624ccd8197a3f2
-MD5sum: 1457254133bff6294674905c2c78a5ab
+Filename: pool/main/s/salt/salt-common_3002.2+ds-1_all.deb
+Size: 7088488
+SHA256: e84dc1bd1b97878cae60d8f27392110ea501802a04f0f875b16f1c1ac119e3c7
+SHA1: ff3f3a2162cbb6eb6e2e839d7b449cfdcdaaee00
+MD5sum: a895937ff6d5e446b54b6e8a8911bc9a
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -355,21 +355,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3002.1+ds-1
+Version: 3002.2+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
 Installed-Size: 129
-Depends: bsdmainutils, dctrl-tools, salt-common (= 3002.1+ds-1), python3:any
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3002.2+ds-1), python3:any
 Recommends: debconf-utils, dmidecode
 Suggests: python3-augeas
 Homepage: http://saltstack.org/
 Priority: extra
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3002.1+ds-1_all.deb
-Size: 28664
-SHA256: c2011438eeef5b16d4e77ea597c286cc2e6c66525918d015d3fdeb18a90f10d2
-SHA1: e958aacb7bb462d72209d3fd7701f705620991df
-MD5sum: b9264778faf88f98c2808c48b0ddc7c4
+Filename: pool/main/s/salt/salt-minion_3002.2+ds-1_all.deb
+Size: 28716
+SHA256: 26c5cb5a478bf5d791137f93018481aa90350e02dc644558809d9b7aedc1d520
+SHA1: b6a1e4525c4e011d84f11f2c6eee50e142f4441e
+MD5sum: 32d9cfecd2079265b800a1afdea0e3f1
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -390,18 +390,18 @@ Description: client package for salt, the distributed remote execution system
  This particular package provides the worker / agent for salt.
 
 Package: wsdd
-Version: 0.5-1
+Version: 0.6.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 49
+Installed-Size: 78
 Depends: samba-common-bin
 Priority: optional
 Section: net
-Filename: pool/main/w/wsdd/wsdd_0.5-1_all.deb
-Size: 10612
-SHA256: 06a6bdba0463d3bdf765a7b322d1bff7777be9a87d76c7dbd02e89c0677d2baa
-SHA1: dd5ebc954e4a31eef74d360a88bec80c8f55c8a1
-MD5sum: f3c2c0322fe91236886c641dae733187
+Filename: pool/main/w/wsdd/wsdd_0.6.2-1_all.deb
+Size: 16640
+SHA256: 44b381a769c05028a12630702d791611967adaa156356ff302a9fa9985184656
+SHA1: debd865d730a3ce3a28f2795a92c38360863cdfa
+MD5sum: e0779d1f2dd1643f3f53cf5ccf85311e
 Description: Web Services on Devices (WSD) daemon
  Web Services on Devices (WSD) is a Microsoft API to simplify programming
  connections to web service enabled devices, such as Printers, Scanners
