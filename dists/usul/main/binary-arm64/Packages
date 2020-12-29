@@ -63,19 +63,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.5.19-1
+Version: 5.5.20-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9328
+Installed-Size: 9338
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3000.2), libnss-myhostname, php-yaml, python3-click, python3-cached-property, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.5.19-1_all.deb
-Size: 1713596
-SHA256: c8f472de895bcd4ed848ac35301fd5845a0524ece50e3bdd9b126d0350906ff8
-SHA1: 4efce26c25339ed222f1ad6235ab2154ae868099
-MD5sum: 31e13acad48f6bb7d10f7b22981444d3
+Filename: pool/main/o/openmediavault/openmediavault_5.5.20-1_all.deb
+Size: 1714532
+SHA256: 75a95aedcdce405f9ad7e33d08ee74e58238395b1a2efdb2633670980e230af2
+SHA1: d8960139d2f6196979416154f1a7703660e771f7
+MD5sum: decf785dbcf55d80840e22ae2aed44cf
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
