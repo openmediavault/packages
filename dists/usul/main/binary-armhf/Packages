@@ -117,7 +117,7 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-forkeddaapd
-Version: 5.0.3-1
+Version: 5.0.3-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 155
@@ -125,11 +125,11 @@ Depends: openmediavault (>= 5.5.12), forked-daapd
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_5.0.3-1_all.deb
-Size: 21040
-SHA256: 287e9ad3aa6b4f77ae39aaf23ccc021d20b4c74b04bd2a18bdcc743fddea9263
-SHA1: 57f180297fce44c56fc3325c37da47a85320e1b5
-MD5sum: d747c1957b34f9daca2f68081140b6fe
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_5.0.3-2_all.deb
+Size: 21064
+SHA256: e6942d2799bbd853b1d235905f6bf277f5348c027ae9746d2196b0caf69f0711
+SHA1: 373542f1599ac1d397322056d78125395d4f0e07
+MD5sum: 754cea4ce33650bd48c783c3e61ff4e6
 Description: openmediavault forked-daapd (DAAP server) plugin
  forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
  media server.
