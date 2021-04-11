@@ -1,3 +1,50 @@
+Package: monit
+Version: 1:5.26.0-1
+Architecture: arm64
+Maintainer: Sergey B Kirpichev <skirpichev@gmail.com>
+Installed-Size: 926
+Depends: libc6 (>= 2.27), libpam0g (>= 0.99.7.1), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.0), lsb-base (>= 3.2-13)
+Suggests: default-mta | postfix | mail-transport-agent, sysvinit-core
+Homepage: https://mmonit.com/monit/
+Priority: optional
+Section: admin
+Filename: pool/main/m/monit/monit_5.26.0-1_arm64.deb
+Size: 311860
+SHA256: 31562f2e9a48161fa611f2392ac56a29a830de2647fb8c416e08466449c4475f
+SHA1: 4fcbbec65730856390f6a9bd0ea6f84eb837c676
+MD5sum: 7cb9f1a9789041b9f0917666f63d2441
+Description: utility for monitoring and managing daemons or similar programs
+ monit is a utility for monitoring and managing daemons or similar
+ programs running on a Unix system. It will start specified programs
+ if they are not running and restart programs not responding.
+ .
+ monit supports:
+  * Daemon mode - poll programs at a specified interval
+  * Monitoring modes - active, passive or manual
+  * Start, stop and restart of programs
+  * Group and manage groups of programs
+  * Process dependency definition
+  * Logging to syslog or own logfile
+  * Configuration - comprehensive controlfile
+  * Runtime and TCP/IP port checking (tcp and udp)
+  * SSL support for port checking
+  * Unix domain socket checking
+  * Process status and process timeout
+  * Process cpu usage
+  * Process memory usage
+  * Process zombie check
+  * Check the systems load average
+  * Check a file or directory timestamp
+  * Alert, stop or restart a process based on its characteristics
+  * MD5 checksum for programs started and stopped by monit
+  * Alert notification for program timeout, restart, checksum, stop
+    resource and timestamp error
+  * Flexible and customizable email alert messages
+  * Protocol verification. HTTP, FTP, SMTP, POP, IMAP, NNTP, SSH, DWP,
+    LDAPv2 and LDAPv3
+  * An http interface with optional SSL support to make monit
+    accessible from a webbrowser
+
 Package: openmediavault
 Version: 6.0-1
 Architecture: all
@@ -250,4 +297,99 @@ Description: pam module for PHP 7
  authentication tasks of applications and services. The library
  provides a stable API for applications to defer to for authentication
  tasks.
+
+Package: salt-common
+Source: salt
+Version: 3002.2+ds-1
+Architecture: all
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 30376
+Depends: python3-apt, python3-dateutil, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-distro, python3-pycryptodome, python3-zmq (>= 17.0.0), python3-markupsafe, python3:any
+Recommends: lsb-release, python3-croniter
+Suggests: python3-pycurl, python3-twisted
+Breaks: python3-mako (<< 0.7.0)
+Homepage: http://saltstack.org/
+Priority: extra
+Section: admin
+Filename: pool/main/s/salt/salt-common_3002.2+ds-1_all.deb
+Size: 7088488
+SHA256: e84dc1bd1b97878cae60d8f27392110ea501802a04f0f875b16f1c1ac119e3c7
+SHA1: ff3f3a2162cbb6eb6e2e839d7b449cfdcdaaee00
+MD5sum: a895937ff6d5e446b54b6e8a8911bc9a
+Description: shared libraries that salt requires for all packages
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides shared libraries that
+ salt-master, salt-minion, and salt-syndic require to function.
+
+Package: salt-minion
+Source: salt
+Version: 3002.2+ds-1
+Architecture: all
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 129
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3002.2+ds-1), python3:any
+Recommends: debconf-utils, dmidecode
+Suggests: python3-augeas
+Homepage: http://saltstack.org/
+Priority: extra
+Section: admin
+Filename: pool/main/s/salt/salt-minion_3002.2+ds-1_all.deb
+Size: 28716
+SHA256: 26c5cb5a478bf5d791137f93018481aa90350e02dc644558809d9b7aedc1d520
+SHA1: b6a1e4525c4e011d84f11f2c6eee50e142f4441e
+MD5sum: 32d9cfecd2079265b800a1afdea0e3f1
+Description: client package for salt, the distributed remote execution system
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides the worker / agent for salt.
+
+Package: wsdd
+Version: 0.6.2-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 78
+Depends: samba-common-bin
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.6.2-1_all.deb
+Size: 16640
+SHA256: 44b381a769c05028a12630702d791611967adaa156356ff302a9fa9985184656
+SHA1: debd865d730a3ce3a28f2795a92c38360863cdfa
+MD5sum: e0779d1f2dd1643f3f53cf5ccf85311e
+Description: Web Services on Devices (WSD) daemon
+ Web Services on Devices (WSD) is a Microsoft API to simplify programming
+ connections to web service enabled devices, such as Printers, Scanners
+ and File Shares.
+ .
+ This daemon advertises and responds to probe requests from Windows
+ clients looking for File Shares.
 
