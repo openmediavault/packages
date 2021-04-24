@@ -63,19 +63,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.6.4-1
+Version: 5.6.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9365
+Installed-Size: 9368
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.3-2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3000.2), libnss-myhostname, php-yaml, python3-click, python3-cached-property, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.6.4-1_all.deb
-Size: 1721236
-SHA256: 8dbcf1c393149229b813e304ed01b23fe0ad66f11ecb35998e09637461dcb37b
-SHA1: 48477fd48834a88c70b31fed318237985a4eb2db
-MD5sum: 69f51117ad6fcdda2b8f4d269cefdac2
+Filename: pool/main/o/openmediavault/openmediavault_5.6.5-1_all.deb
+Size: 1720684
+SHA256: 21a94d5530fcffe104e6cb6b6566272ae158cb4ef4d20bcb00871410022dbf24
+SHA1: f343f7ca28cc06e9289b1da148551871f887d973
+MD5sum: 3a9488caf537aaa8043c32d9217dd5fe
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -117,7 +117,7 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-forkeddaapd
-Version: 5.0.3-2
+Version: 5.0.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 155
@@ -125,11 +125,11 @@ Depends: openmediavault (>= 5.5.12), forked-daapd
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_5.0.3-2_all.deb
-Size: 21064
-SHA256: e6942d2799bbd853b1d235905f6bf277f5348c027ae9746d2196b0caf69f0711
-SHA1: 373542f1599ac1d397322056d78125395d4f0e07
-MD5sum: 754cea4ce33650bd48c783c3e61ff4e6
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_5.0.4-1_all.deb
+Size: 21096
+SHA256: 3115a22047b7252d5081b5387a001083970322065d51168767691a2ecf293f06
+SHA1: 169daa778d86a6f605ec56d5dda60072235644f8
+MD5sum: 947c505e858197cc8dd96265cfacab04
 Description: openmediavault forked-daapd (DAAP server) plugin
  forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
  media server.
@@ -176,7 +176,7 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 5.2.0-1
+Version: 5.2.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 275
@@ -184,11 +184,11 @@ Depends: openmediavault (>= 5.6.0), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_5.2.0-1_all.deb
-Size: 34848
-SHA256: 4b185bba8797c0a1d428ca260093f51593d3b6c2e78396a52d40b535c9806d99
-SHA1: 590f1ca75cab98f30ad7415becb97710eeca1e86
-MD5sum: 5b6959d7b28de4328686626e9cdf568d
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_5.2.1-1_all.deb
+Size: 35116
+SHA256: d637966a0ea8f2e0a77b8b76d207b2f5059212450aa0be53866d06e19686253c
+SHA1: 9148ef76f8bca152cc82830ab9accda940a3f657
+MD5sum: 935141efaac2e6b685e93dafe757884c
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -196,7 +196,7 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: utilities
 
 Package: openmediavault-shairport
-Version: 5.0.2-1
+Version: 5.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 144
@@ -204,11 +204,11 @@ Depends: openmediavault (>= 5.5.12), shairport-sync (>= 2.8.6), alsa-utils
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_5.0.2-1_all.deb
-Size: 16140
-SHA256: 953c34097573b4e50217008ef8176a794cb4aad96ce376865cb4a983760ae2da
-SHA1: 65fa813df756767c79e04edae4d3d100acf9f0fe
-MD5sum: 92c22710c4933b35abd811f610aae0cb
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_5.0.3-1_all.deb
+Size: 16280
+SHA256: c3aa9ae72e1f6923ff8899eb4c33579084502b19e7965529ab85c3315d3d5866
+SHA1: 56a934f5157c6066a5f858a17e663933cbcf5d6a
+MD5sum: 08dd14ab77fd8365b5663689bb220306
 Description: openmediavault shairport (AirPlay/RAOP receiver) plugin
  Shairport emulates an AirPort Express for the purpose of streaming
  music from iTunes and compatible iPods and iPhones. It implements a
@@ -275,19 +275,19 @@ Description: openmediavault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 5.0.7-1
+Version: 5.0.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 296
+Installed-Size: 297
 Depends: rsync, openmediavault (>= 5.3.4)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0.7-1_all.deb
-Size: 44304
-SHA256: 532ff11530b899bc4b70664de43346efe0fe2a8ebbbfa31247e00c3ca48966ed
-SHA1: 6e262be9c1668537b0b9b10217545a4f04c5c743
-MD5sum: 86a8858138f009027d74f4e2d87c08e4
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_5.0.8-1_all.deb
+Size: 44504
+SHA256: 0c2db64dbb1ad962d8c5836fee77b32c3b448fb4cfd931da3203046491373804
+SHA1: 69eeb3cd906d2e41760e2bf2ac5cf00c35e46b66
+MD5sum: f1075d772614f4ee1baa15cface7f5f9
 Description: openmediavault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
@@ -317,22 +317,22 @@ Description: pam module for PHP 7
 
 Package: salt-common
 Source: salt
-Version: 3002.2+ds-1
+Version: 3003+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 30376
+Installed-Size: 30506
 Depends: python3-apt, python3-dateutil, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-distro, python3-pycryptodome, python3-zmq (>= 17.0.0), python3-markupsafe, python3:any
 Recommends: lsb-release, python3-croniter
 Suggests: python3-pycurl, python3-twisted
 Breaks: python3-mako (<< 0.7.0)
 Homepage: http://saltstack.org/
-Priority: extra
+Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-common_3002.2+ds-1_all.deb
-Size: 7088488
-SHA256: e84dc1bd1b97878cae60d8f27392110ea501802a04f0f875b16f1c1ac119e3c7
-SHA1: ff3f3a2162cbb6eb6e2e839d7b449cfdcdaaee00
-MD5sum: a895937ff6d5e446b54b6e8a8911bc9a
+Filename: pool/main/s/salt/salt-common_3003+ds-1_all.deb
+Size: 7127784
+SHA256: 7b071309847adc65d47cbacaf199805201096c3c7a26e32933ae8db72eee719d
+SHA1: 23683d164b03385729f1b0bebf8e1aabb72f9619
+MD5sum: a18d5dceab316e7a7c39eb420a7e9be9
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -355,21 +355,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3002.2+ds-1
+Version: 3003+ds-1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 129
-Depends: bsdmainutils, dctrl-tools, salt-common (= 3002.2+ds-1), python3:any
+Installed-Size: 127
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3003+ds-1), python3:any
 Recommends: debconf-utils, dmidecode
 Suggests: python3-augeas
 Homepage: http://saltstack.org/
-Priority: extra
+Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3002.2+ds-1_all.deb
-Size: 28716
-SHA256: 26c5cb5a478bf5d791137f93018481aa90350e02dc644558809d9b7aedc1d520
-SHA1: b6a1e4525c4e011d84f11f2c6eee50e142f4441e
-MD5sum: 32d9cfecd2079265b800a1afdea0e3f1
+Filename: pool/main/s/salt/salt-minion_3003+ds-1_all.deb
+Size: 28436
+SHA256: c33bb7a8c4cb2bca1beb906c16a1e0135d0f69b9197f20c48b74fbea3daaaf65
+SHA1: 5a2a5ded6660d57360fd95a3bd8f0b44ce69270d
+MD5sum: a0e5e6c2ac441052f6e1e1cd37dda82f
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
