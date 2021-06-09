@@ -277,18 +277,18 @@ Description: openmediavault USB/eSATA backup plugin
 Plugin-Section: backup
 
 Package: php-pam
-Version: 1.0.3-1+deb11u1
+Version: 2.2.3-1+deb11u1
 Architecture: amd64
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 39
+Installed-Size: 43
 Depends: phpapi-20190902
 Priority: optional
 Section: web
-Filename: pool/main/p/php-pam/php-pam_1.0.3-1+deb11u1_amd64.deb
-Size: 7956
-SHA256: 3eac9067ea949864dfdb0c4850fe335c0f94a910654565efc23980b9de365d13
-SHA1: c1e22efe88d007631481020c4a714a96039f172c
-MD5sum: 5346beffb9d2a05737614bcad5e3a73d
+Filename: pool/main/p/php-pam/php-pam_2.2.3-1+deb11u1_amd64.deb
+Size: 8412
+SHA256: 0e7b7d78515a45c3386004b23b39a3d1438298f167ebc9715e8e379fec9b8394
+SHA1: bd47fecefeb8068b4c0265c10185fe961348a33b
+MD5sum: e74cf704a244ed4dfc103f35511915fb
 Description: pam module for PHP 7.4
  PAM integration
  .
