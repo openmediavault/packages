@@ -63,7 +63,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.6.9-1
+Version: 5.6.10-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 9374
@@ -71,29 +71,29 @@ Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.6.9-1_all.deb
-Size: 1721736
-SHA256: 9a9971fb8b7b732570af9e13783a1722e91e89b6c17547635cece90a35b06df8
-SHA1: d175bb33edeaf3c6dc8bf7b021387e78661182a6
-MD5sum: 5cd272dfc572abff0e4a9fd2cc101251
+Filename: pool/main/o/openmediavault/openmediavault_5.6.10-1_all.deb
+Size: 1721376
+SHA256: 5a8688f2fd7fb13615aae8ac0a01790481dcf17a02d4b88088f042fdcb06fb67
+SHA1: c11cc3dec4a8057d099b936c40f7e65e989896a3
+MD5sum: d2bdbfb5d5d932616b0cc47965b78715
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 5.0.12-1
+Version: 5.0.13-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 347
+Installed-Size: 348
 Depends: openmediavault (>= 5.3.7), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.12-1_all.deb
-Size: 48872
-SHA256: 077806150fcfe8016182d697f386809df53f2eb432ae77817002015e4615323c
-SHA1: b41210716a6dff2d071e457ea03c181d277a4c4c
-MD5sum: 720c722a02aeb4f22403f01e6708fb7b
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_5.0.13-1_all.deb
+Size: 49036
+SHA256: 3328cd6daf5ec13ab4848d974833b7e7bd45c7b3b1271144269e733c0dba3c49
+SHA1: 31697171f77c397dcc934ce3befe346828291b50
+MD5sum: 66b569bbea735b23a936ef28bff2d155
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
