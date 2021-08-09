@@ -1,3 +1,34 @@
+Package: forked-daapd
+Version: 26.4+dfsg1-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1001
+Depends: libantlr3c-3.4-0 | libantlr3c-antlrdbg-3.4-0, libasound2 (>= 1.0.18), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavcodec58 (>= 7:4.0), libavfilter7 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.17), libconfuse2 (>= 3.2.1~), libcurl3-gnutls (>= 7.16.2), libevent-2.1-6 (>= 2.1.8-stable), libevent-pthreads-2.1-6 (>= 2.1.8-stable), libgcrypt20 (>= 1.8.0), libgnutls30 (>= 3.6.5), libgpg-error0 (>= 1.14), libjson-c3 (>= 0.10), libmxml1, libplist3 (>= 1.11), libprotobuf-c1 (>= 1.0.1), libpulse0 (>= 5.0), libsodium23 (>= 0.6.1), libsqlite3-0 (>= 3.7.5), libswscale5 (>= 7:4.0), libunistring2 (>= 0.9.7), libwebsockets8 (>= 1.6.0), zlib1g (>= 1:1.1.4), avahi-daemon (>= 0.6.31-3~), adduser, lsb-base (>= 3.0-6), psmisc
+Recommends: libavcodec-extra
+Homepage: https://github.com/ejurgensen/forked-daapd
+Priority: optional
+Section: sound
+Filename: pool/main/f/forked-daapd/forked-daapd_26.4+dfsg1-1_arm64.deb
+Size: 293732
+SHA256: 0317ac606005a4f1befcf639305ade1848375d976b01605506f792e69d779047
+SHA1: b0f48d377a40ae5e23ee4e953cbc8582c3949ad4
+MD5sum: 261b21dba681c7be07979cf9eee46196
+Description: DAAP/DACP (iTunes) server, support for AirPlay and Roku devices
+ forked-daapd is an iTunes-compatible media server, originally intended
+ as a rewrite of Firefly Media Server (also known as mt-daapd).
+ .
+ It supports a wide range of audio formats, can stream video to iTunes,
+ XBMC and other compatible clients, has support for Apple's Remote
+ iPhone/iPod application and can stream music to AirPlay devices like
+ the AirPort Express.
+ .
+ It also features RSP support for Roku's SoundBridge devices and MPD support for
+ Music Player Daemon clients.
+ .
+ Built-in, on-the-fly decoding support enables serving popular free music
+ formats like FLAC, Ogg Vorbis or Musepack to those clients that do not
+ otherwise support them.
+
 Package: monit
 Version: 1:5.26.0-1
 Architecture: arm64
