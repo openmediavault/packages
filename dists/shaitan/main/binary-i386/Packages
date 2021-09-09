@@ -77,19 +77,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0-22
+Version: 6.0-23
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 18482
+Installed-Size: 18745
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0-22_all.deb
-Size: 2011084
-SHA256: bdff093f593282cd1fd40ffceb4c519728bb27e93986b4694f7c7f3107aafc12
-SHA1: f5b8bff0953aa192a2f20a8bd7c1811432038c66
-MD5sum: 8b717b96becfb3c2ec3e61b4f3750e4e
+Filename: pool/main/o/openmediavault/openmediavault_6.0-23_all.deb
+Size: 2012912
+SHA256: 3f5259f6e02f701cced96f0a3cfe4444e8cf6940ca7405934a1822d68af9b2dc
+SHA1: 7729bcc2700efd630a27ee0bb301e1cc5e253bf8
+MD5sum: 65c40386ffa7e213fba1cf3936c96605
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -289,22 +289,24 @@ Description: openmediavault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 6.0-5
+Version: 6.0-6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 297
-Depends: rsync, openmediavault (>= 6.0)
+Installed-Size: 300
+Depends: hdparm, rsync, openmediavault (>= 6.0)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_6.0-5_all.deb
-Size: 43368
-SHA256: b4aaed871072b65e9847464a9c4c7cb1ca9b50711df94e43d90776c27caf2725
-SHA1: 92ed448ce19b7974abcc925078df200f262cec81
-MD5sum: 497e7d5d865ba7abd68bdf762956aeb3
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_6.0-6_all.deb
+Size: 44172
+SHA256: d0d20f4c49fb47b816bab11a40a762c9e76833979e749bbf1d979ca4d9679a2d
+SHA1: 67fcb57f244b8a0bc749f621b2dc98732692891a
+MD5sum: bb14f8c261a229a009f462d3e0d15acc
 Description: openmediavault USB/eSATA backup plugin
  Automatically synchronise a shared folder to an USB/eSATA device and vice
  verse when it is plugged in.
+ The device is put into sleep mode after synchronisation to signal that it
+ can be removed safely.
 Plugin-Section: backup
 
 Package: php-pam
