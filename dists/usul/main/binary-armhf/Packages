@@ -63,19 +63,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.6.15-1
+Version: 5.6.16-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 9385
+Installed-Size: 9386
 Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, perl, libjson-perl, liblocale-po-perl, proftpd-mod-vroot, libjavascript-minifier-xs-perl, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, socat, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, dpkg, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.6.15-1_all.deb
-Size: 1725040
-SHA256: f36dd5f73435fe806544590807fb4f8b63de78bf620c9a74462a112c7ca2f5be
-SHA1: 016089e32e4c393bb6bd7ca3d37c38853a01fec5
-MD5sum: 6c1c3e8bb91c9790e8cd1e012b08af82
+Filename: pool/main/o/openmediavault/openmediavault_5.6.16-1_all.deb
+Size: 1723344
+SHA256: 8aff248758e12f9e287402e7641414933270526c4348ee65e65a59d372377a28
+SHA1: 40cf4d5fd08998c8280fb883a6c56e416db132e2
+MD5sum: a3cc272299a29ecb8e0cd2c3b83d4b20
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -99,19 +99,19 @@ Description: openmediavault ClamAV plugin
 Plugin-Section: utilities
 
 Package: openmediavault-diskstats
-Version: 5.1.1-1
+Version: 5.1.1-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 111
-Depends: openmediavault (>= 5.6.0)
+Depends: openmediavault (>= 5.6)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_5.1.1-1_all.deb
-Size: 10412
-SHA256: f1a2e4c15b3818358a2c970bc192387a591f6bde341b811a9e093e91a66f089a
-SHA1: 6cc196200fd0317d0f2efd01731a404160fdab6e
-MD5sum: db0c3bf38a44fec687f7545086f61b88
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_5.1.1-2_all.deb
+Size: 10416
+SHA256: 8b987c51e32d7a74f85848de58135fd48beb352c59c5e597afdbce39c851ee57
+SHA1: 25be208415203545edd75fc298e1125d6fc4c394
+MD5sum: fceee576aba8ee79ed4764ea0acd7978
 Description: openmediavault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
 Plugin-Section: monitoring
