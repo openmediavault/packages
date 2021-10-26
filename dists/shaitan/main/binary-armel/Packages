@@ -1,3 +1,227 @@
+Package: collectd
+Version: 5.12.0-7.1
+Architecture: armel
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 205
+Depends: collectd-core (>= 5.12.0-7.1), collectd-core (<< 5.12.0-7.1.1~), libc6 (>= 2.4), librrd8 (>= 1.3.0)
+Recommends: libatasmart4 (>= 0.13), libbson-1.0-0 (>= 1.17.6), libc6 (>= 2.29), libcurl3-gnutls (>= 7.18.2-5), libdbi1 (>= 0.9.0), libesmtp6, libgcc-s1 (>= 3.5), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.12.0), libgps28 (>= 3.3), libgrpc++1 (>= 1.30.2), libgrpc10 (>= 1.30.2), libhiredis0.14 (>= 0.14.0), libi2c0 (>= 4.0), libip4tc2 (>= 1.8.3), libip6tc2 (>= 1.8.3), libldap-2.4-2 (>= 2.4.7), liblua5.3-0, libmariadb3 (>= 3.0.0), libmemcached11, libmicrohttpd12 (>= 0.9.50), libmnl0 (>= 1.0.3-4~), libmodbus5 (>= 3.0.2), libmongoc-1.0-0 (>= 1.17.6), libmosquitto1 (>= 1.2), libnotify4 (>= 0.7.0), libopenipmi0 (>= 2.0.29), liboping0 (>= 0.3.3), libowcapi-3.2-4 (>= 3.2p4+dfsg1), libpcap0.8 (>= 1.0.0), libperl5.32 (>= 5.32.0~rc1), libpq5, libprotobuf-c1 (>= 1.0.1), libprotobuf23 (>= 3.12.4), libpython3.9 (>= 3.9.1), libqpid-proton11, librabbitmq4 (>= 0.8.0), librdkafka1 (>= 0.9.1), libriemann-client0 (>= 1.10.0), librrd8 (>= 1.4~rc2), libsensors5 (>= 1:3.5.0), libsnmp40 (>= 5.9+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libudev1 (>= 183), libupsclient4 (>= 2.7.2), libvarnishapi2 (>= 6.1.0), libvirt0 (>= 1.2.11~rc1), libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4), default-jre-headless
+Homepage: https://collectd.org/
+Priority: optional
+Section: utils
+Filename: pool/main/c/collectd/collectd_5.12.0-7.1_armel.deb
+Size: 137992
+SHA256: 0bfef9ea33e3c0cb5c5ea6e58704a63249593aa6c6336821570effb6fc0c9fff
+SHA1: ad5879e0a55a43fb0b4d0a911c28aa13684bbbe7
+MD5sum: 469765ce804d446db2a7fcf81e5a04cb
+Description: statistics collection and monitoring daemon
+ collectd is a small daemon which collects system information periodically and
+ provides mechanisms to monitor and store the values in a variety of ways.
+ Since the daemon doesn't need to startup every time it wants to update the
+ values it's very fast and easy on the system. Also, the statistics are very
+ fine grained since the files are updated every 10 seconds by default.
+ .
+ The collected information can be used to find current performance bottlenecks
+ (performance analysis) and predict future system load (capacity planning).
+ .
+ This package provides a full installation of the daemon, including the
+ configuration. For the core system, see the "collectd-core" package, which
+ allows sites to, e.g., provide customizations (like a custom default
+ configuration) on top of it without having to modify the "collectd" package.
+
+Package: collectd-core
+Source: collectd
+Version: 5.12.0-7.1
+Architecture: armel
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 4563
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), debconf (>= 0.5) | debconf-2.0, lsb-base
+Recommends: perl, rrdtool
+Suggests: collectd-dev, librrds-perl, liburi-perl, libhtml-parser-perl, libregexp-common-perl, libconfig-general-perl, httpd-cgi, apache2, apcupsd, bind9, ceph, chrony, default-mysql-server, gpsd, hddtemp, iptables, ipvsadm, lm-sensors, mbmon, memcached, nginx, notification-daemon, nut, openvpn, olsrd, pdns-server, postgresql, redis-server, slapd, time-daemon, varnish, zookeeper, libatasmart4 (>= 0.13), libbson-1.0-0 (>= 1.17.6), libc6 (>= 2.29), libcurl3-gnutls (>= 7.18.2-5), libdbi1 (>= 0.9.0), libesmtp6, libgcc-s1 (>= 3.5), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.12.0), libgps28 (>= 3.3), libgrpc++1 (>= 1.30.2), libgrpc10 (>= 1.30.2), libhiredis0.14 (>= 0.14.0), libi2c0 (>= 4.0), libip4tc2 (>= 1.8.3), libip6tc2 (>= 1.8.3), libldap-2.4-2 (>= 2.4.7), liblua5.3-0, libmariadb3 (>= 3.0.0), libmemcached11, libmicrohttpd12 (>= 0.9.50), libmnl0 (>= 1.0.3-4~), libmodbus5 (>= 3.0.2), libmongoc-1.0-0 (>= 1.17.6), libmosquitto1 (>= 1.2), libnotify4 (>= 0.7.0), libopenipmi0 (>= 2.0.29), liboping0 (>= 0.3.3), libowcapi-3.2-4 (>= 3.2p4+dfsg1), libpcap0.8 (>= 1.0.0), libperl5.32 (>= 5.32.0~rc1), libpq5, libprotobuf-c1 (>= 1.0.1), libprotobuf23 (>= 3.12.4), libpython3.9 (>= 3.9.1), libqpid-proton11, librabbitmq4 (>= 0.8.0), librdkafka1 (>= 0.9.1), libriemann-client0 (>= 1.10.0), librrd8 (>= 1.4~rc2), libsensors5 (>= 1:3.5.0), libsnmp40 (>= 5.9+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libudev1 (>= 183), libupsclient4 (>= 2.7.2), libvarnishapi2 (>= 6.1.0), libvirt0 (>= 1.2.11~rc1), libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4), default-jre-headless
+Replaces: collectd (<< 4.8.2-1~)
+Homepage: https://collectd.org/
+Priority: optional
+Section: utils
+Filename: pool/main/c/collectd/collectd-core_5.12.0-7.1_armel.deb
+Size: 1181148
+SHA256: 824782611bb6954de2470565bf85f908bc017dbac264f2af38830866d6107a2d
+SHA1: 695e608239857781348016f39bedd551e08d5b46
+MD5sum: f9798f9d5d703701986d46635e703a89
+Description: statistics collection and monitoring daemon (core system)
+ collectd is a small daemon which collects system information periodically and
+ provides mechanisms to monitor and store the values in a variety of ways.
+ Since the daemon doesn't need to startup every time it wants to update the
+ values it's very fast and easy on the system. Also, the statistics are very
+ fine grained since the files are updated every 10 seconds by default.
+ .
+ The collected information can be used to find current performance bottlenecks
+ (performance analysis) and predict future system load (capacity planning).
+ .
+ This package contains the main program file and the plugins listed below (some
+ of those plugins require additional libraries - for more details see
+ /usr/share/doc/collectd-core/README.Debian.plugins) but no configuration. For
+ a full installation (including configuration), see the "collectd" package.
+ This package allows sites to, e.g., provide customizations (like a custom
+ default configuration) on top of it without having to modify the "collectd"
+ package.
+ .
+   * AMQP output plugin: amqp
+   * AMQP 1.0 output plugin: amqp1
+   * Apache and lighttpd statistics provided by mod_status: apache
+   * APC UPS's charge, load, input/output/battery voltage, etc.: apcups
+   * Ascent server statistics: ascent
+   * Bosch and Freescale barometers: barometer
+   * battery status: battery
+   * bind9 name-server and zone statistics: bind
+   * Ceph distributed storage system statitics: ceph
+   * CGroups resource usage: cgroups
+   * Chrony daemon statistics: Local clock drift, offset to peers: chrony
+   * connection tracking table size: conntrack
+   * number of context switches done by the operating system: contextswitch
+   * CPU utilization: cpu
+   * CPU frequency: cpufreq
+   * CPU sleep: Time spent in suspend : cpusleep
+   * output to comma separated values (CSV) files: csv
+   * parse statistics from websites: curl
+   * parse JSON files: curl_json
+   * parse XML data: curl_xml
+   * query data from a relational database: dbi
+   * disk space usage: df
+   * disk and partition throughput: disk
+   * DNS traffic information: dns
+   * DPDK link status and keep alive events: dpdkevents
+   * DPDK interface statistics: dpdkstat
+   * Distributed Replicated Block Device status: drbd
+   * E-Mail statistics (count, traffic, spam scores and checks): email
+   * amount of available entropy: entropy
+   * execution of external programs: exec
+   * count the number of open file handles: fhcount
+   * count the number of files in directories: filecount
+   * Linux file-system based caching framework statistics: fscache
+   * Monitor gps related data through gpsd: gps
+   * Send or receive values over the network using the gRPC framework: grpc
+   * query data from Java processes using JMX: GenericJMX (Java based plugin)
+   * harddisk temperature: hddtemp
+   * Report the number of used and free hugepages: hugepages
+   * Intel Resource Director Technology statistics: intel_rdt
+   * network traffic: interface
+   * IPC statistics: ipc
+   * IPMI sensors information: ipmi
+   * iptables statistics: iptables
+   * IPVS connection statistics: ipvs
+   * IRQ counters: irq
+   * embedded Java Virtual Machine: java
+   * system load averages: load
+   * logging to files, STDOUT and STDERR: logfile
+   * logging in logstash's JSON event format: log_logstash
+   * embedded Lua interpreter: lua
+   * Machine Check Exceptions notifications: mcelog
+   * Atheros wireless LAN chipset statistics: madwifi
+   * motherboard monitor: mbmon
+   * query and parse data from a memcache daemon: memcachec
+   * statistics of the memcached distributed caching system: memcached
+   * memory usage: memory
+   * read values from Modbus/TCP enabled devices: modbus
+   * statistics from mon.itor.us: Monitorus (Perl based plugin)
+   * Publishes and subscribes to MQTT topics: mqtt
+   * multimeter statistics: multimeter
+   * MySQL statistics provided by MySQL's "show status" command: mysql
+   * detailed Linux network interface and routing statistics: netlink
+   * IO via the network: network
+   * NFS utilization: nfs
+   * Nginx (a HTTP and E-Mail server/proxy) statistics: nginx
+   * send desktop notifications to a notification daemon: notify_desktop
+   * send notification E-mails: notify_email
+   * send notifications to nagios: notify_nagios
+   * NTP daemon's local clock drift, offset to peers, etc.: ntpd
+   * UPS information: nut
+   * Optimized Link State Routing daemon statistics: olsrd
+   * OpenLDAP's cn=Monitor statistics: openldap
+   * OpenVPN traffic and compression statistics: openvpn
+   * OpenVZ statistics: OpenVZ (Perl based plugin)
+   * Open vSwitch link state events: ovs_events
+   * Open vSwitch bridge / interface statistics: ovs_stats
+   * embedded Perl interpreter: perl
+   * timing values from Pinba: pinba
+   * network latency statistics: ping
+   * PostgreSQL database statistics: postgresql
+   * PowerDNS name server statistics: powerdns
+   * number of processes: processes
+   * information about network protocols: protocols
+   * embedded Python interpreter: python
+   * Redis server statistics: redis
+   * write data via the RRD accelerator daemon: rrdcached
+   * output to RRD files: rrdtool
+   * lm_sensors information (e.g. CPU temperature, fan speeds): sensors
+   * serial port traffic: serial
+   * values from SNMP enabled network devices: snmp
+   * receive and handle queries from SNMP master agent: snmp_agent
+   * aggregate values received with the StatsD protocol: statsd
+   * SMART statistics: smart
+   * swap usage: swap
+   * Linux synproxy statistics: synproxy
+   * logging to syslog: syslog
+   * parse table-like structured files: table
+   * incremental parsing of logfiles: tail
+   * incremental parsing of CSV files: tail_csv
+   * number of TCP connections to specific ports: tcpconns
+   * TeamSpeak2 server statistics: teamspeak2
+   * power consumption measurements from "The Energy Detective" (TED): ted
+   * Linux ACPI thermal zone information: thermal
+   * check thresholds and for missing values: threshold
+   * statistics from Intel turbo-capable processors: turbostat
+   * external runtime interface: unixsock
+   * system uptime: uptime
+   * number of users logged into the system: users
+   * set the hostname to an unique identifier: uuid
+   * Varnish HTTP accelerator daemon statistics: varnish
+   * CPU, disk, network statistics of guest systems: virt
+   * detailed virtual memory statistics: vmem
+   * system resources used by Linux-VServers: vserver
+   * wireless network stats: wireless
+   * send collected values to a graphite server: write_graphite
+   * send collected values to a web-server: write_http
+   * send collected values to an Apache Kafka message broker: write_kafka
+   * send collected values to the logging subsystem: write_log
+   * send collected values to MongoDB, a NoSQL database: write_mongodb
+   * publish collected values as a Prometheus exporter: write_prometheus
+   * send collected values to a Redis server: write_redis
+   * send collected values to a Riemann server: write_riemann
+   * send collected values to a Sensu client: write_sensu
+   * send collected values to Google Stackdriver: write_stackdriver
+   * send collected values to an OpenTSDB server: write_tsdb
+   * XEN Hypervisor CPU stats: xencpu
+   * ZFS's Adaptive Replacement Cache statistics: zfs_arc
+   * data from Zookeeper's MNTR command: zookeeper
+
+Package: collectd-utils
+Source: collectd
+Version: 5.12.0-7.1
+Architecture: armel
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 228
+Depends: libc6 (>= 2.17), libcollectdclient1 (>= 5.2.0)
+Recommends: collectd
+Replaces: collectd (<< 4.6.1-1~)
+Homepage: https://collectd.org/
+Priority: optional
+Section: utils
+Filename: pool/main/c/collectd/collectd-utils_5.12.0-7.1_armel.deb
+Size: 150900
+SHA256: fd19d863cbab27e8bf188e33cd7eda10a52cc16b0ecaef7876f110129d32a1f6
+SHA1: 6dba5d7b8e01c18803bfe00dd25832f5897f72ca
+MD5sum: c24aaebb3238ff4e7e822a1fdbebea8b
+Description: statistics collection and monitoring daemon (utilities)
+ collectd is a small daemon which collects system information periodically and
+ provides mechanisms to monitor and store the values in a variety of ways.
+ Since the daemon doesn't need to startup every time it wants to update the
+ values it's very fast and easy on the system. Also, the statistics are very
+ fine grained since the files are updated every 10 seconds by default.
+ .
+ This package contains the following utility:
+ .
+   * collectdctl: Control interface for collectd
+   * collectd-nagios: Nagios plugin for querying collectd
+
 Package: forked-daapd
 Version: 26.4+dfsg1-2~bpo11+1
 Architecture: armel
@@ -28,6 +252,31 @@ Description: DAAP/DACP (iTunes) server, support for AirPlay and Roku devices
  Built-in, on-the-fly decoding support enables serving popular free music
  formats like FLAC, Ogg Vorbis or Musepack to those clients that do not
  otherwise support them.
+
+Package: libcollectdclient1
+Source: collectd
+Version: 5.12.0-7.1
+Architecture: armel
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 200
+Depends: libc6 (>= 2.4), libgcrypt20 (>= 1.8.0)
+Suggests: collectd
+Homepage: https://collectd.org/
+Priority: optional
+Section: libs
+Filename: pool/main/c/collectd/libcollectdclient1_5.12.0-7.1_armel.deb
+Size: 140348
+SHA256: d00543230d37d9223fd1894fc00868c6c4f2488b3167b37a5f611c4799b8a1ea
+SHA1: 3786f0b8289ea3926e4172e76516b851ec09d4c1
+MD5sum: 9651a398911067f3171f409f7ff7f97b
+Description: client library for collectd's control interface
+ libcollectdclient provides an API to access the control interface provided by
+ the unixsock plugin of collectd, a statistics collection and monitoring
+ daemon. It can be used to access values collected by collectd or dispatch new
+ values and notifications to the daemon. This allows for integration with
+ other applications such as monitoring solutions.
+ .
+ This package contains the shared library.
 
 Package: monit
 Version: 1:5.26.0-1
@@ -77,7 +326,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0-28
+Version: 6.0-29
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 21713
@@ -85,11 +334,11 @@ Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-m
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0-28_all.deb
-Size: 2315088
-SHA256: ed2bb8b337a262340295c9a487fb62b622af8491e5ba32b611ab47c3d713cfff
-SHA1: 061800adec665c71700923eb2d7ce6eb53f148f2
-MD5sum: beb33cc17715d25220a1c5689d10ab7c
+Filename: pool/main/o/openmediavault/openmediavault_6.0-29_all.deb
+Size: 2315220
+SHA256: e8c92bd1d11095fd63db1c1fd34cb10f30cd29aa8a7f9e07bbdf8168b1a164af
+SHA1: 57b7130ba51a81c4939ddfde9e817e1a7136d16c
+MD5sum: bd220bc1b7d4e5019397eb471dd87656
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -113,7 +362,7 @@ Description: openmediavault ClamAV plugin
 Plugin-Section: utilities
 
 Package: openmediavault-diskstats
-Version: 6.0-3
+Version: 6.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 105
@@ -121,11 +370,11 @@ Depends: openmediavault (>= 6.0)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0-3_all.deb
-Size: 9996
-SHA256: 0de1197c92770c0c1053d72e5207140170d1848f839b802bf85d0e32efcd7fab
-SHA1: d822260136dcea989a71be7fa9cf196436f54ccf
-MD5sum: 70d6d986d776acdb9dee1fa7f2a093e8
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0-4_all.deb
+Size: 9992
+SHA256: 12a45ac632beb0502f86634b61cfa90cbd669029be7a4e13ad4850ea637493b0
+SHA1: cfeca905cdbe4ed6d9a083704dbac216a0e7526d
+MD5sum: e0385f43b7a663fcf3b448d54846fc43
 Description: openmediavault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
 Plugin-Section: monitoring

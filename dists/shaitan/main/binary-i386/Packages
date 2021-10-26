@@ -77,7 +77,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0-28
+Version: 6.0-29
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 21713
@@ -85,11 +85,11 @@ Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-m
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0-28_all.deb
-Size: 2315088
-SHA256: ed2bb8b337a262340295c9a487fb62b622af8491e5ba32b611ab47c3d713cfff
-SHA1: 061800adec665c71700923eb2d7ce6eb53f148f2
-MD5sum: beb33cc17715d25220a1c5689d10ab7c
+Filename: pool/main/o/openmediavault/openmediavault_6.0-29_all.deb
+Size: 2315220
+SHA256: e8c92bd1d11095fd63db1c1fd34cb10f30cd29aa8a7f9e07bbdf8168b1a164af
+SHA1: 57b7130ba51a81c4939ddfde9e817e1a7136d16c
+MD5sum: bd220bc1b7d4e5019397eb471dd87656
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -113,7 +113,7 @@ Description: openmediavault ClamAV plugin
 Plugin-Section: utilities
 
 Package: openmediavault-diskstats
-Version: 6.0-3
+Version: 6.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 105
@@ -121,11 +121,11 @@ Depends: openmediavault (>= 6.0)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0-3_all.deb
-Size: 9996
-SHA256: 0de1197c92770c0c1053d72e5207140170d1848f839b802bf85d0e32efcd7fab
-SHA1: d822260136dcea989a71be7fa9cf196436f54ccf
-MD5sum: 70d6d986d776acdb9dee1fa7f2a093e8
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0-4_all.deb
+Size: 9992
+SHA256: 12a45ac632beb0502f86634b61cfa90cbd669029be7a4e13ad4850ea637493b0
+SHA1: cfeca905cdbe4ed6d9a083704dbac216a0e7526d
+MD5sum: e0385f43b7a663fcf3b448d54846fc43
 Description: openmediavault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
 Plugin-Section: monitoring
