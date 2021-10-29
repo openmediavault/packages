@@ -77,19 +77,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0-29
+Version: 6.0-30
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 21713
+Installed-Size: 21770
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0-29_all.deb
-Size: 2315220
-SHA256: e8c92bd1d11095fd63db1c1fd34cb10f30cd29aa8a7f9e07bbdf8168b1a164af
-SHA1: 57b7130ba51a81c4939ddfde9e817e1a7136d16c
-MD5sum: bd220bc1b7d4e5019397eb471dd87656
+Filename: pool/main/o/openmediavault/openmediavault_6.0-30_all.deb
+Size: 2325516
+SHA256: 090085fd899d009f57feeee8628367d9e640d2e67cf1f93e88a99cb6aa9af6e7
+SHA1: 75bea744152194d3ba437fc860e66632209b534d
+MD5sum: 2f28aa554edab57a907e7626ff94e32b
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -131,7 +131,7 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-forkeddaapd
-Version: 6.0-4
+Version: 6.0-5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 150
@@ -139,11 +139,11 @@ Depends: openmediavault (>= 6.0), forked-daapd
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_6.0-4_all.deb
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_6.0-5_all.deb
 Size: 21424
-SHA256: 7c7d76fef423adf2b46f512130bd944124b305cbc648686f011fa2073f9eca2a
-SHA1: 9abedaf45455bf753c130408cd2b77abde7999bc
-MD5sum: f32d1db77507ca87d90732c30520f316
+SHA256: a39529ba177643d490a2cce6910bf07463b791543c28bec162cf1bcfb3fe1f63
+SHA1: d74eb082b9e440bd0eabf1cd2a26b151433b8de8
+MD5sum: 0c01340081ff00380b23d1d83dd570a4
 Description: openmediavault forked-daapd (DAAP server) plugin
  forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
  media server.
