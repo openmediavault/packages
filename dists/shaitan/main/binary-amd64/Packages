@@ -326,7 +326,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0.4-1
+Version: 6.0.4-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 22116
@@ -334,11 +334,11 @@ Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-m
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.4-1_all.deb
-Size: 2342864
-SHA256: aad2fdf8c8c1a5fba41051c2ae9cf59574a75ee754ec4dc816fd261d14114bed
-SHA1: 3dc4881948e5d34272983f5f81cd48f5962f74ae
-MD5sum: c3340eb3efc878a0c3e7c319c812b39e
+Filename: pool/main/o/openmediavault/openmediavault_6.0.4-2_all.deb
+Size: 2342812
+SHA256: cf950680954f8621ac4b345e5435c64b5e72ee27c5c04006e34e4606e549b127
+SHA1: ef58dea82834ee3a9d9d8eb090edebb2fa6c5718
+MD5sum: 86d86f114b959934a5d842619b733194
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -418,7 +418,7 @@ Description: GnuPG archive keys of the OpenMediaVault archive
  contains the archive keys used for that.
 
 Package: openmediavault-lvm2
-Version: 6.0-5
+Version: 6.0-6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 283
@@ -426,11 +426,11 @@ Depends: openmediavault (>= 6.0), lvm2
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_6.0-5_all.deb
-Size: 30776
-SHA256: d9329e5817566a83b76ce9dbe09bbdc4bd44ddade47ffbcab74e6428c219be0a
-SHA1: 2a9845f0362e125837a0ddb0872c467a6ac12eca
-MD5sum: 1824e03907426220a25800be9a427d9f
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_6.0-6_all.deb
+Size: 30772
+SHA256: 6ffa5284542c729f7e2c8d7ef38d1c78485a93f1609e87cbdc45d4b43d2691d1
+SHA1: 5d42b5a0bab3a2c78af70f4309ec9565bf4daa57
+MD5sum: bfadf7d3eefc3b17789f69381b13bb5c
 Description: openmediavault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
