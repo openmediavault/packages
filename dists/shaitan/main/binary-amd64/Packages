@@ -326,19 +326,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0.4-3
+Version: 6.0.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 22116
+Installed-Size: 22117
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, watchdog, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, debconf (>= 0.5) | debconf-2.0
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.4-3_all.deb
-Size: 2343036
-SHA256: 72a3034d4b87fbf8e49c1851deaaabab3b50be614b662b5b92fecbcf0b0c87ef
-SHA1: 220d7a8e55009101e68ca173ef71704ce37d6cf6
-MD5sum: 886811c9559a9bf3df56f1b79c3e9974
+Filename: pool/main/o/openmediavault/openmediavault_6.0.5-1_all.deb
+Size: 2343268
+SHA256: 5f2c001266d46f6a0958d31e310eac6edf0554c6c7506e002408aab3d35e25e9
+SHA1: 1a2035ecd3b081827d60bf211a58e0065cfb9bbb
+MD5sum: ff131c45646ae0b273ed94fcabd66016
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -459,7 +459,7 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: utilities
 
 Package: openmediavault-shairport
-Version: 6.0-5
+Version: 6.0-6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 144
@@ -467,11 +467,11 @@ Depends: openmediavault (>= 6.0-13), shairport-sync (>= 2.8.6), alsa-utils
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_6.0-5_all.deb
-Size: 16740
-SHA256: d99fbb9d4f7e9e8aca4c473c601c29940edc41173e0d041a1f68f8c31c289361
-SHA1: b9baee3a66ace092c72800d5e4aeb113a59c3ca6
-MD5sum: f4166a250f0d5a30afcddcff89cdbf51
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_6.0-6_all.deb
+Size: 16760
+SHA256: 5eb4eeb688924dcd6d69c904b56d8884fe1c92ce2a144699f482ed5166badc6c
+SHA1: 4325651ace7cf2f65c4d53e425539f9bd5f2244a
+MD5sum: b316001f731ac7ec996abc4aa7299fe7
 Description: openmediavault shairport (AirPlay/RAOP receiver) plugin
  Shairport emulates an AirPort Express for the purpose of streaming
  music from iTunes and compatible iPods and iPhones. It implements a
