@@ -63,7 +63,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 5.6.21-2
+Version: 5.6.22-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 9417
@@ -71,11 +71,11 @@ Depends: perl:any, libjs-extjs6, php-fpm, libpam-modules, php-json, php-cgi, php
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_5.6.21-2_all.deb
-Size: 1728432
-SHA256: 5df76b6eecaaac923216ba408ca0d88db36e08f5338616668ded027a09af2bfb
-SHA1: 749241b01a64c8c3bb088238ccce62ec01b54a96
-MD5sum: c50ce4159916224cf5dc1b77a8039dee
+Filename: pool/main/o/openmediavault/openmediavault_5.6.22-1_all.deb
+Size: 1728676
+SHA256: c7496664c329dace96020918c66d6e5e560dbc39f1a3be390d6a2cbad09f2aae
+SHA1: e521bf0bfc7678a8944301aa5607a2af0c3a77ae
+MD5sum: 5b342e3a04737cec9e251617b55682c1
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
