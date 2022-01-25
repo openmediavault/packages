@@ -481,22 +481,25 @@ Description: openmediavault shairport (AirPlay/RAOP receiver) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-sharerootfs
-Version: 6.0-2
+Version: 6.0-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 15
-Depends: openmediavault (>= 6.0)
+Depends: openmediavault (>= 6.0.9)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-sharerootfs/openmediavault-sharerootfs_6.0-2_all.deb
-Size: 2972
-SHA256: 24b781a2c479c7e069a42db3b582c26241507856b3e066eaac77d6a73e3a2819
-SHA1: bcabf1df4efd4f61ef906e0d07a49e1e4b98aa2e
-MD5sum: aa0729bebe0705ec1eeb961d0a789745
+Filename: pool/main/o/openmediavault-sharerootfs/openmediavault-sharerootfs_6.0-3_all.deb
+Size: 3036
+SHA256: 4d11490bee606e930fd127000929fc8d8968ebf78c6cba5c47639cf2e8402203
+SHA1: 7eefd3c7150ec681354e7aa98b849feee4e2ba97
+MD5sum: 1e90860668ceac8449edf01fbcb41545
 Description: openmediavault share root filesystem plugin
- The plugin enables the ability to create shared folders in the
- root filesystem.
+ By default the root filesystem is hidden in openmediavault
+ and cannot be used to create shared folders on it. This is
+ by design to separate the operating system from user data.
+ This plugin allows creating shared folders in the root file
+ system.
 Plugin-Section: admin
 
 Package: openmediavault-snmp
