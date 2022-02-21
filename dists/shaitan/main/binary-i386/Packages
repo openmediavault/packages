@@ -77,7 +77,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0.13-1
+Version: 6.0.13-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 22895
@@ -86,11 +86,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.13-1_all.deb
-Size: 2390832
-SHA256: 9d3195342f47a71a3dd4bc757c646ffc60abc3f3783cf0d5a16b5f7ac07ab698
-SHA1: db092f96ae92d7e79ce48ed0d3df695a3335ef48
-MD5sum: 752f41f2df9a2741740190d6220bc08b
+Filename: pool/main/o/openmediavault/openmediavault_6.0.13-2_all.deb
+Size: 2391152
+SHA256: 42a8ccac23f38c29b666a5aea146d098bf89fc942f29d686ef979302d7d11e4d
+SHA1: 100d82cc66d41619cb91e4b4b9eb4f1133c9d119
+MD5sum: 87d1ff2538b3da921630ed94c0e74cb0
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -191,19 +191,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 6.0-7
+Version: 6.0-8
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 275
+Installed-Size: 272
 Depends: openmediavault (>= 6.0.13), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_6.0-7_all.deb
-Size: 35820
-SHA256: 5bcab2d71a6685793d0365ac974d72dffd1c6bf4b5aba2d70d3e0052d8a71887
-SHA1: fd7edf731d4d9e2c90f82fcccfcc1bd0e1fcbd7a
-MD5sum: 677eeea9dd0fbcc5d8657b112ad0fb7b
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_6.0-8_all.deb
+Size: 35796
+SHA256: d9472b4503c263cd861aa2b7d75012f3cfd62a1a828bd3308c49a5ca49f8d8f5
+SHA1: 80b22955035396de562fa26f5bd1d396657ba684
+MD5sum: b19f0893e0683104c69d72ce4d097b22
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
