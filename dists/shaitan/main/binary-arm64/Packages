@@ -659,18 +659,18 @@ Description: client package for salt, the distributed remote execution system
  This particular package provides the worker / agent for salt.
 
 Package: wsdd
-Version: 0.6.4+git6d5922e2-1
+Version: 0.7+gitc87819b
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 83
-Depends: samba-common-bin
+Installed-Size: 91
+Depends: python3, samba-common-bin
 Priority: optional
 Section: net
-Filename: pool/main/w/wsdd/wsdd_0.6.4+git6d5922e2-1_all.deb
-Size: 17580
-SHA256: 28eddd78e9814b64068b755dbd23913ff8bbd93264c569d41ebc86d6551e4385
-SHA1: 174f7cdde88bb51fc87aa97b4fb75f7713c10fa3
-MD5sum: 0d30251109eea6c84561f390ecad4cec
+Filename: pool/main/w/wsdd/wsdd_0.7+gitc87819b_all.deb
+Size: 19156
+SHA256: f59fdecaf4e70c848bc10a4290ee7219ae75ba04e8d47c3f16cc0f7e35b1c51e
+SHA1: 9e89bbf154de705b50609402e5ae9474349e4671
+MD5sum: f4d865e8126e6595b517827964b0517f
 Description: Web Services on Devices (WSD) daemon
  Web Services on Devices (WSD) is a Microsoft API to simplify programming
  connections to web service enabled devices, such as Printers, Scanners
