@@ -132,7 +132,7 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 6.0-3
+Version: 6.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 62
@@ -140,11 +140,11 @@ Depends: openmediavault (>= 6.0.19), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_6.0-3_all.deb
-Size: 8136
-SHA256: 4025c9021cb4b35bdddb3e76dbbe90c724d84f3e08e7c6b26f8fb89cd39b3357
-SHA1: 8bc3a946eaa6b2b51b956b9f1635f2c3afe34483
-MD5sum: 364c0e042d7768ede6f92140d0f3ac40
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_6.0-4_all.deb
+Size: 8100
+SHA256: 7ab40c803630b8225afcb37012288899965d6077e251d272721edf50a023b9cc
+SHA1: 1980c6add33bdfd725a25b572a00987f34df4d6e
+MD5sum: 33d489f68b21d6c6e8cf579008f0040f
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
@@ -272,7 +272,7 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-s3
-Version: 6.0-2
+Version: 6.0-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 135
@@ -280,11 +280,11 @@ Depends: openmediavault (>= 6.0.19), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-s3/openmediavault-s3_6.0-2_all.deb
-Size: 13456
-SHA256: 94f117280be17c85ec76ec4c61f2a7d0d85ccf68600a2e80ff95beed4e0a64fd
-SHA1: 1c7ffddb18d1f9dde868fe487fdd41c0184b0bf9
-MD5sum: c65a9a22a1e210f4da927c8608e1ad31
+Filename: pool/main/o/openmediavault-s3/openmediavault-s3_6.0-3_all.deb
+Size: 13436
+SHA256: 6c13acee9015f8729b13290f66e5acc5c4921f0340a87d4f5a40aa4da9a938e5
+SHA1: 849aa044b99b6e426725fed49baaf9c96141b42f
+MD5sum: 16b7fa059e2a71163d87e3cfec6c4e78
 Description: openmediavault S3 plugin
  A standalone high performance object storage based on MinIO.
  It is API compatible with Amazon S3 cloud storage service.
@@ -395,7 +395,7 @@ Description: openmediavault USB/eSATA backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wetty
-Version: 6.0-3
+Version: 6.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 142
@@ -403,11 +403,11 @@ Depends: openmediavault (>= 6.0.19), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0-3_all.deb
-Size: 14844
-SHA256: 37d0197e4d18148f4dba39330a9aab1b69debca322abf0b5a7b28d387a771c8c
-SHA1: 9d959d026223664a58e1cb1b8a38a040c6033210
-MD5sum: 8d9b2962ab613e8b87c12c135e85b830
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0.1-1_all.deb
+Size: 15064
+SHA256: 61ecb5eb8a52221194c0018e90394bf36ea54d5136b2ca20b55b3b6cd9d2b277
+SHA1: 42a1442c1cec9392c216347db5502c4c9255612d
+MD5sum: 3d1cae55c0bcc5828dd2442b40209167
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
 Plugin-Architecture: amd64
