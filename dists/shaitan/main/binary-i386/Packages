@@ -232,19 +232,19 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: utilities
 
 Package: openmediavault-onedrive
-Version: 6.0-2
+Version: 6.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 132
+Installed-Size: 137
 Depends: openmediavault (>= 6.0.22), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.0-2_all.deb
-Size: 11240
-SHA256: e8b613590bb29889d497c4fdb276057144cd01d08a6c10bab94bcba2eb4d63d8
-SHA1: c23350682885fb8f6f7a0849045e910356f7b49b
-MD5sum: 43417c6fea85c0dc569beb5f39864a87
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.0.1-1_all.deb
+Size: 12856
+SHA256: 9a290aa30dca176a0770a9368076f81b28ab52b3a7396ae1075f731c3c7114ac
+SHA1: 077accdd27a7243030e8223ae5467c45434aa031
+MD5sum: c8b35f2a62c7a36b0244c5ea15343712
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
