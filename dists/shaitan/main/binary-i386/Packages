@@ -232,7 +232,7 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: utilities
 
 Package: openmediavault-onedrive
-Version: 6.1.0-1
+Version: 6.1.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 178
@@ -240,11 +240,11 @@ Depends: openmediavault (>= 6.0.22), onedrive, sudo
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.1.0-1_all.deb
-Size: 15616
-SHA256: 2c8043743daf19ebb68602109609e915fb89789341a24e9c36a268fa3b426c9d
-SHA1: 7911d75b832da9e17b6a4e0c9cbacc15d716987e
-MD5sum: 007e88d29ae6d9e608bd079e02e190b5
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.1.0-2_all.deb
+Size: 16360
+SHA256: 8912acc0e64484c7c46b87eb4ad504e6f94fac11cee89448d4b1f301b3a84d5a
+SHA1: 96b8d3cd49de2fa29cbc219b617137d9bdfa5008
+MD5sum: 350763e479c12e8bb3db8b5d509eed21
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
@@ -271,19 +271,19 @@ Plugin-Architecture: amd64, armhf, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-photoprism
-Version: 6.0.1-4
+Version: 6.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 212
-Depends: openmediavault (>= 6.0.20), podman
+Installed-Size: 190
+Depends: openmediavault (>= 6.0.22), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: graphics
-Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.1-4_all.deb
-Size: 21724
-SHA256: 9f7425ed3a78b8f73ec847c92da0f5511d9c7ddef0bbc45cfcb2b7600a195120
-SHA1: 5fd42e65637312e24bfe534d1e5dfa6903507ecf
-MD5sum: 5756825afd64cdbe0ec86e0275c29168
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.2-1_all.deb
+Size: 19484
+SHA256: 19f935c6a39907dd1a6242c7350f3fd277c2b7bc109640c668dc31f520bdc082
+SHA1: 8d1556e8047ea942c7749362da9074b456d6bc9a
+MD5sum: 91403af54d85667f399ee571fe80aa6b
 Description: openmediavault PhotoPrism plugin
  PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
  photo collection.
