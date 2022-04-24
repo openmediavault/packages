@@ -326,20 +326,20 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0.22-1
+Version: 6.0.23-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 23074
+Installed-Size: 23081
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.22-1_all.deb
-Size: 2409768
-SHA256: 445bcf997525251365843717bbd0730973cbf10b5b84a6865f4bdce8e6bee7d7
-SHA1: a482384709018fa0ae6ff4a5cec03e190d6ad7ff
-MD5sum: d8d699f27eb728bd94b37a80df4b2577
+Filename: pool/main/o/openmediavault/openmediavault_6.0.23-1_all.deb
+Size: 2410700
+SHA256: bd4ee0d8f2dfbbdfba00458d5c8499979eb482a76241b4592d9fd184c41c1825
+SHA1: 5f008728f8c1b6f0b4ec22c3316b0bb30fade2a5
+MD5sum: c312418c3b67d993442a20586048fd44
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -500,19 +500,19 @@ Description: openmediavault OneDrive plugin
 Plugin-Section: utilities
 
 Package: openmediavault-owntone
-Version: 6.0-6
+Version: 6.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 155
+Installed-Size: 154
 Depends: openmediavault (>= 6.0.20), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0-6_all.deb
-Size: 20276
-SHA256: 25bf22e99e1c5ed855938624b6ab3d65611e0aefeaa6dfbe2e4d60a12e7c8fc1
-SHA1: f4f4ff37829702d0baef89383aeda8abb7d63fce
-MD5sum: bbcd53f2c21bd7a98e34b41cdf04bfb3
+Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0.1-1_all.deb
+Size: 20296
+SHA256: 25b6ac186abbd1f271d5ada05334b3edcb11bbd9854aca9e29bd1967148aa0ef
+SHA1: 2624893f332b6ec94a2ef4a961908036e6845d0b
+MD5sum: 7f32d4a8e561b9036b26c1472d0bf659
 Description: openmediavault OwnTone plugin
  OwnTone is a DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku)
  media server.
@@ -663,19 +663,19 @@ Description: openmediavault USB/eSATA backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wetty
-Version: 6.0.1-4
+Version: 6.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 143
-Depends: openmediavault (>= 6.0.20), podman
+Installed-Size: 132
+Depends: openmediavault (>= 6.0.23), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0.1-4_all.deb
-Size: 15440
-SHA256: 2861f51ac5c13ec21b0cf69081b4d7828372c5ce9b36c51fabd0d9cc53c6e257
-SHA1: 62bfd0e4735b8030ff95a06db2cb64b4fb99c617
-MD5sum: 10410a271423e11dc663208e56a01687
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0.2-1_all.deb
+Size: 12264
+SHA256: 42eb64f2446a9a41597079a9570690d5bcf8ff92e44cba56def8eeacec280a3c
+SHA1: 8ecb0b369c2a5af53fb082b3baaa691a9dc250aa
+MD5sum: 8d02961034ad788330ff0abb989305f5
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
 Plugin-Architecture: amd64
