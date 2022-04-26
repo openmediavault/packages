@@ -77,20 +77,20 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0.23-2
+Version: 6.0.24-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 23081
+Installed-Size: 23079
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.23-2_all.deb
-Size: 2410972
-SHA256: 44f6f23b9628d6b13969de3b3f83aecfe84a62471ed6ea500a9e86a14622389c
-SHA1: 5bab87c64b6f259a8b99450f4d12f831264f9aa3
-MD5sum: 342eacf2995e1a636878ae64ec63398a
+Filename: pool/main/o/openmediavault/openmediavault_6.0.24-1_all.deb
+Size: 2410852
+SHA256: 2bb3a8cfa05fa6ca061229b6fb50dff1a5e3cd3b16d81e501b18b0726d6acd0f
+SHA1: 63e2d28a816d1046671777df88b55e5cd57c2e48
+MD5sum: 11f10c5a68135b137c4eaf159d96cfeb
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -251,7 +251,7 @@ Description: openmediavault OneDrive plugin
 Plugin-Section: utilities
 
 Package: openmediavault-owntone
-Version: 6.0.1-3
+Version: 6.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 154
@@ -259,11 +259,11 @@ Depends: openmediavault (>= 6.0.20), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0.1-3_all.deb
-Size: 20264
-SHA256: ac080ac819cf8c9613b2c0de0f9dd36ba8d2641e1b4cd77bd18725d697bcfb3d
-SHA1: e2185ac3762163fd651426ab0f700bc22a160d73
-MD5sum: 19bdb43fbfc5694ba3f453a77de646c3
+Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0.2-1_all.deb
+Size: 20412
+SHA256: 404272f4d5c98a1b4ae2c6cca2fbcfed9a9837a84fd248ccd73b20c672db7d85
+SHA1: e87adadfc62be03b0bed6a369a887aec10211f8d
+MD5sum: 1b1298ae4f3bb51befcc947ab1159517
 Description: openmediavault OwnTone plugin
  OwnTone is a DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku)
  media server.
