@@ -77,7 +77,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.0.25-2
+Version: 6.0.25-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 23080
@@ -86,11 +86,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.25-2_all.deb
-Size: 2411196
-SHA256: e741c8036e0c97816440649545c6d648f0a789c3d2fbee7ce8baa8629862bc3c
-SHA1: 58db5914e20e8e2d70de61145408a56146213636
-MD5sum: 97bde2c066e774586a9e11e7cf76d355
+Filename: pool/main/o/openmediavault/openmediavault_6.0.25-3_all.deb
+Size: 2410860
+SHA256: bc211849c88c9975bfb6c385b4e5eff84c737f66bba58906953c2f2ea6e568b4
+SHA1: fd7f79fd8e44e10f60da9690eb3d04d80fb92fd8
+MD5sum: 4bc4c50327520be6c69b5e5127bc7d04
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -271,7 +271,7 @@ Plugin-Architecture: amd64, armhf, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-photoprism
-Version: 6.0.2-4
+Version: 6.0.2-5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 193
@@ -279,11 +279,11 @@ Depends: openmediavault (>= 6.0.25), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: graphics
-Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.2-4_all.deb
-Size: 19828
-SHA256: 52ca0fb51f9ace7d2b9d40fdfc3d9293c2b418224a099a2ed878f8c8e8357fdf
-SHA1: aef7dd8cc16477f18bd14d4cef7102bfb8da0850
-MD5sum: 71d4186dda1bfabea4b761ce31dc5480
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.2-5_all.deb
+Size: 19824
+SHA256: 5b3b716a085787462226653005f97be06ea3b9766350c2a85b13d543351e4b3b
+SHA1: ce1d3b722cf2688b62b2e9b4b39fc4d59b1d8074
+MD5sum: 0b25ef4659788871c814479c7c63dfc3
 Description: openmediavault PhotoPrism plugin
  PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
  photo collection.
