@@ -560,7 +560,7 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: network
 
 Package: openmediavault-shairport
-Version: 6.0-8
+Version: 6.0-9
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 143
@@ -568,11 +568,11 @@ Depends: openmediavault (>= 6.0.25), shairport-sync (>= 2.8.6), alsa-utils
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_6.0-8_all.deb
-Size: 16476
-SHA256: 97dc59dc8690d30f42897c3f83aea8fb109c1a173a92f7133e714549181ba819
-SHA1: 70e9cfb17be329360285d8747f7632763fb97c0e
-MD5sum: e47875842b6294add868013b81094920
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_6.0-9_all.deb
+Size: 16468
+SHA256: 84a808326b3ccf1347042b058f3eab92645e21b90d375fd0cdb78a6e80a2070d
+SHA1: 3ce22054a984655faa2a26f15d18eaff4d91c246
+MD5sum: f637d88472869829f61a714f92ee10e3
 Description: openmediavault shairport (AirPlay/RAOP receiver) plugin
  Shairport emulates an AirPort Express for the purpose of streaming
  music from iTunes and compatible iPods and iPhones. It implements a
