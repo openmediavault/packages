@@ -345,20 +345,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.0.30-1
+Version: 6.0.31-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 30334
+Installed-Size: 30422
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.30-1_all.deb
-Size: 2792404
-SHA256: fc06c60896683b9bd2bd741939f507fd4075206df041bfd28ed330f8771edc62
-SHA1: 328c1e26c5bd0645b92ba2ea1175a8b9204d0dc5
-MD5sum: 134cf15aa3916116f0b50f371561ef54
+Filename: pool/main/o/openmediavault/openmediavault_6.0.31-1_all.deb
+Size: 2807520
+SHA256: dcc4a9800467f41045e337e7472cb10509aa910848ca28de6a1d2545fd77a823
+SHA1: bf8e395b4bc6fddc3559646e54e9aa85439760c6
+MD5sum: 90a1713c3322add325251e542b18a533
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -500,19 +500,19 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: utilities
 
 Package: openmediavault-onedrive
-Version: 6.2.1-1
+Version: 6.2.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 190
+Installed-Size: 191
 Depends: openmediavault (>= 6.0.25), onedrive (>= 2.4.19), sudo
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.2.1-1_all.deb
-Size: 19428
-SHA256: 4a18c5bd26827f6d47d2173b565be91fc3421bce5cc575fc9e66e9f843bdd807
-SHA1: ceea4da17006b54e5b0cc51c0517905cd330a245
-MD5sum: cbf5dbe26df3489407b04c3a55ccb766
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.2.2-1_all.deb
+Size: 19916
+SHA256: f7de361bde13020990c6caf8aa792517da01a925db0e4821ea76933a6bca81a2
+SHA1: 6e7f1779852ced29259ea5b7d493168e47cbd8e3
+MD5sum: ce7d14e56a8bd053aef09759dfafdb4f
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
