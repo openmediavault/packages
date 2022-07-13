@@ -96,7 +96,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.0.31-1
+Version: 6.0.31-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 30422
@@ -105,11 +105,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.31-1_all.deb
-Size: 2807520
-SHA256: dcc4a9800467f41045e337e7472cb10509aa910848ca28de6a1d2545fd77a823
-SHA1: bf8e395b4bc6fddc3559646e54e9aa85439760c6
-MD5sum: 90a1713c3322add325251e542b18a533
+Filename: pool/main/o/openmediavault/openmediavault_6.0.31-2_all.deb
+Size: 2807524
+SHA256: a8c4f4d34dbb81f92bd00a1774031d089a6a0f1d244cea1d1d98037ba44692ac
+SHA1: 3cb330e1dbf2309d4e98bcd1a6daa50df2f4d630
+MD5sum: 52b013589205629391b8e5c706b48608
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -251,7 +251,7 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: utilities
 
 Package: openmediavault-onedrive
-Version: 6.2.2-1
+Version: 6.2.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 191
@@ -259,11 +259,11 @@ Depends: openmediavault (>= 6.0.25), onedrive (>= 2.4.19), sudo
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.2.2-1_all.deb
-Size: 19916
-SHA256: f7de361bde13020990c6caf8aa792517da01a925db0e4821ea76933a6bca81a2
-SHA1: 6e7f1779852ced29259ea5b7d493168e47cbd8e3
-MD5sum: ce7d14e56a8bd053aef09759dfafdb4f
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.2.3-1_all.deb
+Size: 19924
+SHA256: b5d729865419446c831fa63c9611c13ceaa34aa83338b3c7418f6951af692a74
+SHA1: 16a178d07c3169e08317f77a6a65391e2afccaaa
+MD5sum: 76096e903b347c6d0d234b8e8cf4cb04
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
