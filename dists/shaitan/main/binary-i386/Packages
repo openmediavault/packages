@@ -96,20 +96,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.0.31-2
+Version: 6.0.32-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 30422
+Installed-Size: 30432
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, isc-dhcp-client, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.0.31-2_all.deb
-Size: 2807524
-SHA256: a8c4f4d34dbb81f92bd00a1774031d089a6a0f1d244cea1d1d98037ba44692ac
-SHA1: 3cb330e1dbf2309d4e98bcd1a6daa50df2f4d630
-MD5sum: 52b013589205629391b8e5c706b48608
+Filename: pool/main/o/openmediavault/openmediavault_6.0.32-1_all.deb
+Size: 2813768
+SHA256: e595e0d4d375e61e2f167d586905e7436ea4a594c8e0c24d0f74eac67427ce93
+SHA1: 68061c9c791f46ceb21f7e581e151363f99ba95a
+MD5sum: 01c44ae1f8c77c07c88bfa493187bd94
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -151,19 +151,19 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 6.0.1-1
+Version: 6.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 150
+Installed-Size: 151
 Depends: openmediavault (>= 6.0.26), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_6.0.1-1_all.deb
-Size: 15652
-SHA256: e72b9458395c2272407a6cef46d1c4bccb05a374bdf91c8386d9e2fa4908a519
-SHA1: 1c2a050a2965541b9f18460a9131ce89d54d92c0
-MD5sum: 6fa49dc56220d77a7a64f42652e6ad05
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_6.0.2-1_all.deb
+Size: 16044
+SHA256: ac01412572b8134b2f0e202e98fa3c2c3afb4a783990b33fdcca6443644f5563
+SHA1: bd3078615706cbc88f6677d76f68235bfecdfa1f
+MD5sum: 43370ebe2d0c9bb020fecdd1bcc84654
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
@@ -271,19 +271,19 @@ Plugin-Architecture: amd64, arm64, armhf, i386
 Plugin-Section: utilities
 
 Package: openmediavault-owntone
-Version: 6.0.2-2
+Version: 6.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 154
+Installed-Size: 156
 Depends: openmediavault (>= 6.0.25), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0.2-2_all.deb
-Size: 20412
-SHA256: 89e0f4e1016fbcaeb62540bb4b79e6b64046be25f3284204d032383390902efc
-SHA1: c9103c16a0ab28b4daad360f1ede78a88fb6f4fe
-MD5sum: 4d9b21bf7d864010c2f93a780350ccc9
+Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0.3-1_all.deb
+Size: 20840
+SHA256: f2f0b4d5f98cb1e825809f7b531feec63a7029bc0cb521f698f965af7f104d4b
+SHA1: 218ba185f8eff1d4250d6c3e016154794167d2c9
+MD5sum: e69fd35993c7deba9d250629b54b88a2
 Description: openmediavault OwnTone plugin
  OwnTone is a DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku)
  media server.
@@ -291,19 +291,19 @@ Plugin-Architecture: amd64, armhf, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-photoprism
-Version: 6.0.4-1
+Version: 6.0.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 200
+Installed-Size: 201
 Depends: openmediavault (>= 6.0.26), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: graphics
-Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.4-1_all.deb
-Size: 21320
-SHA256: 7a6012403c29fbed0285a5df038b24467f4efdaec44ec901f58e0265669e2b3e
-SHA1: 372aea0dffa5ac99912338db4980ffb6a4a9274b
-MD5sum: 3fa2dca41488f0fa14995428543db2b4
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.5-1_all.deb
+Size: 21492
+SHA256: 77352e0fdcb3a5501c5ffa9bcde333f4a6d03be48f383c7b8c319f628ddeb0a4
+SHA1: 614a530086bf5eda47029623a00f908f9a551495
+MD5sum: 9a1ea1f5516395027ede493a376e8c4a
 Description: openmediavault PhotoPrism plugin
  PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
  photo collection.
@@ -311,19 +311,19 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-s3
-Version: 6.0.1-1
+Version: 6.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 147
+Installed-Size: 148
 Depends: openmediavault (>= 6.0.26), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-s3/openmediavault-s3_6.0.1-1_all.deb
-Size: 15652
-SHA256: 26ca7205cb38ba38e9445e01bb3d0aedc0541ca9988fff39e2a84163c5b12cca
-SHA1: f6626747932fc70bc16438a19ee69ff1e61f04f1
-MD5sum: a8de420aad125c899e520dd20b42a6df
+Filename: pool/main/o/openmediavault-s3/openmediavault-s3_6.0.2-1_all.deb
+Size: 15964
+SHA256: e57e553bd044396fbcbf4b776dcee9322c0a40e9ac3635dfbdc0aded55f57a04
+SHA1: 779ab0eb15fcc1129f559751b87db788654f3971
+MD5sum: 6b01ecc1438138849a9b7a1d47ef9805
 Description: openmediavault S3 plugin
  A standalone high performance object storage based on MinIO.
  It is API compatible with Amazon S3 cloud storage service.
@@ -434,19 +434,19 @@ Description: openmediavault USB/eSATA backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wetty
-Version: 6.0.2-4
+Version: 6.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 132
-Depends: openmediavault (>= 6.0.25), podman
+Depends: openmediavault (>= 6.0.26), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0.2-4_all.deb
-Size: 12224
-SHA256: 9d14f4035d2d5ca0ba1fabb086f94b47079be8fa1cba0c8517c82cafe402daf6
-SHA1: 4c49ea79989e4d071c4e6731f752413447721fe9
-MD5sum: c2de1733a6299c6215f7677ad4793c8c
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0.3-1_all.deb
+Size: 12468
+SHA256: 4ba12b3084a15ca732125e5f6edf2a224931c2f179f2a40925caf0106a1c99fa
+SHA1: d0a4baa36d11f0f5c92512ca387f11d7ec67c7df
+MD5sum: 45a0d6e31d367964ad0df0ab8acc3f8d
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
 Plugin-Architecture: amd64
