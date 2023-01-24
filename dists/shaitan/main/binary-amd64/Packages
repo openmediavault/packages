@@ -345,20 +345,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.1.7-1
+Version: 6.1.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 15170
+Installed-Size: 15171
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, proftpd-basic, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, proftpd-mod-vroot, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.1.7-1_all.deb
-Size: 2617772
-SHA256: 840603d41ca30c43f4ac34e2c4291fa0a2ae31ec897ac4f848adacbf11206f2b
-SHA1: d51a68bdc61c3bdf07630b6ab93c12520ff754e8
-MD5sum: 1ec7301da8b6263b2f25bfaeb1c82215
+Filename: pool/main/o/openmediavault/openmediavault_6.1.8-1_all.deb
+Size: 2617792
+SHA256: ffad5b15fa11560a2f96c9d09b19e40391036769738607241b278c31e6f9ef4f
+SHA1: 3bc284f27173fb19ca573e388044a83c2ddcefa4
+MD5sum: 10fbfd0369e90eafcfb104e5730afdc9
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -382,19 +382,19 @@ Description: openmediavault ClamAV plugin
 Plugin-Section: utilities
 
 Package: openmediavault-diskstats
-Version: 6.0.1-1
+Version: 6.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 105
-Depends: openmediavault (>= 6.0.25)
+Installed-Size: 104
+Depends: openmediavault (>= 6.1.8)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0.1-1_all.deb
-Size: 10112
-SHA256: 0a9273c8250dfd30e60beb152ba9f7924262722cb6a33ef5c52b8cb14ea50d42
-SHA1: 1272c6f77e0fdf8c1d62af3f61b0f9bfefbbb4a2
-MD5sum: ee340e8fb745ac2eb4b17a4f8b77edb4
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0.2-1_all.deb
+Size: 10204
+SHA256: 56122245cb6a7dbe90c8734c0c79c40552024d4bd2a01a31f237f75cef35ac5c
+SHA1: 709c3bc39b5df940d48755bb89105e4bf24777d3
+MD5sum: c2264cb8b515bb6dea4dde8a6d972ab0
 Description: openmediavault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
 Plugin-Section: monitoring
@@ -480,7 +480,7 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 6.0.2-1
+Version: 6.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 266
@@ -488,11 +488,11 @@ Depends: openmediavault (>= 6.0.25), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_6.0.2-1_all.deb
-Size: 35032
-SHA256: 813f2926677c0a8ecd82fe744cd4fc96f1131f81aa6efd9f2e1da9f456d6a0ea
-SHA1: c9ae49ab81815bfe8fad05ef7aa27557eee0c069
-MD5sum: a76a16242cbb6e1b2548b6b48fcd5467
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_6.0.3-1_all.deb
+Size: 35100
+SHA256: c0977b603fc36406be0a644af421e774b70fb2dec59955f02a9d12da7c36a566
+SHA1: 6a38b15e45a5550e7d25885297d4ab6a90ffe02a
+MD5sum: 81d96ea85fea89239669182196827969
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
