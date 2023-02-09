@@ -96,20 +96,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.2.0-2
+Version: 6.3.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 15149
+Installed-Size: 15216
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.2.0-2_all.deb
-Size: 2621656
-SHA256: 3ca2ebf16cc445765df6b145dd6f0787b58d1bc5fd1471a71fffdc9d9210864c
-SHA1: 3977a43a771649e91731d621e4b4004f97251417
-MD5sum: cf1e805da164ebc085eec597aaa55e77
+Filename: pool/main/o/openmediavault/openmediavault_6.3.0-1_all.deb
+Size: 2628372
+SHA256: f94380d40cf632e5427dd8df22a4f9a0fd76511b4e44196e0bef610cc4094060
+SHA1: e92f6fd6b413b2692a02f6585d8a56447f6959e8
+MD5sum: c8c9a72c352cba9befbef4a2c2f7b4da
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -191,19 +191,19 @@ Description: openmediavault forked-daapd (DAAP server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-ftp
-Version: 6.0-2
+Version: 6.0-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 474
-Depends: openmediavault (>= 6.2.0), proftpd-basic, proftpd-mod-vroot
+Installed-Size: 477
+Depends: openmediavault (>= 6.3.0), proftpd-basic, proftpd-mod-vroot
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_6.0-2_all.deb
-Size: 63664
-SHA256: 500e34b9845a0b1711cfbf4fde33446fb42831eb04aa9f3b55784b728a70647d
-SHA1: 943e4201ce20031ed07747397819553574429122
-MD5sum: 5caeaae54c39aef428be1a630b1e50cc
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_6.0-3_all.deb
+Size: 63884
+SHA256: 689d2e87971a669b9d77ac106884d66a8986b9f460b94b570d2d1a49eedc5738
+SHA1: 652c49b01068d439ecf37f8a59e22a059c014624
+MD5sum: 5ccbb0ab1e58a977ef003a3d87ac613a
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/SFTP/FTPS server.
 Plugin-Section: sharing
@@ -228,7 +228,7 @@ Description: GnuPG archive keys of the OpenMediaVault archive
  contains the archive keys used for that.
 
 Package: openmediavault-lvm2
-Version: 6.0.1-1
+Version: 6.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 249
@@ -236,11 +236,11 @@ Depends: openmediavault (>= 6.0.25), lvm2
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_6.0.1-1_all.deb
-Size: 27132
-SHA256: c17cf5049a8f2794cf9d3c1eb044965af54c4f99e0025faaa81bc01ecf46d605
-SHA1: e7a5b173913486c7ce4f90d0be7f90607785f0c4
-MD5sum: 31d43f63020397ab1924163fc100223b
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_6.0.2-1_all.deb
+Size: 27196
+SHA256: 8a7a127528c4fe5961e1e24dcd85b064165e450e67ddebe75208a70ced3f980b
+SHA1: 0e9d922742596b92d29cd5bb92cc4065bd53ee05
+MD5sum: ea469e9b46057fb27f10d5a0615ed2d9
 Description: openmediavault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
