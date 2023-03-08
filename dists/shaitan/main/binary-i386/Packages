@@ -96,20 +96,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.3.2-2
+Version: 6.3.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 15038
+Installed-Size: 15050
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.3.2-2_all.deb
-Size: 2600168
-SHA256: ded2b2a6b7ae72ca02cebda31127affd5f27cbb0ca089f92d8e55243c6b330c7
-SHA1: 350c17f0387af59dba7303b19b722bd36a4fd5d1
-MD5sum: d032951d379d79f4a4ca22fd448ed32f
+Filename: pool/main/o/openmediavault/openmediavault_6.3.3-1_all.deb
+Size: 2601504
+SHA256: 621f44d31bd21e5dffee139e6d61e25bf81dbe9533e309e35ce68f386dcd69fd
+SHA1: 294b9ef0983d0c796faf8a3a889244c57674444d
+MD5sum: a78e899e1ec352f5d7463a599ab57619
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -133,19 +133,19 @@ Description: openmediavault ClamAV plugin
 Plugin-Section: utilities
 
 Package: openmediavault-diskstats
-Version: 6.0.2-1
+Version: 6.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 104
-Depends: openmediavault (>= 6.1.8)
+Depends: openmediavault (>= 6.3.3)
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0.2-1_all.deb
-Size: 10204
-SHA256: 56122245cb6a7dbe90c8734c0c79c40552024d4bd2a01a31f237f75cef35ac5c
-SHA1: 709c3bc39b5df940d48755bb89105e4bf24777d3
-MD5sum: c2264cb8b515bb6dea4dde8a6d972ab0
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_6.0.3-1_all.deb
+Size: 10296
+SHA256: efc663805566ce9a3d06059213d4e3fc91e429c4e43d61977ea3ddb8b37aa0b7
+SHA1: 3682addf4a2cf36329191c1d2abe013afe681345
+MD5sum: 26ebdb4ecd923a170315288264bd3263
 Description: openmediavault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
 Plugin-Section: monitoring
