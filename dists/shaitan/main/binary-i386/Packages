@@ -96,20 +96,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.3.7-2
+Version: 6.3.7-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 15396
+Installed-Size: 15397
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.3.7-2_all.deb
-Size: 2628668
-SHA256: 99bf8cfd6c676d10cdd1d5870ef9db40a58a6b302ca7459a7e98fb8a1026514b
-SHA1: b6f7082dc56605ae692408416693b77874787356
-MD5sum: 801ed949a56798f430c5629590cc7da4
+Filename: pool/main/o/openmediavault/openmediavault_6.3.7-3_all.deb
+Size: 2629044
+SHA256: 4cae150f4162471bc74226e2f1d342c6000e4fe99c6491ebb6063087e440a6ff
+SHA1: 20d2c50028426b8259ec8495bb21de5f53222780
+MD5sum: 66ade9cfa9e29c80dacd7d1c20a76f5b
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
