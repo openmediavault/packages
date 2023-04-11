@@ -345,20 +345,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.3.7-5
+Version: 6.3.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 15397
-Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 15414
+Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3003), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.3.7-5_all.deb
-Size: 2628924
-SHA256: 93a3c56bd07b4a40f92a3b630aba5063fca80a2a1de082e037f2d9eec9f167e6
-SHA1: 7fddf98bdc60fe098903f4c6491cea9b42816ca1
-MD5sum: c59591f3b0c90eb67488b219ef89d081
+Filename: pool/main/o/openmediavault/openmediavault_6.3.8-1_all.deb
+Size: 2630580
+SHA256: 8602728cdb1caf486fd92207c6b4a9e510d8ce5f305c3961e40b13b5a610b335
+SHA1: 49d22bae6ed0cc41754156fa11b33fc220f55d17
+MD5sum: e2dc86bae50e40cbcc17b16b1ee1c7dc
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -701,19 +701,19 @@ Description: openmediavault USB/eSATA backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wetty
-Version: 6.0.4-1
+Version: 6.0.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 132
+Installed-Size: 133
 Depends: openmediavault (>= 6.0.26), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0.4-1_all.deb
-Size: 12516
-SHA256: 7593f92fbc79983a6e0bfd6ed419717a7087835e555d9ba5d03ac77022b7496d
-SHA1: 469249d2f366e81c8fe01210a3b0fe6741c35636
-MD5sum: f0d2376a063291de76a10d0575d49a6c
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_6.0.5-1_all.deb
+Size: 12652
+SHA256: 7406b24a5535360bb7444cb7845d94c5e99a91911dc28a892d483a8fbb496895
+SHA1: ae31cb546f67963407ea69bd700e7cb26ac68519
+MD5sum: 71cebdc4b22d590ee49e29ab12a998ba
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
 Plugin-Architecture: amd64
