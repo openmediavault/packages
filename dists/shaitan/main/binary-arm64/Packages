@@ -345,20 +345,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.3.11-1
+Version: 6.3.11-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 15414
+Installed-Size: 15415
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3005.1), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.3.11-1_all.deb
-Size: 2599884
-SHA256: a4ecf624974dcc682d0a130ec03c17bf1d6d30723bd9dab5e731f6ab6aff1378
-SHA1: ffd42fdc39ab4d0dde7f37736da0bfa8d149178a
-MD5sum: 30fbd8afb2a69067468e9aa7d913908f
+Filename: pool/main/o/openmediavault/openmediavault_6.3.11-2_all.deb
+Size: 2600000
+SHA256: 8c0b67e2d5673ac1eb69e3ca85c359fdaa6426811a293cebb8fbef475a82703c
+SHA1: 8c1aa367012dfc9162b6523c57327e89c3b03e51
+MD5sum: 0d52fb04c4c00e704643121d1ecc14ce
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
