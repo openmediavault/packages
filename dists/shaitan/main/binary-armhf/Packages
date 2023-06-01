@@ -498,19 +498,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 6.0.3-1
+Version: 6.0.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 266
-Depends: openmediavault (>= 6.0.25), nut, udev
+Installed-Size: 264
+Depends: openmediavault (>= 6.4.1), nut, udev
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_6.0.3-1_all.deb
-Size: 35100
-SHA256: c0977b603fc36406be0a644af421e774b70fb2dec59955f02a9d12da7c36a566
-SHA1: 6a38b15e45a5550e7d25885297d4ab6a90ffe02a
-MD5sum: 81d96ea85fea89239669182196827969
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_6.0.4-1_all.deb
+Size: 32620
+SHA256: 56a604b01d54192a2478f80f52ec7cd1395fe65a2d36b09eba49e97f7f54e1a9
+SHA1: 9a78ccf11a78ee5ecb864a433a73ca13e2750998
+MD5sum: 8a0c443fc657e142d0ef6d5e71717615
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
