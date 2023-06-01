@@ -326,7 +326,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.4.1-1
+Version: 6.4.1-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 12401
@@ -335,11 +335,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.4.1-1_all.deb
-Size: 2377156
-SHA256: da9c0119d4005d7490c5c57e8a2f44876af379c20438c17abe38a7cb34620d76
-SHA1: 441948f2f6f79cea148909fa9fefad70d8ca96f9
-MD5sum: 3fd2bb0b231346183daaa4a73594622d
+Filename: pool/main/o/openmediavault/openmediavault_6.4.1-2_all.deb
+Size: 2377108
+SHA256: a65f142b10ae7b3d2bf9db458cd4b1e80e761565ce97bb8995e044bcff950863
+SHA1: 6926a975468ee8040ca5a60a011d10f0c97d43e7
+MD5sum: 512c5113e77f70f7ab0cdb9acea108e0
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -421,19 +421,19 @@ Description: openmediavault forked-daapd (DAAP server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-ftp
-Version: 6.0-3
+Version: 6.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 477
-Depends: openmediavault (>= 6.3.0), proftpd-basic, proftpd-mod-vroot
+Installed-Size: 494
+Depends: openmediavault (>= 6.4.1), proftpd-basic, proftpd-mod-vroot
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_6.0-3_all.deb
-Size: 63884
-SHA256: 689d2e87971a669b9d77ac106884d66a8986b9f460b94b570d2d1a49eedc5738
-SHA1: 652c49b01068d439ecf37f8a59e22a059c014624
-MD5sum: 5ccbb0ab1e58a977ef003a3d87ac613a
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_6.0.1-1_all.deb
+Size: 66236
+SHA256: e4cd29e37af692f7e483682fe474c2befac53321867385b9f1ee07ebf2e346bd
+SHA1: e110aab30d4ca3fa4ffcfdcbc1158c160d7454d6
+MD5sum: 44f11b821e82df603d6e625f4f1eddd0
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/SFTP/FTPS server.
 Plugin-Section: sharing
