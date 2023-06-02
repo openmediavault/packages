@@ -345,20 +345,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.4.1-2
+Version: 6.4.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 12401
+Installed-Size: 12402
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3005.1), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.4.1-2_all.deb
-Size: 2377108
-SHA256: a65f142b10ae7b3d2bf9db458cd4b1e80e761565ce97bb8995e044bcff950863
-SHA1: 6926a975468ee8040ca5a60a011d10f0c97d43e7
-MD5sum: 512c5113e77f70f7ab0cdb9acea108e0
+Filename: pool/main/o/openmediavault/openmediavault_6.4.2-1_all.deb
+Size: 2377276
+SHA256: 4c1a415ac348e0de10a10fd713c692df0003643804c13d670aab8b12756c7fc2
+SHA1: 8d7eaecb4d95a05393a41a573c42e24505c7dc11
+MD5sum: f016a624ba3925bf1d408771e6109bdc
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -458,22 +458,22 @@ Description: openmediavault FTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-keyring
-Version: 1.0
+Version: 1.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 26
+Installed-Size: 25
 Depends: gpgv
 Recommends: gnupg
 Homepage: http://www.openmediavault.org
 Priority: important
 Section: misc
-Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0_all.deb
-Size: 9644
-SHA256: 6d59c359588a3f93474111c914ab03d25e4081153c9881d4a341619e66272720
-SHA1: 7b49a4e5f710b131ceb2520c55843c62ca531dc2
-MD5sum: d03dcd9950d0dc80defda65dcebfb2be
-Description: GnuPG archive keys of the OpenMediaVault archive
- The OpenMediaVault project digitally signs its Release files. This package
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0.2-1_all.deb
+Size: 5854
+SHA256: dc660c3763c2ab37d5a89d1e03928f20d68c94fc1dd4db2dc699552c0401d299
+SHA1: aa516faab43c613ad525e844cf1cd015b7927fbb
+MD5sum: 9deb9e1681dbbd19700970ea75eecedf
+Description: GnuPG archive keys of the openmediavault archive
+ The openmediavault project digitally signs its Release files. This package
  contains the archive keys used for that.
 
 Package: openmediavault-lvm2
