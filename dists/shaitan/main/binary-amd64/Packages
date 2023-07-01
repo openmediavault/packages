@@ -326,19 +326,19 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: onedrive
-Version: 2.4.23-1+np1
+Version: 2.4.25-1+np1
 Architecture: amd64
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 2543
+Installed-Size: 2550
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared94 (>= 1:1.24.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52), libcurl4
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.4.23-1+np1_amd64.deb
-Size: 639140
-SHA256: c5a47bec60439022f0f5563517e0b2693006b00b669bbf53d2918729b31dbaaa
-SHA1: 295d9f2b1d843de9e420574d10b9ce9c4941ac08
-MD5sum: 8509a79bb1111d1284fdf9d2dd764bf2
+Filename: pool/main/o/onedrive/onedrive_2.4.25-1+np1_amd64.deb
+Size: 642800
+SHA256: 5996472fcdcb8be8400d18825e1a39655ac728d401c5a6ea27c1deb07b324be9
+SHA1: fe97f46059662603901df1fac0660aea08f1207d
+MD5sum: 98c2cdc954bf2d3325c122aa93f85a07
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
