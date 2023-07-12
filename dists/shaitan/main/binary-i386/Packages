@@ -96,7 +96,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.4.8-1
+Version: 6.4.9-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 12445
@@ -105,11 +105,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.4.8-1_all.deb
-Size: 2389296
-SHA256: 87cfe21465f887d37d0ab5f9eae24a1770f80cc759c5c752a36c6834eee4ced3
-SHA1: 63193102c103266f0b21deb275e59f7b81f1182b
-MD5sum: a8670180f95538ce5fdb39704a256050
+Filename: pool/main/o/openmediavault/openmediavault_6.4.9-1_all.deb
+Size: 2389664
+SHA256: 975f408a87b465b6b55c6196349272ff3028d9c7a2c1bd234e95d151c2bee046
+SHA1: 14a54c03d476f8e737789e89e69265d47ed09dad
+MD5sum: 09c5a29aeaa58bd2b0512eb140481ea3
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -289,19 +289,19 @@ Plugin-Architecture: amd64, arm64, armhf, i386
 Plugin-Section: utilities
 
 Package: openmediavault-owntone
-Version: 6.0.5-1
+Version: 6.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 157
-Depends: openmediavault (>= 6.0.43), podman
+Installed-Size: 158
+Depends: openmediavault (>= 6.4.9), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0.5-1_all.deb
-Size: 21096
-SHA256: 26989cc299662cc807de959db478a245641cddb1f395ee925ed25d90cf45d28d
-SHA1: 1fccc2bf7257ed76b92075c3fb6fc5553b8ec225
-MD5sum: d975acdd7a5200f432403fe564a9392d
+Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_6.0.6-1_all.deb
+Size: 21748
+SHA256: 785e686303d19aff2dcbcf8a98ea7c0ed6333e14f89407270961dd3114831f92
+SHA1: e67a9adb696008aa649215f86d6c6017778b24d2
+MD5sum: 1de59aae05a39eea693bd42e8197abe2
 Description: openmediavault OwnTone plugin
  OwnTone is a DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku)
  media server.
