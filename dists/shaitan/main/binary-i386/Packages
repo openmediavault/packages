@@ -96,7 +96,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.5.0-1
+Version: 6.5.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 12465
@@ -105,11 +105,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.5.0-1_all.deb
-Size: 2391372
-SHA256: e0803730fc7a7d37192b43095f3cefe39c292823b78f5e6edbe4a3f07bce2e6a
-SHA1: bcb842c8ffa92cbe5e4644f916820f069b043384
-MD5sum: 5c632f36d5f3f49bc520453d867f2417
+Filename: pool/main/o/openmediavault/openmediavault_6.5.0-2_all.deb
+Size: 2391056
+SHA256: 277d2c0129088697ff8a4f18f2e1259495ffb8dd4fe20acb260ddf0a22c0a755
+SHA1: 6cdeec30aab61dac191bb5a59b7e9a94dcd49b11
+MD5sum: 0ef0a2f4c78a7fa41ea86efa9685295c
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
