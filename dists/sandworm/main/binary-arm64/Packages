@@ -1,0 +1,22 @@
+Package: php-pam
+Version: 2.2.4-1+deb12u1
+Architecture: arm64
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 91
+Depends: phpapi-20220829
+Priority: optional
+Section: web
+Filename: pool/main/p/php-pam/php-pam_2.2.4-1+deb12u1_arm64.deb
+Size: 8308
+SHA256: e73bf87ec94e4f9ba430d95d2bdbffab294d68e4f9e3d865a0807e50902ce36d
+SHA1: 8ee60db28fed4efbaf3fd8edf3a59fd2c0d27259
+MD5sum: 0e0869b530507f2ac1589511a80ae48c
+Description: pam module for PHP 8.2
+ PAM integration
+ .
+ This extension provides PAM (Pluggable Authentication Modules)
+ integration. PAM is a system of libraries that handle the
+ authentication tasks of applications and services. The library
+ provides a stable API for applications to defer to for authentication
+ tasks.
+
