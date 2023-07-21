@@ -1,3 +1,22 @@
+Package: openmediavault-keyring
+Version: 1.0.2-2
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 25
+Depends: gpgv
+Recommends: gnupg
+Homepage: http://www.openmediavault.org
+Priority: important
+Section: misc
+Filename: pool/main/o/openmediavault-keyring/openmediavault-keyring_1.0.2-2_all.deb
+Size: 6036
+SHA256: 2660c7147ce6334c79ff38f316b8459cd89af2da876df0c80a308239fcd95f0c
+SHA1: 6db547f43bccf6c3a36d9a65c3d0aa4c1e772680
+MD5sum: 0bb66e5536329b9d469fdbbc5d62006c
+Description: GnuPG archive keys of the openmediavault archive
+ The openmediavault project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
 Package: php-pam
 Version: 2.2.4-1+deb12u1
 Architecture: arm64
