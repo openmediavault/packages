@@ -39,3 +39,77 @@ Description: pam module for PHP 8.2
  provides a stable API for applications to defer to for authentication
  tasks.
 
+Package: salt-common
+Source: salt
+Version: 3005.1+ds-1
+Architecture: all
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 31006
+Depends: python3-apt, python3-dateutil, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-distro, python3-pycryptodome, python3-zmq (>= 17.0.0), python3-jmespath, python3-markupsafe, python3:any
+Recommends: lsb-release, python3-contextvars, python3-croniter
+Suggests: python3-pycurl, python3-twisted
+Breaks: python3-mako (<< 0.7.0)
+Homepage: https://saltproject.io/
+Priority: optional
+Section: admin
+Filename: pool/main/s/salt/salt-common_3005.1+ds-1_all.deb
+Size: 7248280
+SHA256: 03779d8cddcdc33068154773c6a7a035b249661a0e4b3bca311837064fd2d5b2
+SHA1: 1cdb7e625dda11be0680087c65f3bb3f50a58e55
+MD5sum: 50ce208f3c948829bcd04099de58e78b
+Description: shared libraries that salt requires for all packages
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides shared libraries that
+ salt-master, salt-minion, and salt-syndic require to function.
+
+Package: salt-minion
+Source: salt
+Version: 3005.1+ds-1
+Architecture: all
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 127
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3005.1+ds-1), python3:any
+Recommends: debconf-utils, dmidecode
+Suggests: python3-augeas
+Homepage: https://saltproject.io/
+Priority: optional
+Section: admin
+Filename: pool/main/s/salt/salt-minion_3005.1+ds-1_all.deb
+Size: 28728
+SHA256: bac10ad5f48f6744650f4db15a93978314942e539b366261ccf2172df14abdcd
+SHA1: d1909af8e65571cd304f9326306fffa9e68a29bd
+MD5sum: 615c403d202d5ea0ffebe91c6e0701ca
+Description: client package for salt, the distributed remote execution system
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides the worker / agent for salt.
+
