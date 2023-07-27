@@ -39,24 +39,44 @@ Description: pam module for PHP 8.2
  provides a stable API for applications to defer to for authentication
  tasks.
 
+Package: python3-looseversion
+Source: python-looseversion
+Version: 1.0.2-2
+Architecture: all
+Maintainer: Pablo Suarez Hernandez <psuarezhernandez@suse.de>
+Installed-Size: 30
+Depends: python3:any
+Homepage: https://github.com/effigies/looseversion
+Priority: optional
+Section: python
+Filename: pool/main/p/python-looseversion/python3-looseversion_1.0.2-2_all.deb
+Size: 6900
+SHA256: 4441491eb85e92c9784000328a4cd56a4397dad33c08b77f08a58b56b487e990
+SHA1: 0b12b095e8b81604e24ff1e42d163ed287618965
+MD5sum: 5d80ecf44559d9c4d4093009a233aa8e
+Description: A backwards/forwards-compatible fork of distutils.version.LooseVersion (Python 3)
+ A backwards/forwards-compatible fork of distutils.version.LooseVersion, for times when PEP-440 isn't what you need.
+ The goal of this package is to be a drop-in replacement for the original LooseVersion. It implements an identical interface and comparison logic to LooseVersion. The only major change is that a looseversion.LooseVersion is comparable to a distutils.version.LooseVersion, which means tools should not need to worry whether all dependencies that use LooseVersion have migrated.
+ This package installs the library for Python 3.
+
 Package: salt-common
 Source: salt
-Version: 3005.1+ds-1
+Version: 3006.0+ds-1+187.1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 31006
-Depends: python3-apt, python3-dateutil, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-distro, python3-pycryptodome, python3-zmq (>= 17.0.0), python3-jmespath, python3-markupsafe, python3:any
+Installed-Size: 31786
+Depends: python3-apt, python3-dateutil, python3-looseversion, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-pycryptodome, python3-gnupg, python3-zmq (>= 17.0.0), python3-distro, python3-jmespath, python3-markupsafe, python3-packaging, python3:any
 Recommends: lsb-release, python3-contextvars, python3-croniter
-Suggests: python3-pycurl, python3-twisted
+Suggests: ifupdown, python3-pycurl, python3-twisted
 Breaks: python3-mako (<< 0.7.0)
 Homepage: https://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-common_3005.1+ds-1_all.deb
-Size: 7248280
-SHA256: 03779d8cddcdc33068154773c6a7a035b249661a0e4b3bca311837064fd2d5b2
-SHA1: 1cdb7e625dda11be0680087c65f3bb3f50a58e55
-MD5sum: 50ce208f3c948829bcd04099de58e78b
+Filename: pool/main/s/salt/salt-common_3006.0+ds-1+187.1_all.deb
+Size: 7507616
+SHA256: 66352dd1e202511e01fec1d954ad71138468e67a8bf350a0e9d848d18f252a21
+SHA1: 38d045aa80955755e03688475e079d330dc038ee
+MD5sum: 1d89267c155b193bb717cc3971b35088
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -79,21 +99,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3005.1+ds-1
+Version: 3006.0+ds-1+187.1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 127
-Depends: bsdmainutils, dctrl-tools, salt-common (= 3005.1+ds-1), python3:any
-Recommends: debconf-utils, dmidecode
+Installed-Size: 226
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3006.0+ds-1+187.1), python3:any
+Recommends: debconf-utils, dmidecode, net-tools
 Suggests: python3-augeas
 Homepage: https://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3005.1+ds-1_all.deb
-Size: 28728
-SHA256: bac10ad5f48f6744650f4db15a93978314942e539b366261ccf2172df14abdcd
-SHA1: d1909af8e65571cd304f9326306fffa9e68a29bd
-MD5sum: 615c403d202d5ea0ffebe91c6e0701ca
+Filename: pool/main/s/salt/salt-minion_3006.0+ds-1+187.1_all.deb
+Size: 126196
+SHA256: 23b5fbb0159ed682ce778beb2bdbc93b36804f40d5ac2ef2ad38fe4c18963011
+SHA1: 580dabbf90fde8ed7d5912eb788af59e38e7e895
+MD5sum: 8829d60931a3866c2f212156caa6abb3
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
