@@ -326,7 +326,7 @@ Description: utility for monitoring and managing daemons or similar programs
     accessible from a webbrowser
 
 Package: openmediavault
-Version: 6.5.2-1
+Version: 6.5.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 12461
@@ -335,11 +335,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.5.2-1_all.deb
-Size: 2391264
-SHA256: f62bfa7ac506032890ea80b7d79b4d5faff6202817e92a87c618182aeb0edb01
-SHA1: f0575534e79820b2f831d963a90a39886b06b8f5
-MD5sum: 7bc8e69b5d341e2e295dcdf7568e9516
+Filename: pool/main/o/openmediavault/openmediavault_6.5.3-1_all.deb
+Size: 2391020
+SHA256: 028fd27320713fe9f0126927162af54c6c2a9cc64784a25f27df3e9b2c16e1f8
+SHA1: 27a4e14cfb2d04b879f4ed03afbbafe5fd7a711b
+MD5sum: 0ff0ac8f06e927ea0c17cb33a1cd40af
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -499,7 +499,7 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: utilities
 
 Package: openmediavault-onedrive
-Version: 6.2.10-1
+Version: 6.2.11-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 212
@@ -507,11 +507,11 @@ Depends: openmediavault (>= 6.5.0), onedrive (>= 2.4.25), sudo
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.2.10-1_all.deb
-Size: 22312
-SHA256: 6674c2e7e7be2fed5df0e0dfcbe2af44a039944e0f33bc26debf9e36ca8926ec
-SHA1: 57783a4862870106f9ca28ee0ad4a055722b02a5
-MD5sum: 00fd4b47744d64f7e1c8a56a2a03c2c2
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_6.2.11-1_all.deb
+Size: 22480
+SHA256: b50880c67bb639fafa0c60340e7fa5a66d9964c6fde0b68bf557b4009a613aab
+SHA1: a9aaef14884963826f59af86b2fab40780ac0247
+MD5sum: 585bb93e50886830e30bbe9ea54e317d
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
