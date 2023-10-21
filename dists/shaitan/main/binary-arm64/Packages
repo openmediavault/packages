@@ -345,20 +345,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.9.4-1
+Version: 6.9.4-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 12519
+Installed-Size: 12540
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.9.4-1_all.deb
-Size: 2401844
-SHA256: d7ae5676596f94f8c36fa411eddf1f10040d0e6ccf11d09c79883b7e641c1279
-SHA1: 4d3e95d981f02048a51fe1619f293b89807e08c1
-MD5sum: fc4435f714b543e6034c43d607ad49d9
+Filename: pool/main/o/openmediavault/openmediavault_6.9.4-2_all.deb
+Size: 2405972
+SHA256: 00475eb027b8d1a3aa4e38acbb22b22550f1a69848a266f8a96156c8707bc8eb
+SHA1: f2333478560827bfe9f88fc23b4aac78f0abd1df
+MD5sum: 7fb9fc13c4ca7190b180acf7627329ac
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -578,19 +578,19 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-podman
-Version: 6.0-1
+Version: 6.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 169
+Installed-Size: 170
 Depends: openmediavault (>= 6.9.4), podman
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-podman/openmediavault-podman_6.0-1_all.deb
-Size: 13292
-SHA256: 8e07fd6300b35c442171cf4cd62650ca66b90df2c435fafaf60ae5ff41b3e0bb
-SHA1: daf71f557598920cd47c70af31042eefa9e13f33
-MD5sum: e9c17388a7c9fd1f23c6729941741139
+Filename: pool/main/o/openmediavault-podman/openmediavault-podman_6.0-2_all.deb
+Size: 13732
+SHA256: bf97783141b179440ff966f7ece9d2d117f4ff8151039a21107894e93508c42b
+SHA1: 0a1c8b6817fe4b915bc72c8f306b6c286b8e871a
+MD5sum: 3fa971e9858aae6e134b986558523e3f
 Description: openmediavault Podman plugin
  Podman (the POD MANager) is a tool for managing containers and images, volumes
  mounted into those containers, and pods made from groups of containers.
