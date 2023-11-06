@@ -1,3 +1,116 @@
+Package: openmediavault
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 13057
+Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, debconf (>= 0.5) | debconf-2.0
+Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault/openmediavault_7.0-1_all.deb
+Size: 2999536
+SHA256: f1f9f14ab26431c68d8f4b93d5d7730a17dd61abc814b28463442d68b2091d2f
+SHA1: bc08fb3de321ab6f141c6d5c73c29664075e5d58
+MD5sum: e6624c0c7870ddd09046effd5ec0b721
+Description: openmediavault - The open network attached storage solution
+ openmediavault is a small and simple to use network attached storage system
+ with a smart WebGUI.
+
+Package: openmediavault-clamav
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 373
+Depends: openmediavault (>= 7.0), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: utils
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0-1_all.deb
+Size: 49024
+SHA256: d285d0431b1d8a5eec196ad8f5dedc82ea37724b89dbdb968bfbf7df9e319150
+SHA1: 83dee426f04fac51ede541164b6e3b44d67f23ca
+MD5sum: fda17f4e694ef1ad68607a46e31414da
+Description: openmediavault ClamAV plugin
+ Clam AntiVirus is an anti-virus toolkit for Unix.
+Plugin-Section: utilities
+
+Package: openmediavault-diskstats
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 104
+Depends: openmediavault (>= 7.0)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_7.0-1_all.deb
+Size: 10392
+SHA256: df5758f83a625fbea8e2a646db6343bfeb5ad237cc2e7b9ec2ffc26e38b08b4f
+SHA1: aaf938d527ef76155a2cab6dbcd82507fb85a8db
+MD5sum: 69481e4883dcc4fb830bba4fe7529157
+Description: openmediavault disk monitoring plugin
+ The disk monitoring plugin collects performance statistics of hard-disks.
+Plugin-Section: monitoring
+
+Package: openmediavault-filebrowser
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 152
+Depends: openmediavault (>= 7.0), podman
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_7.0-1_all.deb
+Size: 17264
+SHA256: 5500d4eee8ef0580da543bd1a7b9111116f4eb3debd5c0d3f4e2f2f1aca33f75
+SHA1: 6756cda49badd89b5ddbb415d203543fc20974e5
+MD5sum: 29cbd8ddb95ab2e2b3eb4210aa102bda
+Description: openmediavault File Browser plugin
+ File Browser provides a file managing interface within a specified
+ directory and it can be used to upload, delete, preview, rename and
+ edit your files.
+Plugin-Architecture: amd64, armel, armhf, arm64
+Plugin-Section: utilities
+
+Package: openmediavault-forkeddaapd
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 150
+Depends: openmediavault (>= 7.0), forked-daapd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-forkeddaapd/openmediavault-forkeddaapd_7.0-1_all.deb
+Size: 19632
+SHA256: c816ad9ad7db2f444879150ff78ec7d9faa53ed07b759942d8c649c1ef4ce684
+SHA1: 3496cb10bf82eee9c7f4642dcdc79265cab36be0
+MD5sum: 0d3272ecec53df7f534034cfbcd5d620
+Description: openmediavault forked-daapd (DAAP server) plugin
+ forked-daapd is an iTunes-compatible DAAP (Digital Audio Access Protocol)
+ media server.
+Plugin-Section: multimedia
+
+Package: openmediavault-ftp
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 495
+Depends: openmediavault (>= 7.0), proftpd-basic, proftpd-mod-vroot
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_7.0-1_all.deb
+Size: 66744
+SHA256: 22f11502e07b20db026139a1e75e0b44c534b9a200ad9d846886c688ed39d589
+SHA1: 078be04295053a6497e6fb0081b21c2cc64b597c
+MD5sum: fa35a49912d64a741b272601e3903eff
+Description: openmediavault FTP-Server plugin
+ ProFTPD is a powerful modular FTP/SFTP/FTPS server.
+Plugin-Section: sharing
+
 Package: openmediavault-keyring
 Version: 1.0.2-2
 Architecture: all
@@ -16,6 +129,287 @@ MD5sum: 0bb66e5536329b9d469fdbbc5d62006c
 Description: GnuPG archive keys of the openmediavault archive
  The openmediavault project digitally signs its Release files. This package
  contains the archive keys used for that.
+
+Package: openmediavault-lvm2
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 247
+Depends: openmediavault (>= 7.0), lvm2
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_7.0-1_all.deb
+Size: 25200
+SHA256: ba198a4b34f259d2fe82006c6e02ea54ea35fee0fee6ed5421eb8db7d950c7da
+SHA1: 7644e60d9de854f6d449475e1f158b6224537984
+MD5sum: a6ee20a8b9fe014f17a128fba3a58135
+Description: openmediavault Logical Volume Manager (LVM2) plugin
+ LVM supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of volume
+ groups can be allocated to logical volumes, which are accessed as regular
+ block devices.
+Plugin-Section: filesystems
+
+Package: openmediavault-md
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 146
+Depends: openmediavault (>= 7.0), mdadm
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-1_all.deb
+Size: 11696
+SHA256: ece879be8580a54ac05272cf5cc1c2f32919dc7bb99f21a60009194d22476395
+SHA1: aceceba2df675627da87da276e24aaf3f6e09d30
+MD5sum: 678b9b1fddc4e963018abf306ba25ac0
+Description: openmediavault Linux MD (software RAID) plugin
+ This plugin is used to create, manage, and monitor Linux MD (software
+ RAID) devices.
+Plugin-Section: filesystems
+
+Package: openmediavault-nut
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 265
+Depends: openmediavault (>= 7.0), nut, udev
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0-1_all.deb
+Size: 32760
+SHA256: 4ff2cbc52f94302a6c2b31135218a01b8fe5328f59205f2a9c4c155a18287c18
+SHA1: 6cad0774c691c4a769d8fad486e440e6e97dba9c
+MD5sum: 8cacd7dc7f3702e0734e79f2b2d40ce0
+Description: openmediavault Network UPS Tools (NUT) plugin
+ Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware.
+Plugin-Section: utilities
+
+Package: openmediavault-onedrive
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 221
+Depends: openmediavault (>= 7.0), onedrive (>= 2.4.25), sudo
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.0-1_all.deb
+Size: 22724
+SHA256: 19fae1a53609cc9171dbee6fed4ed1a503de79f5f9185d5032eefc6b82b9b5aa
+SHA1: fa6dcd9dfc7fc5d64613e4a2a32b3b28c1c5b207
+MD5sum: 8d0718db672d4d948518579bcbd07411
+Description: openmediavault OneDrive plugin
+ OneDrive is the cloud storage system of Microsoft. This plugin
+ is synchronizing a shared folder with OneDrive cloud storage.
+Plugin-Architecture: amd64, arm64, armhf, i386
+Plugin-Section: utilities
+
+Package: openmediavault-owntone
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 158
+Depends: openmediavault (>= 7.0), podman
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_7.0-1_all.deb
+Size: 21924
+SHA256: f6bc262ab72f03dd4784640fe4e88cb2c9ee0922507da37a7b43a652d7053234
+SHA1: 614cfabf9c95771b49cf4ff997f44664280b7b59
+MD5sum: d3dc3770048e001a01a5907e84a39f0b
+Description: openmediavault OwnTone plugin
+ OwnTone is a DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku)
+ media server.
+Plugin-Architecture: amd64, armhf, arm64
+Plugin-Section: multimedia
+
+Package: openmediavault-photoprism
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 199
+Depends: openmediavault (>= 7.0), podman
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: graphics
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_7.0-1_all.deb
+Size: 22740
+SHA256: 03b4eb9c900ae785b7e40f19a886f20109b114ba6d4c0f7df3f5f352be035465
+SHA1: 20ac7e5150408bbf7f4b071e9b82b2bc81c19ef2
+MD5sum: 7b974f6801383403c1edfa4ab8f63c0b
+Description: openmediavault PhotoPrism plugin
+ PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
+ photo collection.
+Plugin-Architecture: amd64, arm64
+Plugin-Section: multimedia
+
+Package: openmediavault-podman
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 171
+Depends: openmediavault (>= 6.9.4), podman
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-podman/openmediavault-podman_7.0-1_all.deb
+Size: 14064
+SHA256: b95ab01fd527f29fd7a833a3dfa1d4f0030c65f44761db36a8cea0113e3b8945
+SHA1: 41c7f5c39bfc2a42f20e8817d3297f219f2576c8
+MD5sum: f7a36c39cb5ff39b3b3e3645c1191e71
+Description: openmediavault Podman plugin
+ Podman (the POD MANager) is a tool for managing containers and images, volumes
+ mounted into those containers, and pods made from groups of containers.
+Plugin-Section: administration
+
+Package: openmediavault-s3
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 149
+Depends: openmediavault (>= 7.0), podman
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-s3/openmediavault-s3_7.0-1_all.deb
+Size: 16732
+SHA256: 262cee3a8bde3308e6f98735de37d58f67f00acb9be55f3d6ccaafcf2feb9077
+SHA1: a24929ad89bcd2aac087970e81bfaa237b6aaa3e
+MD5sum: 6c2222ba1e6c008d1c99414ef577b40b
+Description: openmediavault S3 plugin
+ A standalone high performance object storage based on MinIO.
+ It is API compatible with Amazon S3 cloud storage service.
+Plugin-Architecture: amd64, arm64
+Plugin-Section: network
+
+Package: openmediavault-shairport
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 142
+Depends: openmediavault (>= 7.0), shairport-sync (>= 2.8.6), alsa-utils
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: sound
+Filename: pool/main/o/openmediavault-shairport/openmediavault-shairport_7.0-1_all.deb
+Size: 15508
+SHA256: 43d0efa2b972004744ba60af71e6d0ba9c569110fb2b0d9c4c3ae8d141412ff6
+SHA1: 3d8d8d59b998911166ceeaf78a9de5499fbaaf68
+MD5sum: 13f68d327c2c0717ccdf795932123ec9
+Description: openmediavault shairport (AirPlay/RAOP receiver) plugin
+ Shairport emulates an AirPort Express for the purpose of streaming
+ music from iTunes and compatible iPods and iPhones. It implements a
+ server for the Apple RAOP protocol. ShairPort does not support AirPlay
+ v2 (video and photo streaming).
+Plugin-Section: multimedia
+
+Package: openmediavault-sharerootfs
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 16
+Depends: openmediavault (>= 7.0)
+Homepage: https://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-sharerootfs/openmediavault-sharerootfs_7.0-1_all.deb
+Size: 3316
+SHA256: fb61b241de45e40645322cd0448db2f9a2f493de42d1e912282773c1cca5caa7
+SHA1: 458848094c156798ced05720d480b7d303ae2cbb
+MD5sum: 0aa2bfa473e8247eecdb851e9249c867
+Description: openmediavault share root filesystem plugin
+ By default the root filesystem is hidden in openmediavault
+ and cannot be used to create shared folders on it. This is
+ by design to separate the operating system from user data.
+ This plugin allows creating shared folders in the root file
+ system.
+Plugin-Section: admin
+
+Package: openmediavault-snmp
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 160
+Depends: openmediavault (>= 7.0), snmpd
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-snmp/openmediavault-snmp_7.0-1_all.deb
+Size: 17640
+SHA256: 96f20d3a6aad2f848e411d7b95676db3c20f0dcd0f6347e05700733f63de626c
+SHA1: 69a4771a67b2f6a9ed53d4466fe7d830f3869efa
+MD5sum: 9add71da0f012d0c6ec293b3f84daf0d
+Description: openmediavault SNMP (Simple Network Management Protocol) plugin
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+Plugin-Section: network
+
+Package: openmediavault-tftp
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 150
+Depends: openmediavault (>= 7.0), tftpd-hpa
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-tftp/openmediavault-tftp_7.0-1_all.deb
+Size: 18108
+SHA256: 5e7d8c710b90a1a0c36c9c52fffbcebd2293d547e865fc2e1aba4c3c24148a29
+SHA1: 9335f35d0b52838dc3580781df9c2ab4388bea77
+MD5sum: 1a352ea51c53641d0488775a7b9c5b8d
+Description: openmediavault TFTP-Server plugin
+ A TFTP server is mainly required for booting operating systems or
+ configurations over the network.
+Plugin-Section: sharing
+
+Package: openmediavault-usbbackup
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 274
+Depends: hdparm, rsync, openmediavault (>= 7.0)
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.0-1_all.deb
+Size: 38632
+SHA256: c4d9de0ffe7c4f0beabc066ab9f3df3feaf50e71a1872520649e7de69a94e53f
+SHA1: 6bd2869e981e5ec5d6e9ef32ecbf8a67c5fb04f3
+MD5sum: 0618fb1b63c6c56aa8215e26df9016ac
+Description: openmediavault USB/eSATA backup plugin
+ Automatically synchronise a shared folder to an USB/eSATA device and vice
+ verse when it is plugged in.
+ The device is put into sleep mode after synchronisation to signal that it
+ can be removed safely.
+Plugin-Section: backup
+
+Package: openmediavault-wetty
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 134
+Depends: openmediavault (>= 7.0), podman
+Homepage: http://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_7.0-1_all.deb
+Size: 12876
+SHA256: f41da5a28712cc8c916a75f8291513c12c656e4c6966c626426e6c786c06cf37
+SHA1: 3e640cb8d0bdefc3a0734bd18fbfef92b2416eaf
+MD5sum: 198eaaa41fa6d5877edee27ffa2f31d9
+Description: openmediavault WeTTY (Web + TTY) plugin
+ Terminal access in browser over HTTP/HTTPS.
+Plugin-Architecture: amd64
+Plugin-Section: network
 
 Package: php-pam
 Version: 2.2.4-1+deb12u1
