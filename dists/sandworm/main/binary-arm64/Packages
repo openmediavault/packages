@@ -1,18 +1,18 @@
 Package: openmediavault
-Version: 7.0-3
+Version: 7.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13057
+Installed-Size: 13047
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0-3_all.deb
-Size: 3000308
-SHA256: d060e36887e3b0aa4e05cb5fef426ca62e082ef6dc9f84ad2e558900869786bd
-SHA1: 26f63d62c44628a56c75ebd7ef12e3f7cfeb23cf
-MD5sum: 2eb2ecaafa7bcab6e524c27f3f231b07
+Filename: pool/main/o/openmediavault/openmediavault_7.0-4_all.deb
+Size: 2999828
+SHA256: 1ef2e1d08ac7a2a112bbe1d7bc0fbafef790039f16e8ffe97b4aed91d67b9022
+SHA1: 60f87635e38c847c2a4faa34dc41ce0aabb94966
+MD5sum: 903ef0d3bbaa7bd101e81134235539df
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -54,19 +54,19 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 152
-Depends: openmediavault (>= 7.0), podman
+Depends: openmediavault (>= 7.0), podman, catatonit
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_7.0-1_all.deb
-Size: 17264
-SHA256: 5500d4eee8ef0580da543bd1a7b9111116f4eb3debd5c0d3f4e2f2f1aca33f75
-SHA1: 6756cda49badd89b5ddbb415d203543fc20974e5
-MD5sum: 29cbd8ddb95ab2e2b3eb4210aa102bda
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_7.0-2_all.deb
+Size: 17344
+SHA256: d70a4d8667bb0fa0660b09890cff7603071bff26992858abe8ddce518af032ba
+SHA1: 1d0bf5239c6a8052c1d739ebb3716a7c0cbb0f42
+MD5sum: d5f9716994de1e46c6f109fa8dec4ee6
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
@@ -152,19 +152,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 146
+Installed-Size: 167
 Depends: openmediavault (>= 7.0), mdadm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-1_all.deb
-Size: 11696
-SHA256: ece879be8580a54ac05272cf5cc1c2f32919dc7bb99f21a60009194d22476395
-SHA1: aceceba2df675627da87da276e24aaf3f6e09d30
-MD5sum: 678b9b1fddc4e963018abf306ba25ac0
+Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-2_all.deb
+Size: 14816
+SHA256: 4deec83e7a3667234995042f8122fb7d8d0b74b0061959fafb810f790bb6798f
+SHA1: bfcf35171c5c29b6b19a435009d2486de62cc8bd
+MD5sum: b672213873bcd8346e4a0d8f5d7389fa
 Description: openmediavault Linux MD (software RAID) plugin
  This plugin is used to create, manage, and monitor Linux MD (software
  RAID) devices.
@@ -231,19 +231,19 @@ Plugin-Architecture: amd64, armhf, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-photoprism
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 199
-Depends: openmediavault (>= 7.0), podman
+Depends: openmediavault (>= 7.0), podman, catatonit
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: graphics
-Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_7.0-1_all.deb
-Size: 22740
-SHA256: 03b4eb9c900ae785b7e40f19a886f20109b114ba6d4c0f7df3f5f352be035465
-SHA1: 20ac7e5150408bbf7f4b071e9b82b2bc81c19ef2
-MD5sum: 7b974f6801383403c1edfa4ab8f63c0b
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_7.0-2_all.deb
+Size: 22816
+SHA256: 9a85af1801b337a2218d27cc82aa88c8077945359b2e57cffa7348186854a341
+SHA1: 8375ad87354d98e687eb3d56822b809e406d1557
+MD5sum: e27878fc6259d56edb4514dfdcf7472b
 Description: openmediavault PhotoPrism plugin
  PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
  photo collection.
@@ -251,38 +251,38 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-podman
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 171
-Depends: openmediavault (>= 6.9.4), podman
+Depends: openmediavault (>= 7.0), podman, catatonit
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-podman/openmediavault-podman_7.0-1_all.deb
-Size: 14064
-SHA256: b95ab01fd527f29fd7a833a3dfa1d4f0030c65f44761db36a8cea0113e3b8945
-SHA1: 41c7f5c39bfc2a42f20e8817d3297f219f2576c8
-MD5sum: f7a36c39cb5ff39b3b3e3645c1191e71
+Filename: pool/main/o/openmediavault-podman/openmediavault-podman_7.0-2_all.deb
+Size: 14088
+SHA256: 3e950645f1b5d3022c7ef6ede91cbebc115487599adc105ce31ee5016baf2578
+SHA1: 761f5f13c8e7da2c0b1e9d60c927a9f5a83c29d3
+MD5sum: 7ba674a604956d6c2abcd8ab8732b8ed
 Description: openmediavault Podman plugin
  Podman (the POD MANager) is a tool for managing containers and images, volumes
  mounted into those containers, and pods made from groups of containers.
 Plugin-Section: administration
 
 Package: openmediavault-s3
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 149
-Depends: openmediavault (>= 7.0), podman
+Depends: openmediavault (>= 7.0), podman, catatonit
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-s3/openmediavault-s3_7.0-1_all.deb
-Size: 16732
-SHA256: 262cee3a8bde3308e6f98735de37d58f67f00acb9be55f3d6ccaafcf2feb9077
-SHA1: a24929ad89bcd2aac087970e81bfaa237b6aaa3e
-MD5sum: 6c2222ba1e6c008d1c99414ef577b40b
+Filename: pool/main/o/openmediavault-s3/openmediavault-s3_7.0-2_all.deb
+Size: 16800
+SHA256: be5696b355efaa88f5caa71800502d5b27f5a761ef18b86752083ca17305ce3b
+SHA1: a983ee68181a4674d265cf869bba3a86264f0faf
+MD5sum: f683932e19810426411bc3c8377ccfa0
 Description: openmediavault S3 plugin
  A standalone high performance object storage based on MinIO.
  It is API compatible with Amazon S3 cloud storage service.

@@ -96,20 +96,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 6.9.6-2
+Version: 6.9.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 12543
+Installed-Size: 12541
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.6.2), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, cron-apt, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_6.9.6-2_all.deb
-Size: 2406052
-SHA256: 7036bbff808eb24d3cb208261648f376bfd1186d6c01e626d0a3d4cfc3abe0f5
-SHA1: b5330a3ad85e9e7f927f1faa03d93646daf98ac8
-MD5sum: 46d6628a30f85eb546bd8488f7c812ed
+Filename: pool/main/o/openmediavault/openmediavault_6.9.7-1_all.deb
+Size: 2406036
+SHA256: 17f2d6958437b20eae7dc8cf1c98f1b0d50d6197172c9b403daca20a803c998d
+SHA1: 3dedaf4cbb6dd3df562c847409140c6217945a2c
+MD5sum: a587d3b1cef246d55b9b97111ba41ff8
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -151,19 +151,19 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 6.0.7-1
+Version: 6.0.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 152
-Depends: openmediavault (>= 6.5.4), podman
+Depends: openmediavault (>= 6.5.4), podman, catatonit
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_6.0.7-1_all.deb
-Size: 17092
-SHA256: 42601a28f60659210b8f4190d81eab6c1f2b903c9d6af746df3b3e075449c230
-SHA1: f5ff2c21b1083c6353d956f378203e354ee769ab
-MD5sum: 4e7967b7bf27c371fcb5ef1c84e7b775
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_6.0.8-1_all.deb
+Size: 17328
+SHA256: a6b362b493cd6b5a3836e369ca4bef8175ef5d6b166cc65d6bbed8aa9fe9d060
+SHA1: 36175e81040ee824cfe0b555c7b66a560271af93
+MD5sum: 7e1d88d7070bb9e8bfe16b6dd8ee3975
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
@@ -191,19 +191,19 @@ Description: openmediavault forked-daapd (DAAP server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-ftp
-Version: 6.0.5-1
+Version: 6.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 494
+Installed-Size: 499
 Depends: openmediavault (>= 6.5.4), proftpd-basic, proftpd-mod-vroot
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_6.0.5-1_all.deb
-Size: 66500
-SHA256: 04b5af226336ffde903a8236d35aeb408bb92220eff3b1dcddc102c807a41881
-SHA1: a28356ade26588d03348d51cc3aece7ca1fb9866
-MD5sum: 99274ae1f47266299774e25beff2e432
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_6.0.6-1_all.deb
+Size: 67128
+SHA256: 34f252c0bab0304a72132a01da8964eedc9df0a4f5a7d298fde8e8f3a87d5247
+SHA1: b1fcffec064dc880fc7b50c1a7a7c7df6d2ed063
+MD5sum: 213b4af9e3a2f25883760f5f6e3486b4
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/SFTP/FTPS server.
 Plugin-Section: sharing
@@ -309,19 +309,19 @@ Plugin-Architecture: amd64, armhf, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-photoprism
-Version: 6.0.9-1
+Version: 6.0.10-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 198
-Depends: openmediavault (>= 6.5.4), podman
+Installed-Size: 199
+Depends: openmediavault (>= 6.5.4), podman, catatonit
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: graphics
-Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.9-1_all.deb
-Size: 22472
-SHA256: 0ec84cb50a1730a7628233f1180dd7e54c155558a84462b9b826f091678cef5a
-SHA1: 7f0ede0cccef38ef0379070c1ed5841a0177c704
-MD5sum: 41207eef33bd82d6b2610b9a78d8b667
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_6.0.10-1_all.deb
+Size: 22780
+SHA256: a01e20b942454d5a8cb5aad96cca53d200cc2df921f548d0928810315460460c
+SHA1: f35d7734174be4758410271f25191216b28e494c
+MD5sum: 8133a9c3610f44d7543b15a7ae43766b
 Description: openmediavault PhotoPrism plugin
  PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
  photo collection.
@@ -348,19 +348,19 @@ Description: openmediavault Podman plugin
 Plugin-Section: administration
 
 Package: openmediavault-s3
-Version: 6.0.7-1
+Version: 6.0.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 149
-Depends: openmediavault (>= 6.5.4), podman
+Depends: openmediavault (>= 6.5.4), podman, catatonit
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-s3/openmediavault-s3_6.0.7-1_all.deb
-Size: 16624
-SHA256: 9722c413047471f0c693a6f3aa28eae3c0ef55698939c49ec6a2868bca5b7635
-SHA1: 56701182bc57aa9ba2ceacea8949cfa7c63b5d2a
-MD5sum: 609384e80b45d4997a1b3c6e1915316a
+Filename: pool/main/o/openmediavault-s3/openmediavault-s3_6.0.8-1_all.deb
+Size: 16788
+SHA256: 1fe772b91724855ab9a63463645fbcbf14df6377b2f5da1d45268205638f0ef9
+SHA1: 2ff1acb757e21b857379768300f3b3e4ad88f5c7
+MD5sum: ae46ad2bae052a4a9dee3e9436c6bbd2
 Description: openmediavault S3 plugin
  A standalone high performance object storage based on MinIO.
  It is API compatible with Amazon S3 cloud storage service.
