@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.0-4
+Version: 7.0-5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13047
@@ -8,29 +8,29 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0-4_all.deb
-Size: 2999828
-SHA256: 1ef2e1d08ac7a2a112bbe1d7bc0fbafef790039f16e8ffe97b4aed91d67b9022
-SHA1: 60f87635e38c847c2a4faa34dc41ce0aabb94966
-MD5sum: 903ef0d3bbaa7bd101e81134235539df
+Filename: pool/main/o/openmediavault/openmediavault_7.0-5_all.deb
+Size: 2999932
+SHA256: 666217ea03dc96fdc68e408d91339d1669100b5ff11806bd8dd11fe822417180
+SHA1: 645768f539cf4093019de3d08222abedf8dbe1cf
+MD5sum: e0030020d3ef85ecc889c429a0674c44
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 373
+Installed-Size: 375
 Depends: openmediavault (>= 7.0), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0-1_all.deb
-Size: 49024
-SHA256: d285d0431b1d8a5eec196ad8f5dedc82ea37724b89dbdb968bfbf7df9e319150
-SHA1: 83dee426f04fac51ede541164b6e3b44d67f23ca
-MD5sum: fda17f4e694ef1ad68607a46e31414da
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0-2_all.deb
+Size: 49184
+SHA256: b440af46129444663db68f6961259c9d44aa15fa110e1686793759ecf22b42bf
+SHA1: 3924d9e0fa266fbac14832c1687a8c8688fce6fc
+MD5sum: 13bfda7350ef9fddde546dde9a0e572d
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
