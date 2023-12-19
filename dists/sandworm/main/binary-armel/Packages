@@ -1,18 +1,18 @@
 Package: openmediavault
-Version: 7.0-16
+Version: 7.0-17
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13071
+Installed-Size: 13070
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0-16_all.deb
-Size: 3002828
-SHA256: f9ada89ab5fc9318babc3b549bec10d1fd89f56e9ed4e4f0faf2f55ccda66b44
-SHA1: 25c99f0e3d77e1f8f7efcb042907affcee7eebe6
-MD5sum: 2492f73546c712c88260c5de19d9e969
+Filename: pool/main/o/openmediavault/openmediavault_7.0-17_all.deb
+Size: 3002760
+SHA256: 8ec950b9cb7ce1f3bc3bb13d894773635b4963e24f340b7abdc4c98388617767
+SHA1: 9bd0375e82674476e5f3726c44dd332e45cf0e5a
+MD5sum: 0f98f0fac5432ea1e49ca5ef5532a4b1
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -152,19 +152,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 7.0-3
+Version: 7.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 172
+Installed-Size: 176
 Depends: openmediavault (>= 7.0), mdadm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-3_all.deb
-Size: 15956
-SHA256: ec622174681937ad1d03dfb2d98851c1252885229e11924772dc7f45b469fdb9
-SHA1: 25a999c3293926ee63a71c509d0afbc1228a402c
-MD5sum: dce176fe5d139dc7085d8bed30f1f61c
+Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-4_all.deb
+Size: 16584
+SHA256: a61ae9cef155bc1cfeafec7b73975cb8115ad8ed3d9be1dc112b13d63daea846
+SHA1: 495aa7536e51948b42c84a62a4d6820e5d832242
+MD5sum: 92c90f2b292f0fe242b46b1441564947
 Description: openmediavault Linux MD (Multiple Device) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
