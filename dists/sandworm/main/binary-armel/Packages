@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.0-17
+Version: 7.0-18
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13070
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0-17_all.deb
-Size: 3002760
-SHA256: 8ec950b9cb7ce1f3bc3bb13d894773635b4963e24f340b7abdc4c98388617767
-SHA1: 9bd0375e82674476e5f3726c44dd332e45cf0e5a
-MD5sum: 0f98f0fac5432ea1e49ca5ef5532a4b1
+Filename: pool/main/o/openmediavault/openmediavault_7.0-18_all.deb
+Size: 3002752
+SHA256: 82390011da46b61b1ecbebbdca51c3a302d6f0a562655caefbb5249a6ef86aec
+SHA1: e3e3b967b2096ed7adaf4346db557ac8060e3cea
+MD5sum: ed1666ad4bda8e5ef44922b44ad4b5ee
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -110,6 +110,24 @@ MD5sum: b8b7e1e1057f8a1ff3b6727a855deec7
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/SFTP/FTPS server.
 Plugin-Section: sharing
+
+Package: openmediavault-hosts
+Version: 7.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 108
+Depends: openmediavault (>= 7.0)
+Homepage: https://www.openmediavault.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-hosts/openmediavault-hosts_7.0-1_all.deb
+Size: 8288
+SHA256: a667a997993c44b40cbca940a195aecaa9fff2f5900bbb921e8ebbf1c1658003
+SHA1: 4b0290fbebdecba49375e8caeaae3b9041382d5b
+MD5sum: c7f6b207ccaa8fc51cd4dae056ba1b1c
+Description: openmediavault hosts plugin
+ Manage custom entries in the /etc/hosts file.
+Plugin-Section: network
 
 Package: openmediavault-keyring
 Version: 1.0.2-2
