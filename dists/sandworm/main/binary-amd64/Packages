@@ -170,19 +170,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 7.0-4
+Version: 7.0-5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 176
+Installed-Size: 177
 Depends: openmediavault (>= 7.0), mdadm
-Homepage: http://www.openmediavault.org
+Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-4_all.deb
-Size: 16584
-SHA256: a61ae9cef155bc1cfeafec7b73975cb8115ad8ed3d9be1dc112b13d63daea846
-SHA1: 495aa7536e51948b42c84a62a4d6820e5d832242
-MD5sum: 92c90f2b292f0fe242b46b1441564947
+Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-5_all.deb
+Size: 16796
+SHA256: 762b0a270b86cad198ab4067cbb47e632220896a960fceeea187cc06eec8693e
+SHA1: 1a70fb1da55a632851b40f4b857449fb6e3a79c2
+MD5sum: cc25b083e2ca9297facf94e3eb2c54a7
 Description: openmediavault Linux MD (Multiple Device) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
