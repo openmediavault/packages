@@ -1,18 +1,18 @@
 Package: openmediavault
-Version: 7.0-19
+Version: 7.0-20
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13070
+Installed-Size: 13071
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, hdparm, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0-19_all.deb
-Size: 3002632
-SHA256: a2a4059aeb0fa7e3b9f34a37e399f6f1e04f4bd23f2540cccda8b0dba6553d5f
-SHA1: e764694b7a1df1b532d7e72ab989c89831879ca5
-MD5sum: b3ee903c593c8fc6ffb06d024c1aaba9
+Filename: pool/main/o/openmediavault/openmediavault_7.0-20_all.deb
+Size: 3003080
+SHA256: 4cf75958a01dd98218a202b21c7bcc35e11d34e6834a0ad898a9982b71782167
+SHA1: da1c667ea0717fcb33e5d0d96f487b42a99172d2
+MD5sum: 39de5c8243e04937344de184e41b4662
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -112,19 +112,19 @@ Description: openmediavault FTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-hosts
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 108
+Installed-Size: 109
 Depends: openmediavault (>= 7.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-hosts/openmediavault-hosts_7.0-1_all.deb
-Size: 8288
-SHA256: a667a997993c44b40cbca940a195aecaa9fff2f5900bbb921e8ebbf1c1658003
-SHA1: 4b0290fbebdecba49375e8caeaae3b9041382d5b
-MD5sum: c7f6b207ccaa8fc51cd4dae056ba1b1c
+Filename: pool/main/o/openmediavault-hosts/openmediavault-hosts_7.0-2_all.deb
+Size: 8440
+SHA256: 44d751b5688d64fca5e5ce86fa0188123cb93364fa4693c956d707edbf1c9fe0
+SHA1: ddad137c6374d5d170b70f6d2d7de2cba5f6b206
+MD5sum: 7c4c52a0ba7c36cc960269f562bb9e09
 Description: openmediavault hosts plugin
  Manage custom entries in the /etc/hosts file.
 Plugin-Section: network
