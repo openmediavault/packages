@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.0-22
+Version: 7.0-23
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13078
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0-22_all.deb
-Size: 3004232
-SHA256: fda51507fb86d64ba70f46f61787a62ddda4f8a29cdaaa89d619594f17c131ab
-SHA1: 0a53ddfb338c5870b40f0ccfd60ffee8a1a05e4b
-MD5sum: 390768351e0b3b06e61bf1f7d0de1e7b
+Filename: pool/main/o/openmediavault/openmediavault_7.0-23_all.deb
+Size: 3003784
+SHA256: c3aa52d005dc59bbdf5f3a96d1f69330dae695cb578eae29ba1205cab75de93b
+SHA1: 000c1a3de270cf06b14657a642895223f7ad2463
+MD5sum: 2061dead4843c38b5a16307ae31cc10e
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -94,19 +94,19 @@ Description: openmediavault forked-daapd (DAAP server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-ftp
-Version: 7.0-2
+Version: 7.0-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 495
+Installed-Size: 499
 Depends: openmediavault (>= 7.0), proftpd-basic, proftpd-mod-vroot
-Homepage: http://www.openmediavault.org
+Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_7.0-2_all.deb
-Size: 66700
-SHA256: c13832fc7a3f24841303c06fc356326939a5e1813e437370c1bb7082f0ca2a09
-SHA1: e1f92d5a1fe6c37c01d2ce2b7438752982725df7
-MD5sum: b8b7e1e1057f8a1ff3b6727a855deec7
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_7.0-3_all.deb
+Size: 67220
+SHA256: cadc773293e740beee3abc01103eeed250b303158537d6587f18e570718266ce
+SHA1: d1c778cc545efdfa46736069bf3fcddc94edff8c
+MD5sum: 1518843fd0a83a6c6def85f88262a0e4
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/SFTP/FTPS server.
 Plugin-Section: sharing
@@ -189,19 +189,19 @@ Description: openmediavault Linux MD (Multiple Device) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 265
 Depends: openmediavault (>= 7.0), nut, udev
-Homepage: http://www.openmediavault.org
+Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0-1_all.deb
-Size: 32760
-SHA256: 4ff2cbc52f94302a6c2b31135218a01b8fe5328f59205f2a9c4c155a18287c18
-SHA1: 6cad0774c691c4a769d8fad486e440e6e97dba9c
-MD5sum: 8cacd7dc7f3702e0734e79f2b2d40ce0
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0-2_all.deb
+Size: 32788
+SHA256: b6dc23f0ee64c26ce4f18106540b7a50bda5ed5584a5f65dc49e04798a6e6662
+SHA1: 5bd70fc2e565cd00c477adf77891859401a4af70
+MD5sum: 774ea31875169a2bb48d9ad859a5fb30
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
