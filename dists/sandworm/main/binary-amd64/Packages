@@ -1,3 +1,22 @@
+Package: onedrive
+Version: 2.4.25-1.1
+Architecture: amd64
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Installed-Size: 2663
+Depends: init-system-helpers (>= 1.52), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14)
+Homepage: https://github.com/abraunegg/onedrive
+Priority: optional
+Section: net
+Filename: pool/main/o/onedrive/onedrive_2.4.25-1.1_amd64.deb
+Size: 654020
+SHA256: 4b18c0923b510677f7a26475d3e03f2e42f495b9d2df8a65147b1e02d3c05c22
+SHA1: 8ce7f6f0f3ba10694671ac72f9b338352e3091a3
+MD5sum: 667d10e85caf3f713cae113be37a8f1c
+Description: folder synchronization with OneDrive
+ OneDrive is the cloud storage system of Microsoft. This package provides
+ the command line client specialising in synchronizing with OneDrive cloud
+ storage.
+
 Package: openmediavault
 Version: 7.0-23
 Architecture: all
