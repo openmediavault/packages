@@ -1,5 +1,5 @@
 Package: onedrive
-Version: 2.4.25-1.1
+Version: 2.4.25-1+deb12u1
 Architecture: arm64
 Maintainer: Sebastien Badia <sbadia@debian.org>
 Installed-Size: 2563
@@ -7,11 +7,11 @@ Depends: init-system-helpers (>= 1.52), libc6 (>= 2.34), libgcc-s1 (>= 3.0), lib
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.4.25-1.1_arm64.deb
-Size: 596588
-SHA256: 7ac84002253b3077762ca070018ee4ebbb5a00b8f573f96adf6d378c84dda22c
-SHA1: ca23ee97dd6af7fcf371e1c69d2dd561710f285d
-MD5sum: 0c2b0f214311469378a1a6fb331768e4
+Filename: pool/main/o/onedrive/onedrive_2.4.25-1+deb12u1_arm64.deb
+Size: 596996
+SHA256: 2575054603b53b6fd9190e1de8e73e6aab51f1a26810c3564b91106c52c81692
+SHA1: c921dc08f13f0c357d9905b302f8a6e21b603304
+MD5sum: cce387f0e0fe512dcfbab85ee7da455c
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud

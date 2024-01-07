@@ -1,5 +1,5 @@
 Package: onedrive
-Version: 2.4.25-1.1
+Version: 2.4.25-1+deb12u1
 Architecture: armhf
 Maintainer: Sebastien Badia <sbadia@debian.org>
 Installed-Size: 2526
@@ -7,11 +7,11 @@ Depends: init-system-helpers (>= 1.52), libc6 (>= 2.34), libgcc-s1 (>= 3.5), lib
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.4.25-1.1_armhf.deb
-Size: 638332
-SHA256: 4b2d279f9c25ce7bb7e3bffa739ad5ad44747a2ddedef0f2b2ab7a5a6ea8af98
-SHA1: 8aa94795bc99f6a947e6613ae19d101b64abce7c
-MD5sum: 7693c26bc065c40bffc3cce595587d78
+Filename: pool/main/o/onedrive/onedrive_2.4.25-1+deb12u1_armhf.deb
+Size: 637648
+SHA256: 012a0b3a726385caed5e99ca261b2067493a5592db60bea143d461f39929fa1e
+SHA1: d2e74047a6dcf802e217cd6bc508f39ee64577d4
+MD5sum: 9f905cbe3514b99aff4b3324b934b870
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
