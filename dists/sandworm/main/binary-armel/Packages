@@ -130,19 +130,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 342
-Depends: openmediavault (>= 7.0.1)
+Installed-Size: 343
+Depends: openmediavault (>= 7.0.1), bash
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.0-1_all.deb
-Size: 24048
-SHA256: 32ad47c3728c559ef06256734c9df9b0f76416f954e8c435ff90e3829899579d
-SHA1: 0b9e38b9878b469aa36dcf10bc77f41d3867209c
-MD5sum: a683c23d0e6f4e97f028ed547c7291a7
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.0-2_all.deb
+Size: 25052
+SHA256: ce7d53c4f0b7f4ec998fd52b1d657669f1aa559a316bd7de7e02d6c2c80215ee
+SHA1: 84d7bae49b58bd567145b5f5cd0afc7a83add10e
+MD5sum: bcb5c113e62eb12603d5a0a742793cd6
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized applications in an automated, scalable,
@@ -215,7 +215,7 @@ Description: openmediavault Linux MD (Multiple Device) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0.2-2
+Version: 7.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 271
@@ -223,11 +223,11 @@ Depends: openmediavault (>= 7.0), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.2-2_all.deb
-Size: 33312
-SHA256: e45568186582bc2560725254a27bda2a5b442350282d128993da8e303c0d41d7
-SHA1: 645d9e5b8b0f4be3cf31952f44e64e25b458fb3e
-MD5sum: 1765a6f12e5645ade3b00965300c54eb
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.3-1_all.deb
+Size: 33380
+SHA256: eabee450325d208c51b1d8ad60b2b92883c06a2dfc9f7613c29c342eed2684cd
+SHA1: caa8499bbf0253f726680f78fffcb4c19db50c86
+MD5sum: 030e918618d7feb3da8912bfea07b9da
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
