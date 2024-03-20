@@ -18,7 +18,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.0.3-1
+Version: 7.0.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13172
@@ -27,11 +27,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0.3-1_all.deb
-Size: 3011036
-SHA256: 43af072095a4cc8310b2ff7a84aab18fe8007fe3850d7dc6a853d16e648363d9
-SHA1: 1facdeda3cdb2bd99a569705fa013f74fafa1b04
-MD5sum: a46e0bdca7d020e6b9f740ecf1fc5e43
+Filename: pool/main/o/openmediavault/openmediavault_7.0.4-1_all.deb
+Size: 3010952
+SHA256: 9aa23f35f45e180def72ac7aa58445852599ea8e3f4c6592eeb0f73685548cc4
+SHA1: 88efef4154a0cba5d91ec3977823e5f8f7b0987c
+MD5sum: 5e90d1285c8034b5fd9c4c32302c0036
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -149,19 +149,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.0-4
+Version: 7.0-5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 371
-Depends: openmediavault (>= 7.0.3), bash, git
+Installed-Size: 372
+Depends: openmediavault (>= 7.0.4), bash, git
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.0-4_all.deb
-Size: 29120
-SHA256: c82035d1993996d710f03c6758222018390675476f2a6a984a08af7e8d842fa8
-SHA1: ceda1d4bebf5363715284a8f0a2675fa89caef6a
-MD5sum: bd023965a3f2b6547683bdab0d53d182
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.0-5_all.deb
+Size: 30032
+SHA256: a2ffedbd87e1c52b0c372011ba9f53b4b30395b3acd99a6d4beba2b9557d5d26
+SHA1: 8bb239f39510cd79046af85c7134144b701fcc84
+MD5sum: 0eb2f9cdadd7040e0869fdb232f44cae
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized applications in an automated, scalable,
@@ -435,19 +435,19 @@ Description: openmediavault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 7.0.1-2
+Version: 7.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 277
-Depends: hdparm, rsync, openmediavault (>= 7.0)
+Depends: smartmontools, rsync, openmediavault (>= 7.0.4)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.0.1-2_all.deb
-Size: 38044
-SHA256: f6e56638e33c23570733a2bc48e5ce804cc098246af199b8867b9102a5cb26bd
-SHA1: 5a7287a12235cef11b893402ba3e8376e04849e1
-MD5sum: faddee985f70ae6cf137e4888e08330b
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.0.2-1_all.deb
+Size: 38264
+SHA256: 77c759bcb1d6f961690f19de0fa64ce4ad052fcd9e7a8135e5409eeaf1e61e2f
+SHA1: e9b5f4b5e09ef315475570b8d01107468f7d3b8e
+MD5sum: 629d63d1f1e1e2f8969f79282d518b65
 Description: openmediavault USB/eSATA/SD backup plugin
  Automatically synchronise a shared folder to an USB/eSATA/SD device and vice
  verse when it is plugged in.
