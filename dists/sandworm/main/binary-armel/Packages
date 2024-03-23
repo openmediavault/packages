@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.0.4-1
+Version: 7.0.4-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13172
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0.4-1_all.deb
-Size: 3010952
-SHA256: 9aa23f35f45e180def72ac7aa58445852599ea8e3f4c6592eeb0f73685548cc4
-SHA1: 88efef4154a0cba5d91ec3977823e5f8f7b0987c
-MD5sum: 5e90d1285c8034b5fd9c4c32302c0036
+Filename: pool/main/o/openmediavault/openmediavault_7.0.4-2_all.deb
+Size: 3011004
+SHA256: d91169f3aca82989d5d6edd4fc5baf3433d5971269433183b75d4d5dd2409c17
+SHA1: 3e3dc8947858a2eec795557adb51ff0eaca8c8fb
+MD5sum: 754f86f3eb22d89722ce9223cc816114
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -130,7 +130,7 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.0-5
+Version: 7.0-6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 372
@@ -138,11 +138,11 @@ Depends: openmediavault (>= 7.0.4), bash, git
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.0-5_all.deb
-Size: 30032
-SHA256: a2ffedbd87e1c52b0c372011ba9f53b4b30395b3acd99a6d4beba2b9557d5d26
-SHA1: 8bb239f39510cd79046af85c7134144b701fcc84
-MD5sum: 0eb2f9cdadd7040e0869fdb232f44cae
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.0-6_all.deb
+Size: 30036
+SHA256: 053e387c3c494688c1f997760f71e7834fb8de13a0de82181884d47d8609bf85
+SHA1: 90cee9c026e4b48f46979d5263d7c049b59a0cec
+MD5sum: f86e8256878350ae42edd45de2fa8052
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized applications in an automated, scalable,
