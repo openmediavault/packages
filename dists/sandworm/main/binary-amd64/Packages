@@ -149,19 +149,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.1.0-1
+Version: 7.1.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 465
+Installed-Size: 1200
 Depends: openmediavault (>= 7.0.4), bash, git
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.1.0-1_all.deb
-Size: 40920
-SHA256: a3c0edd6c1d1b52a87599b23ac4b5206951179697124547cd6f381609e11e80b
-SHA1: 43f158dacd47e329f4a4f8260d023a7343a2961f
-MD5sum: 32b698bdddd00fe5897c83854e238d19
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.1.0-2_all.deb
+Size: 131216
+SHA256: cc90ea67e4e8e162484bd5c9144381370114a2cf02d976ac3967f4f05d5ceb19
+SHA1: 1b1974d7fcef330bcf34a6b881eaa4b600cac4b5
+MD5sum: 13b093cf175d876cbd7c10e941d17624
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized applications in an automated, scalable,
