@@ -1,18 +1,18 @@
 Package: openmediavault
-Version: 7.0.4-2
+Version: 7.0.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13172
+Installed-Size: 13173
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0.4-2_all.deb
-Size: 3011004
-SHA256: d91169f3aca82989d5d6edd4fc5baf3433d5971269433183b75d4d5dd2409c17
-SHA1: 3e3dc8947858a2eec795557adb51ff0eaca8c8fb
-MD5sum: 754f86f3eb22d89722ce9223cc816114
+Filename: pool/main/o/openmediavault/openmediavault_7.0.5-1_all.deb
+Size: 3011156
+SHA256: bd021f5edba89de5c208c99dba85b4cb19cc81c67b8547fb5a309b5f533ea0ee
+SHA1: 87687c8b18ce3f17ebfa03d698e92eb1fe13ee0a
+MD5sum: 573f0c3a4f5c3b39a26647033f1d4ee1
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -130,19 +130,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.1.0-2
+Version: 7.1.0-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1200
+Installed-Size: 1201
 Depends: openmediavault (>= 7.0.4), bash, git
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.1.0-2_all.deb
-Size: 131216
-SHA256: cc90ea67e4e8e162484bd5c9144381370114a2cf02d976ac3967f4f05d5ceb19
-SHA1: 1b1974d7fcef330bcf34a6b881eaa4b600cac4b5
-MD5sum: 13b093cf175d876cbd7c10e941d17624
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.1.0-3_all.deb
+Size: 131340
+SHA256: a7c5f93cd592e6f5b220a4e772da9de7d439e1d921fc450ac624ffdc7fea11b4
+SHA1: d790c73c902de33b22bf71110add924a2db079f2
+MD5sum: c63784862889f484267674a341326be4
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized applications in an automated, scalable,
@@ -196,19 +196,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 7.0-6
+Version: 7.0-7
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 180
+Installed-Size: 181
 Depends: openmediavault (>= 7.0), mdadm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-6_all.deb
-Size: 16848
-SHA256: 3abf02dd78fe9e76059447b857b16a43e1d53c719a20610044e51b0358859c24
-SHA1: 260b0490f5f60d87b437fc823dfb232e681e3894
-MD5sum: 34540d0ac88fdf775251437df0c7b2e4
+Filename: pool/main/o/openmediavault-md/openmediavault-md_7.0-7_all.deb
+Size: 17348
+SHA256: b518654c6a51a2fae9c80b5d7dfea63eb0b31f5cd19b5a5ec95cb79767ec60d8
+SHA1: f0e7287c85e92dbf561d8710e61edeb3fb38cd44
+MD5sum: 85bd67b283ee7af32263f9ab50f496b1
 Description: openmediavault Linux MD (Multiple Device) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
