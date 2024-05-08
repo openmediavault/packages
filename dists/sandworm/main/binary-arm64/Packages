@@ -18,38 +18,38 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.0.5-1
+Version: 7.1.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13173
+Installed-Size: 13232
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.0.5-1_all.deb
-Size: 3011156
-SHA256: bd021f5edba89de5c208c99dba85b4cb19cc81c67b8547fb5a309b5f533ea0ee
-SHA1: 87687c8b18ce3f17ebfa03d698e92eb1fe13ee0a
-MD5sum: 573f0c3a4f5c3b39a26647033f1d4ee1
+Filename: pool/main/o/openmediavault/openmediavault_7.1.0-1_all.deb
+Size: 3027144
+SHA256: 2bb93e3705ce5f84574cdf9d527443b2b80c542417e0a1bd8c9d61ce95b6bded
+SHA1: 13d4903a560750cc3033239c444c56eaaa641f9d
+MD5sum: 6934d3ebe9731a7d864ac6b9bdd3337a
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-clamav
-Version: 7.0-6
+Version: 7.0-7
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 383
-Depends: openmediavault (>= 7.0), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
+Depends: openmediavault (>= 7.1), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0-6_all.deb
-Size: 49508
-SHA256: 5f056268f84c2879d95165ebaf0fe688594e6e8f9969c762c57b27e417fed50c
-SHA1: b890478dc7a04970b02c83e6d66f6a9a0bfae6f2
-MD5sum: 455225167ced81f0a77fec2952f8b060
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0-7_all.deb
+Size: 49492
+SHA256: c75fee8337cbee08dd9195bbda2a7c9ea4d2ab09c0700553df6a27270ec85080
+SHA1: b4672d0012f7803aeba55a09ef396d8643f1280c
+MD5sum: 7a2d2971508228abbb0e42be325118ee
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -113,19 +113,19 @@ Description: openmediavault forked-daapd (DAAP server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-ftp
-Version: 7.0-4
+Version: 7.0-5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 507
-Depends: openmediavault (>= 7.0), proftpd-basic, proftpd-mod-vroot
+Depends: openmediavault (>= 7.1), proftpd-basic, proftpd-mod-vroot
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_7.0-4_all.deb
-Size: 67440
-SHA256: 8e0d7ed11e6e29a52a1feac30f561cc90078edf7139622898c550918b637f5de
-SHA1: a82c6f2355e034bb7d372330418e23c0896e1d3c
-MD5sum: b0e5fb01db9526c8250c801e6230b5aa
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_7.0-5_all.deb
+Size: 67424
+SHA256: 5c1c8e79c700a16637fd18d818dca9e3c59d95aac73ea374e09cf91f801f27e3
+SHA1: cb9f68d8c62c0c4642f597de8a2b3470ed3ebc8e
+MD5sum: 08d1b82214f0dc109191c4b8c31a685c
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/SFTP/FTPS server.
 Plugin-Section: sharing
@@ -149,30 +149,30 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.1.0-3
+Version: 7.1.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1201
-Depends: openmediavault (>= 7.0.4), bash, git
+Installed-Size: 1205
+Depends: openmediavault (>= 7.1), bash, git
 Homepage: https://www.openmediavault.org
 Priority: optional
-Section: net
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.1.0-3_all.deb
-Size: 131340
-SHA256: a7c5f93cd592e6f5b220a4e772da9de7d439e1d921fc450ac624ffdc7fea11b4
-SHA1: d790c73c902de33b22bf71110add924a2db079f2
-MD5sum: c63784862889f484267674a341326be4
+Section: admin
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.1.0-4_all.deb
+Size: 132740
+SHA256: c1af861e6682b72e78d601ea4e17af2fc13470a8613a12a148f436bca8640cfa
+SHA1: 3afaecba607a71c7229ca0c965db578b2cf79880
+MD5sum: 02a26b41e1446571e9dc28769cd3298b
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
- managing containerized applications in an automated, scalable,
- and resource-efficient environment.
+ managing containerized/dockerized applications in an automated,
+ scalable, and resource-efficient environment.
  The plugin is intended to implement a single-node Kubernetes
  environment using SUSE K3s.
  The plugin comes with preinstalled Traefik, Cert-Manager and
  Kubernetes Dashboard.
  By default the LoadBalancer resource is listening on port 8080
  (HTTP) and 8443 (HTTPS).
-Plugin-Section: sharing
+Plugin-Section: administration
 
 Package: openmediavault-keyring
 Version: 1.0.2-2
@@ -234,19 +234,19 @@ Description: openmediavault Linux MD (Multiple Device) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0.3-1
+Version: 7.0.3-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 271
-Depends: openmediavault (>= 7.0), nut, udev
+Depends: openmediavault (>= 7.1), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.3-1_all.deb
-Size: 33380
-SHA256: eabee450325d208c51b1d8ad60b2b92883c06a2dfc9f7613c29c342eed2684cd
-SHA1: caa8499bbf0253f726680f78fffcb4c19db50c86
-MD5sum: 030e918618d7feb3da8912bfea07b9da
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.3-2_all.deb
+Size: 33416
+SHA256: ec3aa42bf74aceeb2625269eaa4d42cc3f1d024b5d745bbbfa32817bd121e8ab
+SHA1: 4620f642037e44aeec05db48ba82a1d50fc43d43
+MD5sum: b7a21d4efde5b3c17e16e417424b8b1f
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
