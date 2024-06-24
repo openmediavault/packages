@@ -37,19 +37,19 @@ Description: openmediavault - The open network attached storage solution
  with a smart WebGUI.
 
 Package: openmediavault-apt
-Version: 7.0
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 167
+Installed-Size: 168
 Depends: openmediavault (>= 7.3)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-apt/openmediavault-apt_7.0_all.deb
-Size: 22408
-SHA256: dc9bb75de1a72c53554ad1df1700c056e7d39d200c10f86f9c0a0ebf97de5a03
-SHA1: cc2b0d79a5caf69ba8d2cc98458ee18bb9a48b6a
-MD5sum: 817b0feb8fabe54fc507d701a284a07c
+Filename: pool/main/o/openmediavault-apt/openmediavault-apt_7.0-2_all.deb
+Size: 22688
+SHA256: 314681525145f99bbdcb3cd7265188c8244858c70f2d55b214be85fcca5200e5
+SHA1: c0dea811354b2f5d7f0a7c6a9f14d3125d31cddb
+MD5sum: 67cda0a857a8421ca023afe6945f8926
 Description: openmediavault APT management plugin
  Manage APT (Advanced Package Tool) repositories easily.
 Plugin-Section: utilities
@@ -351,7 +351,7 @@ Description: openmediavault Podman plugin
 Plugin-Section: administration
 
 Package: openmediavault-s3
-Version: 7.0-3
+Version: 7.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 152
@@ -359,11 +359,11 @@ Depends: openmediavault (>= 7.0), podman, catatonit
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-s3/openmediavault-s3_7.0-3_all.deb
-Size: 16912
-SHA256: ae4efcc4f85b698e960ddfc12f9eaa8b89264e911396ecd4250c9156503955a6
-SHA1: 4897b236b4ac7428cd65d867889615f46cad1147
-MD5sum: 0066b1d5aa16eeb29b1cd3e80293758e
+Filename: pool/main/o/openmediavault-s3/openmediavault-s3_7.0.1-1_all.deb
+Size: 17080
+SHA256: 78f26a98b31820e24978b3a4e5467975281b290ebb3a8b78846094888567cb69
+SHA1: b348a7462e96ef9aafe2e976279987922c7072b3
+MD5sum: 4bff723467a06fec68426b797ab975ee
 Description: openmediavault S3 plugin
  A standalone high performance object storage based on MinIO.
  It is API compatible with Amazon S3 cloud storage service.
