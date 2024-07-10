@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.3.1-1
+Version: 7.4.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13260
+Installed-Size: 13268
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.3.1-1_all.deb
-Size: 3032648
-SHA256: cb5358e241d1cfa7ae63c0cfd706d6b396020699cc81e1fee7f4911c68fdbc93
-SHA1: ab75a028d760a2d913d83180e9c6f9f1b51cec86
-MD5sum: 7b191ceb563d304a51c0ed4eb5c012ff
+Filename: pool/main/o/openmediavault/openmediavault_7.4.0-1_all.deb
+Size: 3033528
+SHA256: 6c7179eff69894c196e4b250bb4eaf6de4a10c4815a75566da9e24bd11e20400
+SHA1: 85ac2638ba16b944fbe671812738ac8c40274721
+MD5sum: f3f1a6fc683be3e3a724e0efe62b72de
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -453,22 +453,22 @@ Description: openmediavault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 7.0.2-1
+Version: 7.1.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 277
-Depends: smartmontools, rsync, openmediavault (>= 7.0.4)
+Depends: smartmontools, rsync, openmediavault (>= 7.4.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.0.2-1_all.deb
-Size: 38264
-SHA256: 77c759bcb1d6f961690f19de0fa64ce4ad052fcd9e7a8135e5409eeaf1e61e2f
-SHA1: e9b5f4b5e09ef315475570b8d01107468f7d3b8e
-MD5sum: 629d63d1f1e1e2f8969f79282d518b65
-Description: openmediavault USB/eSATA/SD backup plugin
- Automatically synchronise a shared folder to an USB/eSATA/SD device and vice
- verse when it is plugged in.
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.1.0-1_all.deb
+Size: 38360
+SHA256: ec616bb7664fe4722cd4ef03fdd3cc9853af504bb329183f00a3b7529eb70d54
+SHA1: ceeccc8636f154cb6b1a545649f43f18b7b7b640
+MD5sum: 866f8fd10b1474c28780840422041cc1
+Description: openmediavault USB/eSATA/SAS/SD backup plugin
+ Automatically synchronise a shared folder to an USB/eSATA/SAS/SD device
+ and vice verse when it is plugged in.
  The device is put into sleep mode after synchronisation to signal that it
  can be removed safely.
 Plugin-Section: backup
