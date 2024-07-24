@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.4.2-2
+Version: 7.4.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13270
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.2-2_all.deb
-Size: 3033936
-SHA256: f4370f3b24f5db8ada56aebb2d1609bf572c9a6cf8080b9ee7c5d3f4cbf9c14c
-SHA1: 93a9533667f0ec68bdf4eee66164a43582092b12
-MD5sum: 3c2af22e8f17d3cbe783d3646e494019
+Filename: pool/main/o/openmediavault/openmediavault_7.4.3-1_all.deb
+Size: 3034036
+SHA256: 6b082541b8bbd46686fced5b98ca9092fad479d187cc9d1b8e497db7f319e75f
+SHA1: aab96244aea2fb9cb9053331bfb167a430d0f842
+MD5sum: 5adfd1268b0da6c99a1349d40f864668
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -332,7 +332,7 @@ Description: openmediavault Podman plugin
 Plugin-Section: administration
 
 Package: openmediavault-s3
-Version: 7.0.1-1
+Version: 7.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 152
@@ -340,11 +340,11 @@ Depends: openmediavault (>= 7.0), podman, catatonit
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-s3/openmediavault-s3_7.0.1-1_all.deb
-Size: 17080
-SHA256: 78f26a98b31820e24978b3a4e5467975281b290ebb3a8b78846094888567cb69
-SHA1: b348a7462e96ef9aafe2e976279987922c7072b3
-MD5sum: 4bff723467a06fec68426b797ab975ee
+Filename: pool/main/o/openmediavault-s3/openmediavault-s3_7.0.2-1_all.deb
+Size: 17132
+SHA256: 2c944af0074383d3a95235cf74d44e2edd0a6c891470a96f5d4ed0f5d19d46d5
+SHA1: 8bbe65622523127efad1843e79b62991a07a15c8
+MD5sum: 8bf9d165abe0854940ebc811f81b03fe
 Description: openmediavault S3 plugin
  A standalone high performance object storage based on MinIO.
  It is API compatible with Amazon S3 cloud storage service.
