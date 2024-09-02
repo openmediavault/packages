@@ -18,7 +18,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.4.6-1
+Version: 7.4.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13294
@@ -27,11 +27,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.6-1_all.deb
-Size: 3038148
-SHA256: 0780be3d0db409d81a6362ae980e15c5589d46b5bd62692fa9c400d34171e92c
-SHA1: ade80efaf806bd5ee8b199e10fa0c6f508509dde
-MD5sum: e62b1e7f06218fa1faa07e7f936543e4
+Filename: pool/main/o/openmediavault/openmediavault_7.4.7-1_all.deb
+Size: 3039084
+SHA256: 48045e5659d35530e410ac129edff56e23a10c361dd516341d64b9962011f08b
+SHA1: 0225d50eabd100127fe5cca7bd9f93e4202aa2e2
+MD5sum: efb183f2c70b29345919b50cf75e7731
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -167,7 +167,7 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.2.1-1
+Version: 7.3.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 1237
@@ -175,11 +175,11 @@ Depends: openmediavault (>= 7.3), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.2.1-1_all.deb
-Size: 135904
-SHA256: 917f046a291dc259d3ff32da3a6f4d9a6818f545c074054152d732a191e9e4c8
-SHA1: 51375aa3a2bd26a165e153471cef373c03d554db
-MD5sum: 44b5ba1c2c512f0e302367878bfcd93e
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.3.0-1_all.deb
+Size: 135964
+SHA256: 10eb1daffdf65b4fc80ed3bab00df6aa4c46f16ec436d5bc33d116f9e557989c
+SHA1: d15eff4ca399a2af07b00dad73bf21c98f892d13
+MD5sum: 500632d59be270f3ec75cce49c6a69ca
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
