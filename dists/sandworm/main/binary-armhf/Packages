@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.4.7-1
+Version: 7.4.8-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13294
+Installed-Size: 13301
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.7-1_all.deb
-Size: 3039084
-SHA256: 48045e5659d35530e410ac129edff56e23a10c361dd516341d64b9962011f08b
-SHA1: 0225d50eabd100127fe5cca7bd9f93e4202aa2e2
-MD5sum: efb183f2c70b29345919b50cf75e7731
+Filename: pool/main/o/openmediavault/openmediavault_7.4.8-1_all.deb
+Size: 3041056
+SHA256: 9f1d050422e3134bf735e07124a5779311f181aafacb76d9a396e7e34f40b2bd
+SHA1: 145d08ccce752bc5fe89ab4e1d9be5d0c7325a96
+MD5sum: 706a02e55335b2b944215dfbf80a85a8
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -73,7 +73,7 @@ Description: openmediavault ClamAV plugin
 Plugin-Section: utilities
 
 Package: openmediavault-diskstats
-Version: 7.0.1-1
+Version: 7.0.1-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 111
@@ -81,13 +81,18 @@ Depends: openmediavault (>= 7.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_7.0.1-1_all.deb
-Size: 11180
-SHA256: 6ba433940f420146e13f0d12c176eb71605c747a35b25652cb270ce36d03b48d
-SHA1: 418681166f6ca5c9fbc9e210b06ad386b79382a8
-MD5sum: 1b95be3cea11eb3f7cfcaec718c75237
+Filename: pool/main/o/openmediavault-diskstats/openmediavault-diskstats_7.0.1-2_all.deb
+Size: 11296
+SHA256: 9f061ca281b14c1b7c83cc3ccccd189772b1ccfd5581745b80c0b326b9f77711
+SHA1: 0879517d66c090f8a1796aea67369e2091968651
+MD5sum: 0df03c2b249b667837f2be0c70321f37
 Description: openmediavault disk monitoring plugin
  The disk monitoring plugin collects performance statistics of hard-disks.
+ !!! Note !!!
+ For the statistics to function correctly, stable kernel device name
+ assignment for the drives to be monitored must be ensured across reboots.
+ This can be accomplished with user-defined Udev rules that must be
+ created by the user.
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
@@ -167,19 +172,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.3.0-1
+Version: 7.3.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1237
-Depends: openmediavault (>= 7.3), bash, git, tar, xz-utils
+Installed-Size: 1239
+Depends: openmediavault (>= 7.4.8), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.3.0-1_all.deb
-Size: 135964
-SHA256: 10eb1daffdf65b4fc80ed3bab00df6aa4c46f16ec436d5bc33d116f9e557989c
-SHA1: d15eff4ca399a2af07b00dad73bf21c98f892d13
-MD5sum: 500632d59be270f3ec75cce49c6a69ca
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.3.1-1_all.deb
+Size: 136520
+SHA256: 7a02b875521f4d1beb3c94bd1d4b0a337a5d7a309b756e5fa2e15350b4207627
+SHA1: 8298794c74d43f6a159fd77e04afd13ae300800d
+MD5sum: 8ce1a488928d3f02d8388bd692b71bbb
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
@@ -252,7 +257,7 @@ Description: openmediavault Linux MD (Multiple Device) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0.4-1
+Version: 7.0.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 270
@@ -260,11 +265,11 @@ Depends: openmediavault (>= 7.1), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.4-1_all.deb
-Size: 33416
-SHA256: 289485428d57e36d31e48ed0af5e0c5667151ad8ce907404b87ee6d54167bcab
-SHA1: b8571904c3cd3387ea529a846916974a132af90a
-MD5sum: 63063968e6109d1c541b398ce5e70d6c
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.5-1_all.deb
+Size: 33512
+SHA256: a22279b6728e5dc36da1521d64ae3056f16a9e839c397e9a56c8d2f7ea52f543
+SHA1: f9fc1fa0953d6844061df1a41b45dfb0502ef411
+MD5sum: 01ebf30fbf97a6f118a790d1515fb4a0
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
