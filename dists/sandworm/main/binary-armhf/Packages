@@ -1,37 +1,37 @@
 Package: onedrive
-Version: 2.4.25-1+deb12u1
+Version: 2.5.2-1+np1+1.1
 Architecture: armhf
-Maintainer: Sebastien Badia <sbadia@debian.org>
-Installed-Size: 2526
-Depends: init-system-helpers (>= 1.52), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14)
+Maintainer: Norbert Preining <norbert@preining.info>
+Installed-Size: 3241
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52), libcurl4
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.4.25-1+deb12u1_armhf.deb
-Size: 637648
-SHA256: 012a0b3a726385caed5e99ca261b2067493a5592db60bea143d461f39929fa1e
-SHA1: d2e74047a6dcf802e217cd6bc508f39ee64577d4
-MD5sum: 9f905cbe3514b99aff4b3324b934b870
+Filename: pool/main/o/onedrive/onedrive_2.5.2-1+np1+1.1_armhf.deb
+Size: 715832
+SHA256: 7853248fbd6273c6f6d368fcd3f6b9fc0a5babfd3e13282585e2b1ca49b15c4f
+SHA1: 8e183ce1ef64398db11f5318fed0829859e7442c
+MD5sum: 3393075fb641002fdcb89421a896bde0
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
  storage.
 
 Package: openmediavault
-Version: 7.4.8-1
+Version: 7.4.9-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13301
+Installed-Size: 13302
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.8-1_all.deb
-Size: 3041056
-SHA256: 9f1d050422e3134bf735e07124a5779311f181aafacb76d9a396e7e34f40b2bd
-SHA1: 145d08ccce752bc5fe89ab4e1d9be5d0c7325a96
-MD5sum: 706a02e55335b2b944215dfbf80a85a8
+Filename: pool/main/o/openmediavault/openmediavault_7.4.9-1_all.deb
+Size: 3041452
+SHA256: 46402a34bda1b8d172ca77ab4741c6fbf3c35ab72732cb6a12eade702000facf
+SHA1: af4ce88021a7c330c58fed55278ba995c3cf9b2a
+MD5sum: e3acf9bb1f9c40bff2c3a68fbaa06d3b
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -277,19 +277,19 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: admin
 
 Package: openmediavault-onedrive
-Version: 7.0-3
+Version: 7.1.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 225
-Depends: openmediavault (>= 7.0), onedrive (>= 2.4.25), sudo
+Installed-Size: 232
+Depends: openmediavault (>= 7.0), onedrive (>= 2.5.2), sudo
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.0-3_all.deb
-Size: 22880
-SHA256: 569bac921a4d195a8b1dd5b40769df7ebd19db2bbde4b655cefe0a04bf315a67
-SHA1: 4decffc96a478cb42dc5ad59712b8301845fd60a
-MD5sum: 88936ea04f45170ea57b346ad05eec99
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.1.0-1_all.deb
+Size: 23652
+SHA256: 4292b403a7fa58432eeb42f3f93a25d9a2f6e7770dcf68d3905c9940f13757cd
+SHA1: 0ed9340971f2b46057a9bedc942ef7cd6a6bdc6a
+MD5sum: 0f5211c26e047999e80cb86d1afd33e3
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
