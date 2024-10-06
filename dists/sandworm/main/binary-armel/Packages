@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.4.9-1
+Version: 7.4.9-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13302
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.9-1_all.deb
-Size: 3041452
-SHA256: 46402a34bda1b8d172ca77ab4741c6fbf3c35ab72732cb6a12eade702000facf
-SHA1: af4ce88021a7c330c58fed55278ba995c3cf9b2a
-MD5sum: e3acf9bb1f9c40bff2c3a68fbaa06d3b
+Filename: pool/main/o/openmediavault/openmediavault_7.4.9-2_all.deb
+Size: 3041592
+SHA256: fb7b02d36f7ba8b18edfa023f4bef5ecac9db7f7fe68a3c28ea89e87523a3a57
+SHA1: 7bf6d187fc79b5bb1924e8aba7fbfa68208964b6
+MD5sum: 7005f0c203e1c387b9af10e2969a4ea3
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -258,7 +258,7 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: admin
 
 Package: openmediavault-onedrive
-Version: 7.1.0-1
+Version: 7.1.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 232
@@ -266,11 +266,11 @@ Depends: openmediavault (>= 7.0), onedrive (>= 2.5.2), sudo
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.1.0-1_all.deb
-Size: 23652
-SHA256: 4292b403a7fa58432eeb42f3f93a25d9a2f6e7770dcf68d3905c9940f13757cd
-SHA1: 0ed9340971f2b46057a9bedc942ef7cd6a6bdc6a
-MD5sum: 0f5211c26e047999e80cb86d1afd33e3
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.1.0-2_all.deb
+Size: 23660
+SHA256: 8179d96958cc665d72b8019b2494e2465ed5aa82de70821d62bad33779c89847
+SHA1: 5452f53b3d617467aa9971965ab5db78b3e13d41
+MD5sum: 7f2fbb5fa5914a44c630cbd01ee96e64
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
