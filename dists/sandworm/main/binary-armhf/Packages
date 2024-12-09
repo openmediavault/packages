@@ -1,17 +1,17 @@
 Package: onedrive
-Version: 2.5.2-1+np1+1.1
+Version: 2.5.3-1+np1+1.1
 Architecture: armhf
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 3241
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52), libcurl4
+Installed-Size: 3293
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52)
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.5.2-1+np1+1.1_armhf.deb
-Size: 715832
-SHA256: 7853248fbd6273c6f6d368fcd3f6b9fc0a5babfd3e13282585e2b1ca49b15c4f
-SHA1: 8e183ce1ef64398db11f5318fed0829859e7442c
-MD5sum: 3393075fb641002fdcb89421a896bde0
+Filename: pool/main/o/onedrive/onedrive_2.5.3-1+np1+1.1_armhf.deb
+Size: 733976
+SHA256: e79f0dc37e60c4aa3983410fb12a009025233d55d009181f7ea213432b70d1d4
+SHA1: f0903f59868814ea555dc1342ab811c182de6805
+MD5sum: aa3d3e7bf65b69c032c4b72157e6e4fb
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
