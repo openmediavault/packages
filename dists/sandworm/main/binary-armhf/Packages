@@ -190,19 +190,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.2-1
+Version: 7.4.2-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1236
+Installed-Size: 1238
 Depends: openmediavault (>= 7.4.11), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.2-1_all.deb
-Size: 137172
-SHA256: a266df274d014af5ed459934e20e8b359c85c7a055c412b951ae5a15658eaf4e
-SHA1: 049ceb4f85b100d3e64ff3a0dd65fe037847f595
-MD5sum: 0ff06e0ede463f9e0175c9ef81d6d6c8
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.2-2_all.deb
+Size: 137308
+SHA256: 68aec65f95c0380afdc6c64072c55231c16f77b8b805c346e74796a7e0c79697
+SHA1: 7789b13ff1b2f4570b1998f2bd2235c86e0ffa6b
+MD5sum: b65b56a9fefbcefbf817e46908e708f9
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
@@ -295,19 +295,19 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: admin
 
 Package: openmediavault-onedrive
-Version: 7.1.4-1
+Version: 7.1.4-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 232
+Installed-Size: 234
 Depends: openmediavault (>= 7.0), onedrive (>= 2.5.2), sudo
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.1.4-1_all.deb
-Size: 24804
-SHA256: 67b1dbaa5e3713c3dee768d57f390f95fce2ed5311b3dc26058dadf12dee02f7
-SHA1: 17471f201096d0c4d440843717fcddf90ee37387
-MD5sum: 6eb269e7e5ff47e81aff13589e417672
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.1.4-2_all.deb
+Size: 24984
+SHA256: 629e880e10665e90ff87c7bb7effb2caa678dd2068bd1d0c79ad9169060f57a5
+SHA1: 1f7f47647d12f06b9d94a2f23698f936ed24df0a
+MD5sum: 48cf54de5ba838c7012f0bdb269b0bd8
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
