@@ -1,18 +1,18 @@
 Package: openmediavault
-Version: 7.4.15-2
+Version: 7.4.16-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13382
+Installed-Size: 13386
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.15-2_all.deb
-Size: 3057564
-SHA256: 0fcbcaf30f8a93dd6924bb236af11e91af3c58963dc23cbe6ca1b3c89578dfc5
-SHA1: 5cb181e1e2d1c348dae4b8677f32cf41e8d30325
-MD5sum: 4618da45824ea346bea312e088109954
+Filename: pool/main/o/openmediavault/openmediavault_7.4.16-1_all.deb
+Size: 3057524
+SHA256: c61d33dbab9f414cce2102bdd7d895e82b870c209b191446867c0cf1baacaca5
+SHA1: 9e9b0330423a15d23d68d66b006aeef83793e076
+MD5sum: 56bc313e3bc5133ba2be60335d40610e
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -54,7 +54,7 @@ Description: openmediavault Bcache plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-clamav
-Version: 7.0.1-1
+Version: 7.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 387
@@ -62,11 +62,11 @@ Depends: openmediavault (>= 7.4.5), clamav-daemon (>= 0.102), clamav-freshclam, 
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0.1-1_all.deb
-Size: 49972
-SHA256: f171e43848d61e4ec95d39a6a41c29b0b3cfd5692c11d627cfff9013f306335d
-SHA1: 3d1b934d7012597e2a372e4ace835b16c01168d6
-MD5sum: e9c812d8bf1ddc1fa7bb204773264982
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0.2-1_all.deb
+Size: 49708
+SHA256: 470eaed5dfaabddbc99ac2fae4813e27023f304d179cd924701157a30bac3549
+SHA1: b62187fa14b19bc4caeab2ecd0e0c1a5dcd5f907
+MD5sum: b0b95ac49c1e749ad2ff25d44586740f
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -256,7 +256,7 @@ Description: openmediavault Linux MD (Multiple Device) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0.5-1
+Version: 7.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 270
@@ -264,11 +264,11 @@ Depends: openmediavault (>= 7.1), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.5-1_all.deb
-Size: 33512
-SHA256: a22279b6728e5dc36da1521d64ae3056f16a9e839c397e9a56c8d2f7ea52f543
-SHA1: f9fc1fa0953d6844061df1a41b45dfb0502ef411
-MD5sum: 01ebf30fbf97a6f118a790d1515fb4a0
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.6-1_all.deb
+Size: 33536
+SHA256: fd31cdcbaf710395c509846111a847436338103b57621ea9130778d9538ab314
+SHA1: 2b54727e818d8536c3da25d6befe1c3040cf99cf
+MD5sum: 89dbac7578b40dc34e1a916d5f16d62d
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -276,7 +276,7 @@ Description: openmediavault Network UPS Tools (NUT) plugin
 Plugin-Section: admin
 
 Package: openmediavault-onedrive
-Version: 7.1.4-2
+Version: 7.1.4-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 234
@@ -284,11 +284,11 @@ Depends: openmediavault (>= 7.0), onedrive (>= 2.5.2), sudo
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.1.4-2_all.deb
-Size: 24984
-SHA256: 629e880e10665e90ff87c7bb7effb2caa678dd2068bd1d0c79ad9169060f57a5
-SHA1: 1f7f47647d12f06b9d94a2f23698f936ed24df0a
-MD5sum: 48cf54de5ba838c7012f0bdb269b0bd8
+Filename: pool/main/o/openmediavault-onedrive/openmediavault-onedrive_7.1.4-3_all.deb
+Size: 24960
+SHA256: 02b325ac6c449acca2fa1a03166aa14cb569c91abfdcff714ec7de88b158f90b
+SHA1: 4a2d502262cf494b18890f55ff72baff7fa58966
+MD5sum: 87c159989d485083c50d6b3de8106e01
 Description: openmediavault OneDrive plugin
  OneDrive is the cloud storage system of Microsoft. This plugin
  is synchronizing a shared folder with OneDrive cloud storage.
@@ -457,19 +457,19 @@ Description: openmediavault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 7.1.0-1
+Version: 7.1.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 277
+Installed-Size: 278
 Depends: smartmontools, rsync, openmediavault (>= 7.4.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.1.0-1_all.deb
-Size: 38360
-SHA256: ec616bb7664fe4722cd4ef03fdd3cc9853af504bb329183f00a3b7529eb70d54
-SHA1: ceeccc8636f154cb6b1a545649f43f18b7b7b640
-MD5sum: 866f8fd10b1474c28780840422041cc1
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.1.1-1_all.deb
+Size: 38556
+SHA256: 3848b4b5f59ea48a629dae6abbbd9f08dab4fb95e0a52fc65d4d9511feb58cf4
+SHA1: 9e287049682f787743c415075bb4cc394f8c7013
+MD5sum: e14a67b218f5aeeafd3193a5aab52122
 Description: openmediavault USB/eSATA/SAS/SD backup plugin
  Automatically synchronise a shared folder to an USB/eSATA/SAS/SD device
  and vice verse when it is plugged in.
