@@ -18,7 +18,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.4.17-1
+Version: 7.4.17-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13402
@@ -27,11 +27,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.17-1_all.deb
-Size: 3058272
-SHA256: 717fbd0402d56836a7614e786d8886624c4dd9ba336cdfa6a12f94d89f3e4963
-SHA1: 44550af4620cf49f5308036ee72caedb617431e2
-MD5sum: b3411857f178502745e22ab118fa920d
+Filename: pool/main/o/openmediavault/openmediavault_7.4.17-2_all.deb
+Size: 3058544
+SHA256: 2ec5c73bba0f48c0b4c23a129c72690788e18f5ba052f3ed2c989be001b26f28
+SHA1: 27821eaea99f7af7badbe22d1fd40403c6fb9be9
+MD5sum: 05d7df646e4a3737eb405b7cbea5e76e
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -55,19 +55,19 @@ Description: openmediavault APT management plugin
 Plugin-Section: utilities
 
 Package: openmediavault-bcache
-Version: 7.0-1
+Version: 7.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 280
+Installed-Size: 282
 Depends: openmediavault (>= 7.4.14), bcache-tools
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-bcache/openmediavault-bcache_7.0-1_all.deb
-Size: 22640
-SHA256: 4e299be7054a3a8a4dad5f64e8d0cdf0fe2109754ab2e05cc242e7d39a722a20
-SHA1: 70bd7cce2c01994b1ae56c052155e2ae59e54176
-MD5sum: b9873e8b7426a4c6c54a16119634fa08
+Filename: pool/main/o/openmediavault-bcache/openmediavault-bcache_7.0-2_all.deb
+Size: 23616
+SHA256: 9bfa9cd9f31902ef682523a00244e766691509b4e727b66612d9761f5c25fa67
+SHA1: 4da3659cea52f68c1fb6ca89258637de672c30ef
+MD5sum: eecc873b4500e89b542d9b0b7f35fb01
 Description: openmediavault Bcache plugin
  Makes it possible to use an SSD as a read/write cache for another block device.
 Plugin-Section: filesystems
