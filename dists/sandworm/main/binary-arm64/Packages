@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.4.17-2
+Version: 7.5.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13402
+Installed-Size: 13408
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.4.17-2_all.deb
-Size: 3058544
-SHA256: 2ec5c73bba0f48c0b4c23a129c72690788e18f5ba052f3ed2c989be001b26f28
-SHA1: 27821eaea99f7af7badbe22d1fd40403c6fb9be9
-MD5sum: 05d7df646e4a3737eb405b7cbea5e76e
+Filename: pool/main/o/openmediavault/openmediavault_7.5.0-1_all.deb
+Size: 3058408
+SHA256: 30e4dfc4b44da055937a9bfc4e40c5a97cdac733d994dd461ffe57548f5e8ed3
+SHA1: 4e6273f0ea33f0466ccc1a83a98ebcde5c07be44
+MD5sum: 0ce38ffc6fd20753d8ca4e20232b4622
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -190,7 +190,7 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.2-2
+Version: 7.4.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 1238
@@ -198,11 +198,11 @@ Depends: openmediavault (>= 7.4.11), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.2-2_all.deb
-Size: 137308
-SHA256: 68aec65f95c0380afdc6c64072c55231c16f77b8b805c346e74796a7e0c79697
-SHA1: 7789b13ff1b2f4570b1998f2bd2235c86e0ffa6b
-MD5sum: b65b56a9fefbcefbf817e46908e708f9
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.3-1_all.deb
+Size: 137404
+SHA256: 1428904d38e06900b111d102ffe16f2be371347d2476757f5eef0ccf5ae12777
+SHA1: b8f13609486ce5356eb79207746deeec450b9493
+MD5sum: 114d9b9dc68303ade67586c83f2e066e
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
