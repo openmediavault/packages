@@ -18,38 +18,38 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.5.2-1
+Version: 7.6.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13438
+Installed-Size: 13449
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.5.2-1_all.deb
-Size: 3065580
-SHA256: d6c75a7e47bb5fc66596daf0fd0da02011f1243354156efdd70e1833e4b84491
-SHA1: 7af0357bb8b1865535eb77379743940825a53f6b
-MD5sum: def136b42046bd768372741c2c36d54d
+Filename: pool/main/o/openmediavault/openmediavault_7.6.0-1_all.deb
+Size: 3066364
+SHA256: 5b729cdf15ff6c372062d5a07d2abbf203acfb29be6b31cffdb17834b6a2c566
+SHA1: 0555b89af65d95efc51ebdc1e2bb516ca5ae9e63
+MD5sum: 22d22ab792583bb8fb08fbb9cdd24ca4
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-apt
-Version: 7.0-2
+Version: 7.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 168
-Depends: openmediavault (>= 7.3)
+Installed-Size: 174
+Depends: openmediavault (>= 7.6)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-apt/openmediavault-apt_7.0-2_all.deb
-Size: 22688
-SHA256: 314681525145f99bbdcb3cd7265188c8244858c70f2d55b214be85fcca5200e5
-SHA1: c0dea811354b2f5d7f0a7c6a9f14d3125d31cddb
-MD5sum: 67cda0a857a8421ca023afe6945f8926
+Filename: pool/main/o/openmediavault-apt/openmediavault-apt_7.0.1-1_all.deb
+Size: 25428
+SHA256: bcbbba675b08c85734211672dc540fd9ee04e047f9ad6d9642acb037858b7a11
+SHA1: 3c3d2dcb04ba5dcaa8e7934179e418cdbf8752e7
+MD5sum: fbfa13fb8f07a41e74ee93fba4444fc1
 Description: openmediavault APT management plugin
  Manage APT (Advanced Package Tool) repositories easily.
 Plugin-Section: utilities
@@ -296,19 +296,20 @@ Plugin-Architecture: amd64, arm64, armhf, i386
 Plugin-Section: utilities
 
 Package: openmediavault-owntone
-Version: 7.0-2
+Version: 7.1.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 161
-Depends: openmediavault (>= 7.0), podman
+Installed-Size: 166
+Depends: openmediavault (>= 7.6), podman
+Conflicts: openmediavault-owntone (<< 7.1.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_7.0-2_all.deb
-Size: 21992
-SHA256: b5a94ebdeb36b1fadb7c78867c084065129aba56b46b365012f0a3a48663d072
-SHA1: 83087c7dec918750459ba5d6cf81fd2791a3b804
-MD5sum: 0b151d8795caf84a3f486e1b5df65253
+Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_7.1.0-1_all.deb
+Size: 23168
+SHA256: 3e5998997a7f9c5a4445a75c55ce5bcb45ef124b5bbf606efc15ecd1a54ebcc0
+SHA1: fcb790aeb917fa7856f67545f96873f9a0945ccc
+MD5sum: 243c57284fdfca919e786633aee8ec93
 Description: openmediavault OwnTone plugin
  OwnTone is a DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku)
  media server.
