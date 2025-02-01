@@ -522,10 +522,10 @@ Description: A backwards/forwards-compatible fork of distutils.version.LooseVers
 
 Package: salt-common
 Source: salt
-Version: 3006.0+ds-1+214.1
+Version: 3006.0+ds-1+225.1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 31810
+Installed-Size: 31812
 Depends: python3-apt, python3-dateutil, python3-looseversion, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-pycryptodome, python3-gnupg, python3-zmq (>= 17.0.0), python3-distro, python3-jmespath, python3-markupsafe, python3-packaging, python3:any
 Recommends: lsb-release, python3-contextvars, python3-croniter
 Suggests: ifupdown, python3-pycurl, python3-twisted
@@ -533,11 +533,11 @@ Breaks: python3-mako (<< 0.7.0)
 Homepage: https://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-common_3006.0+ds-1+214.1_all.deb
-Size: 7512680
-SHA256: 17c828b187ffae1d21f317fc8398abf42b0ca9cd231516c548649b87b3d2c2c0
-SHA1: beee9650e9b7a43ac249897f206564827e1a4ea3
-MD5sum: 776214cd965e058ea4470f7b72ebee47
+Filename: pool/main/s/salt/salt-common_3006.0+ds-1+225.1_all.deb
+Size: 7513648
+SHA256: f1e63b62c8b2587cd9c6b32ecd5d25a7f0217390d882441e4aaa6e83577d7182
+SHA1: a7cf390570e8eab2feb2b3a1e2c6c6cd6531a335
+MD5sum: b1cf7a9eab03f549f766e262fc5b372b
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -560,21 +560,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3006.0+ds-1+214.1
+Version: 3006.0+ds-1+225.1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
 Installed-Size: 226
-Depends: bsdmainutils, dctrl-tools, salt-common (= 3006.0+ds-1+214.1), python3:any
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3006.0+ds-1+225.1), python3:any
 Recommends: debconf-utils, dmidecode, net-tools
 Suggests: python3-augeas
 Homepage: https://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3006.0+ds-1+214.1_all.deb
-Size: 126204
-SHA256: ca9a5a1f25709936c7ede650c0ec06877df3ce5c145753410011fc2c43a00d3f
-SHA1: 73aea1f2cf6697ec9499f2bfb9aa0983931c3228
-MD5sum: 34f36d8addc49178530bb4ff1baf02c2
+Filename: pool/main/s/salt/salt-minion_3006.0+ds-1+225.1_all.deb
+Size: 126172
+SHA256: 1af9ef5dcd33327a671cc998430a88cdf1b820f0b3ea19848a513bdc64f312a2
+SHA1: 33013a57acaf931967da8bdd6772f0166e5f16e3
+MD5sum: f49523feca6e440b9af9a61234ba0b8f
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
