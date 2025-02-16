@@ -18,38 +18,38 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.6.0-1
+Version: 7.7.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13449
+Installed-Size: 13457
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.6.0-1_all.deb
-Size: 3066364
-SHA256: 5b729cdf15ff6c372062d5a07d2abbf203acfb29be6b31cffdb17834b6a2c566
-SHA1: 0555b89af65d95efc51ebdc1e2bb516ca5ae9e63
-MD5sum: 22d22ab792583bb8fb08fbb9cdd24ca4
+Filename: pool/main/o/openmediavault/openmediavault_7.7.0-1_all.deb
+Size: 3066992
+SHA256: 99aa0e274cc553067eb88c0c247c18fe36a0e75356b19407fc583c21c9803527
+SHA1: 601ccd169681e331028b8ab0f98a5b5997d6fbac
+MD5sum: 171424822b1b29942ac6d31247ff4876
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-apt
-Version: 7.0.1-1
+Version: 7.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 174
-Depends: openmediavault (>= 7.6)
+Depends: openmediavault (>= 7.7)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-apt/openmediavault-apt_7.0.1-1_all.deb
-Size: 25428
-SHA256: bcbbba675b08c85734211672dc540fd9ee04e047f9ad6d9642acb037858b7a11
-SHA1: 3c3d2dcb04ba5dcaa8e7934179e418cdbf8752e7
-MD5sum: fbfa13fb8f07a41e74ee93fba4444fc1
+Filename: pool/main/o/openmediavault-apt/openmediavault-apt_7.0.2-1_all.deb
+Size: 25476
+SHA256: 8f5993fb5f8d791d66ec165cc8e445ec0273d04a963d6e0ab1ac31446bf4f746
+SHA1: 03818823306f59bfd29f31542cb0ac0b4a5de0b7
+MD5sum: 88fba8e68d2066d3f3961b679fb2901b
 Description: openmediavault APT management plugin
  Manage APT (Advanced Package Tool) repositories easily.
 Plugin-Section: utilities
@@ -171,19 +171,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.3-1
+Version: 7.4.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1238
-Depends: openmediavault (>= 7.4.11), bash, git, tar, xz-utils
+Installed-Size: 1239
+Depends: openmediavault (>= 7.7), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.3-1_all.deb
-Size: 137404
-SHA256: 1428904d38e06900b111d102ffe16f2be371347d2476757f5eef0ccf5ae12777
-SHA1: b8f13609486ce5356eb79207746deeec450b9493
-MD5sum: 114d9b9dc68303ade67586c83f2e066e
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.4-1_all.deb
+Size: 138492
+SHA256: baf84aceafee9b9d5f58830f0914f54dcbb6a3ccfcc798bc090bd1ea7fbe5a3b
+SHA1: 087bcdc2b303e284d359a1eadc9947d70b7216ed
+MD5sum: f85377fb34c03dcb2c8c469960a8271e
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
@@ -458,19 +458,19 @@ Description: openmediavault TFTP-Server plugin
 Plugin-Section: sharing
 
 Package: openmediavault-usbbackup
-Version: 7.1.1-1
+Version: 7.1.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 278
-Depends: smartmontools, rsync, openmediavault (>= 7.4.0)
+Depends: smartmontools, rsync, openmediavault (>= 7.7)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.1.1-1_all.deb
-Size: 38556
-SHA256: 3848b4b5f59ea48a629dae6abbbd9f08dab4fb95e0a52fc65d4d9511feb58cf4
-SHA1: 9e287049682f787743c415075bb4cc394f8c7013
-MD5sum: e14a67b218f5aeeafd3193a5aab52122
+Filename: pool/main/o/openmediavault-usbbackup/openmediavault-usbbackup_7.1.2-1_all.deb
+Size: 38952
+SHA256: 08b19e32b187426581a137f296b8ec3d989d3de8153f931f6ebc4a92aa9e9367
+SHA1: b36146eae23015130d08f069bea8cac358148c02
+MD5sum: bd66ba63b374d080f707a39cd268fd82
 Description: openmediavault USB/eSATA/SAS/SD backup plugin
  Automatically synchronise a shared folder to an USB/eSATA/SAS/SD device
  and vice verse when it is plugged in.
