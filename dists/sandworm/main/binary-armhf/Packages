@@ -1,17 +1,17 @@
 Package: onedrive
-Version: 2.5.4-1+np1+1.1
+Version: 2.5.5-1+np1+1.1
 Architecture: armhf
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 3425
+Installed-Size: 3610
 Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52)
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.5.4-1+np1+1.1_armhf.deb
-Size: 760776
-SHA256: d54ebfc9ab647ea0228675b2c1d8437497bc85bc65de24b8e3e82075cdee9967
-SHA1: 7ac27efd69d5d197a2def6067b090661dec78b77
-MD5sum: 162bed8459130f8f90d745e8d7ca9332
+Filename: pool/main/o/onedrive/onedrive_2.5.5-1+np1+1.1_armhf.deb
+Size: 782472
+SHA256: cfb7a15a2f636eae77a3f901a800ebb5d2c37dd8e9ae1e9a6142ddec5c506f76
+SHA1: 39ddbe8fc8bdcf768501d03f4251027fd84a7ab7
+MD5sum: d56c6e639f581c28da3937b0238edd88
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
@@ -541,10 +541,10 @@ Description: A backwards/forwards-compatible fork of distutils.version.LooseVers
 
 Package: salt-common
 Source: salt
-Version: 3006.0+ds-1+225.1
+Version: 3006.0+ds-1+232.1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 31812
+Installed-Size: 31820
 Depends: python3-apt, python3-dateutil, python3-looseversion, python3-jinja2, python3-msgpack (>= 0.4), python3-pkg-resources, python3-requests, python3-yaml, python3-systemd, python3-psutil, python3-pycryptodome, python3-gnupg, python3-zmq (>= 17.0.0), python3-distro, python3-jmespath, python3-markupsafe, python3-packaging, python3:any
 Recommends: lsb-release, python3-contextvars, python3-croniter
 Suggests: ifupdown, python3-pycurl, python3-twisted
@@ -552,11 +552,11 @@ Breaks: python3-mako (<< 0.7.0)
 Homepage: https://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-common_3006.0+ds-1+225.1_all.deb
-Size: 7513648
-SHA256: f1e63b62c8b2587cd9c6b32ecd5d25a7f0217390d882441e4aaa6e83577d7182
-SHA1: a7cf390570e8eab2feb2b3a1e2c6c6cd6531a335
-MD5sum: b1cf7a9eab03f549f766e262fc5b372b
+Filename: pool/main/s/salt/salt-common_3006.0+ds-1+232.1_all.deb
+Size: 7515332
+SHA256: 51c66531291f582acfc45207ade9b1573e63b17c1d5dae7439c19f9d1a13938e
+SHA1: 8868c84ea581fd9d7b1f8955b5038a7f1af6c5ca
+MD5sum: 1c3cc860447e0bb4fadee0d22746a1dc
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -579,21 +579,21 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3006.0+ds-1+225.1
+Version: 3006.0+ds-1+232.1
 Architecture: all
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
 Installed-Size: 226
-Depends: bsdmainutils, dctrl-tools, salt-common (= 3006.0+ds-1+225.1), python3:any
+Depends: bsdmainutils, dctrl-tools, salt-common (= 3006.0+ds-1+232.1), python3:any
 Recommends: debconf-utils, dmidecode, net-tools
 Suggests: python3-augeas
 Homepage: https://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3006.0+ds-1+225.1_all.deb
-Size: 126172
-SHA256: 1af9ef5dcd33327a671cc998430a88cdf1b820f0b3ea19848a513bdc64f312a2
-SHA1: 33013a57acaf931967da8bdd6772f0166e5f16e3
-MD5sum: f49523feca6e440b9af9a61234ba0b8f
+Filename: pool/main/s/salt/salt-minion_3006.0+ds-1+232.1_all.deb
+Size: 126196
+SHA256: 7fd866a03d0b54dc7fcff9a97bb8a5dfb42737881655d50d0510ba47808139b1
+SHA1: 001a89c3bc62666d3ba87227598111582f5e797a
+MD5sum: b69c7c728bffeccd4d4c0821e2f41cd7
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
