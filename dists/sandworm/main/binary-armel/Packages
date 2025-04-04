@@ -1,18 +1,18 @@
 Package: openmediavault
-Version: 7.7.2-1
+Version: 7.7.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13485
+Installed-Size: 13492
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd (>= 0.7.0), sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: http://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.7.2-1_all.deb
-Size: 3076236
-SHA256: d8d15b064cbae01b35198ae1c6320a6e7ae3f817466e08b1feaebd569aa38f4c
-SHA1: 6fd33f98aefbd6c2615c5c56080262a758befef7
-MD5sum: fc89605a80f15bb91c03b5eec38e39aa
+Filename: pool/main/o/openmediavault/openmediavault_7.7.3-1_all.deb
+Size: 3077996
+SHA256: 8b81c91610f189614ef4d8d8e5d0443038ac59213e4ee0b9145cdb6ff532e042
+SHA1: 7a830e096629c7f07f990d91f63f731913407820
+MD5sum: 09f249282f59fe7b6b71a3e6268d0435
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -116,21 +116,21 @@ Plugin-Architecture: amd64, armel, armhf, arm64
 Plugin-Section: utilities
 
 Package: openmediavault-ftp
-Version: 7.0-5
+Version: 7.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 507
+Installed-Size: 523
 Depends: openmediavault (>= 7.1), proftpd-basic, proftpd-mod-vroot
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_7.0-5_all.deb
-Size: 67424
-SHA256: 5c1c8e79c700a16637fd18d818dca9e3c59d95aac73ea374e09cf91f801f27e3
-SHA1: cb9f68d8c62c0c4642f597de8a2b3470ed3ebc8e
-MD5sum: 08d1b82214f0dc109191c4b8c31a685c
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_7.0.1-1_all.deb
+Size: 68776
+SHA256: 3095d1147c8031c23d765f0d44eb5525f72cee1f63d8e2c71319ff903a0aa001
+SHA1: 409997b8967092ddd3c2bbb243324795c093cdfd
+MD5sum: 47e27222aaa206ed22a461d2703ef2f8
 Description: openmediavault FTP-Server plugin
- ProFTPD is a powerful modular FTP/SFTP/FTPS server.
+ ProFTPD is a powerful modular FTP/FTPS server.
 Plugin-Section: sharing
 
 Package: openmediavault-hosts
@@ -152,19 +152,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.4-1
+Version: 7.4.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1239
+Installed-Size: 1240
 Depends: openmediavault (>= 7.7), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.4-1_all.deb
-Size: 138492
-SHA256: baf84aceafee9b9d5f58830f0914f54dcbb6a3ccfcc798bc090bd1ea7fbe5a3b
-SHA1: 087bcdc2b303e284d359a1eadc9947d70b7216ed
-MD5sum: f85377fb34c03dcb2c8c469960a8271e
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.5-1_all.deb
+Size: 139268
+SHA256: 17ecbd318af44128506d846b9d9c52536862fd38a2ac439d6349768226424dfe
+SHA1: c2654667a8787ce62fb36788f85d06557c4b0b70
+MD5sum: 42f153021c2e2fee65bb4938a5560195
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
