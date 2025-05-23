@@ -73,7 +73,7 @@ Description: openmediavault Bcache plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-clamav
-Version: 7.0.2-1
+Version: 7.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 387
@@ -81,11 +81,11 @@ Depends: openmediavault (>= 7.4.5), clamav-daemon (>= 0.102), clamav-freshclam, 
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0.2-1_all.deb
-Size: 49708
-SHA256: 470eaed5dfaabddbc99ac2fae4813e27023f304d179cd924701157a30bac3549
-SHA1: b62187fa14b19bc4caeab2ecd0e0c1a5dcd5f907
-MD5sum: b0b95ac49c1e749ad2ff25d44586740f
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_7.0.3-1_all.deb
+Size: 50152
+SHA256: 8e98366f570f6ce24d49938712e0c6ce99d5d346033d8fcc065839f3d7a47bc9
+SHA1: 8ec209f395ceb2b79820cabea9d147a12a342a32
+MD5sum: 9e94917e09a0886f5a8632366da95ee0
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -171,19 +171,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.5-1
+Version: 7.4.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1240
+Installed-Size: 1245
 Depends: openmediavault (>= 7.7), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.5-1_all.deb
-Size: 139268
-SHA256: 17ecbd318af44128506d846b9d9c52536862fd38a2ac439d6349768226424dfe
-SHA1: c2654667a8787ce62fb36788f85d06557c4b0b70
-MD5sum: 42f153021c2e2fee65bb4938a5560195
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.7-1_all.deb
+Size: 140988
+SHA256: aaa2f87783bff5a021fc6bd4e9742010b25569170399e0ebb2f0d9678d47c4f7
+SHA1: 4583a1dd6c58faa7fb80094d5e790a835236d413
+MD5sum: a6358dea421d77f07b20c58bf23218a2
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
