@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.7.12-2
+Version: 7.7.13-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13545
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.7.12-2_all.deb
-Size: 3094112
-SHA256: f906867299fd1c3d1f3635aa83c2b7533d63a480e96038e32157a509900de4fc
-SHA1: 65d25304e8b8e0a87ab724ef3d8cf08a99a6a6fa
-MD5sum: 9306c0f08d020fbb5a760055e163ce7e
+Filename: pool/main/o/openmediavault/openmediavault_7.7.13-1_all.deb
+Size: 3093980
+SHA256: e508d8b373a259ddf99f1fb4bc100af55fead8e555c5f760b267cc92bb0b2a09
+SHA1: 75ff4b706b0d5422c0770bf70d67a26685f3ae85
+MD5sum: 99f08eb756477fc22c7812184203f729
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -152,19 +152,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.10-1
+Version: 7.4.11-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1254
-Depends: openmediavault (>= 7.7.9), bash, git, tar, xz-utils
+Installed-Size: 1268
+Depends: openmediavault (>= 7.7.13), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.10-1_all.deb
-Size: 141416
-SHA256: 024b4d48fdbd78b669ef33cd95115428a6ce2f6519bbf4cec9aabc9d7633fe27
-SHA1: c98f7e913b2ca2c02bb27d6e4a60d07e0955464d
-MD5sum: 780db9a1d7fba87d860f5577ba675096
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.11-1_all.deb
+Size: 143532
+SHA256: 1c493ace74b26347fe9957d8559292af1f060d7baea57cdf13b86453d19297db
+SHA1: 0c6c6457d33a6baa7ad48d51355cc4410e570a1c
+MD5sum: 513fae597a1eaf104d5df1d7cf934c16
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
