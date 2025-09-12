@@ -1,0 +1,101 @@
+Package: salt-common
+Source: salt
+Version: 3007.7
+Architecture: amd64
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 125320
+Recommends: lsb-release
+Suggests: ifupdown
+Breaks: salt-minion (<= 3006.4)
+Homepage: http://saltproject.io/
+Priority: optional
+Section: admin
+Filename: pool/main/s/salt/salt-common_3007.7_amd64.deb
+Size: 29031548
+SHA256: 60921cd2e69e28a55826f71949b800c57052674a9673e737ee27326c8f7953b9
+SHA1: 6460dca2ab29f807afbca57acbdec150563d5798
+MD5sum: 3f3701e1f04200cb3854ca648705c4da
+Description: shared libraries that salt requires for all packages
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides shared libraries that
+ salt-master, salt-minion, and salt-syndic require to function.
+
+Package: salt-minion
+Source: salt
+Version: 3007.7
+Architecture: amd64
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Installed-Size: 202
+Depends: dctrl-tools, salt-common (= 3007.7), debconf (>= 0.5) | debconf-2.0
+Recommends: debconf-utils, dmidecode, net-tools
+Breaks: salt-common (<= 3006.4)
+Replaces: salt-common (<= 3006.4)
+Homepage: http://saltproject.io/
+Priority: optional
+Section: admin
+Filename: pool/main/s/salt/salt-minion_3007.7_amd64.deb
+Size: 103408
+SHA256: b786f721214a83f2bbc17f932479287dfb66ef8009f04c4ae4dbc1565ff07b0c
+SHA1: 9e166b856f7928f0f216c97334c8973a0439a239
+MD5sum: 15a3b5ff6713a75e1ba59292a96eabfc
+Description: client package for salt, the distributed remote execution system
+ salt is a powerful remote execution manager that can be used to
+ administer servers in a fast and efficient way.
+ .
+ It allows commands to be executed across large groups of
+ servers. This means systems can be easily managed, but data can
+ also be easily gathered.  Quick introspection into running
+ systems becomes a reality.
+ .
+ Remote execution is usually used to set up a certain state on a
+ remote system. Salt addresses this problem as well, the salt
+ state system uses salt state files to define the state a server
+ needs to be in.
+ .
+ Between the remote execution system, and state management Salt
+ addresses the backbone of cloud and data center management.
+ .
+ This particular package provides the worker / agent for salt.
+
+Package: wsdd
+Version: 2:0.8-5
+Architecture: all
+Maintainer: Matthew Grant <matt@mattgrant.net.nz>
+Installed-Size: 114
+Depends: python3 (>= 3.11)
+Homepage: https://github.com/christgau/wsdd
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.8-5_all.deb
+Size: 36140
+SHA256: c1bf28ff3af289db3fb96b0fcbea7c2aaac6edbc225e15221b21f7b2194332bc
+SHA1: 41d9cf5d33389eb0db1583f0d7b547b45454d9c9
+MD5sum: f4e824e71e8952435a14fac9aaebe4c2
+Description: Python Web Services Discovery Daemon, Windows Net Browsing
+ This daemon is used to announce Linux Hosts to Windows 7+ computers for
+ use in their File Manager network browsing, by using the Windows
+ Services Discovery Protocol.
+ .
+ This protocol is a local network segment procotol, which is multicasted
+ on udp/3072, and incoming on tcp/5357 on the 239.255.255.250/ff02::c
+ multicast addresses.  It DOES have security issues, but it is designed
+ for use in a trusted environment inside a firewall.
+ .
+ Install only this if running Gnome desktop, or GVFS and not announcing
+ well known File shares.  See wsdd-server for working with Samba servers.
+
