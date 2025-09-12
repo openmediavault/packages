@@ -1,3 +1,25 @@
+Package: php-pam
+Version: 2.2.5-1+deb13u1
+Architecture: amd64
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 43
+Depends: phpapi-20240924
+Priority: optional
+Section: web
+Filename: pool/main/p/php-pam/php-pam_2.2.5-1+deb13u1_amd64.deb
+Size: 8556
+SHA256: a4ea2475e37aa580e71667147ead077b96ee17e09e042b5086bbe304f74b6907
+SHA1: d5ce74f0fa72d16476e9d7e13e0528e36ee35657
+MD5sum: fa8d48ee516d569753c65a096c5b4bba
+Description: pam module for PHP 8.4
+ PAM integration
+ .
+ This extension provides PAM (Pluggable Authentication Modules)
+ integration. PAM is a system of libraries that handle the
+ authentication tasks of applications and services. The library
+ provides a stable API for applications to defer to for authentication
+ tasks.
+
 Package: salt-common
 Source: salt
 Version: 3007.7
