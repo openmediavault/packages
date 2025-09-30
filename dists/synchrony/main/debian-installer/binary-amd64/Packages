@@ -1,0 +1,17 @@
+Package: openmediavault-installer
+Source: openmediavault
+Version: 8.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 21
+Depends: cdebconf-udeb, partman-base, finish-install
+Priority: optional
+Section: debian-installer
+Filename: pool/main/o/openmediavault/openmediavault-installer_8.0-1_all.udeb
+Size: 2732
+SHA256: dc3b2f18f725ff88f625f2b6a5d081cfb0b15622b0df9e3b545953add78285b6
+SHA1: 4c2a0fc3c4df9c976a4e25514c2225886842ce64
+MD5sum: db8b2ab2289febec7d7e88fc8008e95c
+Description: openmediavault scripts for debian-installer
+ This package contains scripts that are for use in debian-installer.
+
