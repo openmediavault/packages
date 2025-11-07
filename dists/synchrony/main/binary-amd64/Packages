@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.0-3
+Version: 8.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13588
-Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 13589
+Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.0-3_all.deb
-Size: 3092056
-SHA256: 91118839649a8d26996afeab08fa83439f66af121a0ebb67bbe797be230b9d80
-SHA1: 8b7bda931fccc1a02a534fe6dc72f5e439d5d156
-MD5sum: 4380211455ce813ec929e56c27d2b217
+Filename: pool/main/o/openmediavault/openmediavault_8.0-4_all.deb
+Size: 3167912
+SHA256: 958bf4ff862acd13e6b3e7a3e44f7016d05819bd396a33126c91641964ef6692
+SHA1: 399f17fe52191485db8eac0173d72e4536fe43c7
+MD5sum: 9fdf0ba444f43ec7dd50e4bf589c9666
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -171,19 +171,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 8.0-3
+Version: 8.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1270
+Installed-Size: 1288
 Depends: openmediavault (>= 7.7.16), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.0-3_all.deb
-Size: 144384
-SHA256: c8ec133558ddbf37a5c41ea0e8f96a9a785c6c3a9878d12a21ec355c5e12bc0f
-SHA1: b72e4f713f91b3f85e18aff902651671c75ad8c4
-MD5sum: 5c1a1fb89f60369a1a44f69c107e5674
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.0-4_all.deb
+Size: 153712
+SHA256: 128b472f18af1909782783b4ceca2f5b403de5f36b8a2978a0014afd1ed2cb77
+SHA1: af7e96af057c7b68094266b2230287c5a1a0b77e
+MD5sum: 46ea9cd0383b46e61595ee9488a766bd
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
@@ -375,6 +375,24 @@ Description: openmediavault S3 plugin
 Plugin-Architecture: amd64, arm64
 Plugin-Section: network
 
+Package: openmediavault-salt
+Version: 8.0
+Architecture: amd64
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 12484
+Depends: salt-minion (>= 3007.7)
+Homepage: https://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-salt/openmediavault-salt_8.0_amd64.deb
+Size: 3424916
+SHA256: 5260f8c4663613806639fc75552103be9e3bf97f06e1cc63332a94dc4d016901
+SHA1: 2ea3fe0b8c8a5107b8535b42d7c53a065283c1d7
+MD5sum: 868eb93deae64d3798ed235cc56a2fc1
+Description: Extra Python packages required by Salt on openmediavault
+ This package is responsible for installing Salt and extra Python
+ packages.
+
 Package: openmediavault-shairport
 Version: 8.0-2
 Architecture: all
@@ -521,21 +539,21 @@ Description: pam module for PHP 8.4
 
 Package: salt-common
 Source: salt
-Version: 3007.7
+Version: 3007.8
 Architecture: amd64
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 125320
+Installed-Size: 122130
 Recommends: lsb-release
 Suggests: ifupdown
 Breaks: salt-minion (<= 3006.4)
 Homepage: http://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-common_3007.7_amd64.deb
-Size: 29031548
-SHA256: 60921cd2e69e28a55826f71949b800c57052674a9673e737ee27326c8f7953b9
-SHA1: 6460dca2ab29f807afbca57acbdec150563d5798
-MD5sum: 3f3701e1f04200cb3854ca648705c4da
+Filename: pool/main/s/salt/salt-common_3007.8_amd64.deb
+Size: 26092604
+SHA256: f40b61667d67295e90f483bbe9dc4f1406821282ca9c3e88198782cf3718a4d2
+SHA1: acc58227be310b08ee6cf8f15ae863f264879b78
+MD5sum: ebbe032274cce4d784166bdcc05012dd
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -558,22 +576,22 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3007.7
+Version: 3007.8
 Architecture: amd64
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
 Installed-Size: 202
-Depends: dctrl-tools, salt-common (= 3007.7), debconf (>= 0.5) | debconf-2.0
+Depends: dctrl-tools, salt-common (= 3007.8), debconf (>= 0.5) | debconf-2.0
 Recommends: debconf-utils, dmidecode, net-tools
 Breaks: salt-common (<= 3006.4)
 Replaces: salt-common (<= 3006.4)
 Homepage: http://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3007.7_amd64.deb
-Size: 103408
-SHA256: b786f721214a83f2bbc17f932479287dfb66ef8009f04c4ae4dbc1565ff07b0c
-SHA1: 9e166b856f7928f0f216c97334c8973a0439a239
-MD5sum: 15a3b5ff6713a75e1ba59292a96eabfc
+Filename: pool/main/s/salt/salt-minion_3007.8_amd64.deb
+Size: 104120
+SHA256: 83ba6a66cffdb22daccbfefa87762ca410c01d6271a2069883732bb058c2598a
+SHA1: 76702be4c21e4f06961c8ba9f3f8892b2ad5d7f1
+MD5sum: b4afec0837d912a5e12cdf99701d9adb
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
