@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.7.20-1
+Version: 7.7.21-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13596
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.7.20-1_all.deb
-Size: 3098544
-SHA256: 109035af88ae3bf04c0c57d034f402be05f43662f50bf31aa1d104c8a3ab8a61
-SHA1: 5a2e54da7cf092c4a20b9eb5b65c541434f554ad
-MD5sum: 47dc10e0c4d96f478a80059dc967e90a
+Filename: pool/main/o/openmediavault/openmediavault_7.7.21-1_all.deb
+Size: 3099064
+SHA256: deec20cfe66bca67ee1d2f9ba3542706130955a09c7e777cf5b52624dc829074
+SHA1: 6b8f03463c1d0d088836d3ae4560b4015c54e62a
+MD5sum: 4edeb6eca263a9088e33e3648a44271a
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -152,19 +152,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.14-1
+Version: 7.4.15-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1288
+Installed-Size: 1290
 Depends: openmediavault (>= 7.7.20), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.14-1_all.deb
-Size: 146308
-SHA256: 67295e789d42bc61622b51d1296e79201e77269fa4610d4ae623e3cefc6eec61
-SHA1: 4eff318c04d3c854422b9900864c208f83e43eeb
-MD5sum: 1f514aa288f6efd2c34e3969b2f08a5f
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.15-1_all.deb
+Size: 146784
+SHA256: 4f24b0a630bfafa8ff7054d1abb683a8f10fa0a59cea1d85860fc947402309b0
+SHA1: 134bf7bb3332b424cd34430a7aa8ec95f6228e21
+MD5sum: 46d6a6fab50cc2cbcf6c17033d346dd4
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
