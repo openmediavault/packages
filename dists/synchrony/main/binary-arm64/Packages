@@ -1,37 +1,37 @@
 Package: onedrive
-Version: 2.5.6-1+np1+1.1
+Version: 2.5.9-1+np1+1.1
 Architecture: arm64
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 3800
-Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52)
+Installed-Size: 4087
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.18.2), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52)
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.5.6-1+np1+1.1_arm64.deb
-Size: 807228
-SHA256: 4a16a163e49894d77a521422034d6e93828e1872bb52fcec9d1c7276eb140109
-SHA1: c0565ec3b48a58d8d599adca0abdd2aaa9a1dd3a
-MD5sum: 5277ad87b3e3abbe5d0e89e33ac7e2f4
+Filename: pool/main/o/onedrive/onedrive_2.5.9-1+np1+1.1_arm64.deb
+Size: 867764
+SHA256: 30200393e6a7fabc3631aa2529a42c5f3e0f21cde5df919f1e4e67617123ce62
+SHA1: 67077afdf75ff41d17ea49ab5b7098741927fd1a
+MD5sum: 90285d48e8f4f3acdd8a35d978a182f6
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
  storage.
 
 Package: openmediavault
-Version: 8.0-8
+Version: 8.0-9
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13600
+Installed-Size: 13644
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.0-8_all.deb
-Size: 3169364
-SHA256: b61436c3b4bbde163d0c2aab72b4da31668de4dc5a25de16d17682e341fbfcea
-SHA1: 5dbfbbc5b3f7b0afad4a9ed8b2d31924a65fdb0e
-MD5sum: 4d9f3cdada864bff9ad1fe5b47508f10
+Filename: pool/main/o/openmediavault/openmediavault_8.0-9_all.deb
+Size: 3182170
+SHA256: 52115ff42620ce500f1aa7d8369463c858eb5257ae33cbe89581691677a1af1c
+SHA1: c0b94bea33fad8ddfc24966d819f617c2a02e730
+MD5sum: 256e7c263c14bbb7116bf6be326fc7e1
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -256,19 +256,19 @@ Description: openmediavault Linux MD (Software RAID) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 8.0-4
+Version: 8.0-5
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 270
-Depends: openmediavault (>= 7.7.9), nut, udev
+Depends: openmediavault (>= 8.0), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_8.0-4_all.deb
-Size: 35096
-SHA256: b1a9b100134b594e3dd6b4637be812b76dd1d8abc359282b499523de3070914d
-SHA1: 768fb70f3b345dcdd12562542bfadcd6721a25af
-MD5sum: b94e5b155a004e354d8029991c22a972
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_8.0-5_all.deb
+Size: 35152
+SHA256: 5e3cf5b3ac9dd90127416aeed304c8ad11bb0f9315bd8dd9df24af281cc47e02
+SHA1: 7d759ea7eaa5c85a829930aa3a79d0016fc9a0ed
+MD5sum: e10ced4c02bee43a387e548aedcd090f
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
@@ -296,20 +296,20 @@ Plugin-Architecture: amd64, arm64, armhf, i386
 Plugin-Section: utilities
 
 Package: openmediavault-owntone
-Version: 8.0-3
+Version: 8.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 167
-Depends: openmediavault (>= 7.7.9), podman
+Installed-Size: 165
+Depends: openmediavault (>= 8.0), podman
 Conflicts: openmediavault-owntone (<< 7.1.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: sound
-Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_8.0-3_all.deb
-Size: 24462
-SHA256: 15dd2306f2b8b27c3cd3e4a4b874e4e8f184838e6f1c458cfb1f698210821373
-SHA1: a6f65ff2fc67f3f67425e3162c1ff68767965acd
-MD5sum: 133236fa4fd0f0d57c7ea4fd6d7b4c6c
+Filename: pool/main/o/openmediavault-owntone/openmediavault-owntone_8.0-4_all.deb
+Size: 24382
+SHA256: 94c49cf5e8ed212e7eedc62d770b96d43f7286c0598ae44b176c0e5d0bf36c8b
+SHA1: 2979edd00f4dff18605097771974c685a1addff8
+MD5sum: 426bbf7bba7789709a19e87c686e388a
 Description: openmediavault OwnTone plugin
  OwnTone is a DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku)
  media server.
@@ -497,22 +497,22 @@ Description: openmediavault USB/eSATA/SAS/SD backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wetty
-Version: 8.0-3
+Version: 8.0-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 136
-Depends: openmediavault (>= 7.7.9), podman
+Depends: openmediavault (>= 8.0), podman
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.0-3_all.deb
-Size: 13802
-SHA256: 785d032cb545a3d3a9821e8f5c3d72e0c578e50bf1ecfd38de80d94273b72d30
-SHA1: 6d88e8b122453ba08da7580288d958321cad5527
-MD5sum: 6bb9032081f98ca271efd8ee1b3b4ef7
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.0-4_all.deb
+Size: 13810
+SHA256: f0a9b114f594a207aaa06af493a67f0069a72924083c7d4f94ba069f797968d7
+SHA1: 4c35a586e53e394ecebd4b1c8593f8c1569bf5e4
+MD5sum: cef5aac8edf91a1a20385e1c6957b7c8
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
-Plugin-Architecture: amd64
+Plugin-Architecture: amd64, arm64
 Plugin-Section: network
 
 Package: php-pam

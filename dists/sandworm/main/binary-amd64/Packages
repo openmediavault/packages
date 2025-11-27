@@ -1,24 +1,24 @@
 Package: onedrive
-Version: 2.5.7-1+np1+1.1
+Version: 2.5.9-1+np1+1.1
 Architecture: amd64
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 4139
-Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52)
+Installed-Size: 4346
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.18.2), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52)
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.5.7-1+np1+1.1_amd64.deb
-Size: 908396
-SHA256: 33a5ce106fda7cc1a60115ec0313d1e142e6f3f3cba55758b9379351b8a5a26b
-SHA1: f109f7b9a84eb8332298ffd839065d35eb088de9
-MD5sum: 7d8eb86e177ebf5da6e66bb29065960f
+Filename: pool/main/o/onedrive/onedrive_2.5.9-1+np1+1.1_amd64.deb
+Size: 954676
+SHA256: 816a120032cc8fe1e00b2b7e99fa5d14b0e2d75a9de867f5ddccd4ea570412d4
+SHA1: 817d378a547edcbf5d924a7ece7b4cbc96b6b1a1
+MD5sum: 607c45c527490f6753a06a78ee962f72
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
  storage.
 
 Package: openmediavault
-Version: 7.7.22-1
+Version: 7.7.23-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13597
@@ -27,11 +27,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.7.22-1_all.deb
-Size: 3099368
-SHA256: 8e5cb0b77b65c3ea9b666b722fa7eabc58b6aeefc308e411fcdfd804a65bc0e2
-SHA1: 6f0da96d0acbc7551571076c8baadda360b46a22
-MD5sum: 666254dcd27f820dca53bceaff9c3bad
+Filename: pool/main/o/openmediavault/openmediavault_7.7.23-1_all.deb
+Size: 3099468
+SHA256: 157d08cd71bae6b681050d27dddbf5ab5842eeb92941a47fc30aa31edb9b0a69
+SHA1: f02c96d784450548a2421a5f56b236c128bd9119
+MD5sum: 88f618cdbbe9e38601b1cfe745831bb8
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -256,7 +256,7 @@ Description: openmediavault Linux MD (Software RAID) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0.8-1
+Version: 7.0.9-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 270
@@ -264,11 +264,11 @@ Depends: openmediavault (>= 7.7.9), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.8-1_all.deb
-Size: 33676
-SHA256: 72a31e44194c109382efd1bece94927e4d6b2e9d51fefd348f1696ecfc5f674b
-SHA1: dd3ef71e8cfb41ff807e3043720b12218f679f6a
-MD5sum: e81dc6ea36856a6de0b3b0ef6f3a56c1
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.9-1_all.deb
+Size: 33756
+SHA256: 6bea2eed54d95c24589787a1855d4c18ad0b0b08f510ea2b4fb4ec20b28f9a85
+SHA1: 99ec65dc6bd0f74fba50c72f974b77782e242b2a
+MD5sum: 89433bbed39b81c77db70ac2c07764e9
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
