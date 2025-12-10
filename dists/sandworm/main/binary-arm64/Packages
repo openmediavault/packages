@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 7.7.24-1
+Version: 7.7.24-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13638
+Installed-Size: 13636
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, cpufrequtils, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, salt-minion (>= 3006.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.7.24-1_all.deb
-Size: 3102516
-SHA256: 893356b21339cc36041c37178d06846df598a3b912c11324f9cbc30d02c7613d
-SHA1: 91d0e0d5fd86718fc19b547a26af1fc6bb130c50
-MD5sum: ba41d63a8ea968dd4d6809bbf055b591
+Filename: pool/main/o/openmediavault/openmediavault_7.7.24-2_all.deb
+Size: 3102056
+SHA256: 9d1baea865c77ec0e2d02ff567de060af0925dd04684a2594a22a60958ca90fa
+SHA1: e9b0c3b86776a30f0ba95e1f74f77e9e15726d43
+MD5sum: 152e6c5f6fd3d95c63cef78652200f7c
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -256,7 +256,7 @@ Description: openmediavault Linux MD (Software RAID) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0.9-1
+Version: 7.0.10-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 270
@@ -264,11 +264,11 @@ Depends: openmediavault (>= 7.7.9), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.9-1_all.deb
-Size: 33756
-SHA256: 6bea2eed54d95c24589787a1855d4c18ad0b0b08f510ea2b4fb4ec20b28f9a85
-SHA1: 99ec65dc6bd0f74fba50c72f974b77782e242b2a
-MD5sum: 89433bbed39b81c77db70ac2c07764e9
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.10-1_all.deb
+Size: 33784
+SHA256: 90f1c059bb12a028845250202aebd8c6605d871aeaed26b9e6352019d1f457e0
+SHA1: 9af8fb3c065e0898ab5720ea57483b2d31847fd9
+MD5sum: a85b589fe9a5f0e8904a13ebdb877652
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
