@@ -135,19 +135,19 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: utilities
 
 Package: openmediavault-ftp
-Version: 8.0-5
+Version: 8.0-6
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 527
+Installed-Size: 535
 Depends: openmediavault (>= 8.0), proftpd-core, proftpd-mod-vroot, proftpd-mod-crypto, proftpd-mod-wrap
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_8.0-5_all.deb
-Size: 72378
-SHA256: 99ab38fbb146969c27a11e25bbd6c0bcf3288fabcfbb998cf5c9401d6df72582
-SHA1: 29621d5dbf28fedfa01c20034408d9388ea0910e
-MD5sum: 3cdb4f227915d8eaaa0f3296f06eb7ce
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_8.0-6_all.deb
+Size: 72834
+SHA256: 05d03e6b0dae9ed039c06b8c910a16739e69effb72165e1af3713554f4fa20ce
+SHA1: 5c3bb7e467ab328386d2e38600f445fb22fd80b5
+MD5sum: beeedd1c8b7a6a5a472aa96f4c8605d4
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/FTPS server.
 Plugin-Section: sharing
