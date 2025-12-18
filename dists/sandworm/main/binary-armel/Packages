@@ -1,5 +1,5 @@
 Package: openmediavault
-Version: 7.7.24-3
+Version: 7.7.24-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13636
@@ -8,11 +8,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_7.7.24-3_all.deb
-Size: 3102192
-SHA256: 1e88bae2fd7b32a6866084e513350358d252b85ef757159f5f7a355f75f8ee50
-SHA1: 561ef86c96db3131c864c5abd0b96d0c6a5e9841
-MD5sum: 2e5a69608a2ba145d1197fa075700791
+Filename: pool/main/o/openmediavault/openmediavault_7.7.24-4_all.deb
+Size: 3102032
+SHA256: 344cda5294f0ddfbe1b80c41b63702fbb8c7da450287bb05219ca9c95fcbbf50
+SHA1: 0583b2cda83d950c3746bb3f4dd5335914238525
+MD5sum: 17ff75617ca260e8b3599e43e224fbf5
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -152,7 +152,7 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 7.4.15-1
+Version: 7.4.16-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 1290
@@ -160,11 +160,11 @@ Depends: openmediavault (>= 7.7.20), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.15-1_all.deb
-Size: 146784
-SHA256: 4f24b0a630bfafa8ff7054d1abb683a8f10fa0a59cea1d85860fc947402309b0
-SHA1: 134bf7bb3332b424cd34430a7aa8ec95f6228e21
-MD5sum: 46d6a6fab50cc2cbcf6c17033d346dd4
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_7.4.16-1_all.deb
+Size: 146804
+SHA256: 386048d7a688b0f924334bf26796d0f33dba453a739b16f21bdbdff83e1ffb4a
+SHA1: 951174dcd26bac053234d9f203f9b02c9348aa0e
+MD5sum: cdbdda575bd22e965b37e255213586e2
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
@@ -237,7 +237,7 @@ Description: openmediavault Linux MD (Software RAID) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 7.0.10-1
+Version: 7.0.10-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 270
@@ -245,11 +245,11 @@ Depends: openmediavault (>= 7.7.9), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.10-1_all.deb
-Size: 33784
-SHA256: 90f1c059bb12a028845250202aebd8c6605d871aeaed26b9e6352019d1f457e0
-SHA1: 9af8fb3c065e0898ab5720ea57483b2d31847fd9
-MD5sum: a85b589fe9a5f0e8904a13ebdb877652
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_7.0.10-2_all.deb
+Size: 33780
+SHA256: 08f4ce5d22f9e56617cb0a73cbc6fde2389d7472c10dbc1de5dca31923455a7a
+SHA1: abeb6f7b16001d1f892163aa60f74110e002b551
+MD5sum: 9eeafac50757e8fe551aaa4f73265bca
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
