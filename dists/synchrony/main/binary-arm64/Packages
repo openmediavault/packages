@@ -18,7 +18,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.0.5-1
+Version: 8.0.5-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 13670
@@ -27,11 +27,11 @@ Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.0.5-1_all.deb
-Size: 3185864
-SHA256: 4daee881846644969b679d3a776b8f3da2fa57a7797e8feb1313c89439ab6d20
-SHA1: 2534d21da624ce7fe2d3ebf1efe0ae79d191f785
-MD5sum: 1a2e07a046686155f503c2ae89c57715
+Filename: pool/main/o/openmediavault/openmediavault_8.0.5-2_all.deb
+Size: 3186350
+SHA256: 5227cf698dd49c8e18f1363b98d479394070456d2e6f5f1522c804e5e717c315
+SHA1: ab35950c584b168d69c33e8771db6ae1c6ca42c6
+MD5sum: 27252e3574e829c3f324d80a714a5252
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -539,21 +539,21 @@ Description: pam module for PHP 8.4
 
 Package: salt-common
 Source: salt
-Version: 3007.8
+Version: 3007.10
 Architecture: arm64
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 121961
+Installed-Size: 106249
 Recommends: lsb-release
 Suggests: ifupdown
 Breaks: salt-minion (<= 3006.4)
 Homepage: http://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-common_3007.8_arm64.deb
-Size: 25768312
-SHA256: f27a5764bc198574dc27b67ae444b88801ba7c7ed875f72a7856e39a6f42b6de
-SHA1: b96002cc938064d94ed3c87f1b3280c453f73c98
-MD5sum: 40208e9f07f3a4cae08152a393573832
+Filename: pool/main/s/salt/salt-common_3007.10_arm64.deb
+Size: 22922920
+SHA256: be4567c1cb246f299b8d3b7ec4a91967ff7817b64d24ba9b0aab31d16f555588
+SHA1: 9d8903e0b14da4f281bca88fa546a7f75995bcbb
+MD5sum: 51dbcd13fb12a7fe190a76f5393bbb0e
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -576,22 +576,22 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3007.8
+Version: 3007.10
 Architecture: arm64
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 202
-Depends: dctrl-tools, salt-common (= 3007.8), debconf (>= 0.5) | debconf-2.0
+Installed-Size: 205
+Depends: dctrl-tools, salt-common (= 3007.10), debconf (>= 0.5) | debconf-2.0
 Recommends: debconf-utils, dmidecode, net-tools
 Breaks: salt-common (<= 3006.4)
 Replaces: salt-common (<= 3006.4)
 Homepage: http://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3007.8_arm64.deb
-Size: 104120
-SHA256: 39f24dda5a11317254e33739f9dd30f4be3f212d6d699326b054db71135d44b7
-SHA1: 0d4098b51db30dde3429cf87903dd2f193f6e728
-MD5sum: fb4e0b775b20fe62ead160bd7677092c
+Filename: pool/main/s/salt/salt-minion_3007.10_arm64.deb
+Size: 107140
+SHA256: bfe5b3ea087a9cb71a915cb8339b6ed8255ee53bad19834006084522a5d6c14a
+SHA1: 0d1b6be0f0837ae85cad3789a0c14eb2ecb391c1
+MD5sum: 401cd1819d8d78e27b48260587fb6121
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
