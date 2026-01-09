@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.0.5-2
+Version: 8.0.6-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13670
+Installed-Size: 13672
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.0.5-2_all.deb
-Size: 3186350
-SHA256: 5227cf698dd49c8e18f1363b98d479394070456d2e6f5f1522c804e5e717c315
-SHA1: ab35950c584b168d69c33e8771db6ae1c6ca42c6
-MD5sum: 27252e3574e829c3f324d80a714a5252
+Filename: pool/main/o/openmediavault/openmediavault_8.0.6-1_all.deb
+Size: 3187172
+SHA256: 6d48a01c6f1b903fc9478e0e9ec001de38a3704619ca404dc1ea6ba05daccb3a
+SHA1: ac3d7e6c0f1057cc3dec1eafbf4ff1b5a56b4424
+MD5sum: 6db7d7e31b6664689139909609fd35ce
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -135,19 +135,19 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: utilities
 
 Package: openmediavault-ftp
-Version: 8.0-8
+Version: 8.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 533
-Depends: openmediavault (>= 8.0), proftpd-core, proftpd-mod-vroot, proftpd-mod-crypto, proftpd-mod-wrap
+Installed-Size: 535
+Depends: openmediavault (>= 8.0.6), proftpd-core, proftpd-mod-vroot, proftpd-mod-crypto, proftpd-mod-wrap
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_8.0-8_all.deb
-Size: 73414
-SHA256: af937c4907f31caca56a64c7103a772dd81277c09b421fd82978f771f135d9ea
-SHA1: 517b5df6d0d099696f858538f29a96f9dcc01241
-MD5sum: e4b8eb59e2c7f09d5133e19b1d843641
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_8.0.1-1_all.deb
+Size: 73576
+SHA256: 24dc72a8756406ed99574b4e46a832aa30be96158034ba4fd287b49f5a394f9c
+SHA1: 41c78a2fc55510cbe85d2eb1d0cf4817e7271e76
+MD5sum: 2ba9114567cc5753ee2906e268f3b393
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/FTPS server.
 Plugin-Section: sharing
