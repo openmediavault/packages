@@ -2,21 +2,21 @@ Origin: openmediavault.org archive
 Label: openmediavault.org archive
 Suite: synchrony
 Codename: synchrony
-Date: Tue, 13 Jan 2026 13:39:04 UTC
+Date: Thu, 22 Jan 2026 14:50:14 UTC
 Architectures: amd64 arm64
 Components: main partner
 Description: openmediavault 8 (Synchrony)
 MD5Sum:
- c44255e1ccf625ea2360be85b40bbf7f 27086 main/binary-amd64/Packages
- 0a3d19641bb4115e6b0f2222502d5f42 8763 main/binary-amd64/Packages.gz
+ 69e49d7f0d1a88726ae7c22b57883fa3 27094 main/binary-amd64/Packages
+ 5197b13b85b303ffb13f948f7070eb5f 8778 main/binary-amd64/Packages.gz
  808b48e8a9b7984a958b44cde62d53df 166 main/binary-amd64/Release
- 1649f8358e4a581c859ca2a3110a0f4c 648 main/debian-installer/binary-amd64/Packages
- 5bdc91524fae2f7624136fd55c07841e 407 main/debian-installer/binary-amd64/Packages.gz
- 7298f0a1499803ae0673e8bfb58da457 27086 main/binary-arm64/Packages
- e806ff4deb37252daf9fbc720f8daac6 8762 main/binary-arm64/Packages.gz
+ 4daa909f9016a55f0cbf5f4b803248a0 648 main/debian-installer/binary-amd64/Packages
+ d073677a68ec33da7d45012fb7f2324b 406 main/debian-installer/binary-amd64/Packages.gz
+ 8bd9badf8a443efbb1c37d6f5c80a90d 27094 main/binary-arm64/Packages
+ 3dd8f07d2ba0053fe7efc19fc893544c 8774 main/binary-arm64/Packages.gz
  8444ab5529de45bb52098828da7b7c16 166 main/binary-arm64/Release
- 1649f8358e4a581c859ca2a3110a0f4c 648 main/debian-installer/binary-arm64/Packages
- 5bdc91524fae2f7624136fd55c07841e 407 main/debian-installer/binary-arm64/Packages.gz
+ 4daa909f9016a55f0cbf5f4b803248a0 648 main/debian-installer/binary-arm64/Packages
+ d073677a68ec33da7d45012fb7f2324b 406 main/debian-installer/binary-arm64/Packages.gz
  35023c468e692eb9678be98aef9b0a8f 3972 main/source/Sources
  7343383ed642a28e9034ddec973e2a93 1720 main/source/Sources.gz
  2dbcbb4a81d683d75259c1f545df5958 167 main/source/Release
@@ -30,16 +30,16 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 partner/source/Sources.gz
  14f10aa4e2d56c7b9ca558b987831ea8 170 partner/source/Release
 SHA1:
- 407fd995a3d093a371feec6619f8a0078eef9ac2 27086 main/binary-amd64/Packages
- 3674416b8dfe442f2546a4bf0dc5bb20e595e4f4 8763 main/binary-amd64/Packages.gz
+ e5251a11756455d71fb07bf61541211e8ab0ca2e 27094 main/binary-amd64/Packages
+ 0752b91c436a97ad68d84b43ec218fed045635f0 8778 main/binary-amd64/Packages.gz
  94c52f7dc728c471c6a657790d6e79f6f3b2272b 166 main/binary-amd64/Release
- c381cf323cbb679aaf46c42151df8d461b950161 648 main/debian-installer/binary-amd64/Packages
- 598e54793af73d39412b6f3ed7ba0564899de529 407 main/debian-installer/binary-amd64/Packages.gz
- 7255827fc7db9706bc2de5bbdc1119c513afad35 27086 main/binary-arm64/Packages
- ab8d5de04e9402bab52f2e0983fbb1c5d189d3ff 8762 main/binary-arm64/Packages.gz
+ 03f16e3932e2994e517e9bee9afd9a46a34df645 648 main/debian-installer/binary-amd64/Packages
+ 286c6518c051c10f3cdef3057e3a2710fa8b1010 406 main/debian-installer/binary-amd64/Packages.gz
+ 0874e8b84eee9876fe4140957f5ecdcc211caeb1 27094 main/binary-arm64/Packages
+ 7b23aca2bf106624ba03a6467591b9fceed7cb3d 8774 main/binary-arm64/Packages.gz
  e633755551b39cf41d1682e644f8c0e65e050775 166 main/binary-arm64/Release
- c381cf323cbb679aaf46c42151df8d461b950161 648 main/debian-installer/binary-arm64/Packages
- 598e54793af73d39412b6f3ed7ba0564899de529 407 main/debian-installer/binary-arm64/Packages.gz
+ 03f16e3932e2994e517e9bee9afd9a46a34df645 648 main/debian-installer/binary-arm64/Packages
+ 286c6518c051c10f3cdef3057e3a2710fa8b1010 406 main/debian-installer/binary-arm64/Packages.gz
  420dd079063efdc6a597b6f51da40c4f2eb54954 3972 main/source/Sources
  03c941ea8e83582fd4acf98f4af08ab5d521382d 1720 main/source/Sources.gz
  c8c2c90610bebee8186e692d3a2c9c6fee154108 167 main/source/Release
@@ -53,16 +53,16 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 partner/source/Sources.gz
  808c98da26a17e45414f0ac17180bafc1a90ba86 170 partner/source/Release
 SHA256:
- 6dadbc28589b4cf73cc4336ca88fa7f38368cb9153e73a25bf2bbe4d2ef694a5 27086 main/binary-amd64/Packages
- 043ccfa9ae92840569be14281ad002c70b7d6182a0428c4be383081c450d1a1d 8763 main/binary-amd64/Packages.gz
+ 3e1c256c5b1cefcdbe4043fa199bc0730b0cd2430975558ca6538c608c012e89 27094 main/binary-amd64/Packages
+ 092923d5d69cae4a87975f9a073b284dd4406aab30b765c7bf9d5a6e379c4fea 8778 main/binary-amd64/Packages.gz
  12afb2bb70f30686d38c6e6e8a0eba679c328ae36e3accadd1d457c993bd209b 166 main/binary-amd64/Release
- bcfd0b8db56092591f188902c6262d91afa809ddda6a5bb7edca3b3ccfe83ed4 648 main/debian-installer/binary-amd64/Packages
- 8bc0c8fc64b7395cc58b52f3707d1d001a4272c2d319f164970b1f4ed64bc515 407 main/debian-installer/binary-amd64/Packages.gz
- 56b203b7e8e1e7d84da6469cd24326f11431d41ccb72803ac6d618ed36ec1416 27086 main/binary-arm64/Packages
- 31a90f1f6045d464554ba57d3a6890aa798b028f5ccb1366f6b18b5564b8a6a9 8762 main/binary-arm64/Packages.gz
+ d10c58942ff1fd05a22ce36f598eafbb8c4f1514cb650d45f386357c120b50ab 648 main/debian-installer/binary-amd64/Packages
+ 722a676a7e9dbb6836b44deeb65f5943ef2ee6fd7cf12326474b1458a39a3390 406 main/debian-installer/binary-amd64/Packages.gz
+ a146722f1abd0e1b3d9e69a422657b360cfd7016984e7812abade13c9be48473 27094 main/binary-arm64/Packages
+ c286e08aaf628324133ef549cad5c7d5e44967d66316ac1db31cca2cfb5c581b 8774 main/binary-arm64/Packages.gz
  624e4bcfd135aef9a08e7d2709e75871fdfb296681c85129169eb5a635ffa7cd 166 main/binary-arm64/Release
- bcfd0b8db56092591f188902c6262d91afa809ddda6a5bb7edca3b3ccfe83ed4 648 main/debian-installer/binary-arm64/Packages
- 8bc0c8fc64b7395cc58b52f3707d1d001a4272c2d319f164970b1f4ed64bc515 407 main/debian-installer/binary-arm64/Packages.gz
+ d10c58942ff1fd05a22ce36f598eafbb8c4f1514cb650d45f386357c120b50ab 648 main/debian-installer/binary-arm64/Packages
+ 722a676a7e9dbb6836b44deeb65f5943ef2ee6fd7cf12326474b1458a39a3390 406 main/debian-installer/binary-arm64/Packages.gz
  8d2860ed33d2e15ec38e3e1896c1b1cab5e4ebd9d8566c55c73ca20857daa65c 3972 main/source/Sources
  b4ab999f049dd1c2beed4c100accaee94559cbb5c2c9552af8ee1fe00baee802 1720 main/source/Sources.gz
  9976d21826c95c9baf295e979bb6bd44afb7fa0b518c6644fb8b7ff1400b9d89 167 main/source/Release

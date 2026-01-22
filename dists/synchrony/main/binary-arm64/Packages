@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.0.6-2
+Version: 8.0.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13683
+Installed-Size: 13691
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.0.6-2_all.deb
-Size: 3189510
-SHA256: 43e732851a365a50ee428e48c4f8b29e8c46d48a1d09c2f85691c8a0d8c5df64
-SHA1: 6ed1588c2110d161b3250e54a92d5ef4c1df0e02
-MD5sum: 6d157ff1289a0c9c591620cfb39cbd44
+Filename: pool/main/o/openmediavault/openmediavault_8.0.7-1_all.deb
+Size: 3190672
+SHA256: b624842eeadd46d5a20c371d9f4ca60bc1551217bffa09c77154c7bbd719e946
+SHA1: 27f64cd0927c4ce80ae5b3928d363b8b7fcc6071
+MD5sum: d1ef35c110a1a419626be6dcbfe3221e
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -237,19 +237,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 8.0.1-1
+Version: 8.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 199
-Depends: openmediavault (>= 8.0), mdadm
+Depends: openmediavault (>= 8.0.6), mdadm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_8.0.1-1_all.deb
-Size: 21330
-SHA256: 902119859b40a447ca0758b1b1629306d1ff00084076875a6ab8bc77725d99e6
-SHA1: eb1c3c235abd4653959a5488bbb2dec9e64a6705
-MD5sum: 3b504d25aade479326d7f3f2a8246d41
+Filename: pool/main/o/openmediavault-md/openmediavault-md_8.0.2-1_all.deb
+Size: 21466
+SHA256: a1032f2ce1ec30716958f4683450570d6392df08483241f9cb9a3769b8faabe3
+SHA1: 107f7720f3169bf773f37c6b99bd0a6c686f43d8
+MD5sum: e41eaf1a822dcc1a02e1fb7dc9436f2a
 Description: openmediavault Linux MD (Software RAID) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
@@ -317,19 +317,19 @@ Plugin-Architecture: amd64, armhf, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-photoprism
-Version: 8.0-5
+Version: 8.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 206
-Depends: openmediavault (>= 8.0), podman, catatonit, nftables
+Depends: openmediavault (>= 8.0.6), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: graphics
-Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_8.0-5_all.deb
-Size: 25262
-SHA256: 5b10ec3228670f7a5d97b20dfef2b2811a10f17b721cfbe891ec9877a372d825
-SHA1: 839c5be5c8c3af1455fb8e376dc1fcc9492fc1d2
-MD5sum: 564ae8a9535bf1d051e1d17890d58b38
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_8.0.1-1_all.deb
+Size: 25414
+SHA256: 772868248baf0d0474901a01332208fd4ae6807d0ea920d1d23d07ef621c0cb4
+SHA1: 70ea20c9abb905f5e9887b3af77917fd08c4d073
+MD5sum: d21491962da06ee44d5eb071e150ce25
 Description: openmediavault PhotoPrism plugin
  PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
  photo collection.
