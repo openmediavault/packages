@@ -1,37 +1,37 @@
 Package: onedrive
-Version: 2.5.9-1+np1+1.2
+Version: 2.5.10-1+np1+1.1
 Architecture: amd64
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 4625
+Installed-Size: 4677
 Depends: libc6 (>= 2.34), libcurl4t64 (>= 7.18.2), libdbus-1-3 (>= 1.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libnotify4 (>= 0.7.3), libsqlite3-0 (>= 3.7.14), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.52), libcurl4
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.5.9-1+np1+1.2_amd64.deb
-Size: 1112976
-SHA256: bcba8038f0b13a597c071501e7a0a90dc01f80fb748af476e92f3cb6e0f013a8
-SHA1: f1f2f50d5fd00b6834c5a7c5288a7757aca8bf73
-MD5sum: dbbcb89eb1b278c73dbdaeb94dbae437
+Filename: pool/main/o/onedrive/onedrive_2.5.10-1+np1+1.1_amd64.deb
+Size: 1135368
+SHA256: a0b35dc66c83766837a8869356f2a86e72fa3cc4dc5581d24a6283eed962fbf3
+SHA1: e7d9839213780e86d4b0078227d8c7f9b0351edb
+MD5sum: 5f414fb2d8a190f3cbf9ac3b7bc9b17b
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
  storage.
 
 Package: openmediavault
-Version: 8.0.9-1
+Version: 8.0.10-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13693
+Installed-Size: 13695
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.0.9-1_all.deb
-Size: 3191778
-SHA256: 09ecb4736aaafdc85343248e87dd34de45223003c88790f75dcf1d047f816850
-SHA1: c9fe1f248fe9aab3b06e147e6cad902e3a6f294e
-MD5sum: 6be884255e48e869b2b11d8df5d441b9
+Filename: pool/main/o/openmediavault/openmediavault_8.0.10-1_all.deb
+Size: 3192192
+SHA256: 911a850c9c8d6610aab3e3d49e17a37a114cc942e45e996124b0da5059572f45
+SHA1: 914e536000a881204d4ba6971eec78a2ccecf3a0
+MD5sum: 3b29085f21919f0659ea46977a4a04c6
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -171,19 +171,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 8.2.0-1
+Version: 8.2.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 1310
+Installed-Size: 1311
 Depends: openmediavault (>= 8.0.9), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.2.0-1_all.deb
-Size: 155742
-SHA256: 581f69d95f3ef4bcd6b3de8c0c8ff4411be0629fb3365a163cbf4362a0445be1
-SHA1: c3d3285d8a3cce5c91f9c926221252615aa1fca1
-MD5sum: 4948009a3502578d9e55fbe1391778dc
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.2.1-1_all.deb
+Size: 156004
+SHA256: 339635bef5e1660db01022ffa0ad1bed85184fd63961c6984543efd0e1930523
+SHA1: 9db795c3019f1ca756ccc86bd4693808ae0e631c
+MD5sum: 9caaf9f6082b272973594818938fb623
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
@@ -237,19 +237,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 8.0.2-1
+Version: 8.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 199
-Depends: openmediavault (>= 8.0.6), mdadm
+Depends: openmediavault (>= 8.0.7), mdadm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_8.0.2-1_all.deb
-Size: 21466
-SHA256: a1032f2ce1ec30716958f4683450570d6392df08483241f9cb9a3769b8faabe3
-SHA1: 107f7720f3169bf773f37c6b99bd0a6c686f43d8
-MD5sum: e41eaf1a822dcc1a02e1fb7dc9436f2a
+Filename: pool/main/o/openmediavault-md/openmediavault-md_8.0.3-1_all.deb
+Size: 21564
+SHA256: 7d832c396b6427b62f48f42ff2b31a47a3dadd08f6b8178614f60847baddc970
+SHA1: 5e16299bb43496908255d420a45d7be175f02acc
+MD5sum: 03cf949e159be4fcd53ae64d20762da6
 Description: openmediavault Linux MD (Software RAID) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
@@ -354,26 +354,6 @@ Description: openmediavault Podman plugin
  Podman (the POD MANager) is a tool for managing containers and images, volumes
  mounted into those containers, and pods made from groups of containers.
 Plugin-Section: administration
-
-Package: openmediavault-s3
-Version: 8.0-5
-Architecture: all
-Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 153
-Depends: openmediavault (>= 8.0), podman, catatonit, nftables
-Homepage: https://www.openmediavault.org
-Priority: optional
-Section: net
-Filename: pool/main/o/openmediavault-s3/openmediavault-s3_8.0-5_all.deb
-Size: 18780
-SHA256: 6ae33d2bb28d6afb09c4dd37c364d8ddaead7d9322593e4ed66cb5f06927796f
-SHA1: 6436a63c434dec45d6ccc17b695013be6dfe02bc
-MD5sum: 7915fd0ec15f0a2112fafd0b5b7a3c85
-Description: openmediavault S3 plugin
- A standalone high performance object storage based on MinIO.
- It is API compatible with Amazon S3 cloud storage service.
-Plugin-Architecture: amd64, arm64
-Plugin-Section: network
 
 Package: openmediavault-salt
 Version: 8.0
@@ -497,7 +477,7 @@ Description: openmediavault USB/eSATA/SAS/SD backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wetty
-Version: 8.0-6
+Version: 8.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 136
@@ -505,11 +485,11 @@ Depends: openmediavault (>= 8.0), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.0-6_all.deb
-Size: 13762
-SHA256: 88e1926141e116802540a80e41a3efa324e5ec5bc0ed432ac373cf6cb0f8f865
-SHA1: 4b21a4f6e7c8dcf813a2c23daea5cc0f834aea79
-MD5sum: 0ceb010999d76169cc2c819cc2f24eb2
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.0.1-1_all.deb
+Size: 13940
+SHA256: 0ee2648f214c5c88e61d0c655cc6fffd60c86d3ccf45dec2f673bf868c312b56
+SHA1: de180cfa6e24ab77fac33973c3f7c7bea33c09b0
+MD5sum: 0423a51039901097d78e94208882f397
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
 Plugin-Architecture: amd64, arm64
@@ -539,21 +519,21 @@ Description: pam module for PHP 8.4
 
 Package: salt-common
 Source: salt
-Version: 3007.10
+Version: 3007.12
 Architecture: amd64
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 106289
+Installed-Size: 110264
 Recommends: lsb-release
 Suggests: ifupdown
 Breaks: salt-minion (<= 3006.4)
 Homepage: http://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-common_3007.10_amd64.deb
-Size: 23270680
-SHA256: b10a1e44d3305a77291cc1cd56b16ddb2008a178a9f29bb263e373af18cd0fee
-SHA1: f2d10d6284d7c4a19b0f0b3b210eb25e5c1e7706
-MD5sum: 88359ea69bea6c531d1d3abd34a3f806
+Filename: pool/main/s/salt/salt-common_3007.12_amd64.deb
+Size: 24867100
+SHA256: 9e16a948bd95926693adfa3b8b501861d8cc887488506283268dbadbb56e1de9
+SHA1: 2f65d17d43851237642987f7aca97a397ef91108
+MD5sum: 8398f4dbcb0945eef2d00c8ece2ce8f8
 Description: shared libraries that salt requires for all packages
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
@@ -576,22 +556,22 @@ Description: shared libraries that salt requires for all packages
 
 Package: salt-minion
 Source: salt
-Version: 3007.10
+Version: 3007.12
 Architecture: amd64
 Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
-Installed-Size: 205
-Depends: dctrl-tools, salt-common (= 3007.10), debconf (>= 0.5) | debconf-2.0
+Installed-Size: 206
+Depends: dctrl-tools, salt-common (= 3007.12), debconf (>= 0.5) | debconf-2.0
 Recommends: debconf-utils, dmidecode, net-tools
 Breaks: salt-common (<= 3006.4)
 Replaces: salt-common (<= 3006.4)
 Homepage: http://saltproject.io/
 Priority: optional
 Section: admin
-Filename: pool/main/s/salt/salt-minion_3007.10_amd64.deb
-Size: 107140
-SHA256: fa1fff98ef1a46c55575ad761c1e409dc293b17e625c2fbca3f97fc99f1979d9
-SHA1: 7e726d6bf42f667d7e4eebc9bb210a0ab32a9053
-MD5sum: d57d9ffd14a49fb4b8550b80c93282ab
+Filename: pool/main/s/salt/salt-minion_3007.12_amd64.deb
+Size: 108020
+SHA256: a671a4dc41f77426a79babf8d8ba884ccda424ca8438d3969e371e0080bf9c20
+SHA1: a0040c64b6850f8cfce37692e14336be53ab0380
+MD5sum: 0f1a1a8f92d8713c79d7798666ef468e
 Description: client package for salt, the distributed remote execution system
  salt is a powerful remote execution manager that can be used to
  administer servers in a fast and efficient way.
