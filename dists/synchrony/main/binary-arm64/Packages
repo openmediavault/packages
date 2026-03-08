@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.1.1-1
+Version: 8.1.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 13501
+Installed-Size: 13817
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.1.1-1_all.deb
-Size: 2988898
-SHA256: 923be501d563fcfbe8bde01dbdade09bcaa7c902dd5c00ea3e31b29c210d2f20
-SHA1: b8b6f5743dbc1de1c5b8cd80c788029e44a1da26
-MD5sum: cf3cd167264c6d61c15dc4dceac8fc8b
+Filename: pool/main/o/openmediavault/openmediavault_8.1.2-1_all.deb
+Size: 3314618
+SHA256: 14b53f7cb41e272071a54f27174605f34bf8aeb3a2a8a59d9eff4ee0556e9814
+SHA1: 82158c16301047c6307f6d5186ba56ef067dd08f
+MD5sum: 4074f8ab73c7402496afb270ce6e05dc
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -475,6 +475,25 @@ Description: openmediavault USB/eSATA/SAS/SD backup plugin
  The device is put into sleep mode after synchronisation to signal that it
  can be removed safely.
 Plugin-Section: backup
+
+Package: openmediavault-wbprefs
+Version: 8.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 113
+Depends: openmediavault (>= 8.1.2)
+Homepage: https://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-wbprefs/openmediavault-wbprefs_8.0-1_all.deb
+Size: 8872
+SHA256: 90ee5ef0dc21beb18cdae99ca7f99dfefb9f5e01b988205dfbadc3b08f7eb75e
+SHA1: 4ad3672f5def0c60ab362d8591a13d45351e978f
+MD5sum: 898529573887ce9b62851ee1ce35dfd5
+Description: openmediavault Workbench preferences
+ Additional settings for the Workbench, for example to customize
+ the wallpaper on the login screen.
+Plugin-Section: administration
 
 Package: openmediavault-wetty
 Version: 8.0.1-1
