@@ -18,7 +18,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.2.3-2
+Version: 8.2.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 17112
@@ -27,11 +27,11 @@ Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.2.3-2_all.deb
-Size: 6562854
-SHA256: ce40f1712a8fbc432e8d18cfd63ba1c59148d3751e035d4c8d6bf58b5ca0d827
-SHA1: 0b99c672d9088b15f6ddd154c20fc4374001f1aa
-MD5sum: 7e8ec489175d986b75ef4715ba46a68f
+Filename: pool/main/o/openmediavault/openmediavault_8.2.4-1_all.deb
+Size: 6562260
+SHA256: 23709a08cae056d28a46df03532c1472cb14cd6136d90201ef617b84a1910999
+SHA1: 2ea0e000d9de1c0c70bef2545db5727d3d91d056
+MD5sum: a04ca2a30ea3f6b283faeaf3c0d164dc
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -171,19 +171,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 8.2.2-1
+Version: 8.2.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 1322
-Depends: openmediavault (>= 8.0.9), bash, git, tar, xz-utils
+Depends: openmediavault (>= 8.2.4), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.2.2-1_all.deb
-Size: 158140
-SHA256: b515079455fa1d7e35fe6da22ac032e0682558b9ab00e814e95fd2c94c53de26
-SHA1: c655b923110a12f9f397ca2c5bb642bea30faef8
-MD5sum: c1e737aff422ccc3af3a9548bd2e7d78
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.2.3-1_all.deb
+Size: 158236
+SHA256: 8a009532e7f41a864b80ed82181b6716476a29a0c7e051eeae05f0d14fb7ef31
+SHA1: 5087000e45a9e2f111cf8c09041cb3faad033ecd
+MD5sum: b7f18c09fc3c51eb66802795a336d503
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
