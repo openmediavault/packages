@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.2.6-1
+Version: 8.2.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 17113
+Installed-Size: 17110
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.2.6-1_all.deb
-Size: 6562678
-SHA256: 04d4ba6d267a906c83213663d4947c1cceef134c3b922d264d4108052a258fb4
-SHA1: 14c05281fc5da8f05fdf405608b8241bba4ceb30
-MD5sum: 4de9ad215afc9f48c4ffdf2252edc802
+Filename: pool/main/o/openmediavault/openmediavault_8.2.7-1_all.deb
+Size: 6563262
+SHA256: 4e334fea011dfed62b2072ddd3f223f6a4e76114d1fae2073546e9c7cf93988b
+SHA1: cc48f18880fe37e404ecf5af60f51acca18faa8a
+MD5sum: f5de01f5b39e3e40f000aff7a27ff2a4
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -114,19 +114,19 @@ Description: openmediavault disk monitoring plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 8.0.2-1
+Version: 8.0.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 160
-Depends: openmediavault (>= 8.2.2), podman, catatonit, nftables
+Installed-Size: 161
+Depends: openmediavault (>= 8.2.7), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.2-1_all.deb
-Size: 20252
-SHA256: 56443b4dec935eacd225f18bf729887025a88ef664e8e5de1aa7430c5c6560e8
-SHA1: c85dcd1840a4e9d6daae75e3bb6953386cd8f73d
-MD5sum: 64583af733df8f55b5c71e9ccdd6ce90
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.3-1_all.deb
+Size: 20352
+SHA256: f8c359ef129d3d4a8ef57d7f44126a06baf00cad6aee2ec394d75530377264cf
+SHA1: aa2c1c52334b515198eaf7170d90bf89851fbff6
+MD5sum: 710073f67aa00199566173245dad5e80
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
@@ -135,19 +135,19 @@ Plugin-Architecture: amd64, arm64
 Plugin-Section: utilities
 
 Package: openmediavault-ftp
-Version: 8.0.1-1
+Version: 8.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 535
-Depends: openmediavault (>= 8.0.6), proftpd-core, proftpd-mod-vroot, proftpd-mod-crypto, proftpd-mod-wrap
+Installed-Size: 549
+Depends: openmediavault (>= 8.2.7), proftpd-core, proftpd-mod-vroot, proftpd-mod-crypto, proftpd-mod-wrap
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_8.0.1-1_all.deb
-Size: 73576
-SHA256: 24dc72a8756406ed99574b4e46a832aa30be96158034ba4fd287b49f5a394f9c
-SHA1: 41c78a2fc55510cbe85d2eb1d0cf4817e7271e76
-MD5sum: 2ba9114567cc5753ee2906e268f3b393
+Filename: pool/main/o/openmediavault-ftp/openmediavault-ftp_8.0.2-1_all.deb
+Size: 76398
+SHA256: 7b99287c00726652c8b91841aacf016e61bc711b8933cacfd38808d84412e00a
+SHA1: f51c027fcebb0b7493d1cd0b77cd1c7746709c9a
+MD5sum: ba613ed651e0b7faef65ae594dbb730b
 Description: openmediavault FTP-Server plugin
  ProFTPD is a powerful modular FTP/FTPS server.
 Plugin-Section: sharing
@@ -317,19 +317,19 @@ Plugin-Architecture: amd64, armhf, arm64
 Plugin-Section: multimedia
 
 Package: openmediavault-photoprism
-Version: 8.0.1-1
+Version: 8.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 206
-Depends: openmediavault (>= 8.0.6), podman, catatonit, nftables
+Installed-Size: 211
+Depends: openmediavault (>= 8.2.7), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: graphics
-Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_8.0.1-1_all.deb
-Size: 25414
-SHA256: 772868248baf0d0474901a01332208fd4ae6807d0ea920d1d23d07ef621c0cb4
-SHA1: 70ea20c9abb905f5e9887b3af77917fd08c4d073
-MD5sum: d21491962da06ee44d5eb071e150ce25
+Filename: pool/main/o/openmediavault-photoprism/openmediavault-photoprism_8.0.2-1_all.deb
+Size: 26466
+SHA256: 3f6c1a4e1cde91bb8f31616e0bd75690dc72f29115de150f1349aea584971943
+SHA1: 36d7569004461fc7a24c7388664dd2eca7b232ac
+MD5sum: f26a40763676213ebfe83a728318dc56
 Description: openmediavault PhotoPrism plugin
  PhotoPrism® is an AI-powered app for browsing, organizing & sharing your
  photo collection.
@@ -437,19 +437,19 @@ Description: openmediavault SNMP (Simple Network Management Protocol) plugin
 Plugin-Section: network
 
 Package: openmediavault-tftp
-Version: 8.0-4
+Version: 8.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 155
-Depends: openmediavault (>= 8.0), tftpd-hpa
+Installed-Size: 159
+Depends: openmediavault (>= 8.2.7), tftpd-hpa
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-tftp/openmediavault-tftp_8.0-4_all.deb
-Size: 19262
-SHA256: 135471df0448b707c9b5fe5995cf2cfed92e0c4c9f9335da5566d5b49553238f
-SHA1: 032d5f1677221611c23dba607839d25b7f939ea9
-MD5sum: 891dd6c47e0881b4ddd46e1ce1bbe6e4
+Filename: pool/main/o/openmediavault-tftp/openmediavault-tftp_8.0.1-1_all.deb
+Size: 19990
+SHA256: 2b81df8801691876ec0550c2266d45cb487831aa00cfd6e9dce54113336d8cbe
+SHA1: 3bd1d08033e8783509e834c12389d760f02ffb7f
+MD5sum: 801e75fac3fab1ee8f01c770cbb2a8e5
 Description: openmediavault TFTP-Server plugin
  A TFTP server is mainly required for booting operating systems or
  configurations over the network.
@@ -496,19 +496,19 @@ Description: openmediavault Workbench preferences
 Plugin-Section: administration
 
 Package: openmediavault-wetty
-Version: 8.0.1-1
+Version: 8.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 136
-Depends: openmediavault (>= 8.0), podman, catatonit, nftables
+Installed-Size: 139
+Depends: openmediavault (>= 8.2.7), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.0.1-1_all.deb
-Size: 13940
-SHA256: 0ee2648f214c5c88e61d0c655cc6fffd60c86d3ccf45dec2f673bf868c312b56
-SHA1: de180cfa6e24ab77fac33973c3f7c7bea33c09b0
-MD5sum: 0423a51039901097d78e94208882f397
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.0.2-1_all.deb
+Size: 14266
+SHA256: dbfdbbcf6d3373ff74836cb435c3c4f99639a219de7f18fbaca8d80336708ada
+SHA1: 12ed67a914e6b82cab16fcdd55b3eb58f4b44177
+MD5sum: 2144ab72bc368b1b44236bfd25d3589f
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
 Plugin-Architecture: amd64, arm64
