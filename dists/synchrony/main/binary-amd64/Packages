@@ -496,19 +496,19 @@ Description: openmediavault USB/eSATA/SAS/SD backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wbprefs
-Version: 8.0.1-1
+Version: 8.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 113
-Depends: openmediavault (>= 8.1.2)
+Installed-Size: 116
+Depends: openmediavault (>= 8.2.11)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-wbprefs/openmediavault-wbprefs_8.0.1-1_all.deb
-Size: 9342
-SHA256: ad17a6b4d8f0f192c21726ed9a4fc988caaeb5df41ca75c0d2682a3ee3268841
-SHA1: 7509ea22625067c885bb0f1340db74469448cacc
-MD5sum: c2954746ccab853bdb7e82ecd491da3c
+Filename: pool/main/o/openmediavault-wbprefs/openmediavault-wbprefs_8.0.2-1_all.deb
+Size: 11032
+SHA256: ccfd386624e9378cb2c5ad7376b9e1e8100cef02316a68d5d813655475b6f9ed
+SHA1: d6b43565e7e41129b406d1b854901355ff6dedec
+MD5sum: 41ab89150235cf7d8b8e721a97e8de60
 Description: openmediavault Workbench preferences
  Additional settings for the Workbench, for example to customize
  the wallpaper on the login screen.
