@@ -18,7 +18,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.2.10-1
+Version: 8.2.11-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 17134
@@ -27,11 +27,11 @@ Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.2.10-1_all.deb
-Size: 6563938
-SHA256: 074babdda43bb4615b396b2ba1affb9c69afba4bf3a153fa3d0059cb82858ec6
-SHA1: b8a80a6e8bfb40e61ef4eba00a5f379d3bcb2c66
-MD5sum: 1794b0379fade73766f92de7411512af
+Filename: pool/main/o/openmediavault/openmediavault_8.2.11-1_all.deb
+Size: 6565242
+SHA256: ddd8adfc1fb6ed92230a1bf3b19132e73be8fdf9475407ed263d6a471ac7fb72
+SHA1: b9b1d60f1082c44cdbf4e209701d76fab61bb198
+MD5sum: 54481715f7e2b16513002fafdd035a11
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -133,19 +133,19 @@ Description: openmediavault environment variables plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 8.0.3-1
+Version: 8.0.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 161
-Depends: openmediavault (>= 8.2.7), podman, catatonit, nftables
+Depends: openmediavault (>= 8.2.11), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.3-1_all.deb
-Size: 20352
-SHA256: f8c359ef129d3d4a8ef57d7f44126a06baf00cad6aee2ec394d75530377264cf
-SHA1: aa2c1c52334b515198eaf7170d90bf89851fbff6
-MD5sum: 710073f67aa00199566173245dad5e80
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.4-1_all.deb
+Size: 20488
+SHA256: 05a96f7759dc77bec11788e0e854f0b6e3c1eabba006c9aa1c0c97d7f7518451
+SHA1: bb2e7fd3e408d90011f94f4ca8653945d16f97eb
+MD5sum: 4f84e7d5b0a6ac80b883dff07bde552a
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
@@ -190,19 +190,19 @@ Description: openmediavault hosts plugin
 Plugin-Section: network
 
 Package: openmediavault-k8s
-Version: 8.2.3-1
+Version: 8.2.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 1322
-Depends: openmediavault (>= 8.2.4), bash, git, tar, xz-utils
+Depends: openmediavault (>= 8.2.11), bash, git, tar, xz-utils
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.2.3-1_all.deb
-Size: 158236
-SHA256: 8a009532e7f41a864b80ed82181b6716476a29a0c7e051eeae05f0d14fb7ef31
-SHA1: 5087000e45a9e2f111cf8c09041cb3faad033ecd
-MD5sum: b7f18c09fc3c51eb66802795a336d503
+Filename: pool/main/o/openmediavault-k8s/openmediavault-k8s_8.2.4-1_all.deb
+Size: 158292
+SHA256: 12983b0875286653a224b49369f6a1e5999dbe2b225170a555cdccd9984a36e7
+SHA1: 43c23a48470359524f1bd9af71a9c44bd320e6d9
+MD5sum: 087f4d7f2dd8a765063c6407aeca50ce
 Description: openmediavault Kubernetes plugin
  Kubernetes is an open-source platform for orchestrating and
  managing containerized/dockerized applications in an automated,
