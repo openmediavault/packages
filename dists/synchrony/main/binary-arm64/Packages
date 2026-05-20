@@ -18,20 +18,20 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.2.14-1
+Version: 8.2.14-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 17169
+Installed-Size: 17171
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt, libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.2.14-1_all.deb
-Size: 6569554
-SHA256: b878b78c29200df339dba6f3993c461365202b249c7c2f2d9cdff51f1fac08d6
-SHA1: c73ecb1b22405203f81c81be5cac57b244b872ae
-MD5sum: fd41f3e9cca1d893d6f77d76a6b0ac82
+Filename: pool/main/o/openmediavault/openmediavault_8.2.14-2_all.deb
+Size: 6568924
+SHA256: 1f0c3943372512bb8d3e84cb5c56b624e65d517afae0ad49352fcdae0e4d7ada
+SHA1: e828d89dc3a9755b42e9d33740b5b79923823748
+MD5sum: a70a806af28a214bffa53bfd82c26248
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -55,19 +55,19 @@ Description: openmediavault APT management plugin
 Plugin-Section: utilities
 
 Package: openmediavault-bcache
-Version: 8.0-4
+Version: 8.0.1-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 289
-Depends: openmediavault (>= 8.0), bcache-tools
+Installed-Size: 297
+Depends: openmediavault (>= 8.2.14), bcache-tools
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-bcache/openmediavault-bcache_8.0-4_all.deb
-Size: 27566
-SHA256: 9ad4b2981572f5263f611036634d78182e9d3b03f3094848b0431b5d0511a010
-SHA1: d2fabaf16f44d1b82cc141d750fb704605296062
-MD5sum: 9ead370bea71caf68a352daf69e230d9
+Filename: pool/main/o/openmediavault-bcache/openmediavault-bcache_8.0.1-1_all.deb
+Size: 29194
+SHA256: e85d6ed80d09d98202637b6aa5581266e513e58df6f1a5ce614d8c8431e488ca
+SHA1: a92b503ed06c96fff3605c592b2282e5c2cfb124
+MD5sum: 4c6dcd13ac4f091c54f29558b4a258ed
 Description: openmediavault Bcache plugin
  Makes it possible to use an SSD as a read/write cache for another block device.
 Plugin-Section: filesystems
