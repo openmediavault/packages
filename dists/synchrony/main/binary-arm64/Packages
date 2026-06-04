@@ -18,7 +18,7 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.3.1-1
+Version: 8.3.1-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 17431
@@ -27,11 +27,11 @@ Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.3.1-1_all.deb
-Size: 6577386
-SHA256: 6779d5d592b46c4563b45ae81f30b72d70aa6326dbccefaa86e1cd056468f992
-SHA1: 69e2d26868d2f2313b16943408df1eb41b4a7ba2
-MD5sum: 6d5f3ecef70952654ef1a3727b282707
+Filename: pool/main/o/openmediavault/openmediavault_8.3.1-2_all.deb
+Size: 6577322
+SHA256: 050719b643f539dae86dc51f643184ac5398fe70a6a08b76bc7963708c42b441
+SHA1: 67b5fdb32b36236ba8ab22fb54f0c8c7b9cd126d
+MD5sum: 906a78b9b741b7a7f976dad35e7d209d
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
@@ -256,19 +256,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 8.1.1-1
+Version: 8.1.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 214
+Installed-Size: 215
 Depends: openmediavault (>= 8.3.1), mdadm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_8.1.1-1_all.deb
-Size: 23404
-SHA256: 0b5cd16b88a6c5733052b48c6583676725020fca49dc2a61f629a5d353853204
-SHA1: 5603e861d03858b96ada2ec458b679c17ea0f225
-MD5sum: 36efe89444d3e87d9bad0414c580122a
+Filename: pool/main/o/openmediavault-md/openmediavault-md_8.1.2-1_all.deb
+Size: 23592
+SHA256: 45d657cac7b7f6a39c16d43cb844c840b8ca0b565a38a1d67f83db6f3db573bb
+SHA1: 79eae3d1eb7173ae7c732a1959346fb4e8686721
+MD5sum: f309d74d3ef0c2efa28be916ff544556
 Description: openmediavault Linux MD (Software RAID) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
@@ -515,7 +515,7 @@ Description: openmediavault Workbench preferences
 Plugin-Section: administration
 
 Package: openmediavault-wetty
-Version: 8.1.0-1
+Version: 8.1.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 148
@@ -523,11 +523,11 @@ Depends: openmediavault (>= 8.3.1), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.1.0-1_all.deb
-Size: 15194
-SHA256: 0fb38b8858cd1d6bb071c26ef0d95797e847a61ef0b4cfb3b2e1e21ac6102ce8
-SHA1: 34fe31188e507634d6b4306998f1319636f2ec40
-MD5sum: 0ce4a42e2ac9ad5df1c6f4e797cc735e
+Filename: pool/main/o/openmediavault-wetty/openmediavault-wetty_8.1.0-2_all.deb
+Size: 15196
+SHA256: 668cd44a136d71688a799cceeb14ec3aa4c6af518f84767798ba7cc0a057c114
+SHA1: 9df9c0aa396bfda22ab3201a5da5acdd187967e8
+MD5sum: d2c484c371fc390bde2d9513436dd4db
 Description: openmediavault WeTTY (Web + TTY) plugin
  Terminal access in browser over HTTP/HTTPS.
 Plugin-Architecture: amd64, arm64
