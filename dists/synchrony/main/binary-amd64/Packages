@@ -256,7 +256,7 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 8.1.2-1
+Version: 8.1.2-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 215
@@ -264,11 +264,11 @@ Depends: openmediavault (>= 8.3.1), mdadm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_8.1.2-1_all.deb
-Size: 23592
-SHA256: 45d657cac7b7f6a39c16d43cb844c840b8ca0b565a38a1d67f83db6f3db573bb
-SHA1: 79eae3d1eb7173ae7c732a1959346fb4e8686721
-MD5sum: f309d74d3ef0c2efa28be916ff544556
+Filename: pool/main/o/openmediavault-md/openmediavault-md_8.1.2-2_all.deb
+Size: 23600
+SHA256: 839e35f284020c5e41b877fbeca3f0577be67e9f7aa907e2988fa9b5cb47f93f
+SHA1: eec8a7036c75067b6152cb7239f64d9b273cf08c
+MD5sum: b69ae506c896571181a00b784b37284c
 Description: openmediavault Linux MD (Software RAID) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
