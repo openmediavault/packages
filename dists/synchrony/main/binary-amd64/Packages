@@ -18,26 +18,26 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.5.0-2
+Version: 8.5.0-3
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 19089
+Installed-Size: 19090
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt (>= 8.1.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.5.0-2_all.deb
-Size: 8220906
-SHA256: b16d5ab521b00025e91b1b4df5728b09c5dfdb08b89e7fbd43f28ee730772e36
-SHA1: ea060b3bf1e6e4775b0ea19be3d1de9849228e81
-MD5sum: e53e52e68d5ba726ffd900f8a568e306
+Filename: pool/main/o/openmediavault/openmediavault_8.5.0-3_all.deb
+Size: 8220926
+SHA256: 890269fd09e42d963872477314c1e31f6d534587f0a2f2e1e15d986eb50acd24
+SHA1: 731be005a3fd51f77348d31a4684d974f520a65c
+MD5sum: 199295822d64c37051f6429bf833959e
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
 
 Package: openmediavault-2fa-totp
-Version: 8.0-1
+Version: 8.0-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 176
@@ -45,11 +45,11 @@ Depends: openmediavault (>= 8.5.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-2fa-totp/openmediavault-2fa-totp_8.0-1_all.deb
-Size: 20456
-SHA256: 289d8e34a702a389beadbbaf5778612a4c207ca84e092431cd8e1c6b3aa6ffa5
-SHA1: 304f25689accb1b8c85f70c1419d3614b64fcf72
-MD5sum: f884e631e90b2ca5816713d292a66ba8
+Filename: pool/main/o/openmediavault-2fa-totp/openmediavault-2fa-totp_8.0-2_all.deb
+Size: 20542
+SHA256: 45830371ca60a04fe1f186b6d62e50e280583d47a2e13939e7c018c427663eaa
+SHA1: f797897b340a16b02fdbad117bcc76fee1622320
+MD5sum: 8512092c2bc8cf281bbaaf53a9654e48
 Description: openmediavault two-factor authentication (2FA) with TOTP plugin
  Provides RFC 6238 time-based one-time passwords (TOTP) as second
  factor authentication for the UI.
