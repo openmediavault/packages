@@ -18,23 +18,42 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: openmediavault
-Version: 8.4.0-3
+Version: 8.5.0-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 17436
+Installed-Size: 19090
 Depends: php-fpm, libpam-modules, php-json, dpkg, patch, dash, mawk | gawk, php-cgi, php-cli, php-mbstring, php-pam, sudo, ethtool, python3-dialog, python3-samba, acl, iproute2, xfsprogs, jfsutils, ntfs-3g, wsdd-server, sdparm, mdadm, postfix, libsasl2-modules, bsd-mailx, python3-dbus, linux-cpupower, rsyslog, logrotate, smartmontools, openssl, openssh-server, uuid, tzdata, nfs-kernel-server, lsb-release, sshpass, grep, zstd, wget, util-linux, samba, samba-common-bin, rsync, apt-utils, netplan.io, avahi-daemon, libnss-mdns, iptables, monit, beep, php-bcmath, sed, gdisk, rrdtool, collectd, cron, anacron, quota, php-xml, login, quotatool, whiptail, lvm2, ca-certificates, libc-bin, findutils, coreutils, xmlstarlet, mount, parted, bash, diffutils, lsof, gnupg, rrdcached, locales, nginx, bash-completion, python3, f2fs-tools, python3-apt, wpasupplicant, systemd, systemd-sysv, btrfs-progs, jc, samba-vfs-modules, pciutils, python3-pyudev, python3-natsort, jq, chrony, python3-netifaces, udev, python3-lxml, openmediavault-salt (>= 8.1.0), libnss-myhostname, php-yaml, python3-click, python3-cached-property, python3-polib, libnss-systemd, libnss-resolve, debian-archive-keyring, openmediavault-keyring, systemd-resolved, python3-packaging, unattended-upgrades, apt-listchanges, apticron, debconf (>= 0.5) | debconf-2.0
 Conflicts: cloud-init, gdm3, lightdm, lxdm, sddm, slim, wdm, xdm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault/openmediavault_8.4.0-3_all.deb
-Size: 6578402
-SHA256: aa3fdb4966caac04fcaa6baf0c42286331dbeefe275f8601a51de221ec3e2c80
-SHA1: 87194be4a099a0c127a34e47ce8ef950bd662e5b
-MD5sum: 914b54fdac5d409b58e9d4d2dde2d7de
+Filename: pool/main/o/openmediavault/openmediavault_8.5.0-1_all.deb
+Size: 8222206
+SHA256: ed22683ed6ebbaa85b759212abfb649859f274167dc3be93178499a3cf463243
+SHA1: d2c70c8d52d3c1a5c6349b1b7ffedb56a08ff96c
+MD5sum: 86cf1890118d82489feef0c4c1fe1e41
 Description: openmediavault - The open network attached storage solution
  openmediavault is a small and simple to use network attached storage system
  with a smart WebGUI.
+
+Package: openmediavault-2fa-totp
+Version: 8.0-1
+Architecture: all
+Maintainer: Volker Theile <volker.theile@openmediavault.org>
+Installed-Size: 176
+Depends: openmediavault (>= 8.5.0)
+Homepage: https://www.openmediavault.org
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-2fa-totp/openmediavault-2fa-totp_8.0-1_all.deb
+Size: 20456
+SHA256: 289d8e34a702a389beadbbaf5778612a4c207ca84e092431cd8e1c6b3aa6ffa5
+SHA1: 304f25689accb1b8c85f70c1419d3614b64fcf72
+MD5sum: f884e631e90b2ca5816713d292a66ba8
+Description: openmediavault two-factor authentication (2FA) with TOTP plugin
+ Provides RFC 6238 time-based one-time passwords (TOTP) as second
+ factor authentication for the UI.
+Plugin-Section: administration
 
 Package: openmediavault-apt
 Version: 8.0.2-1
@@ -73,19 +92,19 @@ Description: openmediavault Bcache plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-clamav
-Version: 8.0.1-1
+Version: 8.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 403
-Depends: openmediavault (>= 8.3.1), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
+Installed-Size: 404
+Depends: openmediavault (>= 8.5.0), clamav-daemon (>= 0.102), clamav-freshclam, clamdscan
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: utils
-Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_8.0.1-1_all.deb
-Size: 54250
-SHA256: b121d702b988119d683cb5ac9a54624846ce2151b57ade36d9fd5c42c85613dc
-SHA1: 0590b6355c87a374f77c7470e96b49a95d78934c
-MD5sum: 99210e188d7e898560988ac414005b70
+Filename: pool/main/o/openmediavault-clamav/openmediavault-clamav_8.0.2-1_all.deb
+Size: 54466
+SHA256: 3ceb3943963e71f6be5e4279cc0734628cc36d5e95989c3f35139a8f34aa889a
+SHA1: c9b86e4cd5f74eae90c11b1ce3b9f629e0300c0c
+MD5sum: c8d7accac12cb3a628f8d42b55676fc3
 Description: openmediavault ClamAV plugin
  Clam AntiVirus is an anti-virus toolkit for Unix.
 Plugin-Section: utilities
@@ -235,19 +254,19 @@ Description: GnuPG archive keys of the openmediavault archive
  contains the archive keys used for that.
 
 Package: openmediavault-lvm2
-Version: 8.0.1-1
+Version: 8.0.2-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 275
-Depends: openmediavault (>= 8.3.1), lvm2
+Depends: openmediavault (>= 8.5.0), lvm2
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_8.0.1-1_all.deb
-Size: 28878
-SHA256: 3bbfc33605834573ce0130bfd7203192dc17d146e0f30223f2e78fb2cdfd4796
-SHA1: ef99f1f3bd2fab6267411b75245d1fbffc19a3d8
-MD5sum: 346a315b9114eb483a243ee4d383fa4d
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_8.0.2-1_all.deb
+Size: 28948
+SHA256: 6920f1144402d83703b85248c0496612154bc25ae5bac12483a9e56d8b2bd395
+SHA1: 66123e9e3e45cb0968bd3f24700744fef1cc22df
+MD5sum: 80bc7e59fce9286362b842b3dee56e8f
 Description: openmediavault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
@@ -256,19 +275,19 @@ Description: openmediavault Logical Volume Manager (LVM2) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-md
-Version: 8.1.2-2
+Version: 8.1.3-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 215
-Depends: openmediavault (>= 8.3.1), mdadm
+Installed-Size: 216
+Depends: openmediavault (>= 8.5.0), mdadm
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-md/openmediavault-md_8.1.2-2_all.deb
-Size: 23600
-SHA256: 839e35f284020c5e41b877fbeca3f0577be67e9f7aa907e2988fa9b5cb47f93f
-SHA1: eec8a7036c75067b6152cb7239f64d9b273cf08c
-MD5sum: b69ae506c896571181a00b784b37284c
+Filename: pool/main/o/openmediavault-md/openmediavault-md_8.1.3-1_all.deb
+Size: 23746
+SHA256: 298809859be954981e4680a5706c03fe65e29aea2984dba3fd817e2d6fefc23a
+SHA1: 41bf5c6c924f4b0bde1cca9a30d9d277da8aa168
+MD5sum: 7656f6f111a84058a492f065f2151626
 Description: openmediavault Linux MD (Software RAID) plugin
  This plugin is used to create, manage, and monitor Linux MD (Multiple
  Device) devices.
@@ -496,19 +515,19 @@ Description: openmediavault USB/eSATA/SAS/SD backup plugin
 Plugin-Section: backup
 
 Package: openmediavault-wbprefs
-Version: 8.0.3-1
+Version: 8.0.4-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 116
-Depends: openmediavault (>= 8.3.1)
+Depends: openmediavault (>= 8.5.0)
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-wbprefs/openmediavault-wbprefs_8.0.3-1_all.deb
-Size: 11104
-SHA256: 8d59533251af56d0514af4d1b8dcf28b4a1a4f0d091894888b352c625a43cda3
-SHA1: 0a3affea73e2a8f66091c7bd1c184918296cdd83
-MD5sum: f11cc451bff441ed2d92644cd8a6a0ab
+Filename: pool/main/o/openmediavault-wbprefs/openmediavault-wbprefs_8.0.4-1_all.deb
+Size: 11192
+SHA256: abc70af583cbb6fe9d5aa5154d81642acc21a99eace0e192ed4a700199e653ce
+SHA1: 6b6e74cce0683a323206beb6aa30a45a2cda3b83
+MD5sum: e440ad606c881ede53f8a0973a7f7683
 Description: openmediavault Workbench preferences
  Additional settings for the Workbench, for example to customize
  the wallpaper on the login screen.
