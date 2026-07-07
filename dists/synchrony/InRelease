@@ -5,18 +5,18 @@ Origin: openmediavault.org archive
 Label: openmediavault.org archive
 Suite: synchrony
 Codename: synchrony
-Date: Fri, 03 Jul 2026 17:59:24 UTC
+Date: Tue, 07 Jul 2026 13:19:39 UTC
 Architectures: amd64 arm64
 Components: main partner
 Description: openmediavault 8 (Synchrony)
 MD5Sum:
- 4a76b0780101a90f7e026792119c92c4 28650 main/binary-amd64/Packages
- 09de9fcb2f7296580c974b8be84e2b13 9197 main/binary-amd64/Packages.gz
+ 7ed761a0fcacb86a75b1606759764006 28650 main/binary-amd64/Packages
+ 2944d9c7de16ab8f12ec717a0dc9dc0b 9189 main/binary-amd64/Packages.gz
  808b48e8a9b7984a958b44cde62d53df 166 main/binary-amd64/Release
  cdf1fa0f72b2955a307fa6c974eef6dd 648 main/debian-installer/binary-amd64/Packages
  4ae21c9d9e5427a8c6ce045bddec860a 405 main/debian-installer/binary-amd64/Packages.gz
- 85434605fa35b0995fedc2c4e075324c 28650 main/binary-arm64/Packages
- 4a1de8fd3dc23921e92c78d76ccca759 9187 main/binary-arm64/Packages.gz
+ 8e216f432358d15b4e0a3c98e21e8bf3 28650 main/binary-arm64/Packages
+ a4218ca5e6894a0b9a6f7b19913fb66a 9180 main/binary-arm64/Packages.gz
  8444ab5529de45bb52098828da7b7c16 166 main/binary-arm64/Release
  cdf1fa0f72b2955a307fa6c974eef6dd 648 main/debian-installer/binary-arm64/Packages
  4ae21c9d9e5427a8c6ce045bddec860a 405 main/debian-installer/binary-arm64/Packages.gz
@@ -33,13 +33,13 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 partner/source/Sources.gz
  14f10aa4e2d56c7b9ca558b987831ea8 170 partner/source/Release
 SHA1:
- deca63bf19680474136f6a7f38fcc6a89cb0cf40 28650 main/binary-amd64/Packages
- 920ee0403b80fc6c44910b4b4e738619aacc979b 9197 main/binary-amd64/Packages.gz
+ ffa8d40af140f49c7bdeba240969375ff60ce4db 28650 main/binary-amd64/Packages
+ 4287d07e4cbbe45901a68a7c5e8bc380015d2143 9189 main/binary-amd64/Packages.gz
  94c52f7dc728c471c6a657790d6e79f6f3b2272b 166 main/binary-amd64/Release
  6986b521994ed8b18a6100d74a88f2f2159e8ccc 648 main/debian-installer/binary-amd64/Packages
  2742e8dc364732ac122caeecb8b882fac2e761a1 405 main/debian-installer/binary-amd64/Packages.gz
- b06d3af20badaddc596967dadfe8c9abb76ab8e0 28650 main/binary-arm64/Packages
- 98a4848429408f4b307221c36249cec6f16c8772 9187 main/binary-arm64/Packages.gz
+ 0ccb4cd75e971db19910ff048d1f2cde3339964d 28650 main/binary-arm64/Packages
+ 27ed796c11f4800180f01f0b851af14abc4ded88 9180 main/binary-arm64/Packages.gz
  e633755551b39cf41d1682e644f8c0e65e050775 166 main/binary-arm64/Release
  6986b521994ed8b18a6100d74a88f2f2159e8ccc 648 main/debian-installer/binary-arm64/Packages
  2742e8dc364732ac122caeecb8b882fac2e761a1 405 main/debian-installer/binary-arm64/Packages.gz
@@ -56,13 +56,13 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 partner/source/Sources.gz
  808c98da26a17e45414f0ac17180bafc1a90ba86 170 partner/source/Release
 SHA256:
- 4a0fbaee762f362f083d827d3d8ca9c90fb6c7d697dc3f920c34601815402432 28650 main/binary-amd64/Packages
- 68f1b664c43398dbc7d37c44260f3a0204a2c6ff2ee02c31bc08ebf71df35382 9197 main/binary-amd64/Packages.gz
+ 9a08ba6b63c68813aabf94d9ba89e92312145eb34146a94e3de3bc0d2ca406b1 28650 main/binary-amd64/Packages
+ 79998d388c6d8566df5d47024ca8ce1b44246fc4c22356647a09d72e42c19d0e 9189 main/binary-amd64/Packages.gz
  12afb2bb70f30686d38c6e6e8a0eba679c328ae36e3accadd1d457c993bd209b 166 main/binary-amd64/Release
  1b28a2f9bd9a14e76317d1ed804b0df1411939e65acf7eecba31e0f1f7358f6c 648 main/debian-installer/binary-amd64/Packages
  f1b3304d4b8d88a7a82cae06757173ec26fa6e95a6829e23b0a3349d469934d5 405 main/debian-installer/binary-amd64/Packages.gz
- 2fe513a8e9950df1aa732fe8e48504d93a980b9a10fa9bf4d58488e54ee499b2 28650 main/binary-arm64/Packages
- d6a18049334d360bbb3fed2fc46039fc780981e4eff3a551b4132519bdc768e9 9187 main/binary-arm64/Packages.gz
+ ea1a5941c970a3d4cead863c098d180dc8cb4370f36fc652f318a0ecbf952f72 28650 main/binary-arm64/Packages
+ 6830a6826d38718f47c096c2beb76554f4259506457c428da1df910667fba4f2 9180 main/binary-arm64/Packages.gz
  624e4bcfd135aef9a08e7d2709e75871fdfb296681c85129169eb5a635ffa7cd 166 main/binary-arm64/Release
  1b28a2f9bd9a14e76317d1ed804b0df1411939e65acf7eecba31e0f1f7358f6c 648 main/debian-installer/binary-arm64/Packages
  f1b3304d4b8d88a7a82cae06757173ec26fa6e95a6829e23b0a3349d469934d5 405 main/debian-installer/binary-arm64/Packages.gz
@@ -80,19 +80,19 @@ SHA256:
  7c3dacd4f465f84975450aa895107bc310eca8b0b5ebcd6b3e488eb9adecf5b0 170 partner/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iF0EARECAB0WIQQPa8wXwmv63CfyIQB+emxZLvNdEwUCakf4fAAKCRB+emxZLvNd
-E54jAJ9Wu2h2xwirm9LdwZSp93I9RhZZGQCbBHlzrwTWpe3dFp1e3jB7ulxFR7GJ
-AjMEAQEKAB0WIQTWdQbIeOCKlP1+AJQkhj8McWuYCwUCakf4fAAKCRAkhj8McWuY
-C110D/9UHLXfg9z8izvddYzt0sMPtXPMiHH7pIvQtZzs92usYg1+7iYEMp400pbX
-7YCe8A4OztUh5XQhOll4Dplf2/CJFg4G9b7YZm7+rEOtouFUIo6GlZiq95+Z8iVo
-sMLo18huLzuy4tQ46lEh2gZIhM35zb814c/XXDY3/Y/jcvssSJ49jpZvWwxDRgfX
-kzUg9uOtonwsx+wztpgpcWvhiNPCclgpIyTcehvGVRbsf+oNbzRz3ItLq6mG1yH6
-EvEu0JVBrb+pnlauUBPTdF+5s/mt9HoA8tib3QcqplhxRk2RCQeAhpHG1foYHZ6z
-KXm/jOE/MKEPIXxpqVtXtDENcU1GhihhL7jB8ptTu0oTun0e8ymcYW6KLPeWC3Dg
-/LPKKkfZLlhUphFdsMN6LHVEgdjq6dA/MIeTKPvBUoNyrQUiK2WcFSQngVt06Ogx
-+LDmGiwZIE9wBmC6aFv/6CA00yMw3GndSDPhcx15piLM+K8COimVj6U71xO24Y3i
-mdzDLDBLqY2xTPYyc2vZhPIv7Kz9sMJwCHJ3U9Wa9fXqnzEETKBZNwY/4RWgk2Bz
-E1fyaYa5mQ5dOij1KmvUAEvCTGAF4OhvweXNPhI5om7VVlKo8R882nboqrNnhTyw
-OeAHxDmMvBduwzsCCGrsE49C6W27e7qGX17o1+ACICs26MsPOw==
-=JHgk
+iF0EARECAB0WIQQPa8wXwmv63CfyIQB+emxZLvNdEwUCakz86wAKCRB+emxZLvNd
+E8vuAJ0eA+NY7geioRxmM4ECGgfbTEc9EACfT8VX4qzH5n4Dg1lT6TZ0ZZhGf+uJ
+AjMEAQEKAB0WIQTWdQbIeOCKlP1+AJQkhj8McWuYCwUCakz86wAKCRAkhj8McWuY
+C1TBD/wMOq9X16HjOGQ3FXiV68HKGyH+UCPxrkxJtP32pfjsEW4KiFBvFpz0g0kF
+TEt4bW2CUi9Bl5cb2TkhSPgf/NggOVoom0/gt5K4Fn3w0tuDJT3h3ox9bMq7cvBk
+bAasskF5sxf8ZRK3H0MUvlFyFq7Qjs4LMzQ6vuGwg0st1mxelZGofNWVbtiHgJmi
+F0BLl8tjTQOUOJ51jmCHTqkMYfuXyb5tZRONAWShVAOn8WeOZSkxZbooDjFNVw4S
+62e5ryO0B64/p+UBT8qm8OChxhnFUpg2g5sUxvVVgUtbNWUspDYFzOjuWxoLj/wm
+j8IeIJDxAydBvFCSmp32bL0GSiYNlPA8+YeSZKtKtsEkwOe3HtRYg8LingsNLs4d
+Zyt0kjJJ6qDw4661J8wBaXMmbH8ArzVP2eMs4+Bs+j6g08fb9XBLYJMikxbEp5P9
+cQNcVUy697HHctA2uPFZEGuMYr7RM6WKKAHSGN5JJH8GASl2nFl+ei1VyksFMhFh
+bdTgF+keltxW6p3PxR3WmIJw9CaBt24E2UeJNFZFW8tXYjSjfc8vXV0H+dEt+P0y
+ONbcbyKB3m0zy2QQq5wopJRHc+hiCNLbQir9J57NyA8+Bg8gVzNdfdZBlHgwUvPx
+JnNC/GmkpHZtRRyud0bOzk4bHh+yfgAbZj8tLc0j230Afb6GUQ==
+=XMQa
 -----END PGP SIGNATURE-----
