@@ -316,19 +316,19 @@ Description: openmediavault Linux MD (Software RAID) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 8.0.4-1
+Version: 8.0.5-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 284
+Installed-Size: 285
 Depends: openmediavault (>= 8.5.5), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_8.0.4-1_all.deb
-Size: 38162
-SHA256: e6b1fae7094d56b81c92e5d2fe86319ef7a40a4efd5c9b2c8b983fbd527b8461
-SHA1: df1b781142be3cd5a164814df4b733bcf62f8588
-MD5sum: f5de48e86384df0192666fc5dc23cbf7
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_8.0.5-1_all.deb
+Size: 38612
+SHA256: 652c0d25771eb3331fe020e24112aa0480195f05a254cf9842a12d308ef55a75
+SHA1: 333fb7a9ca8758d549d598ee46e8a803e3c3760b
+MD5sum: dddae3a05ef276c3a01e4ba5364cdff4
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
