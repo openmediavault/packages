@@ -174,7 +174,7 @@ Description: openmediavault environment variables plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 8.0.6-1
+Version: 8.0.7-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 162
@@ -182,11 +182,11 @@ Depends: openmediavault (>= 8.3.1), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.6-1_all.deb
-Size: 20582
-SHA256: d8008bb147d50f9f575133b83556c243aad6a3044ebbcfbecb2a62e72f0256b5
-SHA1: 3363cd633c6080098f66a9973a92e90a4d192909
-MD5sum: ca37c83ebc8cefe86579f27bfe8cbd3f
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.7-1_all.deb
+Size: 20872
+SHA256: 3e1331ddeb1663e080987147b466f66a018f0ba12719a191c5cc5c70271a6c0e
+SHA1: 80ea16f2335287ca87e338407ad7e882a72950dc
+MD5sum: a5f39708789eb6017788dea63323fb33
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
