@@ -174,19 +174,19 @@ Description: openmediavault environment variables plugin
 Plugin-Section: monitoring
 
 Package: openmediavault-filebrowser
-Version: 8.0.7-3
+Version: 8.0.7-4
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 162
+Installed-Size: 161
 Depends: openmediavault (>= 8.6.1), podman, catatonit, nftables
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.7-3_all.deb
-Size: 20898
-SHA256: c5c16c51b1f31a64268fdd545c84613c8dcb19a13019066c177f6696716b6fa2
-SHA1: 0b172227ce118ead80dc6b9204e796c1d0756de2
-MD5sum: ad91ad1085f7a610a55e880c52e5d1b9
+Filename: pool/main/o/openmediavault-filebrowser/openmediavault-filebrowser_8.0.7-4_all.deb
+Size: 19928
+SHA256: 3832f028212a640cc2b1b544f947b1c5c3681eb38d6469378fff903c9b425517
+SHA1: 14518034e8ad1d7447fec2d82b650b34fcf714d7
+MD5sum: 65d84355c2185ad99e2788fe70c340b7
 Description: openmediavault File Browser plugin
  File Browser provides a file managing interface within a specified
  directory and it can be used to upload, delete, preview, rename and
@@ -276,7 +276,7 @@ Description: GnuPG archive keys of the openmediavault archive
  contains the archive keys used for that.
 
 Package: openmediavault-lvm2
-Version: 8.0.4-1
+Version: 8.0.4-2
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
 Installed-Size: 279
@@ -284,11 +284,11 @@ Depends: openmediavault (>= 8.6.0), lvm2
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_8.0.4-1_all.deb
-Size: 29828
-SHA256: 661caa7be90e086d705d9fdd76ced44ae11adf2c0c320d2c99ab2839f63feb1a
-SHA1: b4ca1ce163762015c450c34ae94911faea5b02b6
-MD5sum: 4872dfe42f36ea5a10c07af2f56a600d
+Filename: pool/main/o/openmediavault-lvm2/openmediavault-lvm2_8.0.4-2_all.deb
+Size: 29856
+SHA256: 4e9514d926c5faa4e2b85e2c432667dfadfb711a864494d3a66943ce90bce9be
+SHA1: 47483b7b0f28ff2e0a346975254b8e714f9cf05c
+MD5sum: a31f92412777f4f2776299037479d5a7
 Description: openmediavault Logical Volume Manager (LVM2) plugin
  LVM supports enterprise level volume management of disk and disk subsystems
  by grouping arbitrary disks into volume groups. The total capacity of volume
@@ -316,19 +316,19 @@ Description: openmediavault Linux MD (Software RAID) plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-nut
-Version: 8.0.8-1
+Version: 8.0.9-1
 Architecture: all
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Installed-Size: 301
-Depends: openmediavault (>= 8.5.11), nut, udev
+Installed-Size: 303
+Depends: openmediavault (>= 8.6.1), nut, udev
 Homepage: https://www.openmediavault.org
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-nut/openmediavault-nut_8.0.8-1_all.deb
-Size: 39492
-SHA256: 14b1b8b4d95a406a896339ac3081f04a1df750c64ffc4b400265795c29e707c6
-SHA1: ce2cf8fa30186e9528fbe25b9564f1d61495198e
-MD5sum: b766c97cee266e3b17da69e7123a91d8
+Filename: pool/main/o/openmediavault-nut/openmediavault-nut_8.0.9-1_all.deb
+Size: 40518
+SHA256: 9b46c383beb14bb85aef2dc501c55ba9de7393ba35ba8508e2555d9d2b298fb6
+SHA1: 643ce23438d2fba856cfb3821ab6d9052c1ece8c
+MD5sum: ddb9ec0884fbd30468cec01cb652895d
 Description: openmediavault Network UPS Tools (NUT) plugin
  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
